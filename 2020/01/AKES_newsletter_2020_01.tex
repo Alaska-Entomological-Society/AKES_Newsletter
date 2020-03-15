@@ -2,31 +2,9 @@
 
 \usepackage{../../share/AKESnewsletter3}
 
-\usepackage[authoryear]{natbib}
-\usepackage{textcomp}
-\usepackage{nicefrac}
-%\usepackage{here}
+\input{../../share/preamble}
 
-\usepackage{remreset}
-\usepackage{caption}
-%\usepackage{attachfile}
-%\usepackage[all]{hypcap}
-\usepackage{wasysym}
-\usepackage{longtable}
-\usepackage[table]{xcolor}
-\usepackage{xfrac}
-%\usepackage[sc]{mathpazo}
-%\usepackage{hhline}
-\usepackage{lscape}
-\usepackage{bm}
-%\usepackage{xstring}
-
-%% code from http://filoxus.blogspot.com/2008/01/how-to-insert-watermark-in-latex.html
-%\usepackage{type1cm}
-\usepackage[sc]{mathpazo}
-\usepackage{eso-pic}
-\usepackage{color}
-\usepackage{xcolor}
+% Uncomment the code below to add a DRAFT watermark; comment to remove the watermark.
 
 %\begin{comment}
 \makeatletter
@@ -41,53 +19,6 @@
 }
 \makeatother
 %\end{comment}
-
-%% Trying to get rid of widows and orphans, fix footnotes, etc.
-\widowpenalty=1000
-\clubpenalty=1000
-\interfootnotelinepenalty=1000
-%\raggedbottom
-\addtolength{\topskip}{0pt plus 10pt}
-
-%% Bibliography stuff.
-\renewcommand{\bibname}{References}
-\bibliographystyle{newsletter}
-
-%% Function for typesetting acronymns.
-\newcommand{\acr}[1]{{\small #1}}
-
-%% Colors
-\definecolor{purple-heart}{HTML}{652DC1}
-\definecolor{maximum-green}{HTML}{5E8C31}
-\definecolor{mango-tango}{HTML}{E77200}
-\definecolor{jazzberry-jam}{HTML}{A50B5E}
-\definecolor{cerulean}{HTML}{02A4D3}
-\definecolor{pine-green}{HTML}{01786F}
-\definecolor{maroon}{HTML}{C32148}
-\definecolor{ultramarine-blue}{HTML}{3F26BF}
-\definecolor{fuzzy-wuzzy}{HTML}{87421F}
-
-%Trying to refer to one footnote more than once.
-\newcommand{\footnoteremember}[2]{\footnote{\hypertarget{#1}{#2}}\newcounter{#1}\setcounter{#1}{\value{footnote}}} 
-\newcommand{\footnoterecall}[1]{\hyperlink{#1}{\footnotemark[\value{#1}]}} 
-
-% Defining a new table column type...
-\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-
-% Commands for typesetting Arctos and other records.
-\newcommand{\arctos}[3]{%
- \href{http://arctos.database.museum/guid/#1:#2:#3}{\acr{#1:#2:#3}}}
-\newcommand{\guid}[1]{\href{http://arctos.database.museum/guid/#1}{\acr{#1}}}
-\newcommand{\BOLD}[1]{\href{http://boldsystems.org/index.php/Public_RecordView?processid=#1}{\acr{#1}}}
-\newcommand{\BIN}[1]{\href{http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=#1}{\acr{#1}}}
-
-\def\UrlBreaks{\do\/\do\-\do\:\do\.\do\;\do\(\do\)} %% Make it so urls break at hyphens and forward slashes.
-
-%% Just simplifying this a litte.
-\newcommand{\artc}[1]{\begin{article}%
- \input{#1}%
-\end{article}
- }
 
 \volume{13}
 \volnumber{1}
