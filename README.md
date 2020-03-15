@@ -1,0 +1,1 @@
+This is a repository for the making of the *[Newsletter of the Alaska Entomological Society](http://www.akentsoc.org/newsletter-php)*.
