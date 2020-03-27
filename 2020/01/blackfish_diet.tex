@@ -12,12 +12,20 @@ Last year we  wrote about some food items of the Alaska blackfish, \textit{Dalli
 
 \section{Methods}
 
-On August 23, 2019, the first author collected blackfish from a small, shallow pond in Kenai, Alaska (60.5681~\textdegree{}N, -151.1901~\textdegree{}W $\pm$ 40~m) \citep{bowser2019}, the same pond from which we had obtained blackfish the previous year. This pond is fed by a small inlet stream and its level is maintained by a dam at the outlet. There is little open water; most of the pond is thickly filled with \textit{Potamogeton} and flocculent iron bacterial scum. Only one other fish species, a single specimen of a nine-spined stickleback (\textit{Pungitius pungitius} (Linnaeus, 1758),  
+On August 23, 2019, we author collected blackfish from a small, shallow pond in Kenai, Alaska (60.5681~\textdegree{}N, -151.1901~\textdegree{}W $\pm$ 40~m) \citep{bowser2019}, the same pond from which we had obtained blackfish the previous year. This pond is fed by a small inlet stream and its level is maintained by a dam at the outlet. There is little open water; most of the pond is thickly filled with \textit{Potamogeton} and flocculent iron bacterial scum. Only one other fish species, a single specimen of a nine-spined stickleback (\textit{Pungitius pungitius} (Linnaeus, 1758),  
 \url{https://www.inaturalist.org/observations/31561030}), was observed in this pond.
 
-The first author attempted to collect blackfish from other reaches of the stream, but found only small juveniles. 
+We attempted to collect blackfish from other reaches of the stream, but found only small juveniles. 
 
-The collected blackfish were placed on ice in a cooler, transported to the lab, and frozen. Later we thawed five adult blackfish, measured their lengths, dissected out their entire guts, and squeezed gut contents into vials of \acr{RV} antifreeze.% What kind?
+The collected blackfish were placed on ice in a cooler, transported to the lab, and frozen. Later we thawed five adult blackfish, measured their lengths, dissected out their entire guts, and squeezed gut contents into vials of UniGard -100 propylene glycol antifreeze.
+
+Vials of gut contents were shipped to \acr{RTL} Genomics in Lubbock, Texas (\url{https://rtlgenomics.com/}) for RTL Genomics' standard microbial diversity assay using the \textit{mlCOIint}/\textit{jgHCO2198} (GGWACWGGWTGAACWGTWTAYCCYCC/TAIACYTCIGGRTGICCRAARAAYCA) primer set.
+
+Extraction methods, sequencing methods, and resulting raw sequence data are provided in \citet{BowserBowser2020}.
+
+Raw reads were processed using the \acr{SCVUC} \acr{COI} metabarcode pipeline version 4.3.0 (\url{https://github.com/Hajibabaei-Lab/SCVUC_COI_metabarcode_pipeline}). This pipline runs SeqPrep \citep{StJohn2016}, \acr{CUTADAPT} \citep{Martin2011}, \acr{VSEARCH} \citep{Rognes2016}, \acr{UNOISE} \citep{Edgar2016}, and the RDP classifier \citep{Wang2007} using the \acr{COI} Classifier v4 reference dataset \citep{PorterHajibabaei2018}. All processing steps are run via Snakemake \citep{KosterRahmann2012}.
+
+Complete analysis details are provided in \citet{bowser2020}.
 
 Specimen data and associated images have been made available via an Arctos project at \url{http://arctos.database.museum/project/10003367}.
 
