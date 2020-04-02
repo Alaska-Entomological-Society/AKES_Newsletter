@@ -36,15 +36,39 @@ Extraction methods, sequencing methods, and resulting raw sequence data are prov
 
 Raw reads were processed using the \acr{SCVUC} \acr{COI} metabarcode pipeline version 4.3.0 (\url{https://github.com/Hajibabaei-Lab/SCVUC_COI_metabarcode_pipeline}). This pipline runs SeqPrep \citep{StJohn2016}, \acr{CUTADAPT} \citep{Martin2011}, \acr{VSEARCH} \citep{Rognes2016}, \acr{UNOISE} \citep{Edgar2016}, and the RDP classifier \citep{Wang2007} using the \acr{COI} Classifier v4 reference dataset \citep{PorterHajibabaei2018}. All processing steps are run via Snakemake \citep{KosterRahmann2012}. Our \acr{SCVUC} configuration file \citep{Bowser2020config} and snakefile \citep{Bowser2020snakefile} are available on Arctos.
 
+\end{multicols}
+\begin{figure}[H]
+\begin{center}
+%\vspace{2mm}
+\includegraphics[width=\textwidth]{img/blackfish_phylo.pdf}
+\caption{Phylogram of retained \acr{ESV} sequences. Colors representing major groups are the same as in Figure \ref{blackfish_pie_chart}. The tree can be viewed interactively or downloaded from \url{https://itol.embl.de/tree/16415961276811585237767}.}
+\label{blackfish_phylo}
+\end{center}
+\end{figure} 
+\begin{multicols}{2} 
+
+
 The resulting exact sequence variants (\acr{ESV}s) were also compared to \acr{ESV}s obtained by \citet{Bowseretal2020} \citep[dataset: ][]{, Bowseretal2020sup5}, sequences from the Alaska terrestrial arthropod \acr{DNA} barcode \acr{COI} reference library (\url{https://github.com/mlbowser/AKTerrInvCOILib}), and a \acr{FASTA} file of sequences from the authors' LifeScanner (\url{http://lifescanner.net/}) records (\url{http://www.boldsystems.org/index.php/Public_SearchTerms?query=DS-BOWSER}) using \verb|vsearch --usearch_global|. We also submitted our \acr{ESV}s to \acr{BLAST} and \acr{BOLD} \acr{ID} Engine searches and scrutinized the results. We followed the guidlines of \citet{Sigovinietal2016} when assigning provisional names.
 
-We removed all reads identified as \textit{Dallia pectoralis}; \textit{Bos taurus} Linnaeus, 1758; and all non-animals. The small numbers of \textit{Bos taurus} reads likely came from bovine serum albumin added during \acr{DNA} amplification. As a final check of identifications, we generated a phylogeny of the filtered \acr{ESV}s using NGPhylogeny.fr, ``NGPhylogeny Analyse - FastME/OneClick'' option \citep{DesperGascuel2002, CriscuoloGribaldo2010, JunierZdobnov2010, KatohStandley2013, Lefortetal2015, Lemoineetal2019} and examined the tree using i\acr{TOL} \citep{LetunicBork2019}. The \acr{FASTA} file of retained \acr{ESV} sequences is available from Arctos \citep{Bowser2020bfdfas} and the phylogentic tree is available at \url{https://itol.embl.de/tree/16415961276811585237767}. 
+We removed all reads identified as \textit{Dallia pectoralis}; \textit{Bos taurus} Linnaeus, 1758; and all non-animals. The small numbers of \textit{Bos taurus} reads likely came from bovine serum albumin added during \acr{DNA} amplification. As a final check of identifications, we generated a phylogeny of the filtered \acr{ESV}s using NGPhylogeny.fr, ``NGPhylogeny Analyse - FastME/OneClick'' option \citep{DesperGascuel2002, CriscuoloGribaldo2010, JunierZdobnov2010, KatohStandley2013, Lefortetal2015, Lemoineetal2019} and examined the tree using i\acr{TOL} \citep{LetunicBork2019} (Figure \ref{blackfish_phylo}). The \acr{FASTA} file of retained \acr{ESV} sequences is available from Arctos \citep{Bowser2020bfdfas}. 
+
 
 To prevent reporting false postive occurrences, we removed occurrences represented by $\leq 0.05\%$ of the total number of reads of an \acr{ESV}. Complete analysis details are provided in \citet{bowser2020}.
 
 We tried to follow the guidelines of \citet{Penevetal2017} by publishing occurrence data on Arctos, which supplies occurrence data to \acr{GBIF}. Specimen records, images, and other related files have been made available via an Arctos project at \url{http://arctos.database.museum/project/10003367}.
 
 \section{Results}
+
+Of the ? total number of retained reads, 98\% were arthropods. The most abundant groups were dragonflies (32\%), flies (24\%), cladocerans (20\%), ostracods (16\%), and copepods (7\%) (Figure \ref{blackfish_pie_chart}).
+
+\begin{figure}[H]
+\begin{center}
+\vspace{2mm}
+\includegraphics[width=8cm]{img/blackfish_pie_chart.pdf}
+\caption{Percentages of \acr{ESV} abundances in blackfish diet by taxonomic group.}
+\label{blackfish_pie_chart}
+\end{center}
+\end{figure} 
 
 \section{Discussion}
 
