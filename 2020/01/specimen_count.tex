@@ -1,0 +1,56 @@
+\title{University of Alaska Museum Insect Collection specimen count verification}
+
+\subtitle{\doi{10.----------}}
+
+\author{by 
+ Voss Whitmore\footnote{Department of Biology and Wildlife, University of Alaska Fairbanks, Fairbanks, Alaska, USA},
+ Derek S.\ Sikes\footnoteremember{IAB}{University of Alaska Museum, Institute of Arctic Biology, University of Alaska Fairbanks, Fairbanks, Alaska, USA}\textsuperscript{,}\footnote{corresponding author email: \email{dssikes@alaska.edu}} and
+ Adam Haberski\footnoterecall{IAB}
+ }
+
+\maketitle
+
+\end{multicols}
+
+\vspace{-1cm}
+\begin{center}
+ \parbox[t][][s]{14cm}{\section{Abstract}
+One of our best tools for understanding the natural world are museum collections. However, there are challenges in understanding collections themselves. Questions as simple as how many specimens are in a collection can quickly become complicated. Some collection objects may represent a single specimen while others, often referred to as ‘lots’, represent multiple specimens. The contents of lots are often estimated to save time, creating ambiguity.  We wanted to see how accurate prior guesses were in determining the number of specimens in the University of Alaska Museum Insect Collection (UAM) by either calculating or exactly counting the specimens in vials that had previously had their counts “guesstimated.” We re-counted 27 vials and found that ~70\% of the original counts were too low and ~30\% were too high. The means and medians of the original counts were significantly different than the means and medians of the new counts. The sum of the original counts of the 1,099 vials in our sample was 272,033 specimens. Assuming our subsample was representative, we estimate these 1,099 vials probably hold closer to 421,749 specimens. This indicates our prior specimen count estimation methods systematically under-count vial contents.}
+\end{center}
+
+\vspace{4mm}
+
+\begin{multicols}{2}
+
+\section{Introduction} 
+
+Museum collections are invaluable to the scientific community as vast repositories of information. Natural History collections contain thousands of databased and even more undatabased collection objects, which could include anything from ethanol vials of specimens, envelopes of invertebrates, study skins and skeletons of vertebrates, pinned insects, and many more. Many museums are currently in the process of digitizing their collections and very few are thoroughly digitized, particularly among insect collections \citep{Sikesetal2016}. Some objects may represent one specimen while others, often referred to as ‘lots’ represent multiple specimens \citep{Sikes2015}. Most specimens are sorted by taxonomy, ideally to genus or species, but there are also unsorted bulk objects which may represent many mixed higher taxa. These are less valuable for research purposes, which can include studies on anything from evolution to long term ecological changes \citep{MunozPrice2019} to analysis of DNA \citep{vanderValketal2017}. Collections hold dozens of samples from hundreds of species both extant and extinct, which provide important records for research. 
+
+To make such collections maximally useful it is important to know the basic information about what is contained in the collection: How many specimens there are versus how many collection objects, and how those specimens are stored (on pins, in envelopes, in vials, etc.). Many specimens are individually databased but some may be stored as multiple parts, with each part (e.g.\ genitalia on slide, DNA in frozen tissue collection, etc.) having its own barcode. There could also be any number of parasites and other hangers-on in what is cataloged as a single specimen \citep{Welickyetal2019, Sikes2015}. It is difficult to determine the number of specimens in a large insect collection. 
+	
+In the UAM Insect wet collection, there is a substantial number of vials that hold an imprecisely counted number of small and numerous specimens. Only a small number of projects completed by the UAM Insect Collection required precise enumeration of every specimen collected, particularly among what are often non-target taxa such as mites and Collembola, that can number in the thousands per vial. In such cases, because it is time consuming and costly to count every specimen, UAM Insect Collection preparators estimate how many specimens are in each vial by “guesstimation” (similar to the well-known challenge of trying to guess how many jellybeans are in a jar). Some have a few dozen specimens while some have thousands. We know these estimates are imprecise but we don’t know to what degree they are imprecise. In order to determine the precision of these estimates, we did an exact, or in some cases, a carefully calculated count of the specimens in randomly selected vials. This allowed us to better estimate how many specimens are in the museum collection as a whole. In particular, we were curious to discover if the current estimation procedure was significantly under- or over-counting the contents of these vials, or if the estimation procedure was generating counts that are non-significantly different from more carefully made, precise counts. 
+
+\section{Methods}
+ 
+Our first step was to find which vials needed to be precisely counted. We searched the collections database used by the University of Alaska Museum Insect Collection, Arctos, for all objects stored in ethanol that have the part remarks ``estimated'' or ``approximate.'' We excluded all results that contained fewer than 30 specimens, as well as vials of mixed taxa with counts per taxon that required taxon identification skills to recount. This left us with 1,099 vials. 
+
+Vials to be re-counted were selected at random from our list of 1,099 vials, using the \texttt{RANDBETWEEN} formula of Google Sheets (\url{https://www.google.com/sheets/about/}). We used the object tracking system in Arctos to find which shelf and unit tray in the UAM wet collections a vial was in, retrieved the vial, counted its contents and returned the vial to its unit tray when done. The vial’s contents were poured into a sorting dish and then counted under a Leica MZ16 dissecting scope with the help of a handheld tally counter.Vials with original counts fewer than 200 specimens were counted exactly (every specimen counted). Those with original counts of more than 200 specimens were counted by evenly distributing the vial's contents on a gridded sorting dish with 36 squares, randomly counting four of the grid squares, and using that total to calculate an average which was then multiplied to estimate the total in the dish. The counting method (exact vs.\ calculated) was recorded along with the counts. We intended to count approximately 10\% of the 1099 vials, but due to the 2020 coronavirus pandemic we had to halt work and were only able to count 2.5\% of the vials ($n=27$).
+  
+Examination of the data and their residuals in R version 3.3.0 \citep{RCoreTeam2016} using the Shapiro-Wilk normality test showed the data and their residuals had a non-normal distribution. We therefore log transformed the data and ran a paired, two-tailed $t$-test in R. Because the residuals were not normally distributed we also ran a paired, two-tailed Mann-Whitney $U$ test in R on the non-log transformed data, using the following command: 
+
+\begin{Verbatim}[breaklines=true]
+wilcox.test(A, C, paired = TRUE, alternative = "two.sided", mu = 0.0, exact = TRUE, correct = TRUE, conf.int = TRUE, conf.level = 0.95)
+\end{Verbatim}
+
+To determine if the original count, 27-vial subsample was representative of the original counts for the full 1,099 set, we ran an unpaired, two-tailed Mann-Whitney U test in R. 
+
+To estimate a corrected total from our subsample, we fit a simple linear regression to the log-transformed data in R. We then used the regression formula to predict new counts for each of the 1,099 vials and summed these to estimate the total of the 1,099 vials.
+
+\section{Results} 
+
+The results are in Table 1. In eight of the 27 vials the new counts were lower than the original estimates (29.6\%) and in the remaining 19 vials the new counts were higher than the original estimates (70.4\%). The medians of our randomly selected 27 vial subsample and the full 1,099 vial set were not significantly different (unpaired Mann-Whitney $U$-test, $p$-value = 0.5735).  The means (paired $t$-test, $p$-value = 0.001478) and medians (paired Mann-Whitney $U$-test, $p$-value = 0.000009835) of the two methods of counting the subsampled 27 vials were significantly different. The relationship between the original and new counts in $x$-$y$ space is illustrated in Figure 1. The sum of the original counts for the 1,099 vials was 272,033 specimens. Our regression analysis was used to estimate more precise specimen count values for all 1,099 vials. The sum of these estimated values indicates these 1,099 vials likely hold closer to 421,749 specimens.
+
+
+\bibliography{specimen_count}
+
+
