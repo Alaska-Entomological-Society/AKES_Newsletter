@@ -48,8 +48,20 @@ To estimate a corrected total from our subsample, we fit a simple linear regress
 
 \section{Results} 
 
-The results are in Table 1. In eight of the 27 vials the new counts were lower than the original estimates (29.6\%) and in the remaining 19 vials the new counts were higher than the original estimates (70.4\%). The medians of our randomly selected 27 vial subsample and the full 1,099 vial set were not significantly different (unpaired Mann-Whitney $U$-test, $p$-value = 0.5735).  The means (paired $t$-test, $p$-value = 0.001478) and medians (paired Mann-Whitney $U$-test, $p$-value = 0.000009835) of the two methods of counting the subsampled 27 vials were significantly different. The relationship between the original and new counts in $x$-$y$ space is illustrated in Figure 1. The sum of the original counts for the 1,099 vials was 272,033 specimens. Our regression analysis was used to estimate more precise specimen count values for all 1,099 vials. The sum of these estimated values indicates these 1,099 vials likely hold closer to 421,749 specimens.
+The results are in Table \ref{specimencounttable}. In eight of the 27 vials the new counts were lower than the original estimates (29.6\%) and in the remaining 19 vials the new counts were higher than the original estimates (70.4\%). The medians of our randomly selected 27 vial subsample and the full 1,099 vial set were not significantly different (unpaired Mann-Whitney $U$-test, $p$-value = 0.5735).  The means (paired $t$-test, $p$-value = 0.001478) and medians (paired Mann-Whitney $U$-test, $p$-value = 0.000009835) of the two methods of counting the subsampled 27 vials were significantly different. The relationship between the original and new counts in $x$-$y$ space is illustrated in Figure \ref{specimen_count_graph}. The sum of the original counts for the 1,099 vials was 272,033 specimens. Our regression analysis was used to estimate more precise specimen count values for all 1,099 vials. The sum of these estimated values indicates these 1,099 vials likely hold closer to 421,749 specimens.
 
+\input{specimen_count_table}
+
+\end{multicols}
+\begin{figure}[H]
+\begin{center}
+%\vspace{2mm}
+\includegraphics[width=14cm]{img/specimen_count.png}
+\caption{Original specimen counts vs new specimen counts for 27 randomly selected vials in the University of Alaska Museum Insect Collection and plotted in $x$-$y$ space using base 10 logarithmic scale axes. Line indicates the predicted values from our linear regression of the log-transformed data, $y = 0.4346 + 0.9067x$, $R^2 = 0.64$.}
+\label{specimen_count_graph}
+\end{center}
+\end{figure} 
+\begin{multicols}{2} 
 
 \bibliography{specimen_count}
 
