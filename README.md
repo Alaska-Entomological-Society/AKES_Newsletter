@@ -1,3 +1,3 @@
-This is a repository for the making of the *[Newsletter of the Alaska Entomological Society](http://www.akentsoc.org/newsletter-php)*. This is the original repository, but it is no longer being updated. The new repository is at <https://github.com/Alaska-Entomological-Society/AKES_Newsletter>.
+This is a repository for the making of the *[Newsletter of the Alaska Entomological Society](http://www.akentsoc.org/newsletter-php)*. This repository was cloned from an earlier version at <https://github.com/mlbowser/AKES_Newsletter>.
 
 The format of the *AKES Newsletter* was initially based on files used to generate *[R News](https://cran.r-project.org/doc/Rnews/)*.
