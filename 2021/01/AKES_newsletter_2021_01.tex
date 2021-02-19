@@ -1,0 +1,47 @@
+\documentclass[letterpaper]{report}
+
+\usepackage{../../share/AKESnewsletter3}
+
+\input{../../share/preamble}
+
+% Uncomment the code below to add a DRAFT watermark; comment to remove the watermark.
+
+%\begin{comment}
+\makeatletter
+\AddToShipoutPicture{%
+            \setlength{\@tempdimb}{.5\paperwidth}%
+            \setlength{\@tempdimc}{.5\paperheight}%
+            \setlength{\unitlength}{1pt}%
+            \put(\strip@pt\@tempdimb,\strip@pt\@tempdimc){%
+        \makebox(0,0){\rotatebox{45}{\textcolor[gray]{0.85}%
+        {\fontsize{6cm}{6cm}\selectfont{DRAFT}}}}%
+            }%
+}
+\makeatother
+%\end{comment}
+
+\volume{14}
+\volnumber{1}
+\date{March 2020}
+
+%% Hyphenation
+\hyphenation{
+ Life-Scan-ner
+ KNWR 
+ KNWRObs 
+ Arc-GIS 
+ Giovanni 
+ error
+ }
+
+\begin{document}
+
+\titlepage
+
+%\artc{meeting}
+
+\vfill
+
+%\hfill\href{http://www.akentsoc.org/newsletter.php}{\includegraphics[width=2.5cm]{../../share/AKESNewsletter.pdf}}
+
+\end{document}
