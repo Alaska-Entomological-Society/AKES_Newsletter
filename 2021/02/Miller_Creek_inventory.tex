@@ -80,20 +80,29 @@ Specimens were deposited in the Kenai National Wildlife Refuge's entomology and 
 
 For the morphologically identified specimens, we used the following references: \cite{Borroretal1989}, \cite{Collet2008}, \cite{Durfee2005}, \cite{Haneyetal2013}, \cite{Hatch1953}, \cite{Kenner2009}, \cite{Marx1957}, \cite{MerrittCummins1996}, \cite{Merrittetal2008}, \cite{Reid1987}, \cite{Rileyetal2002}, \cite{Roughley2000}, \cite{Wallis1933}, and \cite{White1983}.
 
-Metabarcoding samples were stored in a -23~\textdegree{}C freezer exept when samples were being processed. Invertebrates were separated from debris by hand under a dissecting microscope. Care was taken to reduce possible cross-contamination of \acr{DNA} among samples. Samples were shipped out on ice on September 29, 2021, arriving the next day at Molecular Research Laboratory (Shallowater, Texas, \url{http://www.mrdnalab.com}).
+\subsection{Molecular methods}
+
+Metabarcoding samples were stored in a -23~\textdegree{}C freezer exept when samples were being processed. Invertebrates were separated from debris by hand under a dissecting microscope. Care was taken to reduce possible cross-contamination of \acr{DNA} among samples. Samples were shipped out on ice on September 29, 2021, arriving the next day at \acr{MR DNA} (Shallowater, Texas, \url{http://www.mrdnalab.com}).
 
 We chose to use the \textit{mlCOIintF}/\textit{jgHCO2198} (\acr{G\-G\-W\-A\-C\-W\-G\-G\-W\-T\-G\-A\-A\-C\-W\-G\-T\-W\-T\-A\-Y\-C\-C\-Y\-C\-C}\-/\-\acr{T\-A\-I\-A\-C\-Y\-T\-C\-I\-G\-G\-R\-T\-G\-I\-C\-C\-R\-A\-A\-R\-A\-A\-Y\-C\-A}) primer set of \citet{Lerayetal2013} for \acr{PCR}, targeting a 313~bp region of the \acr{COI} \acr{DNA} barcoding region. This primer set has been successfully used for a wide variety of invertebrates, including terrestrial invertebrates \citep{Bowseretal2020}, freshwater macroinvertebrates \citep{Hajibabaeietal2019}, freshwater plankton \citep{Yangetal2017}, and stomach contents of freshwater fish \citep{BowserBowser2020}.
 
-\subsection{Analysis}
+The \textit{mlCOIintF}/\textit{jgHCO2198} primer pair was used with barcode on the forward primer in a 30--35 \acr{PCR} using the HotStarTaq Plus Master Mix Kit (Qiagen, \acr{USA}) under the following conditions: 94~\textdegree{}C for 3 minutes, followed by 30--35 cycles of 94~\textdegree{}C for 30~s, 53~\textdegree{}C for 40 seconds and 72~\textdegree{}C for 1~minute, after which a final elongation step at 72~\textdegree{}C for 5~minutes was performed.  After amplification, PCR products were checked in 2\% agarose gel to determine the success of amplification and the relative intensity of bands. Multiple samples were pooled together in equal proportions based on their molecular weight and \acr{DNA} concentrations. Pooled samples were purified using calibrated Ampure XP beads. The pooled and purified \acr{PCR} product was used to prepare an illumina \acr{DNA} library. Sequencing was performed at \acr{MR DNA} on a MiSeq following the manufacturer’s guidelines. 
+
+\subsection{MR DNA analysis pipeline}
+
+Sequence data were processed by using \acr{MR DNA} analysis pipeline (\acr{MR DNA}, Shallowater, Texas).  In summary, sequences were joined, sequences < 150~bp were removed, and sequences with ambiguous base calls were removed. Sequences were quality filtered using a maximum expected error threshold of 1.0 and dereplicated. The dereplicated or unique sequences were denoised and chimeras were removed. Final zero-radius operational taxonomic units were taxonomically classified using \acr{BLAST}n against a curated database derived from \acr{NCBI} (\url{www.ncbi.nlm.nih.gov}).   
+
+\subsection{Je + MetaWorks pipeline}
 
 We plan to process raw read data using MetaWorks \citep{PorterHajibabaei2020}, running this on the Yeti supercomputer \citep{USGSARC2021}. As in \citet{Massengill2014, Massengill2017}, the metric will be simple presence or absence of taxa within the lakes before and after treatment.
 
-
 \section{Results}
 
-Data and images are available via an Arctos project (\url{https://arctos.database.museum/project/10003613}). Specimen data are available via a search for records from this project (\url{https://arctos.database.museum/SpecimenResults.cfm?project_id=10003613}). All Arctos records from this project are also published to the Global Biodiversity Information Facility (\acr{GBIF}, \url{https://www.gbif.org/}) via the VertNet Integrated Publishing Toolkit (\url{http://ipt.vertnet.org/}). ``Research grade'' iNaturalist observations are also published to \acr{GBIF}.
+Specimen data and images are available via an Arctos project (\url{https://arctos.database.museum/project/10003613}). Specimen records are available via a search for records from this project (\url{https://arctos.database.museum/SpecimenResults.cfm?project_id=10003613}). All Arctos records from this project are also published to the Global Biodiversity Information Facility (\acr{GBIF}, \url{https://www.gbif.org/}) via the VertNet Integrated Publishing Toolkit (\url{http://ipt.vertnet.org/}). ``Research grade'' iNaturalist observations are also published to \acr{GBIF}.
 
-Georeferenced photo observations have been gathered in a project on iNaturalist.org at \url{https://www.inaturalist.org/projects/miller-creek-invertebrate-inventory}. 
+Georeferenced photo observations have been gathered in a project on iNaturalist.org at \url{https://www.inaturalist.org/projects/miller-creek-invertebrate-inventory}.
+
+A corresponding record was also made on ServCat (\url{https://ecos.fws.gov/ServCat/Reference/Profile/139305}). Raw metabarcoding data are available from Servcat (\url{https://ecos.fws.gov/ServCat/Reference/Profile/139306}).
 
 \end{multicols}
 
@@ -130,6 +139,8 @@ Georeferenced photo observations have been gathered in a project on iNaturalist.
 \end{longtable}
 
 \begin{multicols}{2}
+
+
 
 \section{Discussion}
 
