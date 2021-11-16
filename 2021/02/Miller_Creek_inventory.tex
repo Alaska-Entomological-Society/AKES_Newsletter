@@ -37,6 +37,14 @@ Benthic macroinvertebrates and zooplankton are susceptible to rotenone \citep{Fi
 
 \citet{Finlaysonetal2018} recommended sampling aquatic invertebrates before and after rotenone treatments to document survival and recovery of these animals.
 
+For this paper we sought to
+
+\begin{enumerate}
+\item document the pre-treatment aquatic invertebrate communities in the water bodies to be treated with rotenone as recommended by \citet{Finlaysonetal2018} and demonstrated by \citep{Massengill2014, Massengill2017},
+\item test metabarcoding as a method for conducting this kind of routine inventory and monitoring, and
+\item compare the results of a metabarcoding analysis pipeline provided as a commercial service with the results of using a pipeline featuring Je \citep{Girardotetal2016}, MetaWorks \citep{PorterHajibabaei2020}, and local reference libraries.
+\end{enumerate}
+
 % Quote below from Massengill (2014).
 %In Southcentral Alaska, the effect of rotenone to aquatic invertebrate communities is typically temporary in nature and usually requires 1–3 years for posttreatment levels of zooplankton to be restored to pretreatment levels (Chlupach 1977). This is longer than reported in many other areas of North America where invertebrate recovery often takes a year or less (Kiser et al. 1963; Hamilton et al. 2009). Other studies show that zooplankton such as cladocerans and copepods have rotenone resistant eggs capable of reseeding a lake after a rotenone treatment (Bradbury 1986; Melaas et al. 2001). Fall applications may help zooplankton communities recover because many species are in rotenone-resistant life stages and there is time for population recovery before spring (Melaas et al. 2001).
 
@@ -70,8 +78,6 @@ In addition to the 64 samples intended to be processed by metabarcoding, inverte
 
 Field methods generally followed \citet{Massengill2014, Massengill2017}. We took vertical plankton tows in the deepest parts of the lakes using an Aquatic Research Instruments Wisconsin net. We sampled littoral areas using with D-nets. We obtained benthic samples using either an AMS Incorporated model 445.11 Ekman dredge or an AMS Incorporated model 445.60  stainless steel dredge. Most benthic samples were sorted using a series of sieves.
 
-
-
 Samples were collected into ethanol or SK picglobal 99.9\% pure propylene glycol. Samples intended for metabarcoding were collected into propylene glycol or, in the case of two samples, collected into ethanol and then transferred to propylene glycol.
 
 \subsection{Specimen processing}
@@ -79,6 +85,8 @@ Samples were collected into ethanol or SK picglobal 99.9\% pure propylene glycol
 Specimens were deposited in the Kenai National Wildlife Refuge's entomology and invertebrate collections (international collection coden: \acr{KNWR}) and managed with Arctos (\url{https://arctos.database.museum/}).
 
 For the morphologically identified specimens, we used the following references: \cite{Borroretal1989}, \cite{Brooks1957}, \cite{Collet2008}, \cite{Durfee2005}, \cite{Haneyetal2013}, \cite{Hatch1953}, \cite{Kenner2009}, \cite{Marx1957}, \cite{MerrittCummins1996}, \cite{Merrittetal2008}, \cite{Reid1987}, \cite{Rileyetal2002}, \cite{Roughley2000}, \cite{Wallis1933}, and \cite{White1983}.
+
+We ran a script run in R, version 4.0.1 \citep{RCoreTeam2021} to reshape specimen data downloaded from Arctos into a table in \LaTeX{} format.
 
 \subsection{Molecular methods}
 
@@ -94,6 +102,8 @@ Sequence data were processed by using \acr{MR DNA} analysis pipeline (\acr{MR DN
 
 \subsection{Je + MetaWorks pipeline}
 
+We processed the raw sequence data on the \acr{USGS} Yeti supercomputer \citep{USGSARC2021} using R, version 4.1.1 for manipulating data and Je, version 2.0.RC \citep{Girardotetal2016} for demultiplexing. The raw data included reads in alternating directions with the sample barcodes only on one read. Accordingly, we exectued the \verb|je demultiplex| command, accepting the defaults that only requires one of the two reads to contain a sample barcode.
+
 We plan to process raw read data using MetaWorks \citep{PorterHajibabaei2020}, running this on the Yeti supercomputer \citep{USGSARC2021}. As in \citet{Massengill2014, Massengill2017}, the metric will be simple presence or absence of taxa within the lakes before and after treatment.
 
 \section{Results}
@@ -107,7 +117,7 @@ A corresponding record was also made on ServCat (\url{https://ecos.fws.gov/ServC
 \end{multicols}
 
 \begin{longtable}{p{3in}p{1.2in}p{1.2in}p{1.2in}}
-\caption{Invertebrates collected.}\label{tableids}\\
+\caption{Invertebrates collected excluding metabarcoding samples.}\label{tableids}\\
 
 \hline
 \hline
