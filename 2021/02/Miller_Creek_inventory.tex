@@ -86,7 +86,7 @@ Specimens were deposited in the Kenai National Wildlife Refuge's entomology and 
 
 For the morphologically identified specimens, we used the following references: \cite{Borroretal1989}, \cite{Brooks1957}, \cite{Collet2008}, \cite{Durfee2005}, \cite{Haneyetal2013}, \cite{Hatch1953}, \cite{Kenner2009}, \cite{Marx1957}, \cite{MerrittCummins1996}, \cite{Merrittetal2008}, \cite{Reid1987}, \cite{Rileyetal2002}, \cite{Roughley2000}, \cite{Wallis1933}, and \cite{White1983}.
 
-We ran a script run in R, version 4.0.1 \citep{RCoreTeam2021} to reshape specimen data downloaded from Arctos into a table in \LaTeX{} format.
+We ran a script in R, version 4.0.1 \citep{RCoreTeam2021} to reshape specimen data downloaded from Arctos into a table in \LaTeX{} format.
 
 \subsection{Molecular methods}
 
@@ -102,9 +102,11 @@ Sequence data were processed by using \acr{MR DNA} analysis pipeline (\acr{MR DN
 
 \subsection{Je + MetaWorks pipeline}
 
-We processed the raw sequence data on the \acr{USGS} Yeti supercomputer \citep{USGSARC2021} using R, version 4.1.1 for manipulating data and Je, version 2.0.RC \citep{Girardotetal2016} for demultiplexing. The raw data included reads in alternating directions with the sample barcodes only on one read. Accordingly, we exectued the \verb|je demultiplex| command, accepting the defaults that only requires one of the two reads to contain a sample barcode.
+We processed the raw sequence data on the \acr{USGS} Yeti supercomputer \citep{USGSARC2021} using R, version 4.1.1 for manipulating data and Je, version 2.0.RC \citep{Girardotetal2016} for demultiplexing. The raw data included reads in alternating directions with the sample barcodes only on one read. Accordingly, we exectued the \verb|je demultiplex| command, accepting the defaults that only require one of the two reads to contain a sample barcode.
 
-We plan to process raw read data using MetaWorks \citep{PorterHajibabaei2020}, running this on the Yeti supercomputer \citep{USGSARC2021}. As in \citet{Massengill2014, Massengill2017}, the metric will be simple presence or absence of taxa within the lakes before and after treatment.
+Raw read data were processed using MetaWorks, version 1.9.5 \citep{PorterHajibabaei2020}, running the default analysis options for metazoan \acr{COI} \acr{DNA} barcode sequences. Sequences were identified using the \acr{RDP} classifier, version 2.13 \citep{Wangetal2007} and the CO1 Classifier, version 4.0.1 reference library \citep{Porter2017, PorterHajibabaei2018}. Resulting occurrence data were reshaped using the reshape2 package, version 1.4.4 \citep{Wickham2007}.
+
+As in \citet{Massengill2014, Massengill2017}, the metric will be simple presence or absence of taxa within the lakes before and after treatment.
 
 \section{Results}
 
