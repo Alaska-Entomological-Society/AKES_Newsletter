@@ -107,9 +107,18 @@ We processed the raw sequence data on the \acr{USGS} Yeti supercomputer \citep{U
 
 Raw read data were processed using MetaWorks, version 1.9.5 \citep{PorterHajibabaei2020}, running the default analysis options for metazoan \acr{COI} \acr{DNA} barcode sequences. Sequences were identified using the \acr{RDP} classifier, version 2.13 \citep{Wangetal2007} and the CO1 Classifier, version 4.0.1 reference library \citep{Porter2017, PorterHajibabaei2018}. 
 
-We processed data in R, versions 4.0.1 and 4.1.2 \citep{RCoreTeam2021} using the R packages ape, version 5.6-1 \citep{ParadisSchliep2019}; Biostrings, version 2.62.0 \citep{Pagesetal2021} bold, version 1.2.0 \citep{Chamberlain2021}; ggtree, version 3.2.1 \citep{Yuetal2017, Yuetal2018, Yu2020}; msa, version 1.26.0 \citep{Bodenhoferetal2015}; odseq, version 1.22.0 \citep{Jimenez2021}; reshape2, version 1.4.4 \citep{Wickham2007}; and treeio, version 1.18.1 \citep{Wangetal2020}.
+We assembled a reference library by concatenating final Exact Sequence Variant (\acr{ESV}) sequences from \citet{Bowseretal2020, BowserBowser2020} and the DS-BOWSER project on BOLD\footnote{\url{https://boldsystems.org/index.php/Public_SearchTerms?searchMenu=records&query=DS-BOWSER}}, then dereplicating them with \verb|vsearch --derep_fulllength|. We looked for matches with this reference library using \verb|vsearch --usearch_global|. We also compared our sequences to sequences available in BOLD using the bold package \citep{Chamberlain2021}, version 1.2.0.
 
-We assembled a reference library by concatenating final Exact Sequence Variant (\acr{ESV}) sequences from \citet{Bowseretal2020, BowserBowser2020} and the DS-BOWSER project on BOLD\footnote{\url{https://boldsystems.org/index.php/Public_SearchTerms?searchMenu=records&query=DS-BOWSER}}, then dereplicating them with \verb|vsearch --derep_fulllength|. We looked for matches with this reference library using \verb|vsearch --usearch_global|.
+To further check identifications, we generataed a phylogenetic tree from our sequence variants using the \href{https://ngphylogeny.fr/}{NGPhylogeny.fr} ``One Click'' fully automatic workflow \citep{CriscuoloGribaldo2010,
+DesperGascuel2002,
+Lefortetal2015,
+Lemoineetal2018,
+KatohStandley2013,
+JunierZdobnov2010} after removing highly divergent sequences with the odseq package \citep{Jimenez2021}, version 1.22.0, running the \verb|odqeq| command with an arguement of \verb|threshold = 1.0|.
+
+We processed data in R, versions 4.0.1 and 4.1.2 \citep{RCoreTeam2021} using the R packages ape, version 5.6-1 \citep{ParadisSchliep2019}; Biostrings, version 2.62.0 \citep{Pagesetal2021}; ggtree, version 3.2.1 \citep{Yuetal2017, Yuetal2018, Yu2020}; msa, version 1.26.0 \citep{Bodenhoferetal2015};  reshape2, version 1.4.4 \citep{Wickham2007}; ritis, version 1.0.0 \citep{Chamberlain2021b}; and treeio, version 1.18.1 \citep{Wangetal2020}.
+
+
 
 As in \citet{Massengill2014, Massengill2017}, the metric will be simple presence or absence of taxa within the lakes before and after treatment.
 
