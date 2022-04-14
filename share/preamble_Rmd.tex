@@ -4,7 +4,12 @@
 \usepackage{chapterbib}
 \usepackage{titling}
 
-\def\UrlBreaks{\do\/\do\-\do\:\do\.\do\;\do\(\do\)\do&\do?\do_} %% Make it so urls break at hyphens and forward slashes, etc.
+\lstset{
+  breaklines=true,
+  basicstyle=\ttfamily
+} % wrap lines of code.
+
+\def\UrlBreaks{\do\/\do\-\do\:\do\.\do\;\do\(\do\)\do&\do?\do_} % Make it so urls break at hyphens and forward slashes, etc.
 
 \pretitle{%
 \title{ }

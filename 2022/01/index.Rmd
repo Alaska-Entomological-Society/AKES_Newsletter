@@ -1,8 +1,10 @@
 ---
 title: "Newsletter of the Alaska Entomological Society"
+bibliography: corrections.bib
 output:
   pdf_document:
     latex_engine: pdflatex
+    pandoc_args: --listings
     toc: true
     toc_depth: 1
     number_sections: false
@@ -14,8 +16,5 @@ output:
 ---
 
 ```{r, child=c('corrections.Rmd')}
-```
-
-
-  
+```  
   
