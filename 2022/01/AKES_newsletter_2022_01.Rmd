@@ -1,10 +1,14 @@
 ---
 title: "Newsletter of the Alaska Entomological Society"
-bibliography: corrections.bib
+citeproc: false
+section-refs-bibliography: corrections.bib
+link-citations: yes
 output:
-  pdf_document:
+  bookdown::pdf_book:
     latex_engine: pdflatex
-    pandoc_args: --listings
+    pandoc_args: 
+      - --listings
+      - --lua-filter=section-refs.lua
     toc: true
     toc_depth: 1
     number_sections: false
@@ -17,4 +21,10 @@ output:
 
 ```{r, child=c('corrections.Rmd')}
 ```  
-  
+
+
+# A test
+
+Can I cite something like @GBIF2022a?
+
+## References
