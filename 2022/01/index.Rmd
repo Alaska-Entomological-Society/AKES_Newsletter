@@ -1,0 +1,23 @@
+---
+title: "Newsletter of the Alaska Entomological Society"
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    toc: true
+    toc_depth: 1
+    number_sections: false
+    includes:
+      in_header: 
+        - ../../share/preamble_Rmd.tex
+      before_body:
+        - ../../share/doc-prefix.tex
+---
+
+
+# An article
+
+## A section
+
+
+  
+  
