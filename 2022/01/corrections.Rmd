@@ -51,7 +51,7 @@ Climate change is expected to expand many species' ranges polewards [@Staffordet
 
 @BacklundMarrone1997 reported *N. hybridus* from sandy grasslands and scattered cottonwood stands in South Dakota. @PeckKaulbars1987 reported this species from prairie, sage steppe, and montane meadow. @AndersonPeck1985 indicated it occurs in prairies and dry inland valleys. The ecoregion data of @Olsonetal2001, as mapped in SimpleMappr [@Shorthouse2010] (data not shown), indicate it occurs primarily in grasslands, shrub steppe, montane and foothills forests and parklands east of the Rocky Mountains but some records are known from west of these mountains in coastal forest ecoregions&mdash;presumably in drier inland grassland and shrub valleys. All these habitats and climates are quite different from the subarctic boreal habitats of the Whitehorse region.
 
-Using presence-only data for *N. hybridus* a niche model for this species was estimated which shows Whitehorse to have habitat unsuitable for this species (Figure \@ref(fig:Nhybridusmap)). Thus, making it far more likely that the specimens in question were actually *N. investigator.*
+Using presence-only data for *N. hybridus* a niche model for this species was estimated which shows Whitehorse to have habitat unsuitable for this species (Figure \@ref(fig:Nhybridusmap)), thus making it far more likely that the specimens in question were actually *N. investigator.*
 
 ```{r Nhybridusmap, fig.cap="Map of records for *Nicrophorus hybridus* Hatch &amp; Angell showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R."}
 knitr::include_graphics('img/corrections_N_hybridus.png')
@@ -59,10 +59,92 @@ knitr::include_graphics('img/corrections_N_hybridus.png')
 
 ### *Nicrophorus guttula* Motschulsky
 
-@Bousquetetal2013 in their checklist of the beetles of Canada and Alaska, reported *N. guttula* from Alaska because the type locality of this species is Sitka, Alaska (57° N). @Sikesetal2002 had addressed this issue and concluded the type locality was likely based on an error. Aside from the type locality description there have been no other records of this species reported from Sitka or anywhere in southeast Alaska, despite relatively extensive beetle collections having been made there, including 408 records of *Nicrophorus* from southeast Alaska&mdash;with the only *Nicrophorus* species being *N. investigator* and *N. defodiens* [@GBIF2022DL.YFNK6B]. The northernmost, verified record (specimen identified by S. Peck) for *N. guttula* is from Riske Creek in southern British Columbia at 51.9° [@GBIF2022DL.6UHRWM]. However, this northernmost record appears to be an outlier, because 97% of records are south of 50°N [@SikesVenables2013; @GBIF2022DL.44ZMQ2]. Note that in Sikes and Venables (2013) there is a record from 55°N that, upon inspection, was revealed to be incorrectly georeferenced -- its locality data said only "British Columbia" with no further geoprecision and it had thus been georeferenced to the approximate center of the province. I therefore deleted that record's geocoordinates.  
+@Bousquetetal2013 in their checklist of the beetles of Canada and Alaska, reported *N. guttula* from Alaska because the type locality of this species is Sitka, Alaska (57° N). @Sikesetal2002 had addressed this issue and concluded the type locality was likely based on an error. Aside from the type locality description there have been no other records of this species reported from Sitka or anywhere in southeast Alaska, despite relatively extensive beetle collections having been made there, including 408 records of *Nicrophorus* from southeast Alaska&mdash;with the only *Nicrophorus* species being *N. investigator* and *N. defodiens* [@GBIF2022DL.YFNK6B]. The northernmost, verified record (specimen identified by S. Peck) for *N. guttula* is from Riske Creek in southern British Columbia at 51.9° [@GBIF2022DL.6UHRWM]. However, this northernmost record appears to be an outlier, because 97% of records are south of 50°N [@SikesVenables2013 (total *n* = 294); @GBIF2022DL.44ZMQ2 (total *n* = 1328)]. Note that in @SikesVenables2013 there is a record from 55°N that, upon inspection, was revealed to be incorrectly georeferenced&mdash;its locality data said only "British Columbia" with no further geoprecision and it had thus been georeferenced to the approximate center of the province. I therefore deleted that record's geocoordinates.  
 
-Using presence-only data for *N. guttula* a niche model for this species was estimated which shows southeast Alaska to have unsuitable habitat for this species (Fig. 2). Thus, making the likelihood very low that the type locality of Sitka is correct. The correct type locality is presumably somewhere along the northwestern coast of California, Oregon, or Washington. Many beetle specimens from this coastline, and Alaska, made their way to Europe via Russia naturalists in the mid 1800s and confusion over collection data is quite plausible.  
+Using presence-only data for *N. guttula* a niche model for this species was estimated which shows southeast Alaska to have unsuitable habitat for this species (Figure \@ref(fig:Nguttulamap)), making the likelihood very low that the type locality of Sitka is correct. The correct type locality is presumably somewhere along the northwestern coast of California, Oregon, or Washington. Many beetle specimens from this coastline, and Alaska, made their way to Europe via Russian naturalists in the mid 1800s and confusion over collection data is quite plausible.
 
-Finally, how is it that this error was published in a work (Bousquet et al. 2013) on which I, a specialist on both the beetles of Alaska and the genus *Nicrophorus*, was a co-author? The answer is that the Alaskan record for this species was added to the draft, without consulting me, after I had finished and submitted my edits. Nevertheless, I was curious how likely such a record was and these analyses helped lay this question to rest.
+```{r Nguttulamap, fig.cap="Map of records for *Nicrophorus guttula* Motschulsky showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R."}
+knitr::include_graphics('img/corrections_N_guttula.png')
+```
+
+Finally, how is it that this error was published in a work [@Bousquetetal2013] on which I, a specialist on both the beetles of Alaska and the genus *Nicrophorus*, was a co-author? The answer is that the Alaskan record for this species was added to the draft, without consulting me, after I had finished and submitted my edits. Nevertheless, I was curious how likely such a record was and these analyses helped lay this question to rest.
+
+## Acknowledgments
+
+I thank the curators and collections staff who helped arrange loans of specimens for study from the collections listed in Table \@ref(tab:collit) and those who helped digitize data shared with GBIF.org, including those who submitted relevant iNaturalist observations.
+
+## Appendix: R script for Niche Modeling
+
+```r
+# Species distribution modeling for Nicrophorus guttula
+# Derek Sikes, dssikes@alaska.edu
+# 2022-01-17
+
+install.packages("dismo")
+install.packages("maptools")
+install.packages("rgdal")
+install.packages("raster")
+install.packages("sp")
+
+library("sp")
+library("raster")
+library("maptools")
+library("rgdal")
+library("dismo")
+
+# getData did not work to download the bioclimatic data from Worldclim so these were downloaded manually from https://www.worldclim.org/data/worldclim21.html they appeared in the following directory Users/dssikes/Downloads/wc2.1_2.5m_bio
+
+> path <- file.path("/Users/dssikes/Downloads/wc2.1_2.5m_bio")
+> files <- list.files(path, pattern='tif$', full.names=TRUE )
+> files
+ [1] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_1.tif" 
+ [2] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_10.tif"
+ [3] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_11.tif"
+ [4] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_12.tif"
+ [5] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_13.tif"
+ [6] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_14.tif"
+ [7] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_15.tif"
+ [8] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_16.tif"
+ [9] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_17.tif"
+[10] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_18.tif"
+[11] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_19.tif"
+[12] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_2.tif" 
+[13] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_3.tif" 
+[14] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_4.tif" 
+[15] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_5.tif" 
+[16] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_6.tif" 
+[17] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_7.tif" 
+[18] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_8.tif" 
+[19] "/Users/dssikes/Downloads/wc2.1_2.5m_bio/wc2.1_2.5m_bio_9.tif"
+
+> predictors <- stack(files)
+> predictors
+class      : RasterStack 
+dimensions : 4320, 8640, 37324800, 19  (nrow, ncol, ncell, nlayers)
+resolution : 0.04166667, 0.04166667  (x, y)
+extent     : -180, 180, -90, 90  (xmin, xmax, ymin, ymax)
+crs        : +proj=longlat +datum=WGS84 +no_defs 
+names      : wc2.1_2.5m_bio_1, wc2.1_2.5m_bio_10, wc2.1_2.5m_bio_11, wc2.1_2.5m_bio_12, wc2.1_2.5m_bio_13, wc2.1_2.5m_bio_14, wc2.1_2.5m_bio_15, wc2.1_2.5m_bio_16, wc2.1_2.5m_bio_17, wc2.1_2.5m_bio_18, wc2.1_2.5m_bio_19, wc2.1_2.5m_bio_2, wc2.1_2.5m_bio_3, wc2.1_2.5m_bio_4, wc2.1_2.5m_bio_5, ... 
+min values :       -54.759167,        -38.162666,        -66.380669,          0.000000,          0.000000,          0.000000,          0.000000,          0.000000,          0.000000,          0.000000,          0.000000,         1.000000,         9.063088,         0.000000,       -30.760000, ... 
+max values :         31.16667,          38.50467,          29.29167,       11246.00000,        2768.00000,         507.00000,         230.69151,        6174.00000,        1560.00000,        5608.00000,        5230.00000,         21.97300,        100.00000,       2377.62402,         48.46000, ...
+
+# the Nicrophorus guttula data were taken from the data prepared for Sikes and Venables (2013) and GBIF.org (2022c). These were prepared as a .csv file with two columns of data separated by a comma (decimalLongitude, decimalLatitude). Note that R with throw an error if the first column is latitude and the second is longitude - these must be reversed. The following loads the observed data.
+
+> guttula <- read.csv("~/Documents/ ALASKA/ PROJECTS/2022-AKES-Nicro corrections/niche modeling attempts/GBIFandDSS guttula data/guttula.csv")
+>   View(guttula)
+
+# the following builds the model by using climate data from the observed records
+
+> obspred <- extract(predictors, guttula)  # extracts bioclim data for each of our data points
+> bioclim.model <- bioclim(obspred)
+> predictions <- predict(predictors, bioclim.model)
+
+# the following makes the map of the modeled expected distribution
+
+> plot(predictions, xlim=c(-150, -80), ylim=c(25, 60))
+
+# the following adds the observed data to the expected on the map
+> points(guttula, col = "red", pch = 20, cex = 0.75) 
+```
 
 ## References

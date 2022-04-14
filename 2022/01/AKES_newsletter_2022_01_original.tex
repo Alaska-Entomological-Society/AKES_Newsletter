@@ -1,0 +1,172 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Newsletter of the Alaska Entomological Society},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{listings}
+\newcommand{\passthrough}[1]{#1}
+\lstset{defaultdialect=[5.3]Lua}
+\lstset{defaultdialect=[x86masm]Assembler}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage[sc]{mathpazo}
+\usepackage{multicol}
+\usepackage[authoryear, sectionbib]{natbib}
+\usepackage{chapterbib}
+\usepackage{titling}
+
+\lstset{
+  breaklines=true,
+  basicstyle=\ttfamily
+} % wrap lines of code.
+
+\def\UrlBreaks{\do\/\do\-\do\:\do\.\do\;\do\(\do\)\do&\do?\do_} % Make it so urls break at hyphens and forward slashes, etc.
+
+\pretitle{%
+\title{ }
+\setlength{\unitlength}{1in}
+\begin{figure}
+ \begin{picture}(6,1.1)(0,0)
+ 	\put (0,-0.3){\includegraphics[width=150pt]{../../share/AKESlogo.jpg}}
+ 	\put (2.2,1.2){\fontfamily{phv}\parbox{5in}{\Huge Newsletter}}
+ 	\put (2.2,0.7){\fontfamily{phv}\parbox{5in}{\Large of the}}
+ 	\put(2.2,0.2){\fontfamily{phv}\parbox{5in}{\Huge Alaska Entomological Society}}
+ \end{picture}
+\end{figure}  \hfill
+}
+\posttitle{\hfill Volume 15, Issue 1, March 2022
+
+%\tableofcontents 
+}
+
+\renewcommand{\contentsname}{In this issue:}
+
+\newcommand{\doi}[1]{doi:\href{http://dx.doi.org/#1}{#1}}
+
+%% title page
+\renewcommand{\titlepage}{%
+  \noindent
+\setlength{\unitlength}{1in}
+\begin{figure}
+ \begin{picture}(6,1.1)(0,0)
+ 	\put (0,-0.3){\includegraphics[width=150pt]{../../share/AKESlogo.jpg}}
+ 	\put (2.2,1.2){\fontfamily{phv}\parbox{5in}{\Huge Newsletter}}
+ 	\put (2.2,0.7){\fontfamily{phv}\parbox{5in}{\Large of the}}
+ 	\put(2.2,0.2){\fontfamily{phv}\parbox{5in}{\Huge Alaska Entomological Society}}
+ \end{picture}
+\end{figure}  \hfill
+  Volume 15, Issue 1, March, 2022\\[-.5\baselineskip]
+%  \rule{\textwidth}{1pt}
+%  \vspace{1cm}
+  \fancyhf{}
+  \fancyhead[L]{Volume 15, Issue 1, March, 2022}
+  \fancyhead[R]{\thepage}
+  \fancyfoot[L]{AKES Newsletter%
+  }
+  \fancyfoot[R]{\url{http://www.akentsoc.org/newsletter.php}
+  }
+  \thispagestyle{empty}
+  \begin{bottombox}
+    \begin{multicols}{2}
+      \setcounter{tocdepth}{0}
+      \tableofcontents
+      \setcounter{tocdepth}{2}
+    \end{multicols}
+   
+  \end{bottombox}
+}%% end titlepage
+
+
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{Newsletter of the Alaska Entomological Society}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\maketitle
+
+
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{corrections-to-the-literature-three-recently-published-records-for-nicrophorus-coleoptera-staphylinidae-silphinae-deemed-erroneous}{%
+\section{\texorpdfstring{Corrections to the literature: Three recently
+published records for \emph{Nicrophorus} (Coleoptera: Staphylinidae:
+Silphinae) deemed
+erroneous}{Corrections to the literature: Three recently published records for Nicrophorus (Coleoptera: Staphylinidae: Silphinae) deemed erroneous}}\label{corrections-to-the-literature-three-recently-published-records-for-nicrophorus-coleoptera-staphylinidae-silphinae-deemed-erroneous}}
+
+\emph{by Derek S. Sikes}\footnote{University of Alaska Museum, 1962
+  Yukon Dr., University of Alaska Fairbanks, Fairbanks, AK 99775,
+  \href{mailto:dssikes@alaska.edu}{\nolinkurl{dssikes@alaska.edu}}}
+
+\hypertarget{abstract}{%
+\subsection{Abstract}\label{abstract}}
+
+During the last decade three occurrence records for three species of
+\emph{Nicrophorus -- N. guttula,} from Sitka Alaska, USA\emph{,}
+\emph{N. hebes} from Alaska, and \emph{N. hybridus} from Whitehorse,
+Yukon, Canada -- were published, which are likely erroneous because no
+reliable evidence suggests these species occur or occurred in these
+regions. This short note provides details, comments, and species
+distribution modeling analyses on these records and concludes all three
+are erroneous.
+
+\end{document}
