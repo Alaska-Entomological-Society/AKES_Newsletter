@@ -1,0 +1,523 @@
+# Corrections to the literature: Three recently published records for *Nicrophorus* (Coleoptera: Staphylinidae: Silphinae) deemed erroneous
+
+by Derek S. Sikes
+
+University of Alaska Museum, 1962 Yukon Dr., University of Alaska
+Fairbanks, Fairbanks, AK 99775
+
+<dssikes@alaska.edu>
+
+## Abstract
+
+During the last decade three occurrence records for three
+species of *Nicrophorus -- N. guttula,* from Sitka Alaska, USA*,* *N.
+hebes* from Alaska, and *N. hybridus* from Whitehorse, Yukon, Canada --
+were published, which are likely erroneous because no reliable evidence
+suggests these species occur or occurred in these regions. This short
+note provides details, comments, and species distribution modeling
+analyses on these records and concludes all three are erroneous.
+
+## Introduction
+
+Species of the genus *Nicrophorus*, commonly called
+burying beetles in North America, are relatively well known,
+large-bodied beetles (Anderson and Peck 1985) now in the family
+Staphylinidae (Cai et al. 2022). Despite peer-reviewed publications
+being the gold standard for reliable scientific information, errors do
+make it into print and, when found, are best corrected. Herein, three
+such records are addressed -- while admitting the much greater
+difficulty of demonstrating the absence, relative to the presence, of a
+species from a region. One approach to this problem is to attempt to
+answer the question of whether the climate of a region is suitable for a
+species based on an understanding of the climate from where it is known
+to occur. Thus, a niche modeling, aka species distribution modeling,
+analysis was undertaken to help quantify the likelihood of two of these
+questionable records.
+
+## Methods
+
+### Species Distribution Modeling
+
+The basics of the
+protocols in Oliver (2021) and Waraniak (2018) were followed using the
+19 bioclimatic variables available from the WorldClim 2.0 database which
+contain the averages for the years 1970-2000 at 2.5 minutes resolution
+(\~5 km) (Fick and Hijmans 2017). The bioclim (Nix 1986, Booth et al.
+2014) model in the dismo 1.3-5 package for R v.4.0.2 was used with the
+presence-only occurrence data for *N. hybridus* and *N. guttula*. The R
+script for the *N. guttula* analysis is provided as an appendix. The
+occurrence data files for the R analyses presented herein are available
+at <https://doi.org/10.6084/m9.figshare.19401131>. These data came from
+the collections and literature sources listed in Table 1. Those with DSS
+as the source are available in more complete form at
+<http://dx.doi.org/10.5061/dryad.mr221> from Sikes and Venables (2013).
+Those with GBIF as the source are listed below in the literature cited
+as GBIF.org (2022a) and GBIF.org (2022c).
+
+Table 1. Collections and literature from which data used herein were
+derived.
+
+Collection or Publication Source
+
+Albuquerque \[MSBA\] GBIF
+
+Anderson & Peck (1985) literature
+
+Backlund & Marrone (1997) literature
+
+Berkeley \[EMEC\] DSS, GBIF
+
+Boulder \[UCM, UCMC\] GBIF
+
+Budapest \[HNHM\] DSS
+
+Cambridge \[MCZC\] DSS
+
+Chicago \[CHAS\] GBIF
+
+Chicago \[FMNH\] DSS, GBIF
+
+Cincinnati \[CMC\] GBIF
+
+Cochrane \[CEIC\] DSS
+
+College Station \[TAMU\] DSS, GBIF
+
+Columbus \[OSUC\] DSS
+
+Denver \[DMNS\] GBIF
+
+Ebina -Nishikawa private coll \[MNC\] DSS
+
+Edinburgh \[RSME\] DSS
+
+Fairbanks \[DSSC\] DSS
+
+Fairbanks \[UAM\] GBIF
+
+Flagstaff \[NAUF, CPMAB\] GBIF
+
+Fort Collins \[CSUC\] GBIF
+
+Frankfurt \[SMFD\] DSS
+
+Hatch (1945) Literature
+
+iNaturalist GBIF
+
+Jalisco \[CZUG\] GBIF
+
+Las Cruces \[NMSU\] GBIF
+
+Los Angeles \[LACM, IP \] GBIF
+
+Los Angeles \[LACM, RLB\] GBIF
+
+Los Angeles \[LACM\] DSS
+
+Logan \[EMUS\] DSS
+
+New Haven \[PMNH\] DSS
+
+New York \[AMNH\] DSS
+
+Norman \[OMNH, RINVRT\] GBIF
+
+Ohio \[OSUC\] GBIF
+
+Peck & Anderson (1985) Literature
+
+Peck & Kaulbars (1987) Literature
+
+Philadelphia \[ANSP\] DSS
+
+Provo (BYUC) DSS
+
+San Diego \[SDNHM\] GBIF
+
+Santa Barbara \[SBMNH\] GBIF
+
+Santa Barbara \[UCSB, IZC\] GBIF
+
+St. Paul \[UMSP\] DSS
+
+Tempe \[ASU, ASUHIC\] GBIF
+
+Tempe \[ASU, NEON-IV\] GBIF
+
+University Park \[PSUC\] GBIF
+
+Vancouver \[UBCZ\] GBIF
+
+Washington D.C. \[USNM\] DSS, GBIF
+
+Wien \[Wolfgang Barries Private Coll.\] DSS
+
+## Results
+
+### *Nicrophorus hebes* Kirby
+
+Based on molecular, ecological, breeding
+trial, and morphological data, Sikes et al. (2016) recognized this
+species as valid and elevated it to species status from a junior synonym
+under *Nicrophorus vespilloides* Herbst. *Nicrophorus hebes* is
+distrtibuted widely within eastern and central Canada and, to date,
+there is no evidence that *Nicrophorus hebes* occurs west of about 120°
+longitude or north of about 61° latitude in the Nearctic. It is thus
+absent from northwestern Canada and Alaska. Nevertheless, this species
+was accidentally reported from Alaska by Meeds (2021) who, while
+reviewing literature relevant to forensic entomology for Alaska,
+misunderstood the information presented in Sikes et al. (2016).
+
+*Nicrophorus hybridus* Hatch & Angell -- Bygarski and LeBlanc (2013),
+presenting on forensic entomological research conducted in Whitehorse,
+Yukon Territory (60° 43' N, 135° 03' W) reported the species *N.
+hybridus* from their samples. This species has never been confirmed
+north of 53° latitude and is relatively difficult to distinguish from
+*Nicrophorus investigator* (magnified lateral and ventral views are
+needed). *Nicrophorus investigator* is a widespread and common species
+in northern regions of the Nearctic and Palearctic so any records of *N.
+hyrbidus* north of 53° latitude are likely misidentifications of *N.
+investigator,* as suggested for this case by Sampson and Sikes (2020).
+There are numerous records of *N. investigator* north of 60° latitude in
+both the Nearctic and Palearctic, with maximum latitude records at 69°N
+in Norway and 67° in Yukon Territory (Anderson & Peck 1985; Sikes &
+Venables 2013).
+
+Climate change is expected to expand many species' ranges polewards
+(Stafford et al. 2013) so *N. hybridus* records north of 53° latitude
+may increase in likelihood as the planet warms. Any such records would
+need confirmation by careful study of voucher specimens and use of
+appropriate keys (eg. Anderson and Peck 1985) by someone experienced
+with identification of *Nicrophorus*.
+
+Backlund and Marrone (1997) reported *N. hybridus* from sandy grasslands
+and scattered cottonwood stands in South Dakota. Peck and Kaulbars
+(1987) reported this species from prairie, sage steppe, and montane
+meadow. Anderson and Peck (1985) indicated it occurs in prairies and dry
+inland valleys. The ecoregion data of Olsen et al. (2001), as mapped in
+SimpleMappr (Shorthouse 2010) (data not shown), indicate it occurs
+primarily in grasslands, shrub steppe, montane and foothills forests and
+parklands east of the Rocky Mountains but some records are known from
+west of these mountains in coastal forest ecoregions -- presumably in
+drier inland grassland and shrub valleys. All these habitats and
+climates are quite different from the subarctic boreal habitats of the
+Whitehorse region.
+
+Using presence-only data for *N. hybridus* a niche model for this
+species was estimated which shows Whitehorse to have habitat unsuitable
+for this species (Fig. 1). Thus, making it far more likely that the
+specimens in question were actually *N. investigator.*
+
+*Nicrophorus guttula* Motschulsky -- Bousquet et al. (2013) in their
+checklist of the beetles of Canada and Alaska, reported *N. guttula*
+from Alaska because the type locality of this species is Sitka, Alaska
+(57° N). Sikes et al. (2002) had addressed this issue and concluded the
+type locality was likely based on an error. Aside from the type locality
+description there have been no other records of this species reported
+from Sitka or anywhere in southeast Alaska, despite relatively extensive
+beetle collections having been made there, including 408 records of
+*Nicrophorus* from southeast Alaska -- with the only *Nicrophorus*
+species being *N. investigator* and *N. defodiens* (GBIF.org 2022a). The
+northernmost, verified record (specimen identified by S. Peck) for *N.
+guttula* is from Riske Creek in southern British Columbia at 51.9°
+(GBIF.org 2022b). However, this northernmost record appears to be an
+outlier, because 97% of records are south of 50°N (Sikes & Venables 2013
+\[total n=294\]; GBIF.org 2022c \[total n=1328\]). Note that in Sikes
+and Venables (2013) there is a record from 55°N that, upon inspection,
+was revealed to be incorrectly georeferenced -- its locality data said
+only "British Columbia" with no further geoprecision and it had thus
+been georeferenced to the approximate center of the province. I
+therefore deleted that record's geocoordinates.
+
+Using presence-only data for *N. guttula* a niche model for this species
+was estimated which shows southeast Alaska to have unsuitable habitat
+for this species (Fig. 2). Thus, making the likelihood very low that the
+type locality of Sitka is correct. The correct type locality is
+presumably somewhere along the northwestern coast of California, Oregon,
+or Washington. Many beetle specimens from this coastline, and Alaska,
+made their way to Europe via Russia naturalists in the mid 1800s and
+confusion over collection data is quite plausible.
+
+Finally, how is it that this error was published in a work (Bousquet et
+al. 2013) on which I, a specialist on both the beetles of Alaska and the
+genus *Nicrophorus*, was a co-author? The answer is that the Alaskan
+record for this species was added to the draft, without consulting me,
+after I had finished and submitted my edits. Nevertheless, I was curious
+how likely such a record was and these analyses helped lay this question
+to rest.
+
+**Acknowledgments**
+
+I thank the curators and collections staff who helped arrange loans of
+specimens for study from the collections listed in Table 1 and those who
+helped digitize data shared with GBIF.org, including those who submitted
+relevant iNaturalist observations.
+
+**Literature Cited**
+
+Anderson RS, Peck SB. 1985. The carrion beetles of Canada and Alaska.
+Coleoptera: Silphidae and Agyrtidae. (Insects and Arachnids of Canada,
+Part 13). Ottawa, Canada: Canadian Government Pub. Centre, Supply and
+Services Canada, 1--121.
+
+Backlund, D. C. & G. M. Marrone 1997. New records of the endangered
+American burying beetle, *Nicrophorus americanus* Olivier, (Coleoptera:
+Silphidae) in South Dakota. The Coleopterists Bulletin 51(1): 53-58.
+
+Booth, T.H., H.A. Nix, J.R. Busby and M.F. Hutchinson, 2014. BIOCLIM:
+the first species distribution modelling package, its early applications
+and relevance to most current MAXENT studies. Diversity and
+Distributions 20: 1-9
+
+Bousquet, Y., Bouchard, P., Davies, A.E., and Sikes, D.S. 2013.
+Checklist of Beetles (Coleoptera) of Canada and Alaska. Second Edition.
+Pensoft Series Faunistica No 109, Sofia-Bulgaria, 402 pp. ISSN
+1312-0174, ISBN 978-954-642-704-5
+
+Bygarski K, LeBlanc HN. 2013. Decomposition and arthropod succession in
+Whitehorse, Yukon Territory, Canada. Journal of Forensic Science
+58(2):413--418. <https://doi.org/10.1111/1556-4029.12032>
+
+Cai et al. 2022. Integrated phylogenomics and fossil data illuminate the
+evolution of beetles. Royal Society Open Science 9(2054-5703): 211771
+https://doi.org/10.1098/rsos.211771
+
+Fick, S.E. and R.J. Hijmans, 2017. WorldClim 2: new 1km spatial
+resolution climate surfaces for global land areas. International Journal
+of Climatology 37 (12): 4302-4315.
+https://www.worldclim.org/data/worldclim21.html
+
+GBIF.org (2022a) GBIF Occurrence Download (14 January 2022)
+<https://doi.org/10.15468/dl.yfnk6b>
+
+GBIF.org (2022b) Northernmost *Nicrophorus guttula* record from UBCZ.
+<https://www.gbif.org/occurrence/1632893502>
+
+GBIF.org (2022c) GBIF Occurrence Download (14 January 2022)
+<https://doi.org/10.15468/dl.44zmq2>
+
+Hatch, M. H. 1945. Three Silphidae in British Columbia (Coleoptera).
+Proceedings of the Entomological Society of British Columbia 42: 14.
+
+Meeds, A.W., 2021. A review of forensic entomology literature in Alaska,
+United States. Forensic Science, 3(5): e1413.
+
+Motulsky, H.J. 2022. GraphPad Statistics Guide. Accessed 14 Jan 2022.
+http://www.graphpad.com/guides/prism/7/statistics/index.htm
+
+Nix, H.A. 1986. A biogeographic analysis of Australian elapid snakes.
+Atlas of elapid snakes of Australia: Australian flora and fauna series 7
+(ed. by R. Longmore), pp. 4--15. Bureau of Flora and Fauna, Canberra.
+
+Oliver, J. 2021. A very brief introduction to species distribution
+models in R
+https://jcoliver.github.io/learn-r/011-species-distribution-models.html
+
+Olson, D. M., Dinerstein, E., Wikramanayake, E. D., Burgess, N. D.,
+Powell, G. V. N., Underwood, E. C., D\'Amico, J. A., Itoua, I., Strand,
+H. E., Morrison, J. C., Loucks, C. J., Allnutt, T. F., Ricketts, T. H.,
+Kura, Y., Lamoreux, J. F., Wettengel, W. W., Hedao, P., Kassem, K. R.
+2001. Terrestrial ecoregions of the world: a new map of life on Earth.
+Bioscience 51(11): 933-938.
+
+Peck, S. B. & R. S. Anderson. 1985. Taxonomy, phylogeny and biogeography
+of the carrion beetles of Latin America (Coleoptera: Silphidae).
+Quaestiones Entomologicae 21(3): 247-317.
+
+Peck, S. B. & M. M. Kaulbars. 1987. A synopsis of the distribution and
+bionomics of the carrion beetles (Coleoptera: Silphidae) of the
+conterminous United States. Proceedings of the Entomological Society of
+Ontario 118: 47-81.
+
+Sampson, A., D. S. Sikes. 2020. A Preliminary forensic entomological
+study of
+
+beetles (Coleoptera) in interior Alaska, USA. Journal of Forensic
+Sciences 65 (6): 2030-2035. <https://doi.org/10.1111/1556-4029.14523>
+
+Shorthouse DP (2010) SimpleMappr, an online tool to produce
+publication-quality point maps. \[Retrieved from
+http://www.simplemappr.net. Accessed 14 Jan 2022.\]
+
+Sikes D.S., Venables C. 2013. Molecular phylogeny of the burying beetles
+(Coleoptera: Silphidae: Nicrophorinae). -- Molecular Phylogenetics and
+Evolution 69: 552--565. http://dx.doi.org/ 10.1016/j.ympev.2013.07.022
+
+Sikes, D. S., R. B. Madge, A. F. Newton. 2002. A catalog of the
+Nicrophorinae (Coleoptera: Silphidae) of the world. Zootaxa 65: 1-304.
+(BOOK) <https://doi.org/10.11646/zootaxa.65.1.1>
+
+Stafford, R., Hart, A.G. and Goodenough, A.E., 2013. A visual method to
+identify significant latitudinal changes in species\' distributions.
+Ecological informatics, 15: 74-84.
+
+Waraniak, J. 2018. Species Distribution Modeling in R Tutorial
+https://www.youtube.com/watch?v=1C1zVJO-Rk0
+
+**Figure captions**
+
+Figure 1. Map of records for *Nicrophorus hybridus* Hatch & Angell
+showing observations (red dots) and habitat suitability probability
+(colors, see key) based on presence-only niche modeling using the
+bioclim algorithm in the dismo package in R.
+
+Figure 2. Map of records for *Nicrophorus guttula* Motschulsky showing
+observations (red dots) and habitat suitability probability (colors, see
+key) based on presence-only niche modeling using the bioclim algorithm
+in the dismo package in R.
+
+**Appendix.** R script for Niche Modeling
+
+\# Species distribution modeling for Nicrophorus guttula
+
+\# Derek Sikes, <dssikes@alaska.edu>
+
+\# 2022-01-17
+
+install.packages(\"dismo\")
+
+install.packages(\"maptools\")
+
+install.packages(\"rgdal\")
+
+install.packages(\"raster\")
+
+install.packages(\"sp\")
+
+library(\"sp\")
+
+library(\"raster\")
+
+library(\"maptools\")
+
+library(\"rgdal\")
+
+library(\"dismo\")
+
+\# getData did not work to download the bioclimatic data from Worldclim
+so these were downloaded manually from
+<https://www.worldclim.org/data/worldclim21.html> they appeared in the
+following directory Users/dssikes/Downloads/wc2.1\_2.5m\_bio
+
+\> path \<- file.path(\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio\")
+
+\> files \<- list.files(path, pattern=\'tif\$\', full.names=TRUE )
+
+\> files
+
+\[1\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_1.tif\"
+
+\[2\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_10.tif\"
+
+\[3\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_11.tif\"
+
+\[4\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_12.tif\"
+
+\[5\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_13.tif\"
+
+\[6\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_14.tif\"
+
+\[7\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_15.tif\"
+
+\[8\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_16.tif\"
+
+\[9\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_17.tif\"
+
+\[10\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_18.tif\"
+
+\[11\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_19.tif\"
+
+\[12\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_2.tif\"
+
+\[13\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_3.tif\"
+
+\[14\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_4.tif\"
+
+\[15\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_5.tif\"
+
+\[16\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_6.tif\"
+
+\[17\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_7.tif\"
+
+\[18\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_8.tif\"
+
+\[19\]
+\"/Users/dssikes/Downloads/wc2.1\_2.5m\_bio/wc2.1\_2.5m\_bio\_9.tif\"
+
+\> predictors \<- stack(files)
+
+\> predictors
+
+class : RasterStack
+
+dimensions : 4320, 8640, 37324800, 19 (nrow, ncol, ncell, nlayers)
+
+resolution : 0.04166667, 0.04166667 (x, y)
+
+extent : -180, 180, -90, 90 (xmin, xmax, ymin, ymax)
+
+crs : +proj=longlat +datum=WGS84 +no\_defs
+
+names : wc2.1\_2.5m\_bio\_1, wc2.1\_2.5m\_bio\_10, wc2.1\_2.5m\_bio\_11,
+wc2.1\_2.5m\_bio\_12, wc2.1\_2.5m\_bio\_13, wc2.1\_2.5m\_bio\_14,
+wc2.1\_2.5m\_bio\_15, wc2.1\_2.5m\_bio\_16, wc2.1\_2.5m\_bio\_17,
+wc2.1\_2.5m\_bio\_18, wc2.1\_2.5m\_bio\_19, wc2.1\_2.5m\_bio\_2,
+wc2.1\_2.5m\_bio\_3, wc2.1\_2.5m\_bio\_4, wc2.1\_2.5m\_bio\_5, \...
+
+min values : -54.759167, -38.162666, -66.380669, 0.000000, 0.000000,
+0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000,
+9.063088, 0.000000, -30.760000, \...
+
+max values : 31.16667, 38.50467, 29.29167, 11246.00000, 2768.00000,
+507.00000, 230.69151, 6174.00000, 1560.00000, 5608.00000, 5230.00000,
+21.97300, 100.00000, 2377.62402, 48.46000, \...
+
+\# the *Nicrophorus guttula* data were taken from the data prepared for
+Sikes and Venables (2013) and GBIF.org (2022c). These were prepared as a
+.csv file with two columns of data separated by a comma
+(decimalLongitude, decimalLatitude). Note that R with throw an error if
+the first column is latitude and the second is longitude -- these must
+be reversed. The following loads the observed data.
+
+\> guttula \<- read.csv(\"\~/Documents/ ALASKA/ PROJECTS/2022-AKES-Nicro
+corrections/niche modeling attempts/GBIFandDSS guttula
+data/guttula.csv\")
+
+\> View(guttula)
+
+\# the following builds the model by using climate data from the
+observed records
+
+\> obspred \<- extract(predictors, guttula) \# extracts bioclim data for
+each of our data points
+
+\> bioclim.model \<- bioclim(obspred)
+
+\> predictions \<- predict(predictors, bioclim.model)
+
+\# the following makes the map of the modeled expected distribution
+
+\> plot(predictions, xlim=c(-150, -80), ylim=c(25, 60))
+
+\# the following adds the observed data to the expected on the map
+
+\> points(guttula, col = \"red\", pch = 20, cex = 0.75)

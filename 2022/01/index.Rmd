@@ -13,10 +13,8 @@ output:
         - ../../share/doc-prefix.tex
 ---
 
-
-# An article
-
-## A section
+```{r, child=c('corrections.Rmd')}
+```
 
 
   
