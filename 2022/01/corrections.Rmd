@@ -27,7 +27,7 @@ questionable records.
 
 ### Species Distribution Modeling
 
-The basics of the protocols in @Oliver2021 and @Waraniak2018 were followed using the 19 bioclimatic variables available from the WorldClim 2.0 database which contain the averages for the years 1970&ndash;2000 at 2.5 minutes resolution (\~5 km) [@FickHijmans2017]. The bioclim [@Nix1986; Boothetal2014] model in the dismo 1.3-5 package for R v.4.0.2 was used with the presence-only occurrence data for *N. hybridus* and *N. guttula*. The R script for the *N. guttula* analysis is provided as an appendix. The occurrence data files for the R analyses presented herein are available at <https://doi.org/10.6084/m9.figshare.19401131>. These data came from the collections and literature sources listed in Table \@ref(tab:collit). Those with DSS as the source are available in more complete form at <http://dx.doi.org/10.5061/dryad.mr221> from @SikesVenables2013. Those with GBIF as the source are listed below in the literature cited as @GBIF2022a and @GBIF2022c.
+The basics of the protocols in @Oliver2021 and @Waraniak2018 were followed using the 19 bioclimatic variables available from the WorldClim 2.0 database which contain the averages for the years 1970&ndash;2000 at 2.5 minutes resolution (\~5 km) [@FickHijmans2017]. The bioclim [@Nix1986; Boothetal2014] model in the dismo 1.3-5 package [@Hijmansetal2021] for R v.4.0.2 [@RCoreTeam2020] was used with the presence-only occurrence data for *N. hybridus* and *N. guttula*. The R script for the *N. guttula* analysis is provided as an appendix. The occurrence data files for the R analyses presented herein are available at <https://doi.org/10.6084/m9.figshare.19401131>. These data came from the collections and literature sources listed in Table \@ref(tab:collit). Those with DSS as the source are available in more complete form at <http://dx.doi.org/10.5061/dryad.mr221> from @SikesVenables2013. Those with GBIF as the source are listed below in the literature cited as @GBIF2022a and @GBIF2022c.
 
 ```{r collit}
 collit <- read.csv("corrections_table.csv")
@@ -37,5 +37,11 @@ knitr::kable(collit,
   caption = "Collections and literature from which data used herein were derived."
 )
 ```
+
+## Results
+
+### *Nicrophorus hebes* Kirby
+
+Based on molecular, ecological, breeding trial, and morphological data, @Sikesetal2016 recognized this species as valid and elevated it to species status from a junior synonym under *Nicrophorus vespilloides* Herbst. *Nicrophorus hebes* is distrtibuted widely within eastern and central Canada and, to date, there is no evidence that *Nicrophorus hebes* occurs west of about 120° longitude or north of about 61° latitude in the Nearctic. It is thus absent from northwestern Canada and Alaska. Nevertheless, this species was accidentally reported from Alaska by @Meeds2021 who, while reviewing literature relevant to forensic entomology for Alaska, misunderstood the information presented in @Sikesetal2016.
 
 ## References
