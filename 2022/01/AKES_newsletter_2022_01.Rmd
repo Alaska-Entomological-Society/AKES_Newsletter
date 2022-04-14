@@ -9,7 +9,7 @@ output:
     latex_engine: pdflatex
     pandoc_args: 
       - --listings
-      - --lua-filter=section-refs.lua
+      - --lua-filter=../../share/section-refs.lua
     toc: true
     toc_depth: 1
     number_sections: false
