@@ -19,12 +19,11 @@ output:
         - ../../share/doc-prefix.tex
 ---
 
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>", echo = FALSE, fig.width = 6
+)
+```
+
 ```{r, child=c('corrections.Rmd')}
 ```  
-
-
-# A test
-
-Can I cite something like @GBIF2022a?
-
-## References
