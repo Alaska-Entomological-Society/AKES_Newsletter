@@ -51,6 +51,10 @@ Climate change is expected to expand many species' ranges polewards [@Staffordet
 
 @BacklundMarrone1997 reported *N. hybridus* from sandy grasslands and scattered cottonwood stands in South Dakota. @PeckKaulbars1987 reported this species from prairie, sage steppe, and montane meadow. @AndersonPeck1985 indicated it occurs in prairies and dry inland valleys. The ecoregion data of @Olsonetal2001, as mapped in SimpleMappr [@Shorthouse2010] (data not shown), indicate it occurs primarily in grasslands, shrub steppe, montane and foothills forests and parklands east of the Rocky Mountains but some records are known from west of these mountains in coastal forest ecoregions&mdash;presumably in drier inland grassland and shrub valleys. All these habitats and climates are quite different from the subarctic boreal habitats of the Whitehorse region.
 
-Using presence-only data for *N. hybridus* a niche model for this species was estimated which shows Whitehorse to have habitat unsuitable for this species (Fig. 1). Thus, making it far more likely that the specimens in question were actually *N. investigator.*
+Using presence-only data for *N. hybridus* a niche model for this species was estimated which shows Whitehorse to have habitat unsuitable for this species (Figure \@ref(fig:Nhybridusmap)). Thus, making it far more likely that the specimens in question were actually *N. investigator.*
+
+```{r Nhybridusmap, fig.cap="Map of records for *Nicrophorus hybridus* Hatch &amp; Angell showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R."}
+knitr::include_graphics('img/corrections_N_hybridus.png')
+```
 
 ## References

@@ -22,7 +22,7 @@ output:
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
-  comment = "#>", echo = FALSE, fig.width = 6
+  comment = "#>", echo = FALSE, fig.width = 5
 )
 ```
 
