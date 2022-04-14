@@ -2,7 +2,7 @@
 title: "Newsletter of the Alaska Entomological Society"
 citeproc: false
 section-refs-bibliography: corrections.bib
-csl: ../../share/alpine-entomology.csl
+csl: ../../share/pensoft-journals.csl
 link-citations: yes
 output:
   bookdown::pdf_book:
