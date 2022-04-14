@@ -4,10 +4,23 @@
 
 ## Abstract
 
-During the last decade three occurrence records for three
-species of *Nicrophorus -- N. guttula,* from Sitka Alaska, USA*,* *N.
-hebes* from Alaska, and *N. hybridus* from Whitehorse, Yukon, Canada --
-were published, which are likely erroneous because no reliable evidence
-suggests these species occur or occurred in these regions. This short
-note provides details, comments, and species distribution modeling
-analyses on these records and concludes all three are erroneous.
+During the last decade three occurrence records for three species of *Nicrophorus*&mdash;*N. guttula,* from Sitka Alaska, USA*,* *N. hebes* from Alaska, and *N. hybridus* from Whitehorse, Yukon, Canada&mdash;were published, which are likely erroneous because no reliable evidence suggests these species occur or occurred in these regions. This short note provides details, comments, and species distribution modeling analyses on these records and concludes all three are erroneous.
+
+## Introduction
+
+Species of the genus *Nicrophorus*, commonly called
+burying beetles in North America, are relatively well known,
+large-bodied beetles [@AndersonPeck1985] now in the family
+Staphylinidae [@Caietal2022]. Despite peer-reviewed publications
+being the gold standard for reliable scientific information, errors do
+make it into print and, when found, are best corrected. Herein, three
+such records are addressed&mdash;while admitting the much greater
+difficulty of demonstrating the absence, relative to the presence, of a
+species from a region. One approach to this problem is to attempt to
+answer the question of whether the climate of a region is suitable for a
+species based on an understanding of the climate from where it is known
+to occur. Thus, a niche modeling, aka species distribution modeling,
+analysis was undertaken to help quantify the likelihood of two of these
+questionable records.
+
+## References
