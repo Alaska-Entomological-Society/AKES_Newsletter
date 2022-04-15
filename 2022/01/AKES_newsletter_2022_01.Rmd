@@ -19,12 +19,20 @@ output:
         - ../../share/preamble_Rmd.tex
       before_body:
         - ../../share/doc-prefix.tex
+params:
+  volume: 15
+  issue: 1
 ---
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
   comment = "#>", echo = FALSE, fig.width = 5
 )
+
+pream <- readLines("../../share/preamble_Rmd_pre_sub.tex")
+issueinfo <- paste0("Volume ", params$volume, ", Issue ", params$issue, ", ", format(Sys.time(), '%B %Y'))
+pream <- gsub("issueinfo", issueinfo, pream)
+write(pream, file = "../../share/preamble_Rmd.tex")
 ```
 
 ```{r, child=c('corrections.Rmd')}

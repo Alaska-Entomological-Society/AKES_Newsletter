@@ -1,0 +1,87 @@
+\usepackage[sc]{mathpazo}
+\usepackage{multicol}
+\usepackage[authoryear, sectionbib]{natbib}
+\usepackage{chapterbib}
+\usepackage{titling}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+
+\lstset{
+  breaklines=true,
+  basicstyle=\ttfamily
+} % wrap lines of code.
+
+\def\UrlBreaks{\do\/\do\-\do\:\do\.\do\;\do\(\do\)\do&\do?\do_} % Make it so urls break at hyphens and forward slashes, etc.
+
+\frenchspacing % Adjust spacing after periods.
+
+
+
+\pretitle{%
+\thispagestyle{empty}
+
+\title{ }
+\date{ }
+\setlength{\unitlength}{1in}
+\begin{figure}
+ \begin{picture}(6,1.1)(0,0)
+ 	\put (0,-0.3){\includegraphics[width=150pt]{../../share/AKESlogo.jpg}}
+ 	\put (2.2,1.2){\fontfamily{phv}\parbox{5in}{\Huge Newsletter}}
+ 	\put (2.2,0.7){\fontfamily{phv}\parbox{5in}{\Large of the}}
+ 	\put(2.2,0.2){\fontfamily{phv}\parbox{5in}{\Huge Alaska Entomological Society}}
+ \end{picture}
+\end{figure}  \hfill
+}
+\posttitle{\hfill issueinfo
+
+%\tableofcontents 
+}
+
+\renewcommand{\contentsname}{In this issue:}
+
+\newcommand{\doi}[1]{doi:\href{http://dx.doi.org/#1}{#1}}
+
+% headers and footers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{issueinfo}
+\fancyhead[R]{\thepage}
+\fancyfoot[L]{AKES Newsletter%
+}
+\fancyfoot[R]{\url{http://www.akentsoc.org/newsletter.php}
+}
+
+%% title page
+\renewcommand{\titlepage}{%
+  \noindent
+\setlength{\unitlength}{1in}
+\begin{figure}
+ \begin{picture}(6,1.1)(0,0)
+ 	\put (0,-0.3){\includegraphics[width=150pt]{../../share/AKESlogo.jpg}}
+ 	\put (2.2,1.2){\fontfamily{phv}\parbox{5in}{\Huge Newsletter}}
+ 	\put (2.2,0.7){\fontfamily{phv}\parbox{5in}{\Large of the}}
+ 	\put(2.2,0.2){\fontfamily{phv}\parbox{5in}{\Huge Alaska Entomological Society}}
+ \end{picture}
+\end{figure}  \hfill
+  Volume 15, Issue 1, March, 2022\\[-.5\baselineskip]
+%  \rule{\textwidth}{1pt}
+%  \vspace{1cm}
+  \fancyhf{}
+  \fancyhead[L]{Volume 15, Issue 1, March, 2022}
+  \fancyhead[R]{\thepage}
+  \fancyfoot[L]{AKES Newsletter%
+  }
+  \fancyfoot[R]{\url{http://www.akentsoc.org/newsletter.php}
+  }
+  \thispagestyle{empty}
+  \begin{bottombox}
+    \begin{multicols}{2}
+      \setcounter{tocdepth}{0}
+      \tableofcontents
+      \setcounter{tocdepth}{2}
+    \end{multicols}
+   
+  \end{bottombox}
+}%% end titlepage
+
+
