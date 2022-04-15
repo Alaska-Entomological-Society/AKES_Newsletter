@@ -5,6 +5,7 @@
 \usepackage{titling}
 \usepackage{fancyhdr}
 \usepackage{longtable}
+\usepackage{sectsty}
 
 \lstset{
   breaklines=true,
@@ -16,6 +17,9 @@
 \frenchspacing % Adjust spacing after periods.
 
 \setcounter{tocdepth}{1}
+
+\renewcommand{\sfdefault}{phv}
+\sectionfont{\huge\normalfont\sffamily}
 
 \pretitle{%
 \thispagestyle{empty}

@@ -7,6 +7,7 @@ csl: ../../share/pensoft-journals.csl
 link-citations: yes
 output:
   bookdown::pdf_book:
+    keep_tex: true
     latex_engine: pdflatex
     pandoc_args: 
       - --listings
