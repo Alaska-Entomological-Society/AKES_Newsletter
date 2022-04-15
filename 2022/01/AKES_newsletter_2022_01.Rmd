@@ -11,7 +11,7 @@ output:
     pandoc_args: 
       - --listings
       - --lua-filter=../../share/section-refs.lua
-    toc: true
+    toc: false
     toc_depth: 1
     number_sections: false
     includes:

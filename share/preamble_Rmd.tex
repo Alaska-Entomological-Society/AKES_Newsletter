@@ -15,7 +15,7 @@
 
 \frenchspacing % Adjust spacing after periods.
 
-
+\setcounter{tocdepth}{1}
 
 \pretitle{%
 \thispagestyle{empty}
@@ -34,7 +34,12 @@
 }
 \posttitle{\hfill Volume 15, Issue 1, April 2022
 
-%\tableofcontents 
+\fbox
+  {%
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule}%
+      \tableofcontents
+    \end{minipage}%
+  }%
 }
 
 \renewcommand{\contentsname}{In this issue:}
@@ -50,38 +55,4 @@
 }
 \fancyfoot[R]{\url{http://www.akentsoc.org/newsletter.php}
 }
-
-%% title page
-\renewcommand{\titlepage}{%
-  \noindent
-\setlength{\unitlength}{1in}
-\begin{figure}
- \begin{picture}(6,1.1)(0,0)
- 	\put (0,-0.3){\includegraphics[width=150pt]{../../share/AKESlogo.jpg}}
- 	\put (2.2,1.2){\fontfamily{phv}\parbox{5in}{\Huge Newsletter}}
- 	\put (2.2,0.7){\fontfamily{phv}\parbox{5in}{\Large of the}}
- 	\put(2.2,0.2){\fontfamily{phv}\parbox{5in}{\Huge Alaska Entomological Society}}
- \end{picture}
-\end{figure}  \hfill
-  Volume 15, Issue 1, March, 2022\\[-.5\baselineskip]
-%  \rule{\textwidth}{1pt}
-%  \vspace{1cm}
-  \fancyhf{}
-  \fancyhead[L]{Volume 15, Issue 1, March, 2022}
-  \fancyhead[R]{\thepage}
-  \fancyfoot[L]{AKES Newsletter%
-  }
-  \fancyfoot[R]{\url{http://www.akentsoc.org/newsletter.php}
-  }
-  \thispagestyle{empty}
-  \begin{bottombox}
-    \begin{multicols}{2}
-      \setcounter{tocdepth}{0}
-      \tableofcontents
-      \setcounter{tocdepth}{2}
-    \end{multicols}
-   
-  \end{bottombox}
-}%% end titlepage
-
 
