@@ -2,12 +2,9 @@
 
 *by Derek S. Sikes*^[University of Alaska Museum, 1962 Yukon Dr., University of Alaska Fairbanks, Fairbanks, AK 99775, <dssikes@alaska.edu>]
 
-\leftskip=1cm\rightskip=1cm
-## Abstract {#abstract}
+## Abstract 
 
 During the last decade three occurrence records for three species of *Nicrophorus*&mdash;*N. guttula,* from Sitka Alaska, USA*,* *N. hebes* from Alaska, and *N. hybridus* from Whitehorse, Yukon, Canada&mdash;were published, which are likely erroneous because no reliable evidence suggests these species occur or occurred in these regions. This short note provides details, comments, and species distribution modeling analyses on these records and concludes all three are erroneous.
-
-\leftskip=0cm\rightskip=0cm
 
 ## Introduction
 
@@ -56,7 +53,7 @@ Climate change is expected to expand many species' ranges polewards [@Staffordet
 
 Using presence-only data for *N. hybridus* a niche model for this species was estimated which shows Whitehorse to have habitat unsuitable for this species (Figure \@ref(fig:Nhybridusmap)), thus making it far more likely that the specimens in question were actually *N. investigator.*
 
-```{r Nhybridusmap, fig.cap="Map of records for *Nicrophorus hybridus* Hatch &amp; Angell showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R."}
+```{r Nhybridusmap, fig.cap="Map of records for *Nicrophorus hybridus* Hatch \\&amp; Angell showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R."}
 knitr::include_graphics('img/corrections_N_hybridus.png')
 ```
 

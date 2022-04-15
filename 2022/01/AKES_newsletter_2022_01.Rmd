@@ -27,7 +27,7 @@ params:
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
-  comment = "#>", echo = FALSE, fig.width = 5
+  comment = "#>", echo = FALSE
 )
 
 pream <- readLines("../../share/preamble_Rmd_pre_sub.tex")
