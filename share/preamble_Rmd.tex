@@ -3,6 +3,7 @@
 \usepackage[authoryear, sectionbib]{natbib}
 \usepackage{chapterbib}
 \usepackage{titling}
+\usepackage{fancyhdr}
 \usepackage{longtable}
 
 \lstset{
@@ -15,6 +16,8 @@
 \frenchspacing % Adjust spacing after periods.
 
 \pretitle{%
+\thispagestyle{empty}
+
 \title{ }
 \setlength{\unitlength}{1in}
 \begin{figure}
@@ -34,6 +37,16 @@
 \renewcommand{\contentsname}{In this issue:}
 
 \newcommand{\doi}[1]{doi:\href{http://dx.doi.org/#1}{#1}}
+
+% headers and footers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Volume 15, Issue 1, April 2022}
+\fancyhead[R]{\thepage}
+\fancyfoot[L]{AKES Newsletter%
+}
+\fancyfoot[R]{\url{http://www.akentsoc.org/newsletter.php}
+}
 
 %% title page
 \renewcommand{\titlepage}{%
