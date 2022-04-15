@@ -1,6 +1,7 @@
 ---
 title: "Newsletter of the Alaska Entomological Society"
 citeproc: false
+date: "`r format(Sys.time(), '%B %e, %Y')`"
 section-refs-bibliography: corrections.bib
 csl: ../../share/pensoft-journals.csl
 link-citations: yes
