@@ -18,8 +18,10 @@
 
 \setcounter{tocdepth}{1}
 
+\renewcommand{\contentsname}{\large\rmfamily {\bfseries In this issue:}}
+
 \renewcommand{\sfdefault}{phv}
-\sectionfont{\huge\normalfont\sffamily}
+\sectionfont{\huge\normalfont\sffamily}  
 
 \pretitle{%
 \thispagestyle{empty}
@@ -44,9 +46,8 @@
       \tableofcontents
     \end{minipage}%
   }%
-}
 
-\renewcommand{\contentsname}{\large\normalfont\bfseries In this issue:}
+}
 
 \let\LaTeXStandardTableOfContents\tableofcontents
 
@@ -56,7 +57,6 @@
 \LaTeXStandardTableOfContents%
 \endgroup%
 }%
-
 
 \newcommand{\doi}[1]{doi:\href{http://dx.doi.org/#1}{#1}}
 
