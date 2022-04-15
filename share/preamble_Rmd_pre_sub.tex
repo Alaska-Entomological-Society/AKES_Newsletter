@@ -48,6 +48,16 @@
 
 \renewcommand{\contentsname}{\large\normalfont\bfseries In this issue:}
 
+\let\LaTeXStandardTableOfContents\tableofcontents
+
+\renewcommand{\tableofcontents}{%
+\begingroup%
+\renewcommand{\bfseries}{\relax}%
+\LaTeXStandardTableOfContents%
+\endgroup%
+}%
+
+
 \newcommand{\doi}[1]{doi:\href{http://dx.doi.org/#1}{#1}}
 
 % headers and footers
