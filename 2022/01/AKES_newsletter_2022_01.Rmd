@@ -1,10 +1,13 @@
 ---
 title: "Newsletter of the Alaska Entomological Society"
-citeproc: false
 date: "`r format(Sys.time(), '%B %e, %Y')`"
+citeproc: false
 section-refs-bibliography: corrections.bib
 csl: ../../share/pensoft-journals.csl
-link-citations: yes
+link-citations: true
+params:
+  volume: 15
+  issue: 1
 output:
   bookdown::pdf_book:
     keep_tex: true
@@ -20,9 +23,6 @@ output:
         - ../../share/preamble_Rmd.tex
       before_body:
         - ../../share/doc-prefix.tex
-params:
-  volume: 15
-  issue: 1
 ---
 
 ```{r, include=FALSE}
