@@ -88,12 +88,11 @@ caption{
 	border-style: hidden;
 }
 thead {
-	border-top: 2pt solid #000000;
-	border-bottom: 2pt solid #000000;
+	border-top: 1pt solid #000000;
 }	
 tr:first-of-type {
-	border-top: 1pt solid #000000;
+	border-top: 0.5pt solid #000000;
 }
 tr:last-of-type {
-	border-bottom: 2pt solid #000000;
+	border-bottom: 1pt solid #000000;
 }
