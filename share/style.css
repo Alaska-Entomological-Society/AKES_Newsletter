@@ -22,6 +22,14 @@
     font-family: 'tex_gyre_pagellabold_italic';
     src: url('fonts/texgyrepagella-bolditalic-webfont.woff') format('woff');
 }
+@font-face {
+    font-family: 'latin_modern_mono10_regular';
+    src: url('fonts/lmmono10-regular-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'latin_modern_mono10_italic';
+    src: url('fonts/lmmono10-italic-webfont.woff') format('woff');
+}
 
 body, h2, h3, h4, p, table, caption, td {
 	font-family: 'tex_gyre_pagellaregular', serif;
@@ -96,3 +104,16 @@ tr:first-of-type {
 tr:last-of-type {
 	border-bottom: 1pt solid #000000;
 }
+pre, code, .hljs-string, .hljs-keyword {
+	font-family: 'latin_modern_mono10_regular';
+	font-size: 12pt;
+	font-weight: normal;
+	font-style: normal;
+}
+.hljs-comment {
+	font-family: 'latin_modern_mono10_italic';
+	font-size: 12pt;
+	font-weight: normal;
+	font-style: normal;
+}
+
