@@ -1,3 +1,22 @@
+---
+title: Corrections to the literature 
+lang: en-US
+author:
+- Derek S. Sikes
+bibliography: corrections.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+params:
+  volume: 15
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    toc_depth: 2
+    toc_float: false
+---
+
 # Corrections to the literature: Three recently published records for *Nicrophorus* (Coleoptera: Staphylinidae: Silphinae) deemed erroneous
 
 *by Derek S. Sikes*^[University of Alaska Museum, 1962 Yukon Dr., University of Alaska Fairbanks, Fairbanks, AK 99775, <dssikes@alaska.edu>]
@@ -8,20 +27,7 @@ During the last decade three occurrence records for three species of *Nicrophoru
 
 ## Introduction
 
-Species of the genus *Nicrophorus*, commonly called
-burying beetles in North America, are relatively well known,
-large-bodied beetles [@AndersonPeck1985] now in the family
-Staphylinidae [@Caietal2022]. Despite peer-reviewed publications
-being the gold standard for reliable scientific information, errors do
-make it into print and, when found, are best corrected. Herein, three
-such records are addressed&mdash;while admitting the much greater
-difficulty of demonstrating the absence, relative to the presence, of a
-species from a region. One approach to this problem is to attempt to
-answer the question of whether the climate of a region is suitable for a
-species based on an understanding of the climate from where it is known
-to occur. Thus, a niche modeling, aka species distribution modeling,
-analysis was undertaken to help quantify the likelihood of two of these
-questionable records.
+Species of the genus *Nicrophorus*, commonly called burying beetles in North America, are relatively well known, large-bodied beetles [@AndersonPeck1985] now in the family Staphylinidae [@Caietal2022]. Despite peer-reviewed publications being the gold standard for reliable scientific information, errors do make it into print and, when found, are best corrected. Herein, three such records are addressed&mdash;while admitting the much greater difficulty of demonstrating the absence, relative to the presence, of a species from a region. One approach to this problem is to attempt to answer the question of whether the climate of a region is suitable for a species based on an understanding of the climate from where it is known to occur. Thus, a niche modeling, aka species distribution modeling, analysis was undertaken to help quantify the likelihood of two of these questionable records.
 
 ## Methods
 
@@ -42,7 +48,7 @@ knitr::kable(collit,
 
 ### *Nicrophorus hebes* Kirby
 
-Based on molecular, ecological, breeding trial, and morphological data, @Sikesetal2016 recognized this species as valid and elevated it to species status from a junior synonym under *Nicrophorus vespilloides* Herbst. *Nicrophorus hebes* is distrtibuted widely within eastern and central Canada and, to date, there is no evidence that *Nicrophorus hebes* occurs west of about 120° longitude or north of about 61° latitude in the Nearctic. It is thus absent from northwestern Canada and Alaska. Nevertheless, this species was accidentally reported from Alaska by @Meeds2021 who, while reviewing literature relevant to forensic entomology for Alaska, misunderstood the information presented in @Sikesetal2016.
+Based on molecular, ecological, breeding trial, and morphological data, @Sikesetal2016 recognized this species as valid and elevated it to species status from a junior synonym under *Nicrophorus vespilloides* Herbst. *Nicrophorus hebes* is distritibuted widely within eastern and central Canada and, to date, there is no evidence that *Nicrophorus hebes* occurs west of about 120° longitude or north of about 61° latitude in the Nearctic. It is thus absent from northwestern Canada and Alaska. Nevertheless, this species was accidentally reported from Alaska by @Meeds2021 who, while reviewing literature relevant to forensic entomology for Alaska, misunderstood the information presented in @Sikesetal2016.
 
 ### *Nicrophorus hybridus* Hatch & Angell 
 @BygarskiLeBlanc2013, presenting on forensic entomological research conducted in Whitehorse, Yukon Territory (60° 43' N, 135° 03' W) reported the species *N. hybridus* from their samples. This species has never been confirmed north of 53° latitude and is relatively difficult to distinguish from *Nicrophorus investigator* (magnified lateral and ventral views are needed). *Nicrophorus investigator* is a widespread and common species in northern regions of the Nearctic and Palearctic so any records of *N. hyrbidus* north of 53° latitude are likely misidentifications of *N. investigator,* as suggested for this case by @SampsonSikes2020. There are numerous records of *N. investigator* north of 60° latitude in both the Nearctic and Palearctic, with maximum latitude records at 69°N in Norway and 67°N in Yukon Territory [@AndersonPeck1985; @SikesVenables2013].
