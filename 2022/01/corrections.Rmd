@@ -12,6 +12,7 @@ output:
     toc: false
     toc_depth: 2
     toc_float: false
+    css: ../../share/style.css
 ---
 
 ```{r, include=FALSE}

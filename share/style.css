@@ -1,1 +1,65 @@
-h1 {font-family: sans-serif}
+@font-face {
+    font-family: 'nimbus_sans_lregular';
+     src: url('fonts/NimbusSanL-Reg-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'nimbus_sans_lregular_italic';
+    src: url('fonts/NimbusSanL-RegIta-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'tex_gyre_pagellaregular';
+     src: url('fonts/texgyrepagella-regular-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'tex_gyre_pagellaitalic';
+    src: url('fonts/texgyrepagella-italic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'tex_gyre_pagellabold';
+    src: url('fonts/texgyrepagella-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'tex_gyre_pagellabold_italic';
+    src: url('fonts/texgyrepagella-bolditalic-webfont.woff') format('woff');
+}
+
+body, h2, h3, h4, p {
+	font-family: 'tex_gyre_pagellaregular', serif;
+	font-size: 12pt;
+	}
+p em, h2 em, h3 em, h4 em, p em {
+	font-family: 'tex_gyre_pagellaitalic';
+	font-size: 12pt;
+	}
+b {
+	font-family: 'tex_gyre_pagellabold';
+}	
+b em, em b {
+	font-family: 'tex_gyre_pagellabold_italic';
+}
+h1 {
+	font-family: 'nimbus_sans_lregular', Helvetica, sans-serif;
+	font-size: 24pt;
+	}
+h1 em {
+	font-family: 'nimbus_sans_lregular_italic', Helvetica, sans-serif;
+	font-size: 24pt;
+	}
+h2 {
+	font-family: 'tex_gyre_pagellabold', serif;
+	font-size: 14pt;
+}
+h2 em {
+	font-family: 'tex_gyre_pagellabold_italic', serif;
+	font-size: 14pt;
+}
+h3 {
+	font-family: 'tex_gyre_pagellabold', serif;
+	font-size: 12pt;
+}
+h3 em {
+	font-family: 'tex_gyre_pagellabold_italic', serif;
+	font-size: 12pt;
+}
+
+	
