@@ -1,8 +1,5 @@
 ---
-title: Corrections to the literature 
 lang: en-US
-author:
-- Derek S. Sikes
 bibliography: corrections.bib
 csl: ../../share/pensoft-journals.csl
 link-citations: true
@@ -16,6 +13,12 @@ output:
     toc_depth: 2
     toc_float: false
 ---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>", echo = FALSE
+)
+```
 
 # Corrections to the literature: Three recently published records for *Nicrophorus* (Coleoptera: Staphylinidae: Silphinae) deemed erroneous
 
@@ -40,6 +43,7 @@ collit <- read.csv("corrections_table.csv")
 knitr::kable(collit, 
   longtable = TRUE, 
   booktabs = TRUE,
+  col.names = gsub("\\.", " ", names(collit)),
   caption = "Collections and literature from which data used herein were derived."
 )
 ```
