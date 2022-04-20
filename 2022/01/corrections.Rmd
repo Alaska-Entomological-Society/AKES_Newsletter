@@ -21,6 +21,9 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r, child="../../share/header_html.Rmd"}
+```
+
 # Corrections to the literature: Three recently published records for *Nicrophorus* (Coleoptera: Staphylinidae: Silphinae) deemed erroneous
 
 *by Derek S. Sikes*^[University of Alaska Museum, 1962 Yukon Dr., University of Alaska Fairbanks, Fairbanks, AK 99775, <dssikes@alaska.edu>]

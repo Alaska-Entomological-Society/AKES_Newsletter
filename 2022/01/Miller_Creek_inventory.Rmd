@@ -21,6 +21,9 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r, child="../../share/header_html.Rmd"}
+```
+
 # Miller Creek Watershed aquatic invertebrate inventory
 
 *by Matthew L. Bowser^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska, matt_bowser@fws.gov],

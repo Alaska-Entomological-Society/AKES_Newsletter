@@ -1,0 +1,5 @@
+```{r makeheader}
+issueinfo <- paste0("Volume ", params$volume, ", Issue ", params$issue, ", ", format(Sys.time(), '%B %Y'))
+```
+
+`r if(knitr::is_html_output()){paste0('<div class="akesheader"><span class="headerleft">[AKES Newsletter](http://www.akentsoc.org/newsletter.php)</span> <span class="headerright">', issueinfo, '</span></div>')}`

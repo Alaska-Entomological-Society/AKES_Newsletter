@@ -116,4 +116,12 @@ pre, code, .hljs-string, .hljs-keyword {
 	font-weight: normal;
 	font-style: normal;
 }
-
+.akesheader{
+  border-bottom: 1pt solid #000000;
+  width: 100%;
+}
+.headerleft{
+}
+.headerright{
+  float: right;
+}

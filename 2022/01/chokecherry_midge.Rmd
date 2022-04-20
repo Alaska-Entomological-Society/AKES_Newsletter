@@ -21,6 +21,9 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r, child="../../share/header_html.Rmd"}
+```
+
 # Notes on the chokecherry midge: A new insect species record for Alaska and natural enemy of invasive chokecherry
 
 *by Alexandria Wenninger*^[University of Alaska Fairbanks Cooperative Extension Service Integrated Pest Management Program, akwenninger@alaska.edu]
