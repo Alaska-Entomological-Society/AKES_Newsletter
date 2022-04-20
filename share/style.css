@@ -37,7 +37,7 @@ body, h2, h3, h4, p, table, caption, td {
 	font-weight: normal;
     font-style: normal;
 	}
-p em, h2 em, h3 em, h4 em, p em, caption em, td em {
+p em, h2 em, h3 em, h4 em, p em, caption em, td em, .csl-entry em {
 	font-family: 'tex_gyre_pagellaitalic';
 	font-size: 12pt;
 	font-weight: normal;
