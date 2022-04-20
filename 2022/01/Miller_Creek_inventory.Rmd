@@ -80,6 +80,18 @@ At North Vogel Lake, Vogel Lake, and upper Miller Creek we sampled twice in 2021
 
 Sample sizes were chosen to be similar to those used by @Massengill2014 and @Massengill2017. @Massengill2014, to survey invertebrates in 38 ha Scout Lake, collected 3 light trap samples, 5 Ekman samples, 5 D-net samples, and 2 Wisconsin net samples. For 157 ha Stormy Lake, @Massengill2017 collected 5 Ekman samples, 5 D-net samples, and 3 Wisconsin net samples.
 
+```{r nsamples}
+ds <- read.csv("Miller_Creek_inventory_table_design.csv")
+col.names <- gsub("\\.", " ", names(ds))
+col.names <- gsub("D net", "D-net", col.names)
+knitr::kable(ds, 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  col.names = col.names,
+  caption = "Numbers of samples to be collected monthly in the three water bodies by sampling method."
+)
+```
+
 At each of two visits per year we collected 3 D-net samples, 3 Ekman dredge samples, and 2 Wisconsin net samples in Vogel Lake; 2 D-net samples, 2 Ekman dredge samples, and 1 Wisconsin net sample in North Vogel Lake; and 3 D-net samples in Miller Creek, a total of 16 invertebrate samples per visit (Table \@ref(tab:nsamples)), 32 samples per year, and 64 samples over the two year project.
 
 In addition to the 32 samples per year intended to be processed by metabarcoding, invertebrates were collected opportunistically while the authors were working within the study area.
