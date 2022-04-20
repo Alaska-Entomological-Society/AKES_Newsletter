@@ -7,12 +7,18 @@ params:
   volume: 15
   issue: 1
 output:
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style.css
+      - ../../share/style_epub.css
   bookdown::html_document2:
     number_sections: false
     toc: false
-    toc_depth: 2
-    toc_float: false
-    css: ../../share/style.css
+    css: 
+      - ../../share/style.css
 ---
 
 ```{r, include=FALSE}
@@ -21,12 +27,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r, child="../../share/header_html.Rmd"}
-```
-
 # Corrections to the literature: Three recently published records for *Nicrophorus* (Coleoptera: Staphylinidae: Silphinae) deemed erroneous
 
 *by Derek S. Sikes*^[University of Alaska Museum, 1962 Yukon Dr., University of Alaska Fairbanks, Fairbanks, AK 99775, <dssikes@alaska.edu>]
+
+```{r, child="../../share/header_html.Rmd"}
+```
 
 ## Abstract 
 
