@@ -1,0 +1,80 @@
+body, h2, h3, h4, p, table, caption, td {
+	font-family: serif;
+	font-size: 12pt;
+	font-weight: normal;
+  font-style: normal;
+	}
+p em, h2 em, h3 em, h4 em, p em, caption em, td em, .csl-entry em {
+	font-family: serif;
+	font-size: 12pt;
+  font-style: italic;
+	}
+b, th {
+	font-family: serif;
+	font-weight: bold;
+  font-style: normal;
+}	
+b em, em b, th em {
+	font-family: serif;
+	font-weight: bold;
+  font-style: normal;
+}
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 24pt;
+	font-weight: normal;
+  font-style: normal;
+	}
+h1 em {
+	font-family: Helvetica, sans-serif;
+	font-size: 24pt;
+	font-weight: normal;
+  font-style: italic;
+	}
+h2 {
+	font-family: serif;
+	font-size: 14pt;
+	font-weight: bold;
+  font-style: normal;
+}
+h2 em {
+	font-family: serif;
+	font-size: 14pt;
+	font-weight: bold;
+  font-style: italic;
+}
+h3 {
+	font-family: serif;
+	font-size: 12pt;
+	font-weight: bold;
+  font-style: normal;
+}
+h3 em {
+	font-family: serif;
+	font-size: 12pt;
+	font-weight: bold;
+  font-style: italic;
+}
+pre, code, .hljs-string, .hljs-keyword {
+	font-family: monospace;
+	font-size: 12pt;
+	font-weight: normal;
+	font-style: normal;
+}
+.hljs-comment {
+	font-family: monospace;
+	font-size: 12pt;
+	font-weight: normal;
+	font-style: italic;
+}
+.footnote-ref {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+  top: -.5em;
+}
+.csl-entry{
+  text-indent: -1.5em;
+  margin-left: 1.5em;
+}

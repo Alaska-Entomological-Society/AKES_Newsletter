@@ -7,12 +7,18 @@ params:
   volume: 15
   issue: 1
 output:
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style.css
+      - ../../share/style_epub.css
   bookdown::html_document2:
     number_sections: false
     toc: false
-    toc_depth: 2
-    toc_float: false
-    css: ../../share/style.css
+    css: 
+      - ../../share/style.css
 ---
 
 ```{r, include=FALSE}
@@ -21,12 +27,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r, child="../../share/header_html.Rmd"}
-```
-
 # Notes on the chokecherry midge: A new insect species record for Alaska and natural enemy of invasive chokecherry
 
 *by Alexandria Wenninger*^[University of Alaska Fairbanks Cooperative Extension Service Integrated Pest Management Program, akwenninger@alaska.edu]
+
+```{r, child="../../share/header_html.Rmd"}
+```
 
 ## Introduction
 
@@ -61,6 +67,6 @@ knitr::include_graphics('img/midge_map.png')
  The University of Alaska Fairbanks Cooperative Extension Service Integrated Pest Management (IPM) program is interested in identifying and monitoring insects and diseases of invasive chokecherries in Alaska, in hopes that these insects may serve as natural biocontrol agents in slowing the spread of invasive chokecherry. If you see this insect, or any other insect or disease of chokecherry fruits and/or seeds, we would love to hear about it. Please send photos of both the host plant and the insect when submitting observations. You can submit your observations to Statewide IPM Technician Alex Wenninger directly via email at akwenninger@alaska.edu or via our monitoring portal at <https://pestreporter.alaska.edu/>.  
  
 ## Acknowledgements
-I am grateful to Dr. Raymond J. Gagné (Smithsonian Museum of Natural History) for confirming the identity of the chokecherry midge larvae. Thank you to Josh Hightower (Alaska DNR Division of Forestry, Community Forestry Program) for keeping an eye out for this species while doing site visits for the *Prunus `Remove and Replace' program and for sharing his observations with me. I also thank the citizen scientists that reached out to report their observations. 
+I am grateful to Dr. Raymond J. Gagné (Smithsonian Museum of Natural History) for confirming the identity of the chokecherry midge larvae. Thank you to Josh Hightower (Alaska DNR Division of Forestry, Community Forestry Program) for keeping an eye out for this species while doing site visits for the *Prunus* &lsquo;Remove and Replace&rsquo; program and for sharing his observations with me. I also thank the citizen scientists that reached out to report their observations. 
 
 ## References

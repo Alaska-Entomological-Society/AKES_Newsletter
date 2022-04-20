@@ -35,59 +35,59 @@ body, h2, h3, h4, p, table, caption, td {
 	font-family: 'tex_gyre_pagellaregular', serif;
 	font-size: 12pt;
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 	}
 p em, h2 em, h3 em, h4 em, p em, caption em, td em, .csl-entry em {
 	font-family: 'tex_gyre_pagellaitalic';
 	font-size: 12pt;
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 	}
 b, th {
 	font-family: 'tex_gyre_pagellabold';
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 }	
 b em, em b, th em {
 	font-family: 'tex_gyre_pagellabold_italic';
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 }
 h1 {
 	font-family: 'nimbus_sans_lregular', Helvetica, sans-serif;
 	font-size: 24pt;
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 	}
 h1 em {
 	font-family: 'nimbus_sans_lregular_italic', Helvetica, sans-serif;
 	font-size: 24pt;
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 	}
 h2 {
 	font-family: 'tex_gyre_pagellabold', serif;
 	font-size: 14pt;
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 }
 h2 em {
 	font-family: 'tex_gyre_pagellabold_italic', serif;
 	font-size: 14pt;
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 }
 h3 {
 	font-family: 'tex_gyre_pagellabold', serif;
 	font-size: 12pt;
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 }
 h3 em {
 	font-family: 'tex_gyre_pagellabold_italic', serif;
 	font-size: 12pt;
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 }
 caption{
 	color: inherit;
@@ -105,13 +105,13 @@ tr:last-of-type {
 	border-bottom: 1pt solid #000000;
 }
 pre, code, .hljs-string, .hljs-keyword {
-	font-family: 'latin_modern_mono10_regular';
+	font-family: 'latin_modern_mono10_regular', monospace;
 	font-size: 12pt;
 	font-weight: normal;
 	font-style: normal;
 }
 .hljs-comment {
-	font-family: 'latin_modern_mono10_italic';
+	font-family: 'latin_modern_mono10_italic', monospace;
 	font-size: 12pt;
 	font-weight: normal;
 	font-style: normal;

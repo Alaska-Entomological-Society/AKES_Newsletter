@@ -1,4 +1,4 @@
-```{r makeheader}
+```{r}
 issueinfo <- paste0("Volume ", params$volume, ", Issue ", params$issue, ", ", format(Sys.time(), '%B %Y'))
 ```
 
