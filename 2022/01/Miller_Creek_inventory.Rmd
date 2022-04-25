@@ -10,9 +10,15 @@ output:
   bookdown::html_document2:
     number_sections: false
     toc: false
-    toc_depth: 2
-    toc_float: false
-    css: ../../share/style.css
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style.css
+      - ../../share/style_epub.css
 ---
 
 ```{r, include=FALSE}
@@ -35,8 +41,6 @@ knitr::opts_chunk$set(
  Dom Watts^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska], 
  Chelsea Wisotzkey^[Kenai Watershed Forum, Soldotna, Alaska], and
  Warren R. Wyrick*^[Alaska Department of Fish and Game, Soldotna, Alaska]
-
-## Introduction
 
 ## Abstract
 
@@ -64,7 +68,7 @@ We began collecting a small number of invertebrate specimens in the Miller Creek
 
 A more thorough inventory effort began in 2021. We generally followed the methods used in previous aquatic inventories that were performed before and after rotenone applications on the Kenai Peninsula [@Massengill2014; @Massengill2017] with the exception that most identifications were to be obtained by metabarcoding instead of morphological identifications.
 
-Aquatic mollusks were sampled under Alaska Department and Fish and Game Aquatic Resource Permit No. SF2021-134.
+Aquatic mollusks were sampled under Alaska Department and Fish and Game Aquatic Resource Permit number SF2021-134 in 2021 and they will be sampled under permit number SF2022-122 in 2022.
 
 The rotenone treatment of these three connected water bodies was completed on October 4&ndash;7, 2021.
 
@@ -112,7 +116,7 @@ Notes on morphological identifications are available in @Artaiz2021, @Bowser2022
 
 ### Molecular methods
 
-Metabarcoding samples were stored in a -23&deg;C freezer exept when samples were being processed. Invertebrates were separated from debris by hand under a dissecting microscope. Care was taken to reduce possible cross-contamination of DNA among samples. Samples were shipped out on ice on September 29, 2021, arriving the next day at MR DNA (Shallowater, Texas, http://www.mrdnalab.com).
+Metabarcoding samples were stored in a -23&deg;C freezer except when samples were being processed. Invertebrates were separated from debris by hand under a dissecting microscope. Care was taken to reduce possible cross-contamination of DNA among samples. Samples were shipped out on ice on September 29, 2021, arriving the next day at MR DNA (Shallowater, Texas, http://www.mrdnalab.com).
 
 We chose to use the *mlCOIintF*/*jgHCO2198* (GGWACWGGWTGAACWGTWTAYCCYCC/TAIACYTCIGGRTGICCRAARAAYCA) primer set of @Lerayetal2013 for PCR, targeting a 313 bp region of the COI DNA barcoding region. This primer set has been successfully used for a wide variety of invertebrates, including terrestrial invertebrates @Bowseretal2020, freshwater macroinvertebrates @Hajibabaeietal2019, freshwater plankton @Yangetal2017, and stomach contents of freshwater fish @BowserBowser2020.
 
@@ -143,19 +147,23 @@ To the extent possible, scientific names have been conformed to the Integrated T
 
 In order to exclude potential false positive detections as defined by @Mackenzieetal2002 and @Mackenzieetal2006 due to demultiplexing errors, we conservatively removed from the ESV table all occurrences that represented less than 0.05% of the total number of reads for any ESV, based on assuming a 0.01% to 0.03% rate of mis-assignment of reads @Deineretal2017. We also removed all occurrences represented by only one or two reads.
 
-As in @Massengill2014 and @Massengill2017, the metric used will be simple presence or absence of taxa within the lakes before and after treatment.
+As in @Massengill2014 and @Massengill2017, the metric used was simple presence or absence of taxa within the waterbodies before and after treatment.
 
 We formatted occurrence records to be published to GBIF using the guidance of @Anderssonetal2020.
 
 ## Results
 
-Specimen data and images are available via an Arctos project (<https://arctos.database.museum/project/10003613>). Specimen records are available via a search for records from this project (<https://arctos.database.museum/SpecimenResults.cfm?project_id=10003613>). All Arctos records from this project are also published to the Global Biodiversity Information Facility (GBIF, <https://www.gbif.org/>) via the VertNet Integrated Publishing Toolkit (<http://ipt.vertnet.org/>). &lquo;Research grade&rquo; iNaturalist observations are also published to GBIF.
+```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observerd."}
+knitr::include_graphics('img/network_chord_plot.png')
+```
+
+Specimen data and images are available from an Arctos project (<https://arctos.database.museum/project/10003613>). Specimen records are available through a search for records from this project (<https://arctos.database.museum/SpecimenResults.cfm?project_id=10003613>). All Arctos records from this project are also published to the Global Biodiversity Information Facility (GBIF, <https://www.gbif.org/>) via the VertNet Integrated Publishing Toolkit (<http://ipt.vertnet.org/>).
 
 Georeferenced photo observations have been gathered in a project on iNaturalist.org at <https://www.inaturalist.org/projects/miller-creek-invertebrate-inventory>.
 
 A corresponding project record was also made on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/139305>). Raw metabarcoding data are available from Servcat (<https://ecos.fws.gov/ServCat/Reference/Profile/139306>). Resulting occurrences have been published in @Bowseretal2022.
 
-We were not able to distinguish species of *Enallagma* (Odonata: Coenagrionidae) because the sequence was one of multiple species sharing identical or nearly identical DNA barcode sequences in BIN BOLD:AAA2218, which includes multiple Nearctic species [@Geigeretal2021].
+In the metagenomic data, we were not able to distinguish between species of *Enallagma* (Odonata: Coenagrionidae) because multiple species shared identical or nearly identical DNA barcode sequences in BIN BOLD:AAA2218, which includes multiple Nearctic species [@Geigeretal2021].
 
 The sequences identified as *Ephydatia* (Spongillina: Spongillidae) were 100% similar ($p$-dist) to sequences of *Ephydatia cooperensis* (Addis & Peterson 2005), but we refrained from using this name because this species is known only from Montana [@Mazzacano2008] and the COI sequences of *E. cooperensis* and the holarctic *Ephydatia fluviatilis* (Linnaeus, 1759) have been shown to differ by as little as one nucleotide [@AddisPeterson2005] or to be identical [@Meixneretal2007].
 
@@ -172,7 +180,7 @@ New distribution records for the Kenai National Wildlife Refuge we included
 
 ### Methodological concerns
 
-In all except the plankton samples, we generally observed less diversity in the metabarcoding results than we expected. We suspect that this may have been due to subsampling or inadequate homogenization of samples, resulting in some species not being included in DNA extractions. In the future, we may homogenize samples using a blender and cleaning between samples using DIY-DS as described by @Buchneretal2021 before shipping samples out for metabarcoding.
+In all except the plankton samples, we generally observed less diversity in the metabarcoding results than we expected. We suspect that this was due to subsampling of the bulk samples, resulting in some species not being included in DNA extractions. In the future, we may homogenize samples using a blender and cleaning between samples using DIY-DS as described by @Buchneretal2021 before shipping samples out for metabarcoding.
 
 In future metagenomic analyses we may retain sequences from non-target taxonomic groups as recommended by @Zafeiropoulosetal2021.
 
