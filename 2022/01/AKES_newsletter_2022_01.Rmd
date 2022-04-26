@@ -5,6 +5,7 @@ citeproc: false
 section-refs-bibliography:
   - chokecherry_midge.bib
   - corrections.bib
+  - Miller_Creek_inventory.bib
 csl: ../../share/pensoft-journals.csl
 link-citations: true
 params:
@@ -36,7 +37,7 @@ issueinfo <- paste0("Volume ", params$volume, ", Issue ", params$issue, ", ", fo
 pream <- gsub("issueinfo", issueinfo, pream)
 write(pream, file = "../../share/preamble_Rmd.tex")
 
-articles <- c("chokecherry_midge.Rmd", "corrections.Rmd")
+articles <- c("chokecherry_midge.Rmd", "corrections.Rmd", "Miller_Creek_inventory.Rmd")
 ```
 
 ```{r, child=articles}

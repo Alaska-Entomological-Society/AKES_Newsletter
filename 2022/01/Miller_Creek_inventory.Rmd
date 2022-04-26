@@ -98,6 +98,10 @@ knitr::kable(ds,
 
 At each of two visits per year we collected 3 D-net samples, 3 Ekman dredge samples, and 2 Wisconsin net samples in Vogel Lake; 2 D-net samples, 2 Ekman dredge samples, and 1 Wisconsin net sample in North Vogel Lake; and 3 D-net samples in Miller Creek, a total of 16 invertebrate samples per visit (Table \@ref(tab:nsamples)), 32 samples per year, and 64 samples over the two year project.
 
+```{r millermap, fig.cap="Map of the Miller Creek watershed showing sample locations."}
+knitr::include_graphics('img/Miller_Creek_map.pdf')
+```
+
 In addition to the 32 samples per year intended to be processed by metabarcoding, invertebrates were collected opportunistically while the authors were working within the study area.
 
 Field methods generally followed @Massengill2014 and @Massengill2017. We took vertical plankton tows in the deepest parts of the lakes using an Aquatic Research Instruments Wisconsin net. We sampled littoral areas using with D-nets. We obtained benthic samples using either an AMS Incorporated model 445.11 Ekman dredge or an AMS Incorporated model 445.60  stainless steel dredge. Most benthic samples were sorted using a series of sieves.
@@ -152,6 +156,41 @@ As in @Massengill2014 and @Massengill2017, the metric used was simple presence o
 We formatted occurrence records to be published to GBIF using the guidance of @Anderssonetal2020.
 
 ## Results
+
+```{r specimentable}
+sr <- read.csv("Miller_Creek_Arctos_records.csv", stringsAsFactors = FALSE)
+
+# Remove records identified only as Animalia.
+sl <- !sr$phylum == ""
+sr <- sr[sl,]
+
+# Get waterbody names.
+sr$waterbody <- NA
+sl <- grepl("Vogel Lake", sr$spec_locality)
+sr$waterbody[sl] <- "Vogel Lake"
+sl <- grepl("North Vogel Lake", sr$spec_locality)
+sr$waterbody[sl] <- "North Vogel Lake"
+sl <- grepl("Miller Creek", sr$spec_locality)
+sr$waterbody[sl] <- "Miller Creek"
+
+sr <- sr[order(sr$phylum, sr$phylclass, sr$phylorder, sr$family, sr$genus, 
+  sr$scientific_name, sr$guid),]
+
+sr$GUID <- paste0("[", sr$guid, "](https://arctos.database.museum/guid/", sr$guid, ")")
+
+# Italicize genera and species.
+it <- !sr$genus == ""
+sr$scientific_name[it] <- paste0("*", sr$scientific_name[it], "*")
+sr$scientific_name[it] <- gsub(" \\?\\*", "* ?", sr$scientific_name[it])
+
+knitr::kable(sr[,c("phylum", "phylorder", "phylclass", "family", "scientific_name", "waterbody", "GUID")], 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  #col.names = col.names,
+  row.names = FALSE,
+  caption = "Specimen records."
+)
+```
 
 ```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observerd."}
 knitr::include_graphics('img/network_chord_plot.png')
