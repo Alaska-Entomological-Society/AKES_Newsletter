@@ -183,10 +183,10 @@ it <- !sr$genus == ""
 sr$scientific_name[it] <- paste0("*", sr$scientific_name[it], "*")
 sr$scientific_name[it] <- gsub(" \\?\\*", "* ?", sr$scientific_name[it])
 
-knitr::kable(sr[,c("phylum", "phylorder", "phylclass", "family", "scientific_name", "waterbody", "GUID")], 
+knitr::kable(sr[,c("scientific_name", "waterbody", "GUID")], 
   longtable = TRUE, 
   booktabs = TRUE,
-  #col.names = col.names,
+  col.names = c("Identification", "Water body", "GUID"),
   row.names = FALSE,
   caption = "Specimen records."
 )
