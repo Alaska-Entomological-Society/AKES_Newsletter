@@ -99,7 +99,7 @@ knitr::kable(ds,
 At each of two visits per year we collected 3 D-net samples, 3 Ekman dredge samples, and 2 Wisconsin net samples in Vogel Lake; 2 D-net samples, 2 Ekman dredge samples, and 1 Wisconsin net sample in North Vogel Lake; and 3 D-net samples in Miller Creek, a total of 16 invertebrate samples per visit (Table \@ref(tab:nsamples)), 32 samples per year, and 64 samples over the two year project.
 
 ```{r millermap, fig.cap="Map of the Miller Creek watershed showing sample locations."}
-knitr::include_graphics('img/Miller_Creek_map.pdf')
+knitr::include_graphics('img/Miller_Creek_map.png')
 ```
 
 In addition to the 32 samples per year intended to be processed by metabarcoding, invertebrates were collected opportunistically while the authors were working within the study area.
@@ -160,9 +160,11 @@ uuid, version 1.0-3 [@UrbanekTso2021];
 and zip, version 2.2.0 [@Csardietal2021]. 
 We generated a circular plot using the circlize package, version 0.4.14 [@Guetal2014].
 
-To the extent possible, scientific names have been conformed to the Integrated Taxonomic Information System [@ITIS2021] because it is the *de facto* standard taxonomic database used by the U.S. Fish & Wildlife Service [e.g., @NRPC2014; @NRPC2019].
+To the extent possible, scientific names used for the metabarcoding observations have been conformed to the Integrated Taxonomic Information System [@ITIS2021] because it is the *de facto* standard taxonomic database used by the U.S. Fish & Wildlife Service [e.g., @NRPC2014; @NRPC2019]. Specimen-based records used Arctos' taxonomy.
 
-In order to exclude potential false positive detections as defined by @Mackenzieetal2002 and @Mackenzieetal2006 due to demultiplexing errors, we conservatively removed from the ESV table all occurrences that represented less than 0.05% of the total number of reads for any ESV, based on assuming a 0.01% to 0.03% rate of mis-assignment of reads @Deineretal2017. We also removed all occurrences represented by only one or two reads.
+In order to exclude potential false positive detections as defined by @Mackenzieetal2002 and @Mackenzieetal2006 due to demultiplexing errors, we conservatively removed from the ESV table all occurrences that represented less than 0.05% of the total number of reads for any ESV, based on assuming a 0.01% to 0.03% rate of mis-assignment of reads @Deineretal2017. We also removed all occurrences represented by only one or two reads. 
+
+After examining the resulting occurrence data, we believed that the rate of mis-assignment was higher based on unexpected occurrences of ESVs of *Chrysops excitans*, *Haliplus immaculicollis*, *Nemotaulius hostilis*, and *Limenphilus externus* in plankton samples. All of these ESVs were represented by large numbers of reads in D-net or dredge samples, making it likely that their presence in plankton samples was due to mis-assignment. Based on apparent mis-assignment rates of up to 0.36%, we conservatively removed all occurrences that represented less than 0.4% of the total number of reads or any ESV.  
 
 As in @Massengill2014 and @Massengill2017, the metric used was simple presence or absence of taxa within the waterbodies before and after treatment.
 
@@ -201,7 +203,7 @@ knitr::kable(sr[,c("phylum", "scientific_name", "waterbody", "GUID")],
   booktabs = TRUE,
   col.names = c("Phylum", "Identification", "Water body", "GUID"),
   row.names = FALSE,
-  caption = "Specimen records."
+  caption = "Specimen records. The GUIDs are hyperlinked to the complete specimen records on Arctos."
 )
 ```
 
