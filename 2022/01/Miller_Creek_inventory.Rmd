@@ -82,7 +82,7 @@ We generally followed the methods of [@Massengill2014; @Massengill2017] for lake
 
 At North Vogel Lake, Vogel Lake, and upper Miller Creek we sampled twice in 2021: first on July 20&ndash;23 and second on August 28. We sampled at 15 sites using three methods. We failed to make it out to the mouth of Miller Creek in July and August, so we collecting samples there on September 13, 2021. 
 
-Sample sizes were chosen to be similar to those used by @Massengill2014 and @Massengill2017. @Massengill2014, to survey invertebrates in 38 ha Scout Lake, collected 3 light trap samples, 5 Ekman samples, 5 D-net samples, and 2 Wisconsin net samples. For 157 ha Stormy Lake, @Massengill2017 collected 5 Ekman samples, 5 D-net samples, and 3 Wisconsin net samples.
+Sample sizes were chosen to be similar to those used by @Massengill2014 and @Massengill2017. @Massengill2014, to survey invertebrates in 38 ha Scout Lake, collected 3 light trap samples, 5 Ekman grab samples, 5 D-net samples, and 2 Wisconsin net samples. For 157 ha Stormy Lake, @Massengill2017 collected 5 Ekman grab samples, 5 D-net samples, and 3 Wisconsin net samples.
 
 ```{r nsamples}
 ds <- read.csv("Miller_Creek_inventory_table_design.csv")
@@ -96,7 +96,7 @@ knitr::kable(ds,
 )
 ```
 
-At each of two visits per year we collected 3 D-net samples, 3 Ekman dredge samples, and 2 Wisconsin net samples in Vogel Lake; 2 D-net samples, 2 Ekman dredge samples, and 1 Wisconsin net sample in North Vogel Lake; and 3 D-net samples in Miller Creek, a total of 16 invertebrate samples per visit (Table \@ref(tab:nsamples)), 32 samples per year, and 64 samples over the two year project.
+At each of two visits per year we collected 3 D-net samples, 3 Ekman grab samples, and 2 Wisconsin net samples in Vogel Lake; 2 D-net samples, 2 Ekman grab samples, and 1 Wisconsin net sample in North Vogel Lake; and 3 D-net samples in Miller Creek, a total of 16 invertebrate samples per visit (Table \@ref(tab:nsamples)), 32 samples per year, and 64 samples over the two year project.
 
 ```{r millermap, fig.cap="Map of the Miller Creek watershed showing sample locations."}
 knitr::include_graphics('img/Miller_Creek_map.png')
@@ -104,7 +104,23 @@ knitr::include_graphics('img/Miller_Creek_map.png')
 
 In addition to the 32 samples per year intended to be processed by metabarcoding, invertebrates were collected opportunistically while the authors were working within the study area.
 
-Field methods generally followed @Massengill2014 and @Massengill2017. We took vertical plankton tows in the deepest parts of the lakes using an Aquatic Research Instruments Wisconsin net. We sampled littoral areas using with D-nets. We obtained benthic samples using either an AMS Incorporated model 445.11 Ekman dredge or an AMS Incorporated model 445.60  stainless steel dredge. Most benthic samples were sorted using a series of sieves.
+Field methods generally followed @Massengill2014 and @Massengill2017. We took vertical plankton tows in the deepest parts of the lakes using an Aquatic Research Instruments Wisconsin net (Figure \@ref(fig:nvw1)). We sampled littoral areas and streams with D-nets (Figure \@ref(fig:md3)). We obtained benthic samples using either an AMS Incorporated model 445.11 Ekman grab sampler (Figure \@ref(fig:nve1)) or an AMS Incorporated model 445.60 stainless steel Ponar grab sampler (Figure \@ref(fig:ve2)). Most benthic samples were sorted using a series of sieves.
+
+```{r nvw1, fig.cap="Warren Wyrick collecting a vertical plankton tow in North Vogel Lake on July 21, 2021."}
+knitr::include_graphics('img/Miller_Creek_NVW1.jpg')
+```
+
+```{r md3, fig.cap="Samuel Artaiz collecting a D-net sample in Miller Creek on September 13, 2021."}
+knitr::include_graphics('img/Miller_Creek_MD3.jpg')
+```
+
+```{r nve1, fig.cap="Chris Dent taking an Ekman grab sample in North Vogel Lake on July 21, 2021."}
+knitr::include_graphics('img/Miller_Creek_NVE1.jpg')
+```
+
+```{r ve2, fig.cap="Dom Watts sorting through a Ponar grab sample at Vogel Lake on August 28, 2021."}
+knitr::include_graphics('img/Miller_Creek_VE2.jpg')
+```
 
 Field notes are available in @Bowser2022b.
 
