@@ -14,7 +14,6 @@ output:
   bookdown::pdf_book:
     documentclass: book
     latex_engine: pdflatex
-    keep_tex: yes
     extra_dependencies: ["float"]
     pandoc_args: 
       - --listings
