@@ -7,6 +7,11 @@ params:
   volume: 15
   issue: 1
 output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
   bookdown::epub_book:
     number_sections: false
     toc: false
@@ -14,25 +19,18 @@ output:
     stylesheet: 
       - ../../share/style.css
       - ../../share/style_epub.css
-  bookdown::html_document2:
-    number_sections: false
-    toc: false
-    css: 
-      - ../../share/style.css
 ---
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(
-  comment = "#>", echo = FALSE
-)
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
 ```
 
 # Corrections to the literature: Three recently published records for *Nicrophorus* (Coleoptera: Staphylinidae: Silphinae) deemed erroneous
 
 *by Derek S. Sikes*^[University of Alaska Museum, 1962 Yukon Dr., University of Alaska Fairbanks, Fairbanks, AK 99775, <dssikes@alaska.edu>]
-
-```{r, child="../../share/header_html.Rmd"}
-```
 
 ## Abstract 
 
@@ -73,7 +71,11 @@ Climate change is expected to expand many species' ranges polewards [@Staffordet
 
 Using presence-only data for *N. hybridus* a niche model for this species was estimated which shows Whitehorse to have habitat unsuitable for this species (Figure \@ref(fig:Nhybridusmap)), thus making it far more likely that the specimens in question were actually *N. investigator.*
 
-```{r Nhybridusmap, fig.cap="Map of records for *Nicrophorus hybridus* Hatch \\&amp; Angell showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R."}
+(ref:Nhybridusmapalt) Map of western North America showing observed and modeled distribution, mostly in the montane west.
+
+(ref:Nhybridusmapcap) Map of records for *Nicrophorus hybridus* Hatch &amp; Angell showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R.
+
+```{r Nhybridusmap, out.width='75%', fig.alt="(ref:Nhybridusmapalt)", fig.cap="(ref:Nhybridusmapcap)"}
 knitr::include_graphics('img/corrections_N_hybridus.png')
 ```
 
@@ -83,7 +85,7 @@ knitr::include_graphics('img/corrections_N_hybridus.png')
 
 Using presence-only data for *N. guttula* a niche model for this species was estimated which shows southeast Alaska to have unsuitable habitat for this species (Figure \@ref(fig:Nguttulamap)), making the likelihood very low that the type locality of Sitka is correct. The correct type locality is presumably somewhere along the northwestern coast of California, Oregon, or Washington. Many beetle specimens from this coastline, and Alaska, made their way to Europe via Russian naturalists in the mid 1800s and confusion over collection data is quite plausible.
 
-```{r Nguttulamap, fig.cap="Map of records for *Nicrophorus guttula* Motschulsky showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R."}
+```{r Nguttulamap, out.width='75%', fig.alt="Map of western North America showing observed and modeled distribution, mostly in the western United States and southwestern Canada", fig.cap="Map of records for *Nicrophorus guttula* Motschulsky showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R."}
 knitr::include_graphics('img/corrections_N_guttula.png')
 ```
 

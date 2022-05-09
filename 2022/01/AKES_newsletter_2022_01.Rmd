@@ -5,7 +5,6 @@ citeproc: false
 section-refs-bibliography:
   - chokecherry_midge.bib
   - corrections.bib
-  - Miller_Creek_inventory.bib
 csl: ../../share/pensoft-journals.csl
 link-citations: true
 params:
@@ -13,7 +12,9 @@ params:
   issue: 1
 output:
   bookdown::pdf_book:
+    documentclass: book
     latex_engine: pdflatex
+    keep_tex: yes
     extra_dependencies: ["float"]
     pandoc_args: 
       - --listings
@@ -35,5 +36,8 @@ source("../../share/setup.R")
 articles <- c("chokecherry_midge.Rmd", "corrections.Rmd")
 ```
 
-```{r, child=articles}
+```{r, child=articles[1]}
+```  
+
+```{r, child=articles[2]}
 ```  
