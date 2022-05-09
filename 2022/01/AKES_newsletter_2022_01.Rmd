@@ -14,6 +14,7 @@ params:
 output:
   bookdown::pdf_book:
     latex_engine: pdflatex
+    extra_dependencies: ["float"]
     pandoc_args: 
       - --listings
       - --lua-filter=../../share/section-refs.lua

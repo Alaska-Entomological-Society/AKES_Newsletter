@@ -4,7 +4,9 @@ knitr::opts_chunk$set(
   message=FALSE, 
   warning=FALSE,
   fig.align='center',
-  out.width='50%'
+  out.width='50%',
+  fig.pos = "h", 
+  out.extra = ""
 )
 
 options(knitr.table.format = "pipe")

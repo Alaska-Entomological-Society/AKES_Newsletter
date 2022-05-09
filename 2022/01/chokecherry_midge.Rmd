@@ -37,15 +37,17 @@ source("../../share/setup.R")
 
 ## Introduction
 
+```{r midgelarvae, fig.cap="Chokecherry midge larva inside of a gall that has been opened. Note the shriveled seed within the center of the gall."}
+knitr::include_graphics('img/midge_larvae.jpg')
+```
+
 The chokecherry midge *Contarinia virginianiae* (Diptera: Cecidomyiidae) was first recorded in Alaska in 2021. This insect was described by @Felt1906 under the name *Cecidomyia virginianiae* from larvae in fruit galls of the host *Prunus virginiana*. This species is also referred to as the &ldquo;chokecherry gall midge&rdquo; or &ldquo;chokecherry gall fly&rdquo;. I present a summary of this insect's known life history as well as some of my observational notes of this insect in an effort to facilitate recognition and reporting of this insect. I am interested in mapping the chokecherry midge's distribution in Alaska as this insect disrupts normal seed production of *P. virginiana*, an invasive species in Southcentral and Interior Alaska, which may slow the spread of this invasive species into our forests. 
 
 ## Insect life history
 
 The chokecherry midge larva is bright orange in color and ranges from about two to three millimeters in length (Figure \@ref(fig:midgelarvae)). It induces fleshy, hollow galls within the fruits of host *Prunus virginiana* (Figure \@ref(fig:midgetree)). Occupied galls contained anywhere from one to upwards of thirty larvae within a single gall. The galls grow up to two centimeters in length and turn from green to red as they mature. A small hole eventually forms near the petiole of the galled fruit through which the larvae can escape the gall. The larvae drop to the soil to pupate and spend the winter in this form. The adults emerge in spring and are thought to lay their eggs on the blossoms of the host plant; there is one generation per year [@Cranshaw2004]. 
 
-```{r midgelarvae, fig.cap="Chokecherry midge larva inside of a gall that has been opened. Note the shriveled seed within the center of the gall."}
-knitr::include_graphics('img/midge_larvae.jpg')
-```
+
 
 (ref:midgetreecap) An ornamental *Prunus virginiana* with a substantial amount of galled fruit caused by the chokecherry midge.
 
