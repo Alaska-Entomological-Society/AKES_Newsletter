@@ -28,18 +28,10 @@ output:
 ---
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(
-  comment = "#>", echo = FALSE
-)
+# Set options
+source("../../share/setup.R")
 
-options(knitr.table.format = "pipe")
-
-pream <- readLines("../../share/preamble_Rmd_pre_sub.tex")
-issueinfo <- paste0("Volume ", params$volume, ", Issue ", params$issue, ", ", format(Sys.time(), '%B %Y'))
-pream <- gsub("issueinfo", issueinfo, pream)
-write(pream, file = "../../share/preamble_Rmd.tex")
-
-articles <- c("chokecherry_midge.Rmd", "corrections.Rmd", "Miller_Creek_inventory.Rmd")
+articles <- c("chokecherry_midge.Rmd", "corrections.Rmd")
 ```
 
 ```{r, child=articles}

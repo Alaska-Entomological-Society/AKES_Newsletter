@@ -7,6 +7,11 @@ params:
   volume: 15
   issue: 1
 output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
   bookdown::epub_book:
     number_sections: false
     toc: false
@@ -14,17 +19,13 @@ output:
     stylesheet: 
       - ../../share/style.css
       - ../../share/style_epub.css
-  bookdown::html_document2:
-    number_sections: false
-    toc: false
-    css: 
-      - ../../share/style.css
 ---
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(
-  comment = "#>", echo = FALSE
-)
+#knitr::opts_chunk$set(
+#  comment = "#>", echo = FALSE
+#)
+source("../../share/setup.R")
 ```
 
 # Notes on the chokecherry midge: A new insect species record for Alaska and natural enemy of invasive chokecherry
@@ -46,8 +47,11 @@ The chokecherry midge larva is bright orange in color and ranges from about two 
 knitr::include_graphics('img/midge_larvae.jpg')
 ```
 
+(ref:midgetreecap) An ornamental *Prunus virginiana* with a substantial amount of galled fruit caused by the chokecherry midge.
 
-```{r midgetree, fig.cap="An ornamental *Prunus virginiana* with a substantial amount of galled fruit caused by the chokecherry midge."}
+
+
+```{r midgetree, fig.cap="(ref:midgetreecap)"}
 knitr::include_graphics('img/midge_tree.jpg')
 ```
 
@@ -59,7 +63,7 @@ From my observations in 2021, these galled fruits began dropping from the tree a
 ## Records & Distribution
 The galls were first noted on July 29, 2021 in Anchorage, Alaska. Upon subsequent investigation, trees containing the galled fruit with larvae were found at several locations in Northern and Midtown Anchorage (Figure \@ref(fig:midgemap)). @GagneJaschhof2021 list its distribution as &ldquo;widespread Nearctic&rdquo;. Given how widespread *P. virginiana* has been planted ornamentally in the state I am interested to monitor for this species in areas outside of Anchorage.  
 
-```{r midgemap, fig.cap="Map of locations where the chokecherry midge was recorded in Anchorage in 2021. Observed locations are indicated by red circles."}
+```{r midgemap, out.width='100%', fig.cap="Map of locations where the chokecherry midge was recorded in Anchorage in 2021. Observed locations are indicated by red circles."}
 knitr::include_graphics('img/midge_map.png')
 ```
 
