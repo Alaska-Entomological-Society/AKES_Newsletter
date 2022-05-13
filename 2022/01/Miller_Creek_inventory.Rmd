@@ -239,8 +239,6 @@ The sequences identified as *Ephydatia* (Spongillina: Spongillidae) were 100% si
 
 ### Identification remarks and new distribution records
 
-Although the spongillafly genus *Sisyra* (Neuropotera: Sisyridae) and the species *Sisyra nigra* (Retzius, 1783) had been reported from Alaska previously [@Bowles2006; @Sikes2022], either these had not been identified to species or specific locality data were not published. Our record of *S. nigra* at Vogel Lake is the first georeferenced record of this species in Alaska that we are aware of. Our observation of *S. nigra* was in a dredge sample from which the sequences of *Ephydatia* mentioned above were detected, so *S. nigra* may have been associated with this sponge. 
-
 ```{r knwrrecords}
 krec <- read.csv("Miller_Creek_new_KNWR_records.csv")
 nrec <- nrow(krec)
