@@ -22,9 +22,7 @@ output:
 ---
 
 ```{r, include=FALSE}
-knitr::opts_chunk$set(
-  comment = "#>", echo = FALSE
-)
+source("../../share/setup.R")
 ```
 
 ```{r, child="../../share/header_html.Rmd"}
