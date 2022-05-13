@@ -247,7 +247,7 @@ reclist <- paste(krec$scientificName[1:(nrow(krec)-1)], collapse = "; ")
 reclist <- paste(reclist, krec$scientificName[nrow(krec)], sep = "; and ")
 ```
 
-We documented were `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list on FWSpecies.
+We documented were `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list on FWSpecies [@USFWSNRPC2019].
 
 ### Methodological concerns
 
