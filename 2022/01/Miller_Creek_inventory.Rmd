@@ -276,6 +276,8 @@ reclist <- paste(reclist, krec$scientificName[nrow(krec)], sep = "; and ")
 
 We documented `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list in FWSpecies [@USFWSNRPC2019] the checklist data have been made available via a GitHub repository (<https://github.com/Kenai-NWR-bio/KenaiNWRspecies>).
 
+The water mite *Huitfeldtia rectipes* and the chironomid midge *Psectrocladius simulans* have holarctic distributions [@Hayford2005; @Smithetal2011], but our observations in the Miller Creek watershed appear to be the first documentation of these species in Alaska.
+
 ### Methodological concerns
 
 In all except the plankton samples, we generally observed less diversity in the metabarcoding results than we expected. We suspect that this was due to subsampling of the bulk samples, resulting in some species not being included in DNA extractions. In the future, we may homogenize samples using a blender and cleaning between samples using DIY-DS as described by @Buchneretal2021 before shipping samples out for metabarcoding.
