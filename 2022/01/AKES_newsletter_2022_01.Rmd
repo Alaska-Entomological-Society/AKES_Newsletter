@@ -5,6 +5,7 @@ citeproc: false
 section-refs-bibliography:
   - chokecherry_midge.bib
   - corrections.bib
+  - Miller_Creek_inventory.bib
 csl: ../../share/pensoft-journals.csl
 link-citations: true
 params:
@@ -32,11 +33,14 @@ output:
 # Set options
 source("../../share/setup.R")
 
-articles <- c("chokecherry_midge.Rmd", "corrections.Rmd")
+articles <- c("chokecherry_midge.Rmd", "corrections.Rmd", "Miller_Creek_inventory.Rmd")
 ```
 
 ```{r, child=articles[1]}
 ```  
 
 ```{r, child=articles[2]}
+```  
+
+```{r, child=articles[3]}
 ```  

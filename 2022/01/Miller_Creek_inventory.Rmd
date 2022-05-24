@@ -23,6 +23,7 @@ output:
 
 ```{r, include=FALSE}
 source("../../share/setup.R")
+source("../../share/numbers2words.R")
 ```
 
 ```{r, child="../../share/header_html.Rmd"}
@@ -96,13 +97,15 @@ knitr::kable(ds,
 
 At each of two visits per year we collected 3 D-net samples, 3 Ekman grab samples, and 2 Wisconsin net samples in Vogel Lake; 2 D-net samples, 2 Ekman grab samples, and 1 Wisconsin net sample in North Vogel Lake; and 3 D-net samples in Miller Creek, a total of 16 invertebrate samples per visit (Table \@ref(tab:nsamples)), 32 samples per year, and 64 samples over the two year project.
 
-```{r millermap, fig.cap="Map of the Miller Creek watershed showing sample locations."}
+```{r millermap, fig.cap="Map of the Miller Creek watershed showing sample locations.", out.width="80%"}
 knitr::include_graphics('img/Miller_Creek_map.png')
 ```
 
 In addition to the 32 samples per year intended to be processed by metabarcoding, invertebrates were collected opportunistically while the authors were working within the study area.
 
 Field methods generally followed @Massengill2014 and @Massengill2017. We took vertical plankton tows in the deepest parts of the lakes using an Aquatic Research Instruments Wisconsin net (Figure \@ref(fig:nvw1)). We sampled littoral areas and streams with D-nets (Figure \@ref(fig:md3)). We obtained benthic samples using either an AMS Incorporated model 445.11 Ekman grab sampler (Figure \@ref(fig:nve1)) or an AMS Incorporated model 445.60 stainless steel Ponar grab sampler (Figure \@ref(fig:ve2)). Most benthic samples were sorted using a series of sieves.
+
+We did not attempt to remove terrestrial species (e.g., non-aquatic flies caught in surface film) from aquatic samples; all invertebrates that ended up in aquatic samples were collected.
 
 ```{r nvw1, fig.cap="Warren Wyrick collecting a vertical plankton tow in North Vogel Lake on July 21, 2021."}
 knitr::include_graphics('img/Miller_Creek_NVW1.jpg')
@@ -136,7 +139,7 @@ Notes on morphological identifications are available in @Artaiz2021, @Bowser2022
 
 Metabarcoding samples were stored in a -23&deg;C freezer except when samples were being processed. Invertebrates were separated from debris by hand under a dissecting microscope. Care was taken to reduce possible cross-contamination of DNA among samples. Samples were shipped out on ice on September 29, 2021, arriving the next day at MR DNA (Shallowater, Texas, http://www.mrdnalab.com).
 
-We chose to use the *mlCOIintF*/*jgHCO2198* (GGWACWGGWTGAACWGTWTAYCCYCC/TAIACYTCIGGRTGICCRAARAAYCA) primer set of @Lerayetal2013 for PCR, targeting a 313 bp region of the COI DNA barcoding region. This primer set has been successfully used for a wide variety of invertebrates, including terrestrial invertebrates @Bowseretal2020, freshwater macroinvertebrates @Hajibabaeietal2019, freshwater plankton @Yangetal2017, and stomach contents of freshwater fish @BowserBowser2020.
+We chose to use the *mlCOIintF*/*jgHCO2198* (GGWACWGGWT GAACWGTWTA YCCYCC / TAIACYTCIG GRTGICCRAA RAAYCA) primer set of @Lerayetal2013 for PCR, targeting a 313 bp region of the COI DNA barcoding region. This primer set has been successfully used for a wide variety of invertebrates, including terrestrial invertebrates @Bowseretal2020, freshwater macroinvertebrates @Hajibabaeietal2019, freshwater plankton @Yangetal2017, and stomach contents of freshwater fish @BowserBowser2020.
 
 The *mlCOIintF*/*jgHCO2198* primer pair was used with barcode on the forward primer in 30&ndash;35 PCR cycles using the HotStarTaq Plus Master Mix Kit (Qiagen, USA) under the following conditions: 94&deg;C for 3 minutes, followed by 30&ndash;35 cycles of 94&deg;C for 30s, 53&deg;C for 40 seconds and 72&deg;C for 1minute, after which a final elongation step at 72&deg;C for 5minutes was performed.  After amplification, PCR products were checked in 2% agarose gel to determine the success of amplification and the relative intensity of bands. Multiple samples were pooled together in equal proportions based on their molecular weight and DNA concentrations. Pooled samples were purified using calibrated Ampure XP beads. The pooled and purified PCR product was used to prepare an illumina DNA library. Sequencing was performed at MR DNA on a MiSeq following the manufacturer’s guidelines. 
 
@@ -182,11 +185,17 @@ After examining the resulting occurrence data, we believed that the rate of mis-
 
 As in @Massengill2014 and @Massengill2017, the metric used was simple presence or absence of taxa within the waterbodies before and after treatment.
 
-We formatted occurrence records to be published to GBIF using the guidance of @Anderssonetal2020.
+We formatted occurrence records to be published to the Global Biodiversity Information Facility (GBIF, <https://www.gbif.org/>) following the guidance of @Anderssonetal2020.
 
 ## Results
 
-```{r specimentable}
+Specimen data and images are available from an Arctos project (<https://arctos.database.museum/project/10003613>). Specimen records are available through a search for records from this project (<https://arctos.database.museum/SpecimenResults.cfm?project_id=10003613>). All Arctos records from this project are also published to the GBIF via the VertNet Integrated Publishing Toolkit (<http://ipt.vertnet.org/>).
+
+Georeferenced photo observations have been gathered in a project on iNaturalist.org at <https://www.inaturalist.org/projects/miller-creek-invertebrate-inventory>.
+
+A corresponding project record was also made on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/139305>). Raw metabarcoding data are available from ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/139306>). Resulting occurrences have been published in @Bowseretal2022.
+
+```{r specimenrecords}
 sr <- read.csv("Miller_Creek_Arctos_records.csv", stringsAsFactors = FALSE)
 
 # Remove records identified only as Animalia.
@@ -212,6 +221,28 @@ it <- !sr$genus == ""
 sr$scientific_name[it] <- paste0("*", sr$scientific_name[it], "*")
 sr$scientific_name[it] <- gsub(" \\?\\*", "* ?", sr$scientific_name[it])
 
+
+nspecimens <- nrow(sr)
+
+nphyl <- length(unique(sr$phylum))
+nclas <- length(unique(sr$phylclass))
+nord <- length(unique(sr$phylorder))
+nfam <- length(unique(sr$family))
+ngen <- length(unique(sr$genus))
+
+# How many species?
+spp <- sr$scientific_name[it]
+spp <- gsub(" \\?", "", spp)
+spp <- spp[grepl(" ", spp)]
+spp <- unique(spp)
+nspp <- length(spp)
+
+```
+
+We collected `r nspecimens` morphological specimens representing `r nphyl` phyla, `r nclas` classes, `r nord` orders, `r nfam` families, `r ngen` genera, and `r nspp` species (Table \@ref(tab:specimentable)). 
+
+```{r specimentable}
+
 knitr::kable(sr[,c("phylum", "scientific_name", "waterbody", "GUID")], 
   longtable = TRUE, 
   booktabs = TRUE,
@@ -221,19 +252,15 @@ knitr::kable(sr[,c("phylum", "scientific_name", "waterbody", "GUID")],
 )
 ```
 
-```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observerd."}
+```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observerd.", out.width="100%"}
 knitr::include_graphics('img/network_chord_plot.png')
 ```
 
-Specimen data and images are available from an Arctos project (<https://arctos.database.museum/project/10003613>). Specimen records are available through a search for records from this project (<https://arctos.database.museum/SpecimenResults.cfm?project_id=10003613>). All Arctos records from this project are also published to the Global Biodiversity Information Facility (GBIF, <https://www.gbif.org/>) via the VertNet Integrated Publishing Toolkit (<http://ipt.vertnet.org/>).
 
-Georeferenced photo observations have been gathered in a project on iNaturalist.org at <https://www.inaturalist.org/projects/miller-creek-invertebrate-inventory>.
 
-A corresponding project record was also made on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/139305>). Raw metabarcoding data are available from Servcat (<https://ecos.fws.gov/ServCat/Reference/Profile/139306>). Resulting occurrences have been published in @Bowseretal2022.
+In the metagenomic data, we were not able to distinguish between species of *Enallagma* (Odonata: Coenagrionidae) because multiple species shared identical or nearly identical DNA barcode sequences in BIN [BOLD:AAA2218](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAA2218), which includes multiple Nearctic species [@Geigeretal2021].
 
-In the metagenomic data, we were not able to distinguish between species of *Enallagma* (Odonata: Coenagrionidae) because multiple species shared identical or nearly identical DNA barcode sequences in BIN BOLD:AAA2218, which includes multiple Nearctic species [@Geigeretal2021].
-
-The sequences identified as *Ephydatia* (Spongillina: Spongillidae) were 100% similar ($p$-dist) to sequences of *Ephydatia cooperensis* (Addis & Peterson 2005), but we refrained from using this name because this species is known only from Montana [@Mazzacano2008] and the COI sequences of *E. cooperensis* and the holarctic *Ephydatia fluviatilis* (Linnaeus, 1759) have been shown to differ by as little as one nucleotide [@AddisPeterson2005] or to be identical [@Meixneretal2007].
+The sequences identified as *Ephydatia* (Spongillina: Spongillidae) were 100% similar (*p*-dist) to sequences of *Ephydatia cooperensis* (Addis & Peterson 2005), but we refrained from using this name because this species is known only from Montana [@Mazzacano2008] and the COI sequences of *E. cooperensis* and the holarctic *Ephydatia fluviatilis* (Linnaeus, 1759) have been shown to differ by as little as one nucleotide [@AddisPeterson2005] or to be identical [@Meixneretal2007].
 
 ## Discussion
 
@@ -247,7 +274,7 @@ reclist <- paste(krec$scientificName[1:(nrow(krec)-1)], collapse = "; ")
 reclist <- paste(reclist, krec$scientificName[nrow(krec)], sep = "; and ")
 ```
 
-We documented were `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list on FWSpecies [@USFWSNRPC2019].
+We documented `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list in FWSpecies [@USFWSNRPC2019] the checklist data have been made available via a GitHub repository (<https://github.com/Kenai-NWR-bio/KenaiNWRspecies>).
 
 ### Methodological concerns
 
