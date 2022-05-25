@@ -197,10 +197,23 @@ A corresponding project record was also made on ServCat (<https://ecos.fws.gov/S
 
 ```{r specimenrecords}
 sr <- read.csv("Miller_Creek_Arctos_records.csv", stringsAsFactors = FALSE)
+or <- read.csv("Miller_Creek_iNaturalist_records.csv", stringsAsFactors = FALSE)
+
+# Renaming some fields for consistency.
+names(or)[which(names(or) == "taxon_phylum_name")] <- "phylum"
+names(or)[which(names(or) == "taxon_class_name")] <- "phylclass"
+names(or)[which(names(or) == "taxon_order_name")] <- "phylorder"
+names(or)[which(names(or) == "taxon_family_name")] <- "family"
+names(or)[which(names(or) == "taxon_genus_name")] <- "genus"
+names(or)[which(names(or) == "place_guess")] <- "waterbody"
+names(or)[which(names(or) == "id")] <- "inat"
+or$guid <- NA
 
 # Remove records identified only as Animalia.
 sl <- !sr$phylum == ""
 sr <- sr[sl,]
+sl <- !or$phylum == ""
+or <- or[sl,]
 
 # Get waterbody names.
 sr$waterbody <- NA
@@ -211,10 +224,49 @@ sr$waterbody[sl] <- "North Vogel Lake"
 sl <- grepl("Miller Creek", sr$spec_locality)
 sr$waterbody[sl] <- "Miller Creek"
 
+sr$inat <- NA
+
+ocat <- strsplit(sr$othercatalognumbers, split = ", ")
+for (this_guid in 1:length(ocat)){
+  ids <- ocat[[this_guid]]
+  if(length(ids) < 1){}
+  if(length(ids) > 0){
+    sl <- grepl("iNaturalist.org", ids)
+    inat <- ids[sl]
+    inat <- inat[1] # In case there are more than one iNaturalist records.
+    inat <- gsub("iNaturalist.org=", "", inat)
+    sr$inat[this_guid] <- inat
+  }
+}
+
 sr <- sr[order(sr$phylum, sr$phylclass, sr$phylorder, sr$family, sr$genus, 
-  sr$scientific_name, sr$guid),]
+  sr$scientific_name, sr$waterbody, sr$guid, sr$inat),c("phylum", "phylclass", "phylorder", "family", "genus", "scientific_name", "waterbody", "guid", "inat")]
+or <- or[order(or$phylum, or$phylclass, or$phylorder, or$family, or$genus, 
+  or$scientific_name, or$waterbody, or$guid, or$inat),c("phylum", "phylclass", "phylorder", "family", "genus", "scientific_name", "waterbody", "guid", "inat")]
 
 sr$GUID <- paste0("[", sr$guid, "](https://arctos.database.museum/guid/", sr$guid, ")")
+sl <- !is.na(sr$inat)
+sr$GUID[sl] <- paste0(sr$GUID[sl], ", [iNaturalist.org:", sr$inat[sl], "](https://www.inaturalist.org/observations/", sr$inat[sl], ")")
+
+or$GUID <- paste0("[iNaturalist.org:", or$inat, "](https://www.inaturalist.org/observations/", or$inat[sl], ")")
+
+# Now get rid of duplicates.
+dups <- sr$inat[!is.na(sr$inat)]
+sl <- !(or$inat %in% dups)
+or <- or[sl,]
+
+sr <- rbind(sr, or)
+
+# Making some substitutions to fix sorting problems.
+sl <- sr$phylclass == "Hirudinea"
+sr$phylclass[sl] <- "Clitellata"
+sl <- sr$phylorder == "Basommatophora"
+sr$phylorder[sl] <- ""
+sl <-sr$phylorder == "Haplosclerida"
+sr$phylorder[sl] <- "Spongillida"
+
+sr <- sr[order(sr$phylum, sr$phylclass, sr$phylorder, sr$family, sr$genus, 
+  sr$scientific_name, sr$waterbody, sr$GUID),]
 
 # Italicize genera and species.
 it <- !sr$genus == ""
@@ -239,7 +291,7 @@ nspp <- length(spp)
 
 ```
 
-We collected `r nspecimens` morphological specimens representing `r nphyl` phyla, `r nclas` classes, `r nord` orders, `r nfam` families, `r ngen` genera, and `r nspp` species (Table \@ref(tab:specimentable)). 
+We documented `r nspecimens` photo observation and specimen occurrences representing `r nphyl` phyla, `r nclas` classes, `r nord` orders, `r nfam` families, `r ngen` genera, and `r nspp` species (Table \@ref(tab:specimentable)). 
 
 ```{r specimentable}
 
