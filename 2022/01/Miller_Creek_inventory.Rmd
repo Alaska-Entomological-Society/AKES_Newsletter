@@ -332,7 +332,11 @@ The water mite *Huitfeldtia rectipes* and the chironomid midge *Psectrocladius s
 
 ### Methodological concerns
 
-In all except the plankton samples, we generally observed less diversity in the metabarcoding results than we expected. We suspect that this was due to subsampling of the bulk samples, resulting in some species not being included in DNA extractions. In the future, we may homogenize samples using a blender and cleaning between samples using DIY-DS as described by @Buchneretal2021 before shipping samples out for metabarcoding.
+In all except the plankton samples, we generally observed less diversity in the metabarcoding results than we expected. We strongly suspect that this was due to subsampling of the bulk samples by the sequencing lab, resulting in some species not being included in DNA extractions. For example, one D-net sample that was photographed in the field (Figure \@ref(fig:md2)) included large dragonfly naiads and snails that were not detected. The sequences we received from this sample included 25,020 reads of the leech *Glossiphonia elegans* and 207 reads of the spider *Tetragnatha extensa*^[<https://www.gbif.org/dataset/9d7baaac-57db-4852-9993-7f0e7f15635b/event/2021-08-28-md2>]. In the future, we may homogenize samples using a blender and cleaning between samples using DIY-DS as described by @Buchneretal2021 before shipping samples out for metabarcoding.
+
+```{r md2, fig.cap="A D-net sample from Miller Creek near the outlet of Vogel Lake, August 28, 2021."}
+knitr::include_graphics('img/Miller_Creek_MD2_2022-08-28.jpg')
+```
 
 In future metagenomic analyses we may retain sequences from non-target taxonomic groups as recommended by @Zafeiropoulosetal2021.
 
