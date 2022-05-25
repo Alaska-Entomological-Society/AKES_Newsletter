@@ -298,9 +298,9 @@ We documented `r nspecimens` photo observation and specimen occurrences represen
 knitr::kable(sr[,c("phylum", "scientific_name", "waterbody", "GUID")], 
   longtable = TRUE, 
   booktabs = TRUE,
-  col.names = c("Phylum", "Identification", "Water body", "GUID"),
+  col.names = c("Phylum", "Identification", "Water Body", "Identifiers"),
   row.names = FALSE,
-  caption = "Specimen records. The GUIDs are hyperlinked to the complete specimen records on Arctos."
+  caption = "Specimen records. The identifiers are hyperlinked to the complete records on Arctos and iNaturalist.org."
 )
 ```
 
