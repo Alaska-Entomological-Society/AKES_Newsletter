@@ -276,7 +276,7 @@ reclist <- paste(reclist, krec$scientificName[nrow(krec)], sep = "; and ")
 
 We documented `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list in FWSpecies [@USFWSNRPC2019] the checklist data have been made available via a GitHub repository (<https://github.com/Kenai-NWR-bio/KenaiNWRspecies>).
 
-The water mite *Huitfeldtia rectipes* and the chironomid midge *Psectrocladius simulans* have holarctic distributions [@Hayford2005; @Smithetal2011], but our observations in the Miller Creek watershed appear to be the first documentation of these species in Alaska.
+The water mite *Huitfeldtia rectipes* and the chironomid midge *Psectrocladius simulans* have holarctic distributions [@Crowell1961; @Hayford2005; @Smithetal2011], but our observations in the Miller Creek watershed appear to be the first documentation of these species in Alaska.
 
 ### Methodological concerns
 
