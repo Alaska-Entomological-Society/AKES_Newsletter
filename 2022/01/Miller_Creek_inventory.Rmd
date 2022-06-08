@@ -47,7 +47,7 @@ Because benthic macroinvertebrates and zooplankton are susceptible to the pestic
 
 ## Introduction
 
-Invasive northern pike (*Esox lucius* Linnaeus, 1758) were discovered in the Miller Creek watershed in 2019 [@KNWR2021] and a rotenone treatment to eradicate pike from the drainage was planned for fall 2021.
+Invasive northern pike (*Esox lucius* Linnaeus, 1758) were discovered in the Miller Creek watershed in 2019 [@KNWR2021] and a rotenone treatment to eradicate pike from the drainage was planned for fall 2021, parter of a larger effort to eradicate nothern pike from the Kenai Peninsula [@SANPCC2007].
 
 Benthic macroinvertebrates and zooplankton are susceptible to rotenone [@Finlaysonetal2018], some of them dying at lower rotenone concentrations than fish [@Rach1988]. Planktonic crustations decline rapidly after rotenone treatments, generally taking months to years to fully recover [@Kiseretal1963; @Anderson1970]. In other southcentral Alaska lakes, most pre-treatment plankton species were present in lake water with in one to two years of treatment and plankton abundace returned to pre-treatment levels in the third year [@Chlupach1977]. On the Kenai Peninsula, most invertebrate taxa that were present in lakes before present were again present one year after treatment [@Massengill2014; @Massengill2017]. 
 
@@ -245,10 +245,13 @@ or <- or[order(or$phylum, or$phylclass, or$phylorder, or$family, or$genus,
   or$scientific_name, or$waterbody, or$guid, or$inat),c("phylum", "phylclass", "phylorder", "family", "genus", "scientific_name", "waterbody", "guid", "inat")]
 
 sr$GUID <- paste0("[", sr$guid, "](https://arctos.database.museum/guid/", sr$guid, ")")
+sr$URI <- paste0("<https://arctos.database.museum/guid/", sr$guid, ">")
+
 sl <- !is.na(sr$inat)
 sr$GUID[sl] <- paste0(sr$GUID[sl], ", [iNaturalist.org:", sr$inat[sl], "](https://www.inaturalist.org/observations/", sr$inat[sl], ")")
 
-or$GUID <- paste0("[iNaturalist.org:", or$inat, "](https://www.inaturalist.org/observations/", or$inat[sl], ")")
+or$GUID <- paste0("[iNaturalist.org:", or$inat, "](https://www.inaturalist.org/observations/", or$inat, ")")
+or$URI <- paste0("<https://www.inaturalist.org/observations/", or$inat, ">")
 
 # Now get rid of duplicates.
 dups <- sr$inat[!is.na(sr$inat)]
@@ -273,6 +276,13 @@ it <- !sr$genus == ""
 sr$scientific_name[it] <- paste0("*", sr$scientific_name[it], "*")
 sr$scientific_name[it] <- gsub(" \\?\\*", "* ?", sr$scientific_name[it])
 
+sa <- aggregate(sr$URI, by=(list(sr$waterbody, sr$scientific_name, sr$genus, sr$family, sr$phylorder, sr$phylclass, sr$phylum)), FUN = paste)
+sa$x <- gsub("\"", "", sa$x)
+sa$x <- gsub("c\\(", "", sa$x)
+sa$x <- gsub("\\)", "", sa$x)
+#sa[,1] <- paste0(sa[,1], "^[", sa$x, "]")
+
+
 
 nspecimens <- nrow(sr)
 
@@ -295,13 +305,17 @@ We documented `r nspecimens` photo observation and specimen occurrences represen
 
 ```{r specimentable}
 
-knitr::kable(sr[,c("phylum", "scientific_name", "waterbody", "GUID")], 
+spectab <- knitr::kable(sa[,c(7,2,1)], 
   longtable = TRUE, 
   booktabs = TRUE,
-  col.names = c("Phylum", "Identification", "Water Body", "Identifiers"),
+  col.names = c("Phylum", "Identification", "Water Body"),
   row.names = FALSE,
-  caption = "Specimen records. The identifiers are hyperlinked to the complete records on Arctos and iNaturalist.org."
+  caption = "Specimen records."
 )
+
+spectab %>%
+  kable_styling(latex_options = "repeat_header")
+
 ```
 
 ```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observerd.", out.width="100%"}

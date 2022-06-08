@@ -1,3 +1,5 @@
+library(kableExtra)
+
 knitr::opts_chunk$set(
   comment = "#>", 
   echo = FALSE,
