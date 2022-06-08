@@ -318,15 +318,17 @@ spectab %>%
 
 ```
 
-```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observerd.", out.width="100%"}
+In the metabarcoding dataset a total of 589,486 reads representing 277 ESVs were retained after filtering. After consolidating ESVs that were variants of the same species, 175 unique identifications were retained. The most abundant identifications were *Gammarus lacustris* with 86,576 reads, *Enallagma* sp. BOLD:AAA2218 with 73,898 reads, and *Sphaerium nitidum* with 41,880. Read abundances of these and all other identifications are represented by circle sizes in Figure \@ref(fig:chordplot).
+
+Read counts and numbers of unique identifications were related to water body sizes and numbers of samples. In the largest water body, Vogel Lake, we observed 300,858 reads representing 112 unique identifications. In North Vogel Lake we observed 192,409 reads and 58 identifications. In Miller Creek we observed 96,219 reads and 28 identifications. The two lakes were most similar, sharing 21 identifications (19% of identifications from Vogel Lake and 36% of identifications from North Vogel Lake). Miller Creek shared only two identifications with Vogel Lake (1% of identifications from Vogel Lake and 7% of identifications from Miller Creek). North Vogel Lake and Miller Creek shared no common identifications.
+
+```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observed.", out.width="100%"}
 knitr::include_graphics('img/network_chord_plot.png')
 ```
 
 
 
-In the metagenomic data, we were not able to distinguish between species of *Enallagma* (Odonata: Coenagrionidae) because multiple species shared identical or nearly identical DNA barcode sequences in BIN [BOLD:AAA2218](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAA2218), which includes multiple Nearctic species [@Geigeretal2021].
 
-The sequences identified as *Ephydatia* (Spongillina: Spongillidae) were 100% similar (*p*-dist) to sequences of *Ephydatia cooperensis* (Addis & Peterson 2005), but we refrained from using this name because this species is known only from Montana [@Mazzacano2008] and the COI sequences of *E. cooperensis* and the holarctic *Ephydatia fluviatilis* (Linnaeus, 1759) have been shown to differ by as little as one nucleotide [@AddisPeterson2005] or to be identical [@Meixneretal2007].
 
 ## Discussion
 
@@ -339,6 +341,10 @@ krec$scientificName <- krec$scientificName[order(krec$scientificName)]
 reclist <- paste(krec$scientificName[1:(nrow(krec)-1)], collapse = "; ")
 reclist <- paste(reclist, krec$scientificName[nrow(krec)], sep = "; and ")
 ```
+
+In the metagenomic data, we were not able to distinguish between species of *Enallagma* (Odonata: Coenagrionidae) because multiple species shared identical or nearly identical DNA barcode sequences in BIN [BOLD:AAA2218](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAA2218), which includes multiple Nearctic species [@Geigeretal2021]. These were likely *Enallagma annexum*, at least in part, because this species was identified in our morphological specimens.
+
+The sequences identified as *Ephydatia* (Spongillina: Spongillidae) were 100% similar (*p*-dist) to sequences of *Ephydatia cooperensis* (Addis & Peterson 2005), but we refrained from using this name because this species is known only from Montana [@Mazzacano2008] and the COI sequences of *E. cooperensis* and the holarctic *Ephydatia fluviatilis* (Linnaeus, 1759) have been shown to differ by as little as one nucleotide [@AddisPeterson2005] or to be identical [@Meixneretal2007].
 
 We documented `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list in FWSpecies [@USFWSNRPC2019] the checklist data have been made available via a GitHub repository (<https://github.com/Kenai-NWR-bio/KenaiNWRspecies>).
 
