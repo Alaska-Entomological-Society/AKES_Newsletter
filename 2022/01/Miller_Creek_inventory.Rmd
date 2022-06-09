@@ -322,12 +322,6 @@ In the metabarcoding dataset a total of 589,486 reads representing 277 ESVs were
 
 Read counts and numbers of unique identifications were related to water body sizes and numbers of samples. In the largest water body, Vogel Lake, we observed 300,858 reads representing 112 unique identifications. In North Vogel Lake we observed 192,409 reads and 58 identifications. In Miller Creek we observed 96,219 reads and 28 identifications. The two lakes were most similar, sharing 21 identifications (19% of identifications from Vogel Lake and 36% of identifications from North Vogel Lake). Miller Creek shared only two identifications with Vogel Lake (1% of identifications from Vogel Lake and 7% of identifications from Miller Creek). North Vogel Lake and Miller Creek shared no common identifications.
 
-```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observed.", out.width="100%"}
-knitr::include_graphics('img/network_chord_plot.png')
-```
-
-
-
 
 
 ## Discussion
@@ -346,22 +340,42 @@ In the metagenomic data, we were not able to distinguish between species of *Ena
 
 The sequences identified as *Ephydatia* (Spongillina: Spongillidae) were 100% similar (*p*-dist) to sequences of *Ephydatia cooperensis* (Addis & Peterson 2005), but we refrained from using this name because this species is known only from Montana [@Mazzacano2008] and the COI sequences of *E. cooperensis* and the holarctic *Ephydatia fluviatilis* (Linnaeus, 1759) have been shown to differ by as little as one nucleotide [@AddisPeterson2005] or to be identical [@Meixneretal2007].
 
+```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observed.", out.width="95%"}
+knitr::include_graphics('img/network_chord_plot.png')
+```
+
 We documented `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list in FWSpecies [@USFWSNRPC2019] the checklist data have been made available via a GitHub repository (<https://github.com/Kenai-NWR-bio/KenaiNWRspecies>).
 
 The water mite *Huitfeldtia rectipes* and the chironomid midge *Psectrocladius simulans* have holarctic distributions [@Crowell1961; @Hayford2005; @Smithetal2011], but our observations in the Miller Creek watershed appear to be the first documentation of these species in Alaska.
 
 ### Methodological concerns
 
-In all except the plankton samples, we generally observed less diversity in the metabarcoding results than we expected. We strongly suspect that this was due to subsampling of the bulk samples by the sequencing lab, resulting in some species not being included in DNA extractions. For example, one D-net sample that was photographed in the field (Figure \@ref(fig:md2)) included large dragonfly naiads and snails that were not detected. The sequences we received from this sample included 25,020 reads of the leech *Glossiphonia elegans* and 207 reads of the spider *Tetragnatha extensa*^[<https://www.gbif.org/dataset/9d7baaac-57db-4852-9993-7f0e7f15635b/event/2021-08-28-md2>]. In the future, we may homogenize samples using a blender and cleaning between samples using DIY-DS as described by @Buchneretal2021 before shipping samples out for metabarcoding.
+In all except the plankton samples, we generally observed less diversity in the metabarcoding results than we expected. We strongly suspect that this was due to subsampling of the bulk samples by the sequencing lab, resulting in some species not being included in DNA extractions. For example, one D-net sample that was photographed in the field (Figure \@ref(fig:md2)) included large dragonfly naiads and snails that were not detected. The sequences we received from this sample included 25,020 reads of the leech *Glossiphonia elegans* and 207 reads of the spider *Tetragnatha extensa*^[<https://www.gbif.org/dataset/9d7baaac-57db-4852-9993-7f0e7f15635b/event/2021-08-28-md2>]. In the future, we may homogenize samples using a blender and cleaning between samples using DIY-DS cleaning solution as described by @Buchneretal2021 before shipping samples out for metabarcoding.
 
 ```{r md2, fig.cap="A D-net sample from Miller Creek near the outlet of Vogel Lake, August 28, 2021."}
 knitr::include_graphics('img/Miller_Creek_MD2_2022-08-28.jpg')
 ```
+Because of the large size differences between the invertebrates we collected (from > 20 mm snails and dragonfly nymphs down to minute, < 1 mm plankton), which can result in smaller species not being detected, we may sort specimens by size or take smaller tissue samples from large specimens, both strategies that have been used to improve detection of small species [e.g., @Jietal2013; @Elbrechtetal2017; @Carewetal2018; @Elbrechtetal2020; @Buchneretal2021].
 
 In future metagenomic analyses we may retain sequences from non-target taxonomic groups as recommended by @Zafeiropoulosetal2021.
 
 ## Acknowledgments
 
-We thank [iNaturalist.org](https://www.inaturalist.org/) people `amr_mn` and `zvkemp` (Zach Kemp) for identifications.
+Carl Fischer performed some of the specimen sorting.
+We thank [iNaturalist.org](https://www.inaturalist.org/) people 
+[amr_mn](https://www.inaturalist.org/people/amr_mn), 
+[annalida](https://www.inaturalist.org/people/annalida),
+[borisbolshakov](https://www.inaturalist.org/people/borisbolshakov) (Boris Bolshakov),
+[cannizag](https://www.inaturalist.org/people/cannizag) (Andrew Cannizzaro),
+[crmstar](https://www.inaturalist.org/people/crmstar) (Cayla Morningstar),
+[gcsnelling](https://www.inaturalist.org/people/gcsnelling) (Gordon C. Snelling),
+[glycymeris](https://www.inaturalist.org/people/glycymeris) (Saryu Mae), 
+[jeremyhussell](https://www.inaturalist.org/people/jeremyhussell) (Jeremy Hussell),
+[kevin_cummings](https://www.inaturalist.org/people/kevin_cummings) (Kevin Cummings),
+[mpintar](https://www.inaturalist.org/people/mpintar) (Matthew Pintar),
+[muir](https://www.inaturalist.org/people/muir) (Matt Muir),
+[radialord](https://www.inaturalist.org/people/radialord) (Ivan),
+[susanhewitt](https://www.inaturalist.org/people/susanhewitt) (Susan J. Hewitt), and 
+[zvkemp](https://www.inaturalist.org/people/zvkemp) (Zach Kemp) for identifications.
 
 ## References
