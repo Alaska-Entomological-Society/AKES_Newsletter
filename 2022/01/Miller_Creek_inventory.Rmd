@@ -47,7 +47,7 @@ Because benthic macroinvertebrates and zooplankton are susceptible to the pestic
 
 ## Introduction
 
-Invasive northern pike (*Esox lucius* Linnaeus, 1758) were discovered in the Miller Creek watershed in 2019 [@KNWR2021] and a rotenone treatment to eradicate pike from the drainage was planned for fall 2021, parter of a larger effort to eradicate nothern pike from the Kenai Peninsula [@SANPCC2007].
+Invasive northern pike (*Esox lucius* Linnaeus, 1758) were discovered in the Miller Creek watershed in 2019 [@KNWR2021] and a rotenone treatment to eradicate pike from the drainage was planned for fall 2021, part of a larger effort to eradicate nothern pike from the Kenai Peninsula [@SANPCC2007].
 
 Benthic macroinvertebrates and zooplankton are susceptible to rotenone [@Finlaysonetal2018], some of them dying at lower rotenone concentrations than fish [@Rach1988]. Planktonic crustations decline rapidly after rotenone treatments, generally taking months to years to fully recover [@Kiseretal1963; @Anderson1970]. In other southcentral Alaska lakes, most pre-treatment plankton species were present in lake water with in one to two years of treatment and plankton abundace returned to pre-treatment levels in the third year [@Chlupach1977]. On the Kenai Peninsula, most invertebrate taxa that were present in lakes before present were again present one year after treatment [@Massengill2014; @Massengill2017]. 
 
@@ -77,7 +77,7 @@ The waterbodies surveyed were those in which rotenone was applied, the same wate
 
 ### Field sampling
 
-We generally followed the methods of [@Massengill2014; @Massengill2017] for lake sampling aquatic invertebrates. Each of the three waterbodies was to be surveyed once in July and once in August. Sampling was to be conducted in the same temporal windows in 2021 and 2022.
+We generally followed the methods of @Massengill2014 and @Massengill2017 for sampling aquatic invertebrates. Each of the three waterbodies was to be surveyed once in July and once in August. Sampling was to be conducted in the same temporal windows in 2021 and 2022.
 
 At North Vogel Lake, Vogel Lake, and upper Miller Creek we sampled twice in 2021: first on July 20&ndash;23 and second on August 28. We sampled at 15 sites using three methods. We failed to make it out to the mouth of Miller Creek in July and August, so we collecting samples there on September 13, 2021. 
 
@@ -97,7 +97,7 @@ knitr::kable(ds,
 
 At each of two visits per year we collected 3 D-net samples, 3 Ekman grab samples, and 2 Wisconsin net samples in Vogel Lake; 2 D-net samples, 2 Ekman grab samples, and 1 Wisconsin net sample in North Vogel Lake; and 3 D-net samples in Miller Creek, a total of 16 invertebrate samples per visit (Table \@ref(tab:nsamples)), 32 samples per year, and 64 samples over the two year project.
 
-```{r millermap, fig.cap="Map of the Miller Creek watershed showing sample locations.", out.width="80%"}
+```{r millermap, fig.cap="Map of the Miller Creek watershed showing sample locations.", out.width="60%"}
 knitr::include_graphics('img/Miller_Creek_map.png')
 ```
 
@@ -123,15 +123,15 @@ knitr::include_graphics('img/Miller_Creek_NVE1.jpg')
 knitr::include_graphics('img/Miller_Creek_VE2.jpg')
 ```
 
-Field notes are available in @Bowser2022b.
-
 Samples were collected into ethanol or SK picglobal 99.9% pure propylene glycol. Samples intended for metabarcoding were collected into propylene glycol or, in the case of two samples, collected into ethanol and then transferred to propylene glycol.
+
+Field notes are available in @Bowser2022b.
 
 ### Specimen processing
 
 Specimens were deposited in the Kenai National Wildlife Refuge's entomology and invertebrate collections (coden: KNWR) and managed with Arctos (https://arctos.database.museum/).
 
-For the morphologically identified specimens, we used the following references: @Borroretal1989, @Brooks1957, @Burch1982, @Collet2008, @Durfee2005, @Haneyetal2013, @Hatch1953, @Herrington1962, @Kenner2009, @Mackie2007, @Marx1957, @MerrittCummins1996, @Merrittetal2008, @Reid1987, @Rileyetal2002, @Roughley2000, @Walker1953, @Wallis1933, and @White1983.
+For identifying specimens we used the following references: @Borroretal1989, @Brooks1957, @Burch1982, @Collet2008, @Durfee2005, @Haneyetal2013, @Hatch1953, @Herrington1962, @Kenner2009, @Mackie2007, @Marx1957, @MerrittCummins1996, @Merrittetal2008, @Reid1987, @Rileyetal2002, @Roughley2000, @Walker1953, @Wallis1933, and @White1983.
 
 Notes on morphological identifications are available in @Artaiz2021, @Bowser2022b, and @Bowser2022d.
 
@@ -141,11 +141,11 @@ Metabarcoding samples were stored in a -23&deg;C freezer except when samples wer
 
 We chose to use the *mlCOIintF*/*jgHCO2198* (GGWACWGGWT GAACWGTWTA YCCYCC / TAIACYTCIG GRTGICCRAA RAAYCA) primer set of @Lerayetal2013 for PCR, targeting a 313 bp region of the COI DNA barcoding region. This primer set has been successfully used for a wide variety of invertebrates, including terrestrial invertebrates @Bowseretal2020, freshwater macroinvertebrates @Hajibabaeietal2019, freshwater plankton @Yangetal2017, and stomach contents of freshwater fish @BowserBowser2020.
 
-The *mlCOIintF*/*jgHCO2198* primer pair was used with barcode on the forward primer in 30&ndash;35 PCR cycles using the HotStarTaq Plus Master Mix Kit (Qiagen, USA) under the following conditions: 94&deg;C for 3 minutes, followed by 30&ndash;35 cycles of 94&deg;C for 30s, 53&deg;C for 40 seconds and 72&deg;C for 1minute, after which a final elongation step at 72&deg;C for 5minutes was performed.  After amplification, PCR products were checked in 2% agarose gel to determine the success of amplification and the relative intensity of bands. Multiple samples were pooled together in equal proportions based on their molecular weight and DNA concentrations. Pooled samples were purified using calibrated Ampure XP beads. The pooled and purified PCR product was used to prepare an illumina DNA library. Sequencing was performed at MR DNA on a MiSeq following the manufacturer’s guidelines. 
+The *mlCOIintF*/*jgHCO2198* primer pair was used with barcodes on the forward primer in 30&ndash;35 PCR cycles using the HotStarTaq Plus Master Mix Kit (Qiagen, USA) under the following conditions: 94&deg;C for 3 minutes, followed by 30&ndash;35 cycles of 94&deg;C for 30s, 53&deg;C for 40 seconds and 72&deg;C for 1minute, after which a final elongation step at 72&deg;C for 5minutes was performed.  After amplification, PCR products were checked in 2% agarose gel to determine the success of amplification and the relative intensity of bands. Multiple samples were pooled together in equal proportions based on their molecular weight and DNA concentrations. Pooled samples were purified using calibrated Ampure XP beads. The pooled and purified PCR product was used to prepare an illumina DNA library. Sequencing was performed at MR DNA on a MiSeq following the manufacturer’s guidelines. 
 
 ### MR DNA analysis pipeline
 
-Sequence data were processed by using MR DNA analysis pipeline (MR DNA, Shallowater, Texas).  In summary, sequences were joined, sequences < 150 bp were removed, and sequences with ambiguous base calls were removed. Sequences were quality filtered using a maximum expected error threshold of 1.0 and dereplicated. The dereplicated or unique sequences were denoised and chimeras were removed. Final zero-radius operational taxonomic units were taxonomically classified using BLASTn against a curated database derived from NCBI (<www.ncbi.nlm.nih.gov>).   
+Sequence data were processed by using MR DNA analysis pipeline (MR DNA, Shallowater, Texas).  In summary, sequences were joined, sequences < 150 bp were removed, and sequences with ambiguous base calls were removed. Sequences were quality filtered using a maximum expected error threshold of 1.0 and dereplicated. The dereplicated or unique sequences were denoised and chimeras were removed. Final zero-radius operational taxonomic units were taxonomically classified using BLASTn against a curated database derived from NCBI (<https://www.ncbi.nlm.nih.gov/>).   
 
 ### Je + MetaWorks pipeline
 
@@ -303,9 +303,9 @@ nspp <- length(spp)
 ```
 
 
-In the metazoan portion of the metabarcoding dataset provided by MR DNA, a total of 1,050,965 reads representing 2,250 ESVs were retained. After consolidating ESVs having identical identifications, 84 unique identifications were retained. The three most abundant identifications were *Gammarus kischineffensis* with 149,335 reads, *Glossiphonia complanata* with 69,285 reads, and *Enallagma* sp. bioug23416_h08 with 66,795 reads.
+The metazoan portion of the metabarcoding dataset provided by MR DNA included a total of 1,050,965 reads representing 2,250 ESVs. After consolidating ESVs having identical identifications, 84 unique identifications were retained. The three most abundant identifications were *Gammarus kischineffensis* with 149,335 reads, *Glossiphonia complanata* with 69,285 reads, and *Enallagma* sp. bioug23416_h08 with 66,795 reads (Table \@ref(tab:comptab)).
 
-In the metabarcoding dataset resulting from the Je + MetaWorks pipeline, a total of 589,486 reads representing 277 ESVs were retained after filtering. After consolidating ESVs having identical identifications, 175 unique identifications were retained. The three most abundant identifications were *Gammarus lacustris* with 86,576 reads, *Enallagma* sp. BOLD:AAA2218 with 73,898 reads, and *Sphaerium nitidum* with 41,880. Read abundances of these and all other identifications are represented by circle sizes in Figure \@ref(fig:chordplot).
+In the metabarcoding dataset resulting from the Je + MetaWorks pipeline, a total of 589,486 reads representing 277 ESVs were retained after filtering. After consolidating ESVs having identical identifications, there were 175 unique identifications. The three most abundant identifications were *Gammarus lacustris* with 86,576 reads, *Enallagma* sp. BOLD:AAA2218 with 73,898 reads, and *Sphaerium nitidum* with 41,880 (Table \@ref(tab:comptab)). Read abundances of these and all other identifications are represented by circle sizes in Figure \@ref(fig:chordplot).
 
 ```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observed.", out.width="95%"}
 knitr::include_graphics('img/network_chord_plot.png')
@@ -337,7 +337,7 @@ spectab <- knitr::kable(sa[,c(7,2,1)],
   booktabs = TRUE,
   col.names = c("Phylum", "Identification", "Water Body"),
   row.names = FALSE,
-  caption = "Identifications of morphological specimens by water body."
+  caption = "Identifications of specimens and photo observations by water body. Complete specimen and photo observation data are available from the URLs provided below."
 )
 
 spectab %>%
@@ -370,13 +370,13 @@ The sequences identified as *Ephydatia* (Spongillina: Spongillidae) were 100% si
 
 
 
-We documented `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list in FWSpecies [@USFWSNRPC2019] the checklist data have been made available via a GitHub repository (<https://github.com/Kenai-NWR-bio/KenaiNWRspecies>).
+We documented `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list in FWSpecies [@NRPC2019] the checklist data have been made available via a GitHub repository (<https://github.com/Kenai-NWR-bio/KenaiNWRspecies>).
 
 The water mite *Huitfeldtia rectipes* and the chironomid midge *Psectrocladius simulans* have holarctic distributions [@Crowell1961; @Hayford2005; @Smithetal2011], but our observations in the Miller Creek watershed appear to be the first documentation of these species in Alaska.
 
 ### Comparison of the two analysis pipelines
 
-Both analysis pipelines delivered comparable, acceptable results, but the identifications obtained in the Je + MetaWorks pipeline were likely more accurate. For example, the most abundant identification in both datasets was a scud identified as *Gammarus kischineffensis* by the MR DNA pipeline and as *Gammarus lacustris* by the Je + MetaWorks pipeline. Though our sequence is slightly more similar to sequences of *G. lacustris* than to sequences of *G. kischineffensis* currently available in public databases, sequences of the two species are more than 99% similar. However, *G. kischineffensis* is a Palearctic species not present near the Miller Creek watershed. Identifications like this were generally better in the Je + MetaWorks pipeline because we compared results of identifications using multiple methods and sequence libraries and we took the time to carefully scrutinize and edit the results.
+Both analysis pipelines delivered comparable, acceptable results, but the identifications obtained in the Je + MetaWorks pipeline were likely more accurate. For example, the most abundant identification in both datasets was an amphipod identified as *Gammarus kischineffensis* by the MR DNA pipeline and as *Gammarus lacustris* by the Je + MetaWorks pipeline. Though our sequence is slightly more similar to sequences of *G. lacustris* than to sequences of *G. kischineffensis* currently available in public databases, sequences of the two species are more than 99% similar. However, *G. kischineffensis* is a Palearctic species not present near the Miller Creek watershed. Identifications like this were generally better in the Je + MetaWorks pipeline because we compared results of identifications using multiple methods and sequence libraries and we took the time to carefully scrutinize and edit the results.
 
 ### Methodological concerns
 
@@ -385,7 +385,7 @@ In all except the plankton samples, we generally observed less diversity in the 
 ```{r md2, fig.cap="A D-net sample from Miller Creek near the outlet of Vogel Lake, August 28, 2021."}
 knitr::include_graphics('img/Miller_Creek_MD2_2022-08-28.jpg')
 ```
-Because of the large size differences between the invertebrates we collected (from > 20 mm snails and dragonfly nymphs down to minute, < 1 mm plankton), which can result in smaller species not being detected, we may sort specimens by size or take smaller tissue samples from large specimens when we resurvey in 2022. Both of these strategies that have been used to improve detection of small species in metagenomic samples [e.g., @Jietal2013; @Elbrechtetal2017; @Carewetal2018; @Elbrechtetal2020; @Buchneretal2021].
+Because of the large size differences between the invertebrates we collected (from > 20 mm snails and dragonfly nymphs down to minute, < 1 mm plankton), which can result in smaller species not being detected, we may sort specimens by size or take smaller tissue samples from large specimens when we resurvey in 2022. Both of these strategies have been used to improve detection of small species in metagenomic samples [e.g., @Jietal2013; @Elbrechtetal2017; @Carewetal2018; @Elbrechtetal2020; @Buchneretal2021].
 
 In future metagenomic analyses we may retain sequences from non-target taxonomic groups as recommended by @Zafeiropoulosetal2021. Why not?
 
