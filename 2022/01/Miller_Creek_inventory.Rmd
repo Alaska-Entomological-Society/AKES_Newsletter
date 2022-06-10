@@ -145,7 +145,7 @@ The *mlCOIintF*/*jgHCO2198* primer pair was used with barcode on the forward pri
 
 ### MR DNA analysis pipeline
 
-Sequence data were processed by using MR DNA analysis pipeline (MR DNA, Shallowater, Texas).  In summary, sequences were joined, sequences < 150bp were removed, and sequences with ambiguous base calls were removed. Sequences were quality filtered using a maximum expected error threshold of 1.0 and dereplicated. The dereplicated or unique sequences were denoised and chimeras were removed. Final zero-radius operational taxonomic units were taxonomically classified using BLASTn against a curated database derived from NCBI (<www.ncbi.nlm.nih.gov>).   
+Sequence data were processed by using MR DNA analysis pipeline (MR DNA, Shallowater, Texas).  In summary, sequences were joined, sequences < 150 bp were removed, and sequences with ambiguous base calls were removed. Sequences were quality filtered using a maximum expected error threshold of 1.0 and dereplicated. The dereplicated or unique sequences were denoised and chimeras were removed. Final zero-radius operational taxonomic units were taxonomically classified using BLASTn against a curated database derived from NCBI (<www.ncbi.nlm.nih.gov>).   
 
 ### Je + MetaWorks pipeline
 
@@ -318,7 +318,7 @@ spectab %>%
 
 ```
 
-In the metazoan portion of the metabarcoding dataset provided by MR DNA, a total of 1,050,965 reads representing 2,250 Operational Taxonomic Units (OTUs) were retained. After consolidating OTUs having identical identifications, 84 unique identifications were retained. The three most abundant identifications were *Gammarus kischineffensis* with 149,335 reads, *Glossiphonia complanata* with 69,285 reads, and *Enallagma* sp. bioug23416_h08 with 66,795 reads.
+In the metazoan portion of the metabarcoding dataset provided by MR DNA, a total of 1,050,965 reads representing 2,250 ESVs were retained. After consolidating ESVs having identical identifications, 84 unique identifications were retained. The three most abundant identifications were *Gammarus kischineffensis* with 149,335 reads, *Glossiphonia complanata* with 69,285 reads, and *Enallagma* sp. bioug23416_h08 with 66,795 reads.
 
 In the metabarcoding dataset resulting from the Je + MetaWorks pipeline, a total of 589,486 reads representing 277 ESVs were retained after filtering. After consolidating ESVs having identical identifications, 175 unique identifications were retained. The three most abundant identifications were *Gammarus lacustris* with 86,576 reads, *Enallagma* sp. BOLD:AAA2218 with 73,898 reads, and *Sphaerium nitidum* with 41,880. Read abundances of these and all other identifications are represented by circle sizes in Figure \@ref(fig:chordplot).
 
@@ -337,7 +337,7 @@ knitr::kable(comptab,
 ```
 
 
-Read counts and numbers of unique identifications were related to water body sizes and numbers of samples. In the largest water body, Vogel Lake, we observed 300,858 reads representing 112 unique identifications. In North Vogel Lake we observed 192,409 reads and 58 identifications. In Miller Creek we observed 96,219 reads and 28 identifications. The two lakes were most similar, sharing 21 identifications (19% of identifications from Vogel Lake and 36% of identifications from North Vogel Lake). Miller Creek shared only two identifications with Vogel Lake (1% of identifications from Vogel Lake and 7% of identifications from Miller Creek). North Vogel Lake and Miller Creek shared no common identifications.
+In the results of the Je + MetaWorks pipeline, Read counts and numbers of unique identifications were related to water body sizes and numbers of samples. In the largest water body, Vogel Lake, we observed 300,858 reads representing 112 unique identifications. In North Vogel Lake we observed 192,409 reads and 58 identifications. In Miller Creek we observed 96,219 reads and 28 identifications. The two lakes were most similar, sharing 21 identifications (19% of identifications from Vogel Lake and 36% of identifications from North Vogel Lake). Miller Creek shared only two identifications with Vogel Lake (1% of identifications from Vogel Lake and 7% of identifications from Miller Creek). North Vogel Lake and Miller Creek shared no common identifications.
 
 ## Discussion
 
@@ -365,7 +365,7 @@ The water mite *Huitfeldtia rectipes* and the chironomid midge *Psectrocladius s
 
 ### Comparison of the two analysis pipelines
 
-
+Both analysis pipelines delivered comparable, acceptable results, but the identifications obtained in the Je + MetaWorks pipeline were likely more accurate. For example, the most abundant identification in both datasets was a scud identified as *Gammarus kischineffensis* by the MR DNA pipeline and as *Gammarus lacustris* by the Je + MetaWorks pipeline. Though our sequence is slightly more similar to sequences of *G. lacustris* than to sequences of *G. kischineffensis* currently available in public databases, sequences of the two species are more than 99% similar. However, *G. kischineffensis* is a Palearctic species not present near the Miller Creek watershed. Identifications like this were generally better in the Je + MetaWorks pipeline because we compared results of identifications using multiple methods and sequence libraries and we took the time to carefully scrutinize and edit the results.
 
 ### Methodological concerns
 
@@ -374,9 +374,9 @@ In all except the plankton samples, we generally observed less diversity in the 
 ```{r md2, fig.cap="A D-net sample from Miller Creek near the outlet of Vogel Lake, August 28, 2021."}
 knitr::include_graphics('img/Miller_Creek_MD2_2022-08-28.jpg')
 ```
-Because of the large size differences between the invertebrates we collected (from > 20 mm snails and dragonfly nymphs down to minute, < 1 mm plankton), which can result in smaller species not being detected, we may sort specimens by size or take smaller tissue samples from large specimens, both strategies that have been used to improve detection of small species [e.g., @Jietal2013; @Elbrechtetal2017; @Carewetal2018; @Elbrechtetal2020; @Buchneretal2021].
+Because of the large size differences between the invertebrates we collected (from > 20 mm snails and dragonfly nymphs down to minute, < 1 mm plankton), which can result in smaller species not being detected, we may sort specimens by size or take smaller tissue samples from large specimens when we resurvey in 2022. Both of these strategies that have been used to improve detection of small species in metagenomic samples [e.g., @Jietal2013; @Elbrechtetal2017; @Carewetal2018; @Elbrechtetal2020; @Buchneretal2021].
 
-In future metagenomic analyses we may retain sequences from non-target taxonomic groups as recommended by @Zafeiropoulosetal2021.
+In future metagenomic analyses we may retain sequences from non-target taxonomic groups as recommended by @Zafeiropoulosetal2021. Why not?
 
 ## Acknowledgments
 
