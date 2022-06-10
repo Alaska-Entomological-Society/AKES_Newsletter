@@ -318,11 +318,26 @@ spectab %>%
 
 ```
 
-In the metabarcoding dataset a total of 589,486 reads representing 277 ESVs were retained after filtering. After consolidating ESVs that were variants of the same species, 175 unique identifications were retained. The most abundant identifications were *Gammarus lacustris* with 86,576 reads, *Enallagma* sp. BOLD:AAA2218 with 73,898 reads, and *Sphaerium nitidum* with 41,880. Read abundances of these and all other identifications are represented by circle sizes in Figure \@ref(fig:chordplot).
+In the metazoan portion of the metabarcoding dataset provided by MR DNA, a total of 1,050,965 reads representing 2,250 Operational Taxonomic Units (OTUs) were retained. After consolidating OTUs having identical identifications, 84 unique identifications were retained. The three most abundant identifications were *Gammarus kischineffensis* with 149,335 reads, *Glossiphonia complanata* with 69,285 reads, and *Enallagma* sp. bioug23416_h08 with 66,795 reads.
+
+In the metabarcoding dataset resulting from the Je + MetaWorks pipeline, a total of 589,486 reads representing 277 ESVs were retained after filtering. After consolidating ESVs having identical identifications, 175 unique identifications were retained. The three most abundant identifications were *Gammarus lacustris* with 86,576 reads, *Enallagma* sp. BOLD:AAA2218 with 73,898 reads, and *Sphaerium nitidum* with 41,880. Read abundances of these and all other identifications are represented by circle sizes in Figure \@ref(fig:chordplot).
+
+Twenty-two identifications (*Arcteonais lomondi*, *Bibio longipes*, *Caenis youngi*, *Ceratopsyche alhedra*, *Chaetogaster diastrophus*, *Daphnia longiremis*, *Daphnia mendotae*, *Draeculacephala angulifera*, *Haliplus immaculicollis*, *Holopedium gibberum*, *Isoperla petersoni*, *Libellula quadrimaculata*, *Limnephilus externus*, *Nemotaulius hostilis*, *Phryganea cinerea*, *Radix auricularia*, *Sisyra nigra*, *Spongilla lacustris*, *Tetragnatha extensa*, *Unionicola crassipes*, *Xenochironomus xenolabis*, and *Zapada cinctipes*) were shared by results of both analysis pipelines. The MR DNA pipeline consistently filtered out less reads than the Je + MetaWorks pipeline, but the overall results were mostly similar with generally the same or similar identifications for the most abundant taxa in terms of read counts (Table \@ref(tab:comptab)). 
+
+```{r comptab}
+comptab <- read.csv("Miller_Creek_comparison_table.csv", stringsAsFactors = FALSE)
+col.names <- c("MD Identifications", "MD Read Counts", "JM Identifications", "JM Read Counts")
+knitr::kable(comptab, 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  col.names = col.names,
+  caption = "Twenty most abundant identifications resulting from the two analysis pipelines. MD: MR DNA pipeline. JM: Je + MetaWorks pipeline.",
+  format.args = list(big.mark = ",")
+)
+```
+
 
 Read counts and numbers of unique identifications were related to water body sizes and numbers of samples. In the largest water body, Vogel Lake, we observed 300,858 reads representing 112 unique identifications. In North Vogel Lake we observed 192,409 reads and 58 identifications. In Miller Creek we observed 96,219 reads and 28 identifications. The two lakes were most similar, sharing 21 identifications (19% of identifications from Vogel Lake and 36% of identifications from North Vogel Lake). Miller Creek shared only two identifications with Vogel Lake (1% of identifications from Vogel Lake and 7% of identifications from Miller Creek). North Vogel Lake and Miller Creek shared no common identifications.
-
-
 
 ## Discussion
 
@@ -347,6 +362,10 @@ knitr::include_graphics('img/network_chord_plot.png')
 We documented `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list in FWSpecies [@USFWSNRPC2019] the checklist data have been made available via a GitHub repository (<https://github.com/Kenai-NWR-bio/KenaiNWRspecies>).
 
 The water mite *Huitfeldtia rectipes* and the chironomid midge *Psectrocladius simulans* have holarctic distributions [@Crowell1961; @Hayford2005; @Smithetal2011], but our observations in the Miller Creek watershed appear to be the first documentation of these species in Alaska.
+
+### Comparison of the two analysis pipelines
+
+
 
 ### Methodological concerns
 
