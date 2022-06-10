@@ -43,7 +43,7 @@ source("../../share/numbers2words.R")
 
 ## Abstract
 
-Because benthic macroinvertebrates and zooplankton are susceptible to the pesticide rotenone, surveys of freshwater macroinvertebrates were conducted in the Miller Creek Watershed, Kenai Peninsula, Alaska ahead of a planned rotenone treatment in fall 2021. Currently, 32 of 32 planned samples have been collected in 2021. Another 32 post-treatment invertebrate samples are planned in 2022 to enable comparison of pre- and post-treatment freshwater invertebrate communities.
+Because benthic macroinvertebrates and zooplankton are susceptible to the pesticide rotenone, surveys of freshwater macroinvertebrates were conducted in the Miller Creek Watershed, Kenai Peninsula, Alaska ahead of a planned rotenone treatment in fall 2021. In 2021 we collected 32 mixed invertebrate samples to be processed by metabarcoding. To analyze the resulting sequence data we compared the analysis delivered by a commercial service with the results of a customized analysis pipeline using Je, MetaWorks, and local reference libraries. In the metagenomic data, the commercial pipeline yielded 2,250 exact sequence variants (ESVs) representing 84 unique identifications; the Je + MetaWorks pipeline yielded 277 ESVs and 175 unique identifications. The results of the two pipelines were similar overall. In addition, we documented 140 occurrences of 22 species based on specimens and photo observations. Overall, our metagenomic methods delivered finer taxonomic resolution than comparable inventories of invertebrates performed ahead of rotenone treatments.
 
 ## Introduction
 
@@ -189,11 +189,7 @@ We formatted occurrence records to be published to the Global Biodiversity Infor
 
 ## Results
 
-Specimen data and images are available from an Arctos project (<https://arctos.database.museum/project/10003613>). Specimen records are available through a search for records from this project (<https://arctos.database.museum/SpecimenResults.cfm?project_id=10003613>). All Arctos records from this project are also published to the GBIF via the VertNet Integrated Publishing Toolkit (<http://ipt.vertnet.org/>).
 
-Georeferenced photo observations have been gathered in a project on iNaturalist.org at <https://www.inaturalist.org/projects/miller-creek-invertebrate-inventory>.
-
-A corresponding project record was also made on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/139305>). Raw metabarcoding data are available from ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/139306>). Resulting occurrences have been published in @Bowseretal2022.
 
 ```{r specimenrecords}
 sr <- read.csv("Miller_Creek_Arctos_records.csv", stringsAsFactors = FALSE)
@@ -258,6 +254,8 @@ dups <- sr$inat[!is.na(sr$inat)]
 sl <- !(or$inat %in% dups)
 or <- or[sl,]
 
+
+
 sr <- rbind(sr, or)
 
 # Making some substitutions to fix sorting problems.
@@ -285,6 +283,9 @@ sa$x <- gsub("\\)", "", sa$x)
 
 
 nspecimens <- nrow(sr)
+nphoto <- nrow(or) - length(dups)
+nspecimens <- nspecimens - nphoto
+
 
 nphyl <- length(unique(sr$phylum))
 nclas <- length(unique(sr$phylclass))
@@ -301,26 +302,14 @@ nspp <- length(spp)
 
 ```
 
-We documented `r nspecimens` photo observation and specimen occurrences representing `r nphyl` phyla, `r nclas` classes, `r nord` orders, `r nfam` families, `r ngen` genera, and `r nspp` species (Table \@ref(tab:specimentable)). 
-
-```{r specimentable}
-
-spectab <- knitr::kable(sa[,c(7,2,1)], 
-  longtable = TRUE, 
-  booktabs = TRUE,
-  col.names = c("Phylum", "Identification", "Water Body"),
-  row.names = FALSE,
-  caption = "Identifications of morphological specimens by water body."
-)
-
-spectab %>%
-  kable_styling(latex_options = "repeat_header")
-
-```
 
 In the metazoan portion of the metabarcoding dataset provided by MR DNA, a total of 1,050,965 reads representing 2,250 ESVs were retained. After consolidating ESVs having identical identifications, 84 unique identifications were retained. The three most abundant identifications were *Gammarus kischineffensis* with 149,335 reads, *Glossiphonia complanata* with 69,285 reads, and *Enallagma* sp. bioug23416_h08 with 66,795 reads.
 
 In the metabarcoding dataset resulting from the Je + MetaWorks pipeline, a total of 589,486 reads representing 277 ESVs were retained after filtering. After consolidating ESVs having identical identifications, 175 unique identifications were retained. The three most abundant identifications were *Gammarus lacustris* with 86,576 reads, *Enallagma* sp. BOLD:AAA2218 with 73,898 reads, and *Sphaerium nitidum* with 41,880. Read abundances of these and all other identifications are represented by circle sizes in Figure \@ref(fig:chordplot).
+
+```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observed.", out.width="95%"}
+knitr::include_graphics('img/network_chord_plot.png')
+```
 
 Twenty-two identifications (*Arcteonais lomondi*, *Bibio longipes*, *Caenis youngi*, *Ceratopsyche alhedra*, *Chaetogaster diastrophus*, *Daphnia longiremis*, *Daphnia mendotae*, *Draeculacephala angulifera*, *Haliplus immaculicollis*, *Holopedium gibberum*, *Isoperla petersoni*, *Libellula quadrimaculata*, *Limnephilus externus*, *Nemotaulius hostilis*, *Phryganea cinerea*, *Radix auricularia*, *Sisyra nigra*, *Spongilla lacustris*, *Tetragnatha extensa*, *Unionicola crassipes*, *Xenochironomus xenolabis*, and *Zapada cinctipes*) were shared by results of both analysis pipelines. The MR DNA pipeline consistently filtered out less reads than the Je + MetaWorks pipeline, but the overall results were mostly similar with generally the same or similar identifications for the most abundant taxa in terms of read counts (Table \@ref(tab:comptab)). 
 
@@ -339,6 +328,30 @@ knitr::kable(comptab,
 
 In the results of the Je + MetaWorks pipeline, Read counts and numbers of unique identifications were related to water body sizes and numbers of samples. In the largest water body, Vogel Lake, we observed 300,858 reads representing 112 unique identifications. In North Vogel Lake we observed 192,409 reads and 58 identifications. In Miller Creek we observed 96,219 reads and 28 identifications. The two lakes were most similar, sharing 21 identifications (19% of identifications from Vogel Lake and 36% of identifications from North Vogel Lake). Miller Creek shared only two identifications with Vogel Lake (1% of identifications from Vogel Lake and 7% of identifications from Miller Creek). North Vogel Lake and Miller Creek shared no common identifications.
 
+In addition to the metabarcoding samples, we documented `r nspecimens` specimen-based occurrences and `r nphoto` photo observations representing `r nphyl` phyla, `r nclas` classes, `r nord` orders, `r nfam` families, `r ngen` genera, and `r nspp` species (Table \@ref(tab:specimentable)). 
+
+```{r specimentable}
+
+spectab <- knitr::kable(sa[,c(7,2,1)], 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  col.names = c("Phylum", "Identification", "Water Body"),
+  row.names = FALSE,
+  caption = "Identifications of morphological specimens by water body."
+)
+
+spectab %>%
+  kable_styling(latex_options = "repeat_header")
+
+```
+
+Specimen data and images are available from an Arctos project (<https://arctos.database.museum/project/10003613>). Specimen records are available through a search for records from this project (<https://arctos.database.museum/SpecimenResults.cfm?project_id=10003613>). All Arctos records from this project are also published to the GBIF via the VertNet Integrated Publishing Toolkit (<http://ipt.vertnet.org/>).
+
+Georeferenced photo observations have been gathered in a project on iNaturalist.org at <https://www.inaturalist.org/projects/miller-creek-invertebrate-inventory>.
+
+A corresponding project record was also made on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/139305>). Raw metabarcoding data are available from ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/139306>). Resulting occurrences have been published in @Bowseretal2022.
+
+
 ## Discussion
 
 ### Identification remarks and new distribution records
@@ -355,9 +368,7 @@ In the metagenomic data, we were not able to distinguish between species of *Ena
 
 The sequences identified as *Ephydatia* (Spongillina: Spongillidae) were 100% similar (*p*-dist) to sequences of *Ephydatia cooperensis* (Addis & Peterson 2005), but we refrained from using this name because this species is known only from Montana [@Mazzacano2008] and the COI sequences of *E. cooperensis* and the holarctic *Ephydatia fluviatilis* (Linnaeus, 1759) have been shown to differ by as little as one nucleotide [@AddisPeterson2005] or to be identical [@Meixneretal2007].
 
-```{r chordplot, fig.cap="Chord plot of identifications obtained by metabarcoding from the Miller Creek watershed in 2021. Sizes of circles correspond to numbers of sequence reads observed.", out.width="95%"}
-knitr::include_graphics('img/network_chord_plot.png')
-```
+
 
 We documented `r nrec` new distribution records for the Kenai National Wildlife Refuge: `r reclist`. These were added the Refuge's species list in FWSpecies [@USFWSNRPC2019] the checklist data have been made available via a GitHub repository (<https://github.com/Kenai-NWR-bio/KenaiNWRspecies>).
 
@@ -377,6 +388,12 @@ knitr::include_graphics('img/Miller_Creek_MD2_2022-08-28.jpg')
 Because of the large size differences between the invertebrates we collected (from > 20 mm snails and dragonfly nymphs down to minute, < 1 mm plankton), which can result in smaller species not being detected, we may sort specimens by size or take smaller tissue samples from large specimens when we resurvey in 2022. Both of these strategies that have been used to improve detection of small species in metagenomic samples [e.g., @Jietal2013; @Elbrechtetal2017; @Carewetal2018; @Elbrechtetal2020; @Buchneretal2021].
 
 In future metagenomic analyses we may retain sequences from non-target taxonomic groups as recommended by @Zafeiropoulosetal2021. Why not?
+
+## Conclusions
+
+Overall, we believe that the metagenomic approach was superior to similar studies based on morphological specimens [e.g., @Massengill2014, @Massengill2017] because taxonomic resolution was finer in the present work than in the previous studies. In particular, small planktonic species were identified efficiently by metabarcoding. We lack the expertise to have identified most planktonic species based on morphology, so we would have needed to send these to an expert for identification.
+
+We suspect that we missed many species that were originally present in the samples due to subsampling by the sequencing labrartory. In 2022 we plan to address this problem by homogenizing samples before shipping them out for sequencing.
 
 ## Acknowledgments
 
