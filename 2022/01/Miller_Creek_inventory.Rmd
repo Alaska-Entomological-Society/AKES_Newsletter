@@ -310,7 +310,7 @@ spectab <- knitr::kable(sa[,c(7,2,1)],
   booktabs = TRUE,
   col.names = c("Phylum", "Identification", "Water Body"),
   row.names = FALSE,
-  caption = "Specimen records."
+  caption = "Identifications of morphological specimens by water body."
 )
 
 spectab %>%
@@ -328,7 +328,7 @@ Twenty-two identifications (*Arcteonais lomondi*, *Bibio longipes*, *Caenis youn
 comptab <- read.csv("Miller_Creek_comparison_table.csv", stringsAsFactors = FALSE)
 col.names <- c("MD Identifications", "MD Read Counts", "JM Identifications", "JM Read Counts")
 knitr::kable(comptab, 
-  longtable = TRUE, 
+  #longtable = TRUE, 
   booktabs = TRUE,
   col.names = col.names,
   caption = "Twenty most abundant identifications resulting from the two analysis pipelines. MD: MR DNA pipeline. JM: Je + MetaWorks pipeline.",
