@@ -44,8 +44,24 @@ On April 11, 2021 we visited a willow area at the end of Industrial Boulevard  i
 knitr::include_graphics('img/willow_weevils_02.jpg')
 ```
 
-```{r weevilsmating, fig.alt="Two mating weevils", fig.cap="Willow weevils mating in a terrarium."}
+```{r weevilsmating, fig.alt="Two mating weevils.", fig.cap="Willow weevils mating in a terrarium."}
 knitr::include_graphics('img/willow_weevils_03.jpg')
+```
+
+After mating the female lays an egg on the catkin (Figure \@ref(fig:femoncatkin)). We never found more than one larva inside the catkins that were examined (Figure \@ref(fig:larva)). This indicates the weevil may only lay one egg per catkin.
+
+```{r femoncatkin, fig.alt="A weevil on a willow catkin.", fig.cap="A female willow weevil on a willow catkin."}
+knitr::include_graphics('img/willow_weevils_04.jpg')
+```
+
+```{r larva, fig.alt="A weevil larva in willow catkin.", fig.cap="A weevil larva inside a dissected catkin."}
+knitr::include_graphics('img/willow_weevils_05.jpg')
+```
+
+Catkins containing willow larvae are usually bent (Figure \@ref(fig:bentcatkin)). A cavity with brown edges inside the catkin indicates where the larva has been feeding.
+ 
+```{r bentcatkin, fig.alt="A willow catkin cut in half to show a chamber where the weevil larva has been feeding inside the catkin.", fig.cap="A willow catkin dissected to show the cavity in which a weevil has been feeding."}
+knitr::include_graphics('img/willow_weevils_06.jpg')
 ```
 
 
