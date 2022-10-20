@@ -5,7 +5,6 @@ citeproc: false
 section-refs-bibliography:
   - chokecherry_midge.bib
   - corrections.bib
-  - Miller_Creek_inventory.bib
 csl: ../../share/pensoft-journals.csl
 colorlinks: true
 link-citations: true
