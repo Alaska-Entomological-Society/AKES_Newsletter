@@ -32,6 +32,8 @@ source("../../share/setup.R")
 
 *by Bob Armstrong and John Hudson*
 
+## What we have seen and learned about willow weevils in Juneau
+
 ```{r weevilsnow, fig.alt="A weevil on snow.", fig.cap="A willow weevil on snow."}
 knitr::include_graphics('img/willow_weevils_01.jpg')
 ```
@@ -64,6 +66,61 @@ Catkins containing willow larvae are usually bent (Figure \@ref(fig:bentcatkin))
 knitr::include_graphics('img/willow_weevils_06.jpg')
 ```
 
+```{r larvafront, fig.alt="A detail of the head of a willow weevil larva.", fig.cap="Front view of the weevil larva showing the head."}
+knitr::include_graphics('img/willow_weevils_07.jpg')
+```
+
+```{r larvarear, fig.alt="A detail of the posterior end of a willow weevil larva.", fig.cap="The rear end of the larva and clumps of fecal pellets called frass."}
+knitr::include_graphics('img/willow_weevils_08.jpg')
+```
+
+```{r frass, fig.alt="A detail of weevil frass on the outside of a willow catkin.", fig.cap="Willow weevil frass on a willow catkin."}
+knitr::include_graphics('img/willow_weevils_09.jpg')
+```
+
+With the amount of frass produced as the larvae eat the catkins we wondered if it is beneficial to the willows.
+
+Of the catkins that we monitored, the larvae pupated within the catkin and adults emerged in early June (Figure \@ref(fig:emergeadult)). To understand if the weevils are overwintering as larvae or adults, we examined the fallen catkins, leaf litter and soil below willows that were used by weevils. So far we have not found any weevils.
+
+```{r emergeadult, fig.alt="An adult weevil next to a willow catkin.", fig.cap="An adult weevil after emergence from a catkin."}
+knitr::include_graphics('img/willow_weevils_10.jpg')
+```
+
+
+After captive adults emerged we examined several catkins on trees in
+mid-June and found no evidence of the adult weevils mating, laying eggs, or producing any more larvae.
+
+On March 14 and 15, 2022 we found weevils on top of the snow near to where we had observed them on willow trees last summer (Figure \@ref(fig:adultsnow2022)) and we found one adult on a newly emerged catkin on this willow tree (Figures \@ref(fig:willow2022)&ndash;\@ref(fig:adultcatkin2022)).
+
+
+
+```{r adultsnow2022, fig.alt="A willow on snow.", fig.cap="A weevil on the snow."}
+knitr::include_graphics('img/willow_weevils_12.jpg')
+```
+
+```{r willow2022, fig.alt="A willow in the snow.", fig.cap="A willow tree on which we found an adult weevil."}
+knitr::include_graphics('img/willow_weevils_11.jpg')
+```
+
+```{r adultcatkin2022, fig.alt="An adult weevil on a willow catkin.", fig.cap="An adult on a willow catkin."}
+knitr::include_graphics('img/willow_weevils_13.jpg')
+```
+
+On April 27, 2022 we saw some willow catkins with the willow weevil larva in them (Figure \@ref(fig:larvacatkin2022)). Our conclusion, so far, is that the larva pupate within the catkins and the adults emerge in the summer. They overwinter as adults and mate and lay their eggs on the catkins in spring.
+
+```{r larvacatkin2022, fig.alt="A weevil larva in a willow catkin.", fig.cap="A willow weevil larva in a willow catkin."}
+knitr::include_graphics('img/willow_weevils_14.jpg')
+```
+
+According to the literature some birds have learned to target catkins with weevil larva in them (Figures \@ref(fig:waxwing)&ndash;\@ref(fig:sparrow)). 
+
+```{r waxwing, fig.alt="A bird holding a willow catkin in its beak.", fig.cap="This Bohemian Waxwing is eating a willow catkin in Juneau."}
+knitr::include_graphics('img/willow_weevils_15.jpg')
+```
+
+```{r sparrow, fig.alt="A bird holding a willow catkin in its beak.", fig.cap="A Song Sparrow eats a willow catkin in Juneau (Photo by Doug Jones)."}
+knitr::include_graphics('img/willow_weevils_16.jpg')
+```
 
 
 ## References
