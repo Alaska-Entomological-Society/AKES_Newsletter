@@ -32,14 +32,15 @@ source("../../share/numbers2words.R")
 # Miller Creek Watershed aquatic invertebrate inventory
 
 *by Matthew L. Bowser^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska, matt_bowser@fws.gov],
- Samuel I. Artaiz,
+ Samuel I. Artaiz^[USDA NRCS/Harney Soil and Water Conservation District, Hines, Oregon],
  Jake M. Danner^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska],
- Kris K. Dent^[Alaska Department of Fish and Game, Soldotna, Alaska],
+ <!-- Kris K. Dent^[Alaska Department of Fish and Game, Soldotna, Alaska],-->
  Robert L. Massengill^[Alaska Department of Fish and Game, Soldotna, Alaska],
- Benjamin Meyer^[Kenai Watershed Forum, Soldotna, Alaska],
- Dom Watts^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska], 
- Chelsea Wisotzkey^[Kenai Watershed Forum, Soldotna, Alaska], and
- Warren R. Wyrick*^[Alaska Department of Fish and Game, Soldotna, Alaska]
+ Benjamin Meyer^[Kenai Watershed Forum, Soldotna, Alaska], and
+ Dom Watts^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska] 
+ <!--Chelsea Wisotzkey^[Kenai Watershed Forum, Soldotna, Alaska], -->
+ <!-- Warren R. Wyrick^[Alaska Department of Fish and Game, Soldotna, Alaska] -->
+*
 
 ## Abstract
 

@@ -33,7 +33,7 @@ output:
 # Set options
 source("../../share/setup.R")
 
-articles <- c("chokecherry_midge.Rmd", "corrections.Rmd", "Miller_Creek_inventory.Rmd")
+articles <- c("chokecherry_midge.Rmd", "corrections.Rmd")
 ```
 
 ```{r, child=articles[1]}
@@ -42,5 +42,4 @@ articles <- c("chokecherry_midge.Rmd", "corrections.Rmd", "Miller_Creek_inventor
 ```{r, child=articles[2]}
 ```  
 
-```{r, child=articles[3]}
-```  
+ 
