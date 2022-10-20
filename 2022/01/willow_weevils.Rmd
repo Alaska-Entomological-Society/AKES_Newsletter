@@ -4,6 +4,7 @@ bibliography: willow_weevils.bib
 csl: ../../share/pensoft-journals.csl
 link-citations: true
 colorlinks: true
+nocite: '@*'
 params:
   volume: 15
   issue: 1
@@ -122,5 +123,22 @@ knitr::include_graphics('img/willow_weevils_15.jpg')
 knitr::include_graphics('img/willow_weevils_16.jpg')
 ```
 
+## A couple of useful reports about willow weevils
+
+Fjellberg and Bøcher [-@FjellbergBocher2006] worked on *Dorytomus imbecillus* whereas the species we observed was probably *D. leucophyllus*. However there appeared to be significant differences that could alter our conclusions:
+
+1. They found more than one larvae inside individual catkins whereas we only observed one per catkin.
+2. They observed pupation taking place in the soil and litter underneath the low bushes. Despite several days of scraping the soil and looking for pupae we never found any. We also observed the weevils pupating inside the catkins and emerging as adults before the catkins fell to the ground. Also we never saw any indication of the adults mating or laying eggs on any catkins after the early June emergence of the adults. This indicated they overwintered as adults rather than pupae.
+
+Leatherman [-@Letherman2011] observed warblers, vireos, kinglets, orioles, Red-winged Blackbirds, House Finches, grosbeaks, and tanagers all vigorously seeking the catkins with weevil larvae in them. And he thought the complete list of weevil seekers
+is probably much longer. In east-central England, Morris [-@Morris1998] strongly suspected several bird species
+(Blue, Marsh, Willow, Long-tailed, and Coal Tits) of preying on *Dorytomus* larvae in aspen catkins. So far we have observed Bohemian Waxwings and Song Sparrows eating the willow catkins. We suspect they may be targeting the ones with weevil larvae in them. To our knowledge there has been very little work or information about the birds in Alaska eating willow catkins.
+
+We have observed several insects feeding on the willow catkins when they emerge in the spring. We have also observed several birds feeding on these insects. We conclude that the catkins are extremely important food for early emerging insects, especially queen bumblebees, at a time when other flowers have not bloomed. The insects are probably an important food for several species of birds. To see what we have observed feeding on willows look at <https://www.naturebob.com/sites/default/files/Willows.pdf>.
+
+## See also
+
+- <https://www.naturebob.com/sites/default/files/Su2011_Article_DeclineInTheDiversityOfWillowT.pdf> 
+- <https://doi.org/10.1016/j.landurbplan.2010.03.004>
 
 ## References
