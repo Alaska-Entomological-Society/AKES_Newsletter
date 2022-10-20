@@ -5,6 +5,7 @@ citeproc: false
 section-refs-bibliography:
   - chokecherry_midge.bib
   - corrections.bib
+  - willow_weevils.bib
 csl: ../../share/pensoft-journals.csl
 colorlinks: true
 link-citations: true
@@ -15,7 +16,6 @@ output:
   bookdown::pdf_book:
     documentclass: book
     latex_engine: pdflatex
-    extra_dependencies: ["float"]
     pandoc_args: 
       - --listings
       - --lua-filter=../../share/section-refs.lua
@@ -30,10 +30,12 @@ output:
 ---
 
 ```{r, include=FALSE}
+knitr::opts_chunk$set(fig.pos = "H")
+
 # Set options
 source("../../share/setup.R")
 
-articles <- c("chokecherry_midge.Rmd", "corrections.Rmd")
+articles <- c("chokecherry_midge.Rmd", "corrections.Rmd", "willow_weevils.Rmd")
 ```
 
 ```{r, child=articles}
