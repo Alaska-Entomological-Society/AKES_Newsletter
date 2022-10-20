@@ -7,6 +7,7 @@ section-refs-bibliography:
   - corrections.bib
   - Miller_Creek_inventory.bib
 csl: ../../share/pensoft-journals.csl
+colorlinks: true
 link-citations: true
 params:
   volume: 15
@@ -36,10 +37,8 @@ source("../../share/setup.R")
 articles <- c("chokecherry_midge.Rmd", "corrections.Rmd")
 ```
 
-```{r, child=articles[1]}
+```{r, child=articles}
 ```  
 
-```{r, child=articles[2]}
-```  
 
  

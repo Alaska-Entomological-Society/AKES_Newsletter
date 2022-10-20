@@ -8,3 +8,4 @@ for (this_article in articles){
   rmarkdown::render(input = this_article, output_format = "all")
 }
 
+
