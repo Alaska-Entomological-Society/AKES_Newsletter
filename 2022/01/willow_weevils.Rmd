@@ -1,0 +1,53 @@
+---
+lang: en-US
+bibliography: willow_weevils.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+colorlinks: true
+params:
+  volume: 15
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# Willow Weevils in Juneau, Alaska
+
+*by Bob Armstrong and John Hudson*
+
+```{r weevilsnow, fig.alt="A weevil on snow.", fig.cap="A willow weevil on snow."}
+knitr::include_graphics('img/willow_weevils_01.jpg')
+```
+
+We often see adult willow weevils crawling on the snow in March and early April (Figure \@ref(fig:weevilsnow)). Derek Sikes of the University of Alaska Museum of the North identified photographs of specimens as *Dorytomus*. Of the 252 records of Dorytomus in Alaska, *D. leucophyllus* is the only species that has been found in Juneau.
+
+On April 11, 2021 we visited a willow area at the end of Industrial Boulevard  in Juneau (Figure \@ref(fig:Indwillow)). We shook one of the trees and several adult weevils fell on the snow beneath the tree. A few of these adults were placed in a terrarium and kept indoors. Within a few hours we observed four couples mating (\@ref(fig:weevilsmating)). It appeared that the weevils were on the tree for the purpose of mating.
+
+```{r Indwillow, fig.alt="Willows along a snowy road.", fig.cap="A willow area at the end of Industrial Boulevard  in Juneau."}
+knitr::include_graphics('img/willow_weevils_02.jpg')
+```
+
+```{r weevilsmating, fig.alt="Two mating weevils", fig.cap="Willow weevils mating in a terrarium."}
+knitr::include_graphics('img/willow_weevils_03.jpg')
+```
+
+
+
+## References
