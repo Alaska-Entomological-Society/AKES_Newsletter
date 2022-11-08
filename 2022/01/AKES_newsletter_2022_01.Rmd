@@ -35,8 +35,14 @@ knitr::opts_chunk$set(fig.pos = "H")
 # Set options
 source("../../share/setup.R")
 
-articles <- c("chokecherry_midge.Rmd", "corrections.Rmd", "willow_weevils.Rmd", "Sony_RX10_iv.Rmd")
+articles <- c("chokecherry_midge.Rmd", "corrections.Rmd", "willow_weevils.Rmd", "Sony_RX10_iv.Rmd", "meeting.Rmd")
 ```
+
+```{r frontice, fig.align='center', fig.alt="A plant gall has been opened to show fly larvae inside.", fig.cap="Chokecherry midge larvae (credit: Alexandria Wenninger)."}
+knitr::include_graphics(path="img/midge_larvae.jpg")
+```
+
+
 
 ```{r, child=articles}
 ```  

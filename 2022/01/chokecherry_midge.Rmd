@@ -8,17 +8,17 @@ params:
   volume: 15
   issue: 1
 output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
   bookdown::epub_book:
     number_sections: false
     toc: false
     chapter_level: 1
     stylesheet: 
       - ../../share/style_epub.css
-  bookdown::html_document2:
-    number_sections: false
-    toc: false
-    css: 
-      - ../../share/style.css
 ---
 
 ```{r, include=FALSE}

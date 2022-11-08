@@ -8,17 +8,17 @@ params:
   volume: 15
   issue: 1
 output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
   bookdown::epub_book:
     number_sections: false
     toc: false
     chapter_level: 1
     stylesheet: 
       - ../../share/style_epub.css
-  bookdown::html_document2:
-    number_sections: false
-    toc: false
-    css: 
-      - ../../share/style.css
 ---
 
 ```{r, include=FALSE}
@@ -34,7 +34,7 @@ source("../../share/setup.R")
 
 ## Abstract 
 
-During the last decade three occurrence records for three species of *Nicrophorus*&mdash;*N. guttula,* from Sitka Alaska, USA*,* *N. hebes* from Alaska, and *N. hybridus* from Whitehorse, Yukon, Canada&mdash;were published, which are likely erroneous because no reliable evidence suggests these species occur or occurred in these regions. This short note provides details, comments, and species distribution modeling analyses on these records and concludes all three are erroneous.
+During the last decade three occurrence records for three species of *Nicrophorus*&mdash;*N. guttula,* from Sitka Alaska, USA, *N. hebes* from Alaska, and *N. hybridus* from Whitehorse, Yukon, Canada&mdash;were published, which are likely erroneous because no reliable evidence suggests these species occur or occurred in these regions. This short note provides details, comments, and species distribution modeling analyses on these records and concludes all three are erroneous.
 
 ## Introduction
 

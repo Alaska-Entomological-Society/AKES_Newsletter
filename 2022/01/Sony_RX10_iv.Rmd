@@ -89,7 +89,7 @@ knitr::include_graphics('img/Sony_tardi.jpg')
 knitr::include_graphics('img/Sony_springtail.jpg')
 ```
 
-How much does this equipment Cost? The camera costs \$1,698.00 from B&H photo. And also from B&H photo, the Raynox Super Micro lens costs \$70.25. It appears that the Raynox Super Micro lens might have to be purchased from the Raynox lens company.
+How much does this equipment Cost? The camera costs \$1,698.00 from B&H photo. And also from B&H photo, the Raynox Super Macro lens costs \$70.25. It appears that the Raynox Super Micro lens might have to be purchased from the Raynox lens company.
 
 In order to attach these lenses to the Sony camera you will need a 72&ndash;62 mm step down ring. A Sensei 72&ndash;62mm step-down ring from B & H photo costs \$5.95.
 
