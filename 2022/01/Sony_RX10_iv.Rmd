@@ -40,7 +40,7 @@ knitr::include_graphics('img/Sony_front.jpg')
 knitr::include_graphics('img/Sony_rear.jpg')
 ```
 
-I have been testing a Sony RX10 iv (Figures \@ref(fig:sonyfront)&ndash\@ref(fig:sonyrear)) for insect photography and so far:
+I have been testing a Sony RX10 iv (Figures \@ref(fig:sonyfront)&ndash;\@ref(fig:sonyrear)) for insect photography and so far:
 
 1. This may be the best camera for photographing insects both in the wild and in the lab.
 
@@ -51,7 +51,15 @@ I have been testing a Sony RX10 iv (Figures \@ref(fig:sonyfront)&ndash\@ref(fig:
 4. The built in flash works very well. This allows you to use a high f-stop, up to f/16, and a high shutter speed (1/1,000 of a second). This gives you a high depth of field and best of all you can hand hold the camera and not have to use a tripod or external flash.
 
 5. In the lab the viewing screen moves for perfect viewing. The camera has a high depth of field, the built in flash works well, and there is no need to use a camera attached to a microscope.
- 
 
+```{r fly1, fig.alt="A fly standing on the surface tension of water.", fig.cap="A long-legged fly."}
+knitr::include_graphics('img/Sony_fly1.jpg')
+```
+
+```{r fly2, fig.alt="Two flies standing on the surface tension of water in copula.", fig.cap="Long-legged flies."}
+knitr::include_graphics('img/Sony_fly2.jpg')
+```
+
+These long-legged flies (Figures \@ref(fig:fly1)&ndash;\@ref(fig:fly2)) dart about on the water surface. The camera focused on them very quickly. The camera was hand held from about four feet away.
  
 
