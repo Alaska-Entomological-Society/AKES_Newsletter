@@ -32,11 +32,11 @@ source("../../share/setup.R")
 
 *by Bob Armstrong*
 
-```{r sonyfront, fig.alt="A digital camera.", fig.cap="Sony RX10, front view."}
+```{r sonyfront, fig.alt="A digital camera.", fig.cap="Sony RX10 iv, front view."}
 knitr::include_graphics('img/Sony_front.jpg')
 ```
 
-```{r sonyrear, fig.alt="A digital camera.", fig.cap="Sony RX10, back view."}
+```{r sonyrear, fig.alt="A digital camera.", fig.cap="Sony RX10 iv, back view."}
 knitr::include_graphics('img/Sony_rear.jpg')
 ```
 
@@ -61,5 +61,24 @@ knitr::include_graphics('img/Sony_fly2.jpg')
 ```
 
 These long-legged flies (Figures \@ref(fig:fly1)&ndash;\@ref(fig:fly2)) dart about on the water surface. The camera focused on them very quickly. The camera was hand held from about four feet away.
- 
+
+```{r sonybee, fig.alt="A bee in flight near a flower", fig.cap="A queen bumblebee."}
+knitr::include_graphics('img/Sony_bee.jpg')
+```
+
+```{r sonymoth, fig.alt="A moth perched on a bud of a plant spreads its wings.", fig.cap="A moth."}
+knitr::include_graphics('img/Sony_moth.jpg')
+```
+
+The camera focused quickly on flying insects such as the queen bumblebee (Figure \@ref(fig:sonybee)) and moth (Figure \@ref(fig:sonymoth)). It should be great for dragonflies and butterflies.
+
+```{r sonyweevil, fig.alt="A weevil on a willow catkin", fig.cap="A willow weevil."}
+knitr::include_graphics('img/Sony_weevil.jpg')
+```
+
+```{r sonypseudo, fig.alt="A pseudoscorpion on the surface of a rock.", fig.cap="A pseudoscorpion."}
+knitr::include_graphics('img/Sony_pseudo.jpg')
+```
+
+For very tiny insects you can quickly snap on the Raynox super macro lens and use the built in flash and a high f-stop. Figure \@ref(fig:sonyweevil) is a Willow Weevil adult on a willow catkin. Figure \@ref(fig:sonypseudo) shows a pseudoscorpion hiding under a rock in the intertidal area. They are only about 3&ndash;5 mm long. The Sony was able to full frame them.
 
