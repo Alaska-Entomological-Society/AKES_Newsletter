@@ -82,3 +82,20 @@ knitr::include_graphics('img/Sony_pseudo.jpg')
 
 For very tiny insects you can quickly snap on the Raynox super macro lens and use the built in flash and a high f-stop. Figure \@ref(fig:sonyweevil) is a Willow Weevil adult on a willow catkin. Figure \@ref(fig:sonypseudo) shows a pseudoscorpion hiding under a rock in the intertidal area. They are only about 3&ndash;5 mm long. The Sony was able to full frame them.
 
+In the lab you can attach the camera to a fine adjustment stand and actually use it as a microscope. With the Raynox super micro attached you can easily focus on very tiny subjects such as tardigrades (water bears, Figure \@ref(fig:sonytardi)) and tiny springtails (Figure \@ref(fig:sonyspringtail)). With the high depth of field there is no need for stacking images.
+
+```{r sonytardi, fig.alt="A tardigrade.", fig.cap="A tardigrade about 0.5 mm long."}
+knitr::include_graphics('img/Sony_tardi.jpg')
+```
+
+```{r sonyspringtail, fig.alt="A pail springtail on a rock.", fig.cap="A beach springtail about 4 mm long."}
+knitr::include_graphics('img/Sony_springtail.jpg')
+```
+
+How much does this equipment Cost? The camera costs \$1,698.00 from B&H photo. And also from B&H photo, the Raynox Super Micro lens costs \$70.25. It appears that the Raynox Super Micro lens might have to be purchased from the Raynox lens company.
+
+In order to attach these lenses to the Sony camera you will need a 72&ndash;62 mm step down ring. A Sensei 72&ndash;62mm step-down ring from B & H photo costs \$5.95.
+
+I am glad to answer any questions at <bob@discoverysoutheast.org>.
+
+
