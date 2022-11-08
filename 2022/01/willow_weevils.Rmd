@@ -91,7 +91,7 @@ knitr::include_graphics('img/willow_weevils_10.jpg')
 
 
 
-With the amount of frass produced as the larvae eat the catkins we wondered if it is beneficial to the willows.
+With the amount of frass produced as the larvae eat the catkins we wondered if it is beneficial to the willows (Figures \@ref(fig:larvarear)&ndash;\@ref(fig:frass)).
 
 Of the catkins that we monitored, the larvae pupated within the catkin and adults emerged in early June (Figure \@ref(fig:emergeadult)). To understand if the weevils are overwintering as larvae or adults, we examined the fallen catkins, leaf litter and soil below willows that were used by weevils. So far we have not found any weevils.
 
