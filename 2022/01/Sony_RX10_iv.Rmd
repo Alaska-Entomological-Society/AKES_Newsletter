@@ -1,8 +1,5 @@
 ---
 lang: en-US
-bibliography: willow_weevils.bib
-csl: ../../share/pensoft-journals.csl
-link-citations: true
 colorlinks: true
 params:
   volume: 15

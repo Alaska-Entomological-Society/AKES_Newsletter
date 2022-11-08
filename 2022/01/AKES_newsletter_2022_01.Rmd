@@ -35,7 +35,7 @@ knitr::opts_chunk$set(fig.pos = "H")
 # Set options
 source("../../share/setup.R")
 
-articles <- c("chokecherry_midge.Rmd", "corrections.Rmd", "willow_weevils.Rmd")
+articles <- c("chokecherry_midge.Rmd", "corrections.Rmd", "willow_weevils.Rmd", "Sony_RX10_iv.Rmd")
 ```
 
 ```{r, child=articles}
