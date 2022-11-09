@@ -85,7 +85,11 @@ knitr::include_graphics('img/corrections_N_hybridus.png')
 
 Using presence-only data for *N. guttula* a niche model for this species was estimated which shows southeast Alaska to have unsuitable habitat for this species (Figure \@ref(fig:Nguttulamap)), making the likelihood very low that the type locality of Sitka is correct. The correct type locality is presumably somewhere along the northwestern coast of California, Oregon, or Washington. Many beetle specimens from this coastline, and Alaska, made their way to Europe via Russian naturalists in the mid 1800s and confusion over collection data is quite plausible.
 
-```{r Nguttulamap, out.width='75%', fig.alt="Map of western North America showing observed and modeled distribution, mostly in the western United States and southwestern Canada", fig.cap="Map of records for *Nicrophorus guttula* Motschulsky showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R."}
+(ref:Ngutullamapalt) Map of western North America showing observed and modeled distribution, mostly in the western United States and southwestern Canada.
+
+(ref:Nguttulamapcap) Map of records for *Nicrophorus guttula* Motschulsky showing observations (red dots) and habitat suitability probability (colors, see key) based on presence-only niche modeling using the bioclim algorithm in the dismo package in R.
+
+```{r Nguttulamap, out.width='75%', fig.alt="(ref:Ngutullamapalt)", fig.cap="(ref:Nguttulamapcap)"}
 knitr::include_graphics('img/corrections_N_guttula.png')
 ```
 
