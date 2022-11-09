@@ -27,7 +27,7 @@ source("../../share/setup.R")
 
 # Review of the fifteenth annual meeting
 
-*by Alexandria Wenninger^[UAF Cooperative Enxtension Service, Anchorage, Alaska, <akwenninger@alaska.edu>] and Dana Brennan^[Alaska Department of Environmental Conservation, Fairbanks, Alaska, <danambrenn@gmail.com>]*
+*by Dana Brennan^[Alaska Department of Environmental Conservation, Fairbanks, Alaska, <danambrenn@gmail.com>] and Alexandria Wenninger^[UAF Cooperative Enxtension Service, Anchorage, Alaska, <akwenninger@alaska.edu>]*
 
 ```{r meeting, out.width='100%', fig.alt="A screen shot of people at a Zoom virtual meeting.", fig.cap="Zoom gallery view of the faces of 24 society members that were in attendance of the 15th annual meeting: From left to right top row: Susan Wise-Eagle, Alex Wenninger, Bob Armstrong, Mike Baldwin, Julie Riley. Second row: Joey Slowik, Debbie H, Dennis Fielding, Roger Burnside, Jessie Moan. Third row: Elizabeth Graham, Derek Sikes, Thalles Lavinscky Pereira, Robin Andrews, Taylor Kane. Fourth row: Adam Haberski, Garret Dubois, Dana Brennan, Sydney Brannoch, Jessica Rykken. Fifth row: Steve Swenson, Janice Chumley, Isaac Dell, Matt Bowser."}
 knitr::include_graphics('img/meeting.jpg')
