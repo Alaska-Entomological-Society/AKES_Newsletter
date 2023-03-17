@@ -75,16 +75,7 @@ In 2023 I plan to develop protocols for involving citizen scientists in surveyin
 
 ## Acknowledgements
 
-Thank you to Dr. Derek S. Sikes, Curator of Insects at the University of Alaska Museum of the North, for identifying specimens of both *Brachypterolus pulicarius* and *Rhinusa antirrhini* collected 2 June 2022 in Anchorage. These reference specimens were deposited into the University of Alaska Museum of the North Insect Collection^[<https://arctos.database.museum/guid/UAM:Ento:476269>, 
-<https://arctos.database.museum/guid/UAM:Ento:476270>,  
-<https://arctos.database.museum/guid/UAM:Ento:476271>,  
-<https://arctos.database.museum/guid/UAM:Ento:476272>,  
-<https://arctos.database.museum/guid/UAM:Ento:476273>,  
-<https://arctos.database.museum/guid/UAM:Ento:476274>,  
-<https://arctos.database.museum/guid/UAM:Ento:476275>,  
-<https://arctos.database.museum/guid/UAM:Ento:476276>,  
-<https://arctos.database.museum/guid/UAM:Ento:476277>,  
-<https://arctos.database.museum/guid/UAM:Ento:476278>]. This work was supported by funds from the USDA Forest Service, USDA Animal Plant Health & Inspection Service, and the Western Region of the National Plant Diagnostic Network.
+Thank you to Dr. Derek S. Sikes, Curator of Insects at the University of Alaska Museum of the North, for identifying specimens of both *Brachypterolus pulicarius* and *Rhinusa antirrhini* collected 2 June 2022 in Anchorage. These reference specimens were deposited into the University of Alaska Museum of the North Insect Collection^[<https://arctos.database.museum/guid/UAM:Ento:476269>, <https://arctos.database.museum/guid/UAM:Ento:476270>, <https://arctos.database.museum/guid/UAM:Ento:476271>, <https://arctos.database.museum/guid/UAM:Ento:476272>, <https://arctos.database.museum/guid/UAM:Ento:476273>, <https://arctos.database.museum/guid/UAM:Ento:476274>, <https://arctos.database.museum/guid/UAM:Ento:476275>, <https://arctos.database.museum/guid/UAM:Ento:476276>, <https://arctos.database.museum/guid/UAM:Ento:476277>, <https://arctos.database.museum/guid/UAM:Ento:476278>]. This work was supported by funds from the USDA Forest Service, USDA Animal Plant Health & Inspection Service, and the Western Region of the National Plant Diagnostic Network.
 
 
 ## References
