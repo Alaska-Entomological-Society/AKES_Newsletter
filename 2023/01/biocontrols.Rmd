@@ -1,0 +1,90 @@
+---
+lang: en-US
+bibliography: biocontrols.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+colorlinks: true
+params:
+  volume: 15
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# Two biocontrol insects of invasive yellow toadflax self-established in Anchorage, Alaska: the toadflax flower-feeding beetle and the toadflax seed capsule weevil
+
+*by Alexandria Wenninger*^[University of Alaska Fairbanks Cooperative Extension Service Integrated Pest Management Program, akwenninger@alaska.edu]
+
+Two biological control agents of the invasive plant yellow toadflax (*Linaria vulgaris* Miller, 1768) have established in Anchorage, Alaska without intentional introduction: the toadflax flower-feeding beetle (*Brachypterolus pulicarius* (Linnaeus, 1758)) and the toadflax seed capsule weevil (*Rhinusa antirrhini* (Paykull, 1800)). Both of these species were accidentally introduced to eastern North America in the early 1900s and are now found throughout much of the continent where yellow toadflax infestations occur; some states have intentionally redistributed these species, however no formal biocontrol introductions of these species have been made in Alaska. Despite the lack of formal introductions in Alaska, these two biocontrol species both occur in Anchorage, Alaska. Feeding by these two species reduces seed production, which may slow the spread and establishment of new populations of invasive toadflax in Alaska. 
+
+## The toadflax flower-feeding beetle, *Brachypterolus pulicarius* (Linnaeus) (Coleoptera: Kateretidae)
+
+The toadflax flower-feeding beetle emerges as an adult in spring and feeds on emerging toadflax shoot tips before laying eggs into unopened flower buds (Wilson et al. 2005). Adults are brown to black in color and ~2&ndash;3 mm in length (Figure 1). The larvae feed on flowers (ovaries, pollen, and anthers) and developing seeds before dropping to the ground to overwinter as pupae (McClay 1992). Larvae are yellow in color with a brown to black head and darkened band on the pronotum, reaching a length of ~7 mm (Figure 2). Larval feeding can reduce a flower’s seed production by as much as ~75%&ndash;90% (McClay 1992, Winston et al. 2014, Harris 1961). Pupae are yellow in color, ~2&ndash;3 mm in length, and feature a row of paired spines along the dorsum extending from the head to the end of the abdomen (Figure 2); the spines on the thorax project forward toward the head whereas the spines on the abdomen project back toward the rear. The adults have been reported feeding on flowers of other plant species, including strawberry and dandelion, however, the species is only known to be able to complete development on species in the genus *Linaria* (Hervey 1927). Only one generation is known per year in Canada, with the species overwintering as pupae, however, in Europe and some states in the US, some may eclose late in the season and overwinter as an adult (Government of British Columbia 2018). 
+
+The toadflax flower-feeding beetle is thought to have been accidentally introduced to North America in New York, USA in 1919, after which it was intentionally redistributed to various localities within the lower 48 states, however no known intentional introductions have been made in Alaska that I can find evidence of. The toadflax flower-feeding beetle has been released in and is established in British Columbia (Government of British Columbia 2018) though it has not yet been recorded in Yukon, Canada^[There is conflicting information in the literature about the presence of this species in western Canada. Harris (1961) states that the species had been found in all Canadian provinces by 1953, however, this species has not been recognized as being present in British Columbia nor Yukon in the first (Bousquet 1991) nor second (Bousquet et al. 2013) editions of the *Checklist of the Beetles of Canada and Alaska*. A publication titled ‘*Brachypterolus pulicarius* L.’ found on the Government of British Columbia website states that intentional releases of this organism as a biocontrol on Dalmatian toadflax (*Linaria dalmatica* L.) occurred in 1989 and 2004 and describes the species as established in British Columbia. I was unable to find any further records of this species in Yukon. ]. This beetle was first recorded from Alaska in 2016 when one individual was caught in a vane trap in Anchorage^[<https://arctos.database.museum/guid/UAM:Ento:351434>]. This species was found on toadflax as early in the season as 2 June 2022, and some adults were still present on flowers on 13 September.  I wild-collected larvae between 18&ndash;23 August to rear indoors; the beetles were able to be reared from larva to adult at room temperature (~70 &deg;F) and the first adults emerged 12 September. 
+
+## The toadflax seed capsule weevil, *Rhinusa antirrhini* (Paykull) (Coleoptera: Curculionidae)
+
+The toadflax seed capsule weevil emerges as an overwintered adult in late spring and feeds on emerging toadflax shoot tips and flowers before laying eggs into the flower’s ovaries (Wilson et al. 2005). Adults are grey to black in color, setose, and ~2.5&ndash;3mm in length (Figures 1 & 3). Egg deposition into the host plant tissue triggers gall formation; the seeds near the egg expand beyond their typical size resulting in seed inviability (Sing et al. 2016). The developing larvae then feed on both the galled tissue as well as on other developing seeds within the capsule (Sing et al. 2016). The legless larvae are creamy white with a black head capsule, ~4mm in length, and feed on galled seed tissue before pupating inside the seed capsule (Figure 2). Adults emerge in late summer to early fall and will often overwinter inside the seed capsule or in plant debris (Nowierski 2004). 
+
+*Rhinusa antirrhini* is thought to have been accidentally introduced to the eastern United States, first recorded around 1909, and to British Columbia, Canada, first recorded in 1917, after which intentional introductions were made in various localities of both Canada and the lower 48 states (Winston et al. 2014), however no intentional introductions have been made Alaska that I can find evidence of. This beetle was previously recorded from Alaska in both Fairbanks in October  2006^[<https://arctos.database.museum/guid/UAM:Ento:25891>, 
+<https://arctos.database.museum/guid/UAM:Ento:25892>, 
+<https://arctos.database.museum/guid/UAM:Ento:25893>,
+<https://arctos.database.museum/guid/UAM:Ento:25974>,
+<https://arctos.database.museum/guid/UAM:Ento:25975>,
+<https://arctos.database.museum/guid/UAM:Ento:25976>] and Anchorage in July 2008^[<https://arctos.database.museum/guid/UAM:Ento:97224>, <https://arctos.database.museum/guid/UAM:Ento:97225>, 
+<https://arctos.database.museum/guid/UAM:Ento:97226>, 
+<https://arctos.database.museum/guid/UAM:Ento:97227>, 
+<https://arctos.database.museum/guid/UAM:Ento:97228>, 
+<https://arctos.database.museum/guid/UAM:Ento:97229>, 
+<https://arctos.database.museum/guid/UAM:Ento:97230>, 
+<https://arctos.database.museum/guid/UAM:Ento:97231>, 
+<https://arctos.database.museum/guid/UAM:Ento:97232>, 
+<https://arctos.database.museum/guid/UAM:Ento:97233>] on yellow toadflax. In 2022 this species was collected as early as 2 June and as late as 13 September. 
+
+The toadflax seed capsule weevil was previously recognized for its potential to decrease seed production of invasive toadflax in Anchorage (Forest Health Conditions in Alaska – 2008, =*Gymnetron antirrhini*), however, I have been unable to find any report of further surveys of the distribution of this species in Alaska since those initial discoveries. Seed reductions due to feeding by this species have been reported as high as 90% in Washington (Nowierski 2004), however most reported attack rates are lower than this (Winston et al. 2014). Previous observations in Alaska have reported ~20% attack rate on yellow toadflax by an unknown weevil (Alaska Natural Heritage Program 2011) which is consistent with the 20&ndash;25% typical seed reduction observed in Canada (Nowierski 2004). Predators and parasitoids of this species may contribute to the variation seen in seed attack rates among localities; a study in Ottawa, Canada found anywhere from 4% to 85% of collected *R. antirrhini* larvae were parasitized (Allison 2009). Alaska is also home to the solitary predatory wasp *Cerceris nigrescens*, which is known to collect adult *R. antirrhini* as prey for nest provisioning (Krombien 1938, Scullen 1965). It is worth noting that *R. antirrhini* may delay oviposition in areas where it is in competition with *B. pulicarius* (Turner 2008), and furthermore *B. pulicarius* larvae have been observed predating upon *R. antirrhini* eggs (Jacobs and Sing 2006). Many authors report that these competitive and antagonistic interactions between *B. pulicarius* and *R. antirrhini* prevent their impact on toadflax from being additive (Harris 1961, Sing et al. 2016, Winston et al. 2014).
+
+## Host
+
+Yellow toadflax (*Linaria vulgaris* Miller) was introduced to North America in the 1600s for ornamental and medicinal purposes, however, by 1849 the species had spread across the eastern and mid-western United States where it became a significant agricultural weed (Saner et al. 1995, Sing et al. 2022). The species is now found throughout much of North America, having spread as a contaminant in crop seed and baled hay, through railway corridors and ship ballasts, and from intentional ornamental plantings (Sing et al. 2022, Saner et al. 1995). The plant produces yellow, spurred flowers with orange throats, borne in terminal clusters (Figure 4); leaves are pale green and arranged alternately on the stem (Alaska Natural Heritage Program 2011). Yellow toadflax can spread by seed or root fragments and its invasion is facilitated by disturbance; once established, yellow toadflax can form dense colonies that suppress native grasses and perennials (Alaska Natural Heritage Program 2011). Toadflax seeds often remain viable after ingestion by wildlife and livestock (primarily ungulates and birds) which is thought to facilitate long-range dispersal as well as dispersal into wilderness areas (Sing et al. 2016, Sing et al. 2022). 
+
+## 2022 Survey Results
+
+Midtown and Northeast Anchorage were surveyed opportunistically in 2022 for existing yellow toadflax populations and for the presence of the two biocontrol beetles on toadflax (Figure 5). The locations where I surveyed toadflax in 2022 can largely be simplified into 11 distinct locations (Figure 5a); *B. pulicarius* was detected at all 11 of these locations (Figure 5b) and *R. antirrhini* was detected at 8 of the 11 locations (Figure 5c). 
+
+## Reporting
+
+In 2023 I plan to develop protocols for involving citizen scientists in surveying for beetles on toadflax to help expand our understanding of the distribution of these beetles beyond Anchorage. Currently, infestations of yellow toadflax on public land can be reported via the mobile app ‘Alaska Invasives ID’ or at <https://alaskainvasivesreporter.org>. I am especially interested in reports of the biocontrol beetles on yellow toadflax observed outside of Anchorage. Photos and location can be submitted directly to Statewide IPM Technician Alex Wenninger via email at akwenninger@alaska.edu or via our monitoring portal at <https://alaskapestreporter.org>. 
+
+## Acknowledgements
+
+Thank you to Dr. Derek S. Sikes, Curator of Insects at the University of Alaska Museum of the North, for identifying specimens of both *Brachypterolus pulicarius* and *Rhinusa antirrhini* collected 2 June 2022 in Anchorage. These reference specimens were deposited into the University of Alaska Museum of the North Insect Collection^[<https://arctos.database.museum/guid/UAM:Ento:476269>, 
+<https://arctos.database.museum/guid/UAM:Ento:476270>,  
+<https://arctos.database.museum/guid/UAM:Ento:476271>,  
+<https://arctos.database.museum/guid/UAM:Ento:476272>,  
+<https://arctos.database.museum/guid/UAM:Ento:476273>,  
+<https://arctos.database.museum/guid/UAM:Ento:476274>,  
+<https://arctos.database.museum/guid/UAM:Ento:476275>,  
+<https://arctos.database.museum/guid/UAM:Ento:476276>,  
+<https://arctos.database.museum/guid/UAM:Ento:476277>,  
+<https://arctos.database.museum/guid/UAM:Ento:476278>]. This work was supported by funds from the USDA Forest Service, USDA Animal Plant Health & Inspection Service, and the Western Region of the National Plant Diagnostic Network.
+
+
+## References
