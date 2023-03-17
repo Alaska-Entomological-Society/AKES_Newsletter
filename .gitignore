@@ -7,6 +7,7 @@
 *.out
 *.pdf
 *.synctex.gz
+*.Rhistory
 *.toc
 AKES_newsletter_*.bib
 share/preamble_Rmd.tex
