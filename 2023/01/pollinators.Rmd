@@ -34,13 +34,27 @@ source("../../share/setup.R")
 
 ## Introduction
 
+Pollinating insects provide important ecosystem services in Alaska [@Fulkersonetal2021] and the pollinators themselves are wildlife that the Kenai National Wildlife Refuge was established in part to conserve [@KenaiNWR2010CCP]. Given that pollinators appear to be declining in North America [@Kohetal2016],...
+
 ## Methods
+
+### Field Methods
+
+We generally followed the field methods of @Fulkersonetal2021 with the exception that we collected specimens into SK picglobal 99.9% pure propylene glycol.
 
 ```{r pollinatorsTwin, fig.alt="A man netting insects in a lush alpine meadow.", fig.cap="Dominique Watts collecting pollinators using an aerial net above Twin Lakes, August 3, 2022 (credit: Matt Bowser/USFWS)."}
 knitr::include_graphics('img/pollinators_Twin.jpg')
 ```
 
+### Specimen Processing
+
+### Bioinformatics
+
+The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We used the MetaWorks pipeline, version 1.11.3 [@PorterHajibabaei2022] with the RDP classifier [@Wangetal2007] and the Eukaryote CO1 Reference Set For The RDP Classifier, version 4.0.1 [@PorterHajibabaei2018]. We processed data in R, version 4.2.2 [@RCoreTeam2022] using the R packages bold, version 1.2.0 [@Chamberlain2021] and reshape2 package, version 1.4.4 [@Wickham2007].
+
 ## Results
+
+Raw sequence data from this project are available from @Bowser2022pollinatorraw.
 
 ## Discussion
 
