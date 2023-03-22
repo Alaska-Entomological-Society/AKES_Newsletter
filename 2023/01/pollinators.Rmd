@@ -34,7 +34,9 @@ source("../../share/setup.R")
 
 ## Introduction
 
-Pollinating insects provide important ecosystem services in Alaska [@Fulkersonetal2021] and the pollinators themselves are wildlife that the Kenai National Wildlife Refuge was established in part to conserve [@KenaiNWR2010CCP]. Given that pollinators appear to be declining in North America [@Kohetal2016],...
+Pollinating insects provide important ecosystem services in Alaska [@Fulkersonetal2021] and the pollinators themselves are wildlife that the Kenai National Wildlife Refuge (KNWR or the Refuge) was established in part to conserve [@KenaiNWR2010CCP].  Because pollinators appear to be generally declining [@Pottsetal2010; @Cameronetal2011; @Kohetal2016], we wanted to begin documenting pollinator diversity on the Refuge.
+
+The Alaska Bee Atlas [@Fulkersonetal2021, <https://accs.uaa.alaska.edu/wildlife/ak-bee-atlas>] is a sampling program designed to provide information on the biodiveristy of pollinators in Alaska. In 2022, KNWR biologists participated in the Alaska Bee Atlas effort.
 
 ## Methods
 
