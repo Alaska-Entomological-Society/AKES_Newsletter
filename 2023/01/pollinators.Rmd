@@ -1,0 +1,47 @@
+---
+lang: en-US
+bibliography: pollinators.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+colorlinks: true
+params:
+  volume: 15
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# Metabarcoding pollinators on Kenai National Wildlife Refuge, Kenai Peninsula, Alaska
+
+*by Matt Bowser^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska, matt_bowser@fws.gov], Anya Bronowski, and Dom Watts^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska]*
+
+## Introduction
+
+## Methods
+
+```{r pollinatorsTwin, fig.alt="A man netting insects in a lush alpine meadow.", fig.cap="Dominique Watts collecting pollinators using an aerial net above Twin Lakes, August 3, 2022 (credit: Matt Bowser/USFWS)."}
+knitr::include_graphics('img/pollinators_Twin.jpg')
+```
+
+## Results
+
+## Discussion
+
+## References
