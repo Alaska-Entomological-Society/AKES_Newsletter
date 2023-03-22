@@ -107,6 +107,7 @@
           <text variable="publisher-place"/>
         </group>
         <text variable="genre" prefix=". "/>
+		<text variable="number" prefix=" "/>
       </if>
       <else>
         <group delimiter=". ">
