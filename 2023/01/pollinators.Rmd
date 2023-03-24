@@ -40,9 +40,17 @@ The Alaska Bee Atlas [@Fulkersonetal2021, <https://accs.uaa.alaska.edu/wildlife/
 
 ## Methods
 
+### Sampling Design
+
+We followed the guidance of the sampling plan of @Fulkersonetal2021. Most of KNWR lies within lowest priority hexagons of @Fulkersonetal2021, but the southernmost part of the Refuge lies within a medium priority hexagon. We prioritized sampling in this area, but access in this region is difficult. We surveyed only at Emerald Lake in this medium priority hexagon.
+
+We surveyed for insect pollinators at a variety of other sites on the Refuge, trying to sample in diverse habitats. We sampled dry, rocky slopes off of Skilak Lake Road following the advice of Justin Fulkerson.
+
+We accessed sites by road and floatplane.
+
 ### Field Methods
 
-We generally followed the field methods of @Fulkersonetal2021 with the exception that we collected specimens into SK picglobal 99.9% pure propylene glycol.
+We sampled pollinators using bee bowl traps, blue vane traps, and aerial nets, generally following the field methods of @Fulkersonetal2021 with the exception that we collected specimens into SK picglobal 99.9% pure propylene glycol.
 
 ```{r pollinatorsTwin, fig.alt="A man netting insects in a lush alpine meadow.", fig.cap="Dominique Watts collecting pollinators using an aerial net above Twin Lakes, August 3, 2022 (credit: Matt Bowser/USFWS)."}
 knitr::include_graphics('img/pollinators_Twin.jpg')
