@@ -74,7 +74,7 @@ The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We
 
 ## Results
 
-Specimen records and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>). Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw.
+Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>), and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw.
 
 
 ## Discussion
