@@ -72,7 +72,7 @@ Samples were stored in a -23&deg;C freezer except when samples were being proces
 
 We separated samples that were all or mostly bees from samples that were mostly flies and other invertebrates. We shipped 12 samples of bees to the Alaska Center for Conservation Science^[<https://accs.uaa.alaska.edu/>], University of Alaska Anchorage, Anchorage, Alaska to be processed. 
 
-We homogenized the remaining 19 samples plus one legacy pollinator sample from a previous project using a blender and cleaning between samples with DIY-DS cleaning solution as described by @Buchneretal2021. Our sample homogenization protocol is included below.
+We homogenized the remaining 19 samples plus one legacy bulk pollinator sample from a previous project [@Bowser2012] using a blender and cleaning between samples with DIY-DS cleaning solution as described by @Buchneretal2021. Our sample homogenization protocol is included below.
 
 > We homogenized samples using a Nutri Ninja QB3000SS blender [@EuroProOperating2015].
 > 
