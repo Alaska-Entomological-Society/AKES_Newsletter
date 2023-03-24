@@ -68,11 +68,50 @@ knitr::include_graphics('img/pollinators_Twin.jpg')
 
 ### Specimen Processing
 
+Samples were stored in a -23&deg;C freezer except when samples were being processed. Invertebrates were separated from debris by hand under a dissecting microscope. Care was taken to reduce possible cross-contamination of DNA among samples. 
+
 We separated samples that were all or mostly bees from samples that were mostly flies and other invertebrates. We shipped 12 samples of bees to the Alaska Center for Conservation Science^[<https://accs.uaa.alaska.edu/>], University of Alaska Anchorage, Anchorage, Alaska to be processed. 
 
-We homogenized the remaining 19 samples plus one legacy pollinator sample from a previous project. 
+We homogenized the remaining 19 samples plus one legacy pollinator sample from a previous project using a blender and cleaning between samples with DIY-DS cleaning solution as described by @Buchneretal2021. Our sample homogenization protocol is included below.
+
+> We homogenized samples using a Nutri Ninja QB3000SS blender [@EuroProOperating2015].
+> 
+> DIY-DS recipe
+>
+- 20 g NaOH 
+- 20 g Alconox 
+- 15.1 g NaHCO~3~ 
+- 267 ml 4.5% bleach
+- deionized water to fill to 2 l
+>
+>Preparation
+>
+>1. 120 ml plastic cups should be washed with DIY-DS and rinsed before sampling. Finish by rinsing inside the 120 ml cup with deionized water. Hand dry 120 ml cup with paper towel.
+> 
+>Homogenize samples
+>
+1. Before running samples, rinse blender by running 100 ml of deionized water for 20 s.
+1.	Pre-label a 10 ml plastic vial with the specimen GUID and add a barcode vial label. Also pre-label and add a barcode label to a 120 ml specimen cup.
+2.	Clean forceps with DIY-DS.
+3.	Take the label out of the original container with the cleaned forceps and place into the new 120 ml sample container. 
+4. Add the contents of the sample vial to the blender. 
+5. Rinse original sample vial with cold, clean propylene glycol and pour rinsate in the blender with the rest of the sample.
+6. Fill blender to 100 ml with cold, clean propylene glycol.
+7. Blend for 90 s.
+8. Using a new disposable pipette, fill the pre-labelled 10 ml plastic vial with about 9.5 ml of homogenate.
+9. Pour the rest of the sample into the pre-labeled 120 ml specimen cup.
+10. Rinse blender by running 100 ml tap water for 10 s. 
+11. Wash blender by running 100 ml of DIY-DS for 10 s.
+12. Rinse this out in the lab sink with tap water.
+13. Rinse blender by running 100 ml deionized water for 10 s.
 
 We shipped 9 ml of homogenate from the 20 homogenized samples to Molecular Research Laboratory^[<https://www.mrdnalab.com/>], Shallowater, Texas for metabarcoding.
+
+### Molecular Methods
+
+We chose to use the *mlCOIintF*/*jgHCO2198* (GGWACWGGWT GAACWGTWTA YCCYCC / TAIACYTCIG GRTGICCRAA RAAYCA) primer set of @Lerayetal2013 for PCR, targeting a 313 bp region of the COI DNA barcoding region. 
+
+The *mlCOIintF*/*jgHCO2198* primer pair was used with barcodes on the forward primer in 30&ndash;35 PCR cycles using the HotStarTaq Plus Master Mix Kit (Qiagen, USA) under the following conditions: 94&deg;C for 3 minutes, followed by 30&ndash;35 cycles of 94&deg;C for 30s, 53&deg;C for 40 seconds and 72&deg;C for 1minute, after which a final elongation step at 72&deg;C for 5minutes was performed.  After amplification, PCR products were checked in 2% agarose gel to determine the success of amplification and the relative intensity of bands. Multiple samples were pooled together in equal proportions based on their molecular weight and DNA concentrations. Pooled samples were purified using calibrated Ampure XP beads. The pooled and purified PCR product was used to prepare an illumina DNA library. Sequencing was performed at MR DNA on a MiSeq following the manufacturer’s guidelines.
 
 ### Bioinformatics
 
