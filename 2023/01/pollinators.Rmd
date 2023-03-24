@@ -44,15 +44,17 @@ The Alaska Bee Atlas [@Fulkersonetal2021, <https://accs.uaa.alaska.edu/wildlife/
 
 We followed the guidance of the sampling plan of @Fulkersonetal2021. Most of KNWR lies within lowest priority hexagons of @Fulkersonetal2021, but the southernmost part of the Refuge lies within a medium priority hexagon. We prioritized sampling in this area, but access in this region is difficult. We surveyed only at Emerald Lake in this medium priority hexagon.
 
-We surveyed for insect pollinators at a variety of other sites on the Refuge, trying to sample in diverse habitats. We sampled dry, rocky slopes off of Skilak Lake Road following the advice of Justin Fulkerson.
+We surveyed for insect pollinators at a variety of other sites on the Refuge, trying to sample in diverse habitats (Figure \@ref(fig:pollinatorsmap)). We sampled dry, rocky slopes off of Skilak Lake Road following the advice of Justin Fulkerson.
 
 We accessed sites by road and floatplane.
+
+```{r pollinatorsmap, fig.alt="A map of the western Kenai Peninsula showing sampling locations near Point Possession in the north to Emerald Lake in the south.", fig.cap="Map of Alaska Bee Atlas sampling priority hexagons as of May 11, 2022 and sites we surveyed for pollinators in 2022. KNWR: Kenai National Wildlife Refuge boundary."}
+knitr::include_graphics('img/pollinators_map.png')
+```
 
 ### Field Methods
 
 We sampled pollinators using bee bowl traps (Figure \@ref(fig:pollinatorsbowl)), blue vane traps (Figure \@ref(fig:pollinatorsBVT)), and aerial nets (Figure \@ref(fig:pollinatorsTwin)), generally following the field methods of @Fulkersonetal2021 with the exception that we collected specimens into SK picglobal 99.9% pure propylene glycol.
-
-
 
 ```{r pollinatorsbowl, fig.alt="A yellow cup rests among low plants on a rocky slope.", fig.cap="A bee bowl trap, part of a set of nine bee bowls off of the Bear Mountain Trail, June 27, 2022 (credit: Matt Bowser/USFWS)."}
 knitr::include_graphics('img/pollinators_cup.jpg')
@@ -105,7 +107,7 @@ We homogenized the remaining 19 samples plus one legacy bulk pollinator sample f
 12. Rinse this out in the lab sink with tap water.
 13. Rinse blender by running 100 ml deionized water for 10 s.
 
-We shipped 9 ml of homogenate from the 20 homogenized samples to Molecular Research Laboratory^[<https://www.mrdnalab.com/>], Shallowater, Texas for metabarcoding.
+We shipped 9 ml of homogenate from each of the 20 homogenized samples to Molecular Research Laboratory^[<https://www.mrdnalab.com/>], Shallowater, Texas for metabarcoding.
 
 ### Molecular Methods
 
@@ -121,7 +123,10 @@ The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We
 
 Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>), and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw.
 
-
 ## Discussion
+
+## Acknowledgments
+
+We thank Justin Fulkerson (Alaska Center for Conservation Science) for sending us bee bowls, for providing the Alaska Bee Atlas hexagons as vector data, and for sharing helpful advice.
 
 ## References
