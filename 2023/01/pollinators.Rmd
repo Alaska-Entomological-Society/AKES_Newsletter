@@ -50,7 +50,17 @@ We accessed sites by road and floatplane.
 
 ### Field Methods
 
-We sampled pollinators using bee bowl traps, blue vane traps, and aerial nets, generally following the field methods of @Fulkersonetal2021 with the exception that we collected specimens into SK picglobal 99.9% pure propylene glycol.
+We sampled pollinators using bee bowl traps (Figure \@ref(fig:pollinatorsbowl)), blue vane traps (Figure \@ref(fig:pollinatorsBVT)), and aerial nets (Figure \@ref(fig:pollinatorsTwin)), generally following the field methods of @Fulkersonetal2021 with the exception that we collected specimens into SK picglobal 99.9% pure propylene glycol.
+
+
+
+```{r pollinatorsbowl, fig.alt="A yellow cup rests among low plants on a rocky slope.", fig.cap="A bee bowl trap, part of a set of nine bee bowls off of the Bear Mountain Trail, June 27, 2022 (credit: Matt Bowser/USFWS)."}
+knitr::include_graphics('img/pollinators_cup.jpg')
+```
+
+```{r pollinatorsBVT, fig.alt="Two blue vane traps hang from aspen trees.", fig.cap="Two blue vane traps near Hidden Lake Campground, June 17, 2022 (credit: Matt Bowser/USFWS)."}
+knitr::include_graphics('img/pollinators_BVT.jpg')
+```
 
 ```{r pollinatorsTwin, fig.alt="A man netting insects in a lush alpine meadow.", fig.cap="Dominique Watts collecting pollinators using an aerial net above Twin Lakes, August 3, 2022 (credit: Matt Bowser/USFWS)."}
 knitr::include_graphics('img/pollinators_Twin.jpg')
@@ -64,7 +74,8 @@ The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We
 
 ## Results
 
-Raw sequence data from this project are available from @Bowser2022pollinatorraw.
+Specimen records and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>). Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw.
+
 
 ## Discussion
 
