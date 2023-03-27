@@ -126,13 +126,16 @@ We compared our sequences to sequences from a local reference library [@Bowser20
 
 Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>), and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw.
 
-We documented occurrences of five non-native species. The European honey bee, *Apis mellifera* Linnaeus, 1758, was detected in bee bowls set out at Headquarters lake wetland near Soldotna from July 28 to August 2. The thrips *Odontothrips loti* (Haliday, 1852) was detected in bee bowls deployed in a meadow off of Skilak Lake Road from June 30 to July 7. Sequences we obtained of the slug *Deroceras agreste* (Linnaeus, 1758) from bee bowls set in woods off of Ski Hill Road on August 23&ndash;26 and from bee bowls at Picnic Lake on June 27&ndash;30 were 99.35&ndash;99.67% identical to sequences identified by @ZajacStec2020 as *Deroceras agreste*.  
+We documented occurrences of five non-native species. The European honey bee, *Apis mellifera* Linnaeus, 1758, was detected in bee bowls set out at Headquarters lake wetland near Soldotna from July 28 to August 2. The thrips *Odontothrips loti* (Haliday, 1852) was detected in bee bowls deployed in a meadow off of Skilak Lake Road from June 30 to July 7. We detected the earthworm *Dendrobaena octaedra* (Savigny, 1826) in bee bowls set at Picnic Lake. Sequences we obtained of the slug *Deroceras agreste* (Linnaeus, 1758) from bee bowls set at multiple locations were 99.35&ndash;99.68% identical to sequences identified by @ZajacStec2020 as *Deroceras agreste*. We found *Arion fuscus* (O.F.Müller, 1774) off of the Vista Trail.
 
 ## Discussion
 
 
-Our record of *Odontothrips loti* appears to be the first record of this European species from Alaska.
-*Deroceras agreste* had previously been found in the Ski Hill Road area by @Bowseretal2020; its occurrence at Picnic Lake in the Mystery Creek area was new.
+Our record of *Odontothrips loti* appears to be the first record of this European species from Alaska. The epigeic earthworm *Dendrobaena octaedra* is nearly ubiquitous near roads on KNWR [@Saltmarshetal2016] and this worm does climb [@Rombkeetal2017], so its presence in a bee bowl was not surprising. 
+*Deroceras agreste* had previously been found in the Ski Hill Road area by @Bowseretal2020; its occurrence at Picnic Lake in the Mystery Creek area was new. Our finding of *Arion fuscus* was the first record of an arionid slug on KNWR. It may also be the first record of this species in Alaska, although there have been multiple records of unidentified brown *Arion* slugs from Alaska, including on the Kenai Peninsula^[<https://www.inaturalist.org/observations/128677401>,
+<https://www.inaturalist.org/observations/129469024>,
+<https://www.inaturalist.org/observations/129778558>,
+<https://www.inaturalist.org/observations/132777892>].
 
 ## Acknowledgments
 
