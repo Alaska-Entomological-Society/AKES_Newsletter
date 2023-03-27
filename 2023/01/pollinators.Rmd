@@ -48,7 +48,7 @@ We surveyed for insect pollinators at a variety of other sites on the Refuge, tr
 
 We accessed sites by road and floatplane.
 
-```{r pollinatorsmap, fig.alt="A map of the western Kenai Peninsula showing sampling locations near Point Possession in the north to Emerald Lake in the south.", fig.cap="Map of Alaska Bee Atlas sampling priority hexagons as of May 11, 2022 and sites we surveyed for pollinators in 2022. KNWR: Kenai National Wildlife Refuge boundary."}
+```{r pollinatorsmap, fig.alt="A map of the western Kenai Peninsula showing sampling locations near Point Possession in the north to Emerald Lake in the south.", fig.cap="Map of Alaska Bee Atlas sampling priority hexagons as of May 11, 2022 and sites we surveyed for pollinators in 2022. KNWR: Kenai National Wildlife Refuge boundary. The map was generated using the R packages and sf, version 1.0-9 [@Pebesma2018] and pdftools, version 3.3.3 [@Ooms2023]."}
 knitr::include_graphics('img/pollinators_map.png')
 ```
 
@@ -117,7 +117,10 @@ The *mlCOIintF*/*jgHCO2198* primer pair was used with barcodes on the forward pr
 
 ### Bioinformatics
 
-The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We used the MetaWorks pipeline, version 1.11.3 [@PorterHajibabaei2022] with the RDP classifier [@Wangetal2007] and the Eukaryote CO1 reference set for the RDP Classifier, version 4.0.1 [@PorterHajibabaei2018]. We processed data in R, version 4.2.2 [@RCoreTeam2022] using the R packages bold, version 1.2.0 [@Chamberlain2021] and reshape2 package, version 1.4.4 [@Wickham2007]. We compared our sequences to sequences from a local reference library [@Bowser2022COIlib] using the `vsearch --usearch_global` command of vsearch, version 2.21.1 [@Rognesetal2016].
+The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We used the MetaWorks pipeline, version 1.11.3 [@PorterHajibabaei2022] with the RDP classifier [@Wangetal2007] and the Eukaryote CO1 reference set for the RDP Classifier, version 4.0.1 [@PorterHajibabaei2018]. We processed data and made maps in R, version 4.2.2 [@RCoreTeam2022] using the R packages 
+ bold, version 1.2.0 [@Chamberlain2021] and 
+ reshape2 package, version 1.4.4 [@Wickham2007]. 
+We compared our sequences to sequences from a local reference library [@Bowser2022COIlib] using the `vsearch --usearch_global` command of vsearch, version 2.21.1 [@Rognesetal2016].
 
 ## Results
 
