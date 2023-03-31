@@ -48,7 +48,7 @@ We surveyed for insect pollinators at a variety of other sites on the Refuge, tr
 
 We accessed sites by road and floatplane.
 
-```{r pollinatorsmap, fig.alt="A map of the western Kenai Peninsula showing sampling locations near Point Possession in the north to Emerald Lake in the south.", fig.cap="Map of Alaska Bee Atlas sampling priority hexagons as of May 11, 2022 and sites we surveyed for pollinators in 2022. KNWR: Kenai National Wildlife Refuge boundary. The map was generated using the R packages and sf, version 1.0-9 [@Pebesma2018] and pdftools, version 3.3.3 [@Ooms2023]."}
+```{r pollinatorsmap, fig.alt="A map of the western Kenai Peninsula showing sampling locations near Point Possession in the north to Emerald Lake in the south.", fig.cap="Map of Alaska Bee Atlas sampling priority hexagons as of May 11, 2022 and sites we surveyed for pollinators in 2022. KNWR: Kenai National Wildlife Refuge boundary. The map was generated with R, version 4.2.2 [@RCoreTeam2022] using the R packages sf, version 1.0-9 [@Pebesma2018] and pdftools, version 3.3.3 [@Ooms2023]."}
 knitr::include_graphics('img/pollinators_map.png')
 ```
 
@@ -117,9 +117,13 @@ The *mlCOIintF*/*jgHCO2198* primer pair was used with barcodes on the forward pr
 
 ### Bioinformatics
 
-The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We used the MetaWorks pipeline, version 1.11.3 [@PorterHajibabaei2022] with the RDP classifier [@Wangetal2007] and the Eukaryote CO1 reference set for the RDP Classifier, version 4.0.1 [@PorterHajibabaei2018]. We processed data and made maps in R, version 4.2.2 [@RCoreTeam2022] using the R packages 
- bold, version 1.2.0 [@Chamberlain2021] and 
- reshape2 package, version 1.4.4 [@Wickham2007]. 
+The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We used the MetaWorks pipeline, version 1.11.3 [@PorterHajibabaei2022] with the RDP classifier [@Wangetal2007] and the Eukaryote CO1 reference set for the RDP Classifier, version 4.0.1 [@PorterHajibabaei2018]. We processed data in R, version 4.2.2 and 4.2.3 [@RCoreTeam2022; @RCoreTeam2023] using the R packages
+ ape, version 5.7-1 [@ParadisSchliep2019];
+ Biostrings, version 2.66.0 [@Pagesetal2022];
+ bold, version 1.2.0 [@Chamberlain2021];
+ ips, version 0.0.11 [@Heibl2008];
+ msa, version 1.30.1 [@Bodenhoferetal2015]; and 
+ reshape2, version 1.4.4 [@Wickham2007]. 
 We compared our sequences to sequences from a local reference library [@Bowser2022COIlib] using the `vsearch --usearch_global` command of vsearch, version 2.21.1 [@Rognesetal2016].
 
 ## Results
@@ -138,19 +142,16 @@ We documented occurrences of six non-native species. The European honey bee, *Ap
 
 *Ero canionis* Chamberlin & Ivie, 1935; 
 *Atomaria testacea* Stephens, 1830; 
+*Liriomyza baptisiae* (Frost, 1931); 
 *Megaselia hirticrus* (Schmitz, 1918); and 
 *Aspistes spathis* (Cook, 1965) and the non-native species 
-*Odontothrips loti* (Haliday, 1852) and 
-*Arion fuscus* (O.F.Müller, 1774)
+*Odontothrips loti* (Haliday, 1852)
 appear to be new records for Alaska.
 
 ### Non-native Species
 
 *Pollenia vagabunda* had been found at the Kenai National Wildlife Refuge headquarters area previously [@Bowser2015].  The epigeic earthworm *Dendrobaena octaedra* is nearly ubiquitous near roads on KNWR [@Saltmarshetal2016] and this worm does climb [@Rombkeetal2017], so its presence in a bee bowl was not surprising. 
-*Deroceras agreste* had previously been found in the Ski Hill Road area by @Bowseretal2020; its occurrence at Picnic Lake in the Mystery Creek area was new. Our finding of *Arion fuscus* was the first record of an arionid slug on KNWR. It may also be the first record of this species in Alaska, although there have been multiple records of unidentified brown *Arion* slugs from Alaska, including on the Kenai Peninsula^[<https://www.inaturalist.org/observations/128677401>,
-<https://www.inaturalist.org/observations/129469024>,
-<https://www.inaturalist.org/observations/129778558>,
-<https://www.inaturalist.org/observations/132777892>].
+*Deroceras agreste* had previously been found in the Ski Hill Road area by @Bowseretal2020; its occurrence at Picnic Lake in the Mystery Creek area was new. Our finding of *Arion fuscus* was the first record of an arionid slug on KNWR. *Arion fuscus* had previously been identified in Alaska from Sitka.
 
 ## Acknowledgments
 
