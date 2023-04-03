@@ -148,6 +148,8 @@ We documented occurrences of six non-native species. The European honey bee, *Ap
 *Odontothrips loti* (Haliday, 1852)
 appear to be new records for Alaska.
 
+*Aspistes spathis* (Cook, 1965) had been reported from Alaska by @Cook1965, but there were no georeferenced Alaskan occurrences available via GBIF (<https://www.gbif.org/>).
+
 ### Non-native Species
 
 *Pollenia vagabunda* had been found at the Kenai National Wildlife Refuge headquarters area previously [@Bowser2015].  The epigeic earthworm *Dendrobaena octaedra* is nearly ubiquitous near roads on KNWR [@Saltmarshetal2016] and this worm does climb [@Rombkeetal2017], so its presence in a bee bowl was not surprising. 
