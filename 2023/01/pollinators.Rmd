@@ -140,7 +140,7 @@ We documented occurrences of six non-native species. The European honey bee, *Ap
 
 ### Identification Notes
 
-Some of our reads were 100% similar to sequences both identified as *Spilogona alticola* (Malloch, 1920) and *Spilogona contractifrons* (Zetterstedt, 1837) in BOLD BIN BOLD:AAB5278^[<https://doi.org/10.5883/BOLD:AAB5278>]. @Huckett1965 expressed his doubt that these two species were distinct. We assigned these to *Spilogona contractifrons* as we have done in previous work [@Bowseretal2020].  
+Some of our reads were 100% similar to sequences both identified as *Spilogona alticola* (Malloch, 1920) (Diptera: Muscidae) and *Spilogona contractifrons* (Zetterstedt, 1837) in BOLD BIN BOLD:AAB5278^[<https://doi.org/10.5883/BOLD:AAB5278>]. @Huckett1965 expressed his doubt that these two species were distinct. We assigned these to *Spilogona contractifrons* as we have done in previous work [@Bowseretal2020]. Other reads were 100% similar to sequences of *Spilogona* sp. 12AKR *sensu* @Renaud2012, which had also been documented locally by @Bowseretal2020.
 
 ### New Distribution Records
 
