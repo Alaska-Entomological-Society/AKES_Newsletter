@@ -138,6 +138,10 @@ We documented occurrences of six non-native species. The European honey bee, *Ap
 
 ## Discussion
 
+### Identification Notes
+
+Some of our reads were 100% similar to sequences both identified as *Spilogona alticola* (Malloch, 1920) and *Spilogona contractifrons* (Zetterstedt, 1837) in BOLD BIN BOLD:AAB5278^[<https://doi.org/10.5883/BOLD:AAB5278>]. @Huckett1965 expressed his doubt that these two species were distinct. We assigned these to *Spilogona contractifrons* as we have done in previous work [@Bowseretal2020].  
+
 ### New Distribution Records
 
 *Ero canionis* Chamberlin & Ivie, 1935; 
@@ -148,7 +152,7 @@ We documented occurrences of six non-native species. The European honey bee, *Ap
 *Odontothrips loti* (Haliday, 1852)
 appear to be new records for Alaska.
 
-*Fannia neopolychaeta* Chillcott, 1961 (Diptera: Anthomiidae) had been known from as close to Alaska as British Columbia [@Chillcott1960] and Yukon Territory [@GBIF2023Fannianeopolychaeta], but our record appears to be new for Alaska. *Phaonia protuberans* Malloch, 1923 was known from the Northwest Territories and Yukon Territory [@Huckett1965; @GBIF2023Phaoniaprotuberans], but it had not been reported from Alaska. *Tachypeza fenestrata* (Say, 1823) (Diptera: Hybotidae) appears to be a new record for Alaska, but this species is present nearby in Yukon Territory. *Aspistes spathis* (Cook, 1965) (Diptera: Scatopsidae) had been reported from Alaska by @Cook1965, but we found no georeferenced Alaskan occurrences [@GBIF2023Aspistesspathis]. 
+*Fannia neopolychaeta* Chillcott, 1961 (Diptera: Anthomiidae) had been known from as close to Alaska as British Columbia [@Chillcott1960] and Yukon Territory [@GBIF2023Fannianeopolychaeta], but our record appears to be new for Alaska. *Phaonia protuberans* Malloch, 1923 (Diptera: Muscidae) was known from the Northwest Territories and Yukon Territory [@Huckett1965; @GBIF2023Phaoniaprotuberans], but it had not been reported from Alaska. *Phaonia serva* (Meigen, 1826) occurs in the Northwest Territories [@Huckett1965], but ours appears to be the first record from Alaska. *Tachypeza fenestrata* (Say, 1823) (Diptera: Hybotidae) appears to be a new record for Alaska, but this species is present nearby in Yukon Territory. *Aspistes spathis* (Cook, 1965) (Diptera: Scatopsidae) had been reported from Alaska by @Cook1965, but we found no georeferenced Alaskan occurrences [@GBIF2023Aspistesspathis]. 
 
 ### Non-native Species
 
