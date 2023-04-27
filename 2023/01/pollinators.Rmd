@@ -122,8 +122,11 @@ The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We
  Biostrings, version 2.66.0 [@Pagesetal2022];
  bold, version 1.2.0 [@Chamberlain2021];
  ips, version 0.0.11 [@Heibl2008];
- msa, version 1.30.1 [@Bodenhoferetal2015]; and 
- reshape2, version 1.4.4 [@Wickham2007]. 
+ msa, version 1.30.1 [@Bodenhoferetal2015];
+ openssl, version 2.0.6 [@Ooms2023openssl];
+ reshape2, version 1.4.4 [@Wickham2007];
+ ritis, version 1.0.0 [@Chamberlain2021ritis]; and
+ uuid, version 1.1-0 [@UrbanekTso2022]. 
 We compared our sequences to sequences from a local reference library [@Bowser2022COIlib] using the `vsearch --usearch_global` command of vsearch, version 2.21.1 [@Rognesetal2016].
 
 ## Results
@@ -147,16 +150,17 @@ Some of our reads were 100% similar to sequences both identified as *Spilogona a
 *Ero canionis* Chamberlin & Ivie, 1935; 
 *Atomaria testacea* Stephens, 1830; 
 *Liriomyza baptisiae* (Frost, 1931); 
-*Megaselia hirticrus* (Schmitz, 1918); and 
-*Aspistes spathis* (Cook, 1965) and the non-native species 
-*Odontothrips loti* (Haliday, 1852),
-*Peristenus howardi* Shaw, 1999,
-*Cubocephalus anatorius* (Gravenhorst, 1829),
-*Coleophora quadruplex* McDunnough, 1940, and
+*Megaselia hirticrus* (Schmitz, 1918);
+*Aspistes spathis* (Cook, 1965);
+*Odontothrips loti* (Haliday, 1852);
+*Peristenus howardi* Shaw, 1999;
+*Cubocephalus anatorius* (Gravenhorst, 1829);
+*Coleophora quadruplex* McDunnough, 1940;
+*Olethreutes bipunctana* (Fabricius, 1794); and
 *Uroleucon taraxaci* (Kaltenbach, 1843)
 appear to be new records for Alaska.
 
-*Coleophora quadruplex* was known from multiple Canadian provinces [@Pohletal2018; @GBIF2023Coleophoraquadruplex], but we found no previous records from Alaska.
+*Coleophora quadruplex* (Lepidoptera: Coleophoridae) was known from multiple Canadian provinces [@Pohletal2018; @GBIF2023Coleophoraquadruplex], but we found no previous records from Alaska. *Olethreutes bipunctana* (Lepidoptera: Tortricidae) had also been reported from Canada [@Pohletal2018; @GBIF2023Olethreutesbipunctana], but apparently not from Alaska. 
 
 *Fannia neopolychaeta* Chillcott, 1961 (Diptera: Fanniidae) had been known from as close to Alaska as British Columbia [@Chillcott1960] and Yukon Territory [@GBIF2023Fannianeopolychaeta], but our record appears to be new for Alaska. *Eudasyphora canadiana* Cuny, 1980 had been reported from Alaska by @Cuny1980, but there were no georeferenced Aslakan records in GBIF. *Phaonia protuberans* Malloch, 1923 (Diptera: Muscidae) was known from the Northwest Territories and Yukon Territory [@Huckett1965; @GBIF2023Phaoniaprotuberans], but it had not been reported from Alaska. *Phaonia serva* (Meigen, 1826) occurs in the Northwest Territories [@Huckett1965], but ours appears to be the first record from Alaska. *Tachypeza fenestrata* (Say, 1823) (Diptera: Hybotidae) appears to be a new record for Alaska, but this species is present nearby in Yukon Territory. *Aspistes spathis* (Cook, 1965) (Diptera: Scatopsidae) had been reported from Alaska by @Cook1965, but we found no georeferenced Alaskan occurrences [@GBIF2023Aspistesspathis]. We found no Alaska records of *Megaselia lucifrons* (Schmitz, 1918), but this species is known from Yukon Territory. *Agria housei* Shewell, 1971 and *Boettcheria litorosa* (Reinhard, 1947) (Diptera: Sarcophagidae) appear to be a new records for Alaska, but there are records of these species from Yukon Territory.
 
