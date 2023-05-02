@@ -179,7 +179,7 @@ knitr::kable(sumt,
 
 ### Bees
 
-We detected no bees in the sample from 2011 and 12 species of bees in 2022 (Table \@ref(tab:sumbee)). All of these bee species are widespread in Alaska based on occurrence records available through the Global Biodiversity Information Facility (GBIF, <https://www.gbif.org/>), but are not aware of other records of *Andrena milwaukeensis* or *Halictus rubicundus* from the Kenai Peninsula.
+We detected no bees in the sample from 2011 and 12 species of bees in 2022 (Table \@ref(tab:sumbee)). All of these bee species are widespread in Alaska based on occurrence records available through the Global Biodiversity Information Facility (GBIF, <https://www.gbif.org/>), but we are not aware of other records of *Andrena milwaukeensis* or *Halictus rubicundus* from the Kenai Peninsula. All of the *Bombus* species we found are known to be abundant or common in our area [@Rykken2022].
 
 ```{r sumbee}
 beedf <- beedf[,1:2]
