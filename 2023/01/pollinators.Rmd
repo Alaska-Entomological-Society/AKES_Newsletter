@@ -149,11 +149,11 @@ In order to exclude potential false positive detections as defined by @Mackenzie
 
 ### Data Availability
 
-Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>) and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw. Resulting occurrence data have been published as an occurrence dataset [@Bowseretal2023KenaipollinatorGBIF].
+Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>) and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw. Resulting occurrence data have been published as an occurrence dataset [@Bowseretal2023KenaipollinatorGBIF]. Results from specimens sent to the Alaska Center for Conservation Science are available from the 2018 to 2022 Results Map at <https://arcg.is/1myveP>.
 
 ### Results Summary
 
-The single legacy sample from 2011 yielded 71 species and 18 BINs (Table \@ref(tab:sum2011)). We detected no bees from this sample.
+The single legacy sample from 2011 yielded 71 species and 18 BINs (Table \@ref(tab:sum2011)). 
 
 ```{r sum2011}
 sumt <- sumc[sumc$Year == 2011, 3:7]
@@ -165,7 +165,7 @@ knitr::kable(sumt,
 )
 ```
 
-The 17 samples collected in 2022 yielded 206 species and 85 BINs (Table \@ref(tab:sum2022)). We documented 12 species of bees in 2022 (Table \@ref(tab:sumbee)).
+The 17 samples collected in 2022 yielded 206 species and 85 BINs (Table \@ref(tab:sum2022)).
 
 ```{r sum2022}
 sumt <- sumc[sumc$Year == 2022, 3:7]
@@ -177,6 +177,9 @@ knitr::kable(sumt,
 )
 ```
 
+### Bees
+
+We detected no bees in the sample from 2011 and 12 species of bees in 2022 (Table \@ref(tab:sumbee)). All of these bee species are widespread in Alaska based on occurrence records available through the Global Biodiversity Information Facility (GBIF, <https://www.gbif.org/>), but are not aware of other records of *Andrena milwaukeensis* or *Halictus rubicundus* from the Kenai Peninsula.
 
 ```{r sumbee}
 beedf <- beedf[,1:2]
@@ -190,9 +193,7 @@ knitr::kable(beedf,
 
 
 
-### Identification Notes
 
-Some of our reads were 100% similar to sequences both identified as *Spilogona alticola* (Malloch, 1920) (Diptera: Muscidae) and *Spilogona contractifrons* (Zetterstedt, 1837) in BOLD BIN BOLD:AAB5278^[<https://doi.org/10.5883/BOLD:AAB5278>]. @Huckett1965 expressed his doubt that these two species were distinct. We assigned these to *Spilogona contractifrons* as we have done in previous work [@Bowseretal2020]. Other reads were 100% similar to sequences of *Spilogona* sp. 12AKR *sensu* @Renaud2012, which had also been documented locally by @Bowseretal2020.
 
 ### New Distribution Records
 
@@ -226,6 +227,10 @@ We documented occurrences of six non-native species. The European honey bee, *Ap
 ### Intersting Non-insect Records
 
 We detected two vertebrate species: a single record of Willow Ptarmigan (*Lagopus lagopus* (Linnaeus, 1758)) at an alpine meadow above Twin Lakes^[<https://www.gbif.org/occurrence/4093716617>] and three records of northern red-backed voles (*Myodes rutilus* (Pallas, 1779)) in the vicinity of the Kenai National Wildlife Refuge's headquarters in Soldotna^[<https://www.gbif.org/occurrence/4093718979>, <https://www.gbif.org/occurrence/4093718205>, <https://www.gbif.org/occurrence/4093716762>]. At Twin Lakes we had seen and heard a family of Willow Ptarmigan within about 100 m of the area where we had sampled pollinators using aerial nets. In the sample from which the Willow Ptarmigan DNA was detected, no biting flies were detected, so the ptarmagin record was not from a blood meal of a fly. There might have been ptarmigan DNA in or on muscid or phorid flies in the sample. There were also no biting flies detected in any of the three bee bowl samples where vole DNA was found. Voles may have tasted the propylene glycol or otherwise explored the bee bowls.
+
+### Identification Notes
+
+Some of our reads were 100% similar to sequences both identified as *Spilogona alticola* (Malloch, 1920) (Diptera: Muscidae) and *Spilogona contractifrons* (Zetterstedt, 1837) in BOLD BIN BOLD:AAB5278^[<https://doi.org/10.5883/BOLD:AAB5278>]. @Huckett1965 expressed his doubt that these two species were distinct. We assigned these to *Spilogona contractifrons* as we have done in previous work [@Bowseretal2020]. Other reads were 100% similar to sequences of *Spilogona* sp. 12AKR *sensu* @Renaud2012, which had also been documented locally by @Bowseretal2020.
 
 ## Acknowledgments
 
