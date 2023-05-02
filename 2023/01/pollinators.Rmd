@@ -33,6 +33,10 @@ sumc <- read.csv("pollinators_summary_table.csv", stringsAsFactors = FALSE)
 sumc <- sumc[order(sumc$year, sumc$kingdom, sumc$phylum, sumc$class, sumc$order),]
 names(sumc)[6:7] <- c("species", "BINs")
 names(sumc) <- tools::toTitleCase(names(sumc))
+
+beedf <- read.csv("pollinators_bees.csv", stringsAsFactors = FALSE)
+beedf$scientificName <- paste0("*", beedf$scientificName, "* ", beedf$authorship)
+names(beedf)[1:2] <- c("Family", "Species")
 ```
 
 
@@ -148,7 +152,7 @@ Project data and project photos are available on Arctos via an Arctos project re
 
 ### Results Summary
 
-The single legacy sample from 2011 yielded 71 species and 18 BINs (Table \@ref(tab:sum2011)).
+The single legacy sample from 2011 yielded 71 species and 18 BINs (Table \@ref(tab:sum2011)). We detected no bees from this sample.
 
 ```{r sum2011}
 sumt <- sumc[sumc$Year == 2011, 3:7]
@@ -160,7 +164,7 @@ knitr::kable(sumt,
 )
 ```
 
-The 17 samples collected in 2022 yielded 206 species and 85 BINs (Table \@ref(tab:sum2022)).
+The 17 samples collected in 2022 yielded 206 species and 85 BINs (Table \@ref(tab:sum2022)). We documented 12 species of bees in 2022 (Table \@ref(tab:sumbee)).
 
 ```{r sum2022}
 sumt <- sumc[sumc$Year == 2022, 3:7]
@@ -168,6 +172,17 @@ knitr::kable(sumt,
   longtable = TRUE, 
   booktabs = TRUE,
   caption = "Numbers of species and BINs observed in the sample from 2022 by taxon.",
+  row.names = FALSE
+)
+```
+
+
+```{r sumbee}
+beedf <- beedf[,1:2]
+knitr::kable(beedf, 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  caption = "Bee species observed in 2022.",
   row.names = FALSE
 )
 ```
