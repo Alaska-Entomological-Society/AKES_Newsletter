@@ -37,6 +37,10 @@ names(sumc) <- tools::toTitleCase(names(sumc))
 beedf <- read.csv("pollinators_bees.csv", stringsAsFactors = FALSE)
 beedf$scientificName <- paste0("*", beedf$scientificName, "* ", beedf$authorship)
 names(beedf)[1:2] <- c("Family", "Species")
+
+sumf <- read.csv("pollinators_summary_table_fam.csv", stringsAsFactors = FALSE)
+names(sumf)[7:8] <- c("species", "BINs")
+names(sumf) <- tools::toTitleCase(names(sumf))
 ```
 
 
@@ -160,7 +164,7 @@ sumt <- sumc[sumc$Year == 2011, 3:7]
 knitr::kable(sumt, 
   longtable = TRUE, 
   booktabs = TRUE,
-  caption = "Numbers of species and BINs observed in the sample from 2011 by taxon.",
+  caption = "Numbers of species and BINs observed in the sample from 2011 by orders.",
   row.names = FALSE
 )
 ```
@@ -172,7 +176,7 @@ sumt <- sumc[sumc$Year == 2022, 3:7]
 knitr::kable(sumt, 
   longtable = TRUE, 
   booktabs = TRUE,
-  caption = "Numbers of species and BINs observed in the sample from 2022 by taxon.",
+  caption = "Numbers of species and BINs observed in the sample from 2022 by orders.",
   row.names = FALSE
 )
 ```
@@ -192,8 +196,30 @@ knitr::kable(beedf,
 ```
 
 
+### Flies
+
+Flies were by far the most speciose group collected by our sampling effort. In the single sample from 2011 we documented 61 species and 14 BINs representing 24 families (Table \@ref(tab:sumflies2011)). In 2022 we found 99 species and 60 BINs of flies in 32 families (Table \@ref(tab:sumflies2022)). In both years the most diverse families observed were Muscidae and Anthomyiidae.  
+
+```{r sumflies2011}
+sumt <- sumf[(sumf$Year == 2011) & (sumf$Order == "Diptera"), 6:8]
+knitr::kable(sumt, 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  caption = "Numbers of species and BINs of flies observed in the sample from 2011 by families.",
+  row.names = FALSE
+)
+```
 
 
+```{r sumflies2022}
+sumt <- sumf[(sumf$Year == 2022) & (sumf$Order == "Diptera"), 6:8]
+knitr::kable(sumt, 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  caption = "Numbers of species and BINs of flies observed in the sample from 2022 by families.",
+  row.names = FALSE
+)
+```
 
 ### New Distribution Records
 
