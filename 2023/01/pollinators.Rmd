@@ -30,6 +30,9 @@ source("../../share/setup.R")
 
 ```{r loaddata}
 sumc <- read.csv("pollinators_summary_table.csv", stringsAsFactors = FALSE)
+sumc <- sumc[order(sumc$year, sumc$kingdom, sumc$phylum, sumc$class, sumc$order),]
+names(sumc)[6:7] <- c("species", "BINs")
+names(sumc) <- tools::toTitleCase(names(sumc))
 ```
 
 
@@ -135,17 +138,40 @@ The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We
  uuid, version 1.1-0 [@UrbanekTso2022]. 
 We compared our sequences to sequences from a local reference library [@Bowser2022COIlib] using the `vsearch --usearch_global` command of vsearch, version 2.21.1 [@Rognesetal2016].
 
-In order to exclude potential false positive detections as defined by @Mackenzieetal2006 due to demultiplexing errors [see @Deineretal2017], we conservatively removed from the ESV table all occurrences that represented less than 0.4% of the total number of reads for any ESV, based the experience of [@Bowser2023MillerCreek], where an apparent rate of mis-assignment of up to 0.36% was found. We also removed all occurrences represented by only one or two reads.
+In order to exclude potential false positive detections as defined by @Mackenzieetal2006 due to demultiplexing errors [see @Deineretal2017], we conservatively removed from the Exact Sequence Variant (ESV) table all occurrences that represented less than 0.4% of the total number of reads for any ESV, based the experience of [@Bowser2023MillerCreek], where an apparent rate of mis-assignment of up to 0.36% was found. We also removed all occurrences represented by only one or two reads.
 
 ## Results
 
 ### Data Availability
 
-Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>), and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw. Resulting occurrence data have been published as a GBIF occurrence dataset [@Bowseretal2023KenaipollinatorGBIF].
+Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>), and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw. Resulting occurrence data have been published as a occurrence dataset [@Bowseretal2023KenaipollinatorGBIF].
 
 ### Results Summary
 
-The single legacy sample from 2011 yielded 71 species and 18 BINs.
+The single legacy sample from 2011 yielded 71 species and 18 BINs (Table \@ref(tab:sum2011)).
+
+```{r sum2011}
+sumt <- sumc[sumc$Year == 2011, 3:7]
+knitr::kable(sumt, 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  caption = "Numbers of species and BINs observed in the sample from 2011 by taxon.",
+  row.names = FALSE
+)
+```
+
+The 17 samples collected in 2022 yielded 206 species and 85 BINs (Table \@ref(tab:sum2022)).
+
+```{r sum2022}
+sumt <- sumc[sumc$Year == 2022, 3:7]
+knitr::kable(sumt, 
+  longtable = TRUE, 
+  booktabs = TRUE,
+  caption = "Numbers of species and BINs observed in the sample from 2022 by taxon.",
+  row.names = FALSE
+)
+```
+
 
 ### Non-native Species
 
