@@ -145,7 +145,7 @@ We compared our sequences to sequences from a local reference library [@Bowser20
 
 In order to exclude potential false positive detections as defined by @Mackenzieetal2006 due to demultiplexing errors [see @Deineretal2017], we conservatively removed from the Exact Sequence Variant (ESV) table all occurrences that represented less than 0.4% of the total number of reads for any ESV, based the experience of [@Bowser2023MillerCreek], where an apparent rate of mis-assignment of up to 0.36% was found. We also removed all occurrences represented by only one or two reads.
 
-## Results
+## Results and Discussion
 
 ### Data Availability
 
@@ -189,11 +189,6 @@ knitr::kable(beedf,
 ```
 
 
-### Non-native Species
-
-We documented occurrences of six non-native species. The European honey bee, *Apis mellifera* Linnaeus, 1758, was detected in bee bowls set out at Headquarters lake wetland near Soldotna^[<https://www.gbif.org/occurrence/4093719140>]. The thrips *Odontothrips loti* (Haliday, 1852) (Thysanoptera: Thripidae) was detected in bee bowls deployed in a meadow off of Skilak Lake Road^[<https://www.gbif.org/occurrence/4093715897>]. *Pollenia vagabunda* (Meigen, 1826) (Diptera: Polleniidae) was collected in bee bowls at Kenai National Wildlife Refuge headquarters in Soldotna^[<https://www.gbif.org/occurrence/4093716650>]. We detected the earthworm *Dendrobaena octaedra* (Savigny, 1826) (Crassiclitellata: Lumbricidae) in bee bowls set at Picnic Lake^[<https://www.gbif.org/occurrence/4093717859>]. Sequences we obtained of the slug *Deroceras agreste* (Linnaeus, 1758) (Stylommatophora: Agriolimacidae) from bee bowls set at multiple locations^[<https://www.gbif.org/occurrence/4093716677>, <https://www.gbif.org/occurrence/4093716136>, <https://www.gbif.org/occurrence/4093717282>] were 99.35&ndash;99.68% identical to sequences identified by @ZajacStec2020 as *Deroceras agreste*. We found the slug *Arion fuscus* (O.F.Müller, 1774) (Stylommatophora: Arionidae) off of the Vista Trail^[<https://www.gbif.org/occurrence/4093715392>].
-
-## Discussion
 
 ### Identification Notes
 
@@ -220,7 +215,10 @@ Some of our reads were 100% similar to sequences both identified as *Spilogona a
 
 *Peristenus howardi* (Hymenoptera: Braconidae) had been reported from Idaho and Washington by @Dayetal1999 and it has since been found in Alberta [@Zhang2018; @GBIF2023Peristenushowardi], but this species had not been reported from Alaska.
 
+
 ### Non-native Species
+
+We documented occurrences of six non-native species. The European honey bee, *Apis mellifera* Linnaeus, 1758, was detected in bee bowls set out at Headquarters lake wetland near Soldotna^[<https://www.gbif.org/occurrence/4093719140>]. The thrips *Odontothrips loti* (Haliday, 1852) (Thysanoptera: Thripidae) was detected in bee bowls deployed in a meadow off of Skilak Lake Road^[<https://www.gbif.org/occurrence/4093715897>]. *Pollenia vagabunda* (Meigen, 1826) (Diptera: Polleniidae) was collected in bee bowls at Kenai National Wildlife Refuge headquarters in Soldotna^[<https://www.gbif.org/occurrence/4093716650>]. We detected the earthworm *Dendrobaena octaedra* (Savigny, 1826) (Crassiclitellata: Lumbricidae) in bee bowls set at Picnic Lake^[<https://www.gbif.org/occurrence/4093717859>]. Sequences we obtained of the slug *Deroceras agreste* (Linnaeus, 1758) (Stylommatophora: Agriolimacidae) from bee bowls set at multiple locations^[<https://www.gbif.org/occurrence/4093716677>, <https://www.gbif.org/occurrence/4093716136>, <https://www.gbif.org/occurrence/4093717282>] were 99.35&ndash;99.68% identical to sequences identified by @ZajacStec2020 as *Deroceras agreste*. We found the slug *Arion fuscus* (O.F.Müller, 1774) (Stylommatophora: Arionidae) off of the Vista Trail^[<https://www.gbif.org/occurrence/4093715392>].
 
 *Pollenia vagabunda* had been found at the Kenai National Wildlife Refuge headquarters area previously [@Bowser2015].  *Uroleucon taraxaci* (Kaltenbach, 1843) is believed to be introduced in North America [@Foottitetal2006] and has been recorded from as close to Alaska as Yukon Territory [@Mawetal2000]. We detected this aphid in in bee bowls set in the back lawn of KNWR headquarters, where its host, *Taraxacum officinale* Weber ex Wiggins, is abundant. The epigeic earthworm *Dendrobaena octaedra* is almost ubiquitous near roads on KNWR [@Saltmarshetal2016] and this worm does climb [@Rombkeetal2017], so its presence in a bee bowl was not surprising. 
 *Deroceras agreste* had previously been found in the Ski Hill Road area by @Bowseretal2020; its occurrence at Picnic Lake in the Mystery Creek area was new. Our finding of *Arion fuscus* was the first record of an arionid slug on KNWR. *Arion fuscus* had previously been identified in Alaska from Sitka [@Schade2018]. 
