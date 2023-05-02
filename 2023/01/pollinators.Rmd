@@ -28,6 +28,11 @@ source("../../share/setup.R")
 ```{r, child="../../share/header_html.Rmd"}
 ```
 
+```{r loaddata}
+sumc <- read.csv("pollinators_summary_table.csv", stringsAsFactors = FALSE)
+```
+
+
 # Metabarcoding pollinators on Kenai National Wildlife Refuge, Kenai Peninsula, Alaska
 
 *by Matt Bowser^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska, matt_bowser@fws.gov], Anya Bronowski, and Dom Watts^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska]*
@@ -121,6 +126,7 @@ The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We
  ape, version 5.7-1 [@ParadisSchliep2019];
  Biostrings, version 2.66.0 [@Pagesetal2022];
  bold, version 1.2.0 [@Chamberlain2021];
+ curl, version 5.0.0 [@Ooms2023curl];
  ips, version 0.0.11 [@Heibl2008];
  msa, version 1.30.1 [@Bodenhoferetal2015];
  openssl, version 2.0.6 [@Ooms2023openssl];
@@ -129,11 +135,17 @@ The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We
  uuid, version 1.1-0 [@UrbanekTso2022]. 
 We compared our sequences to sequences from a local reference library [@Bowser2022COIlib] using the `vsearch --usearch_global` command of vsearch, version 2.21.1 [@Rognesetal2016].
 
+In order to exclude potential false positive detections as defined by @Mackenzieetal2006 due to demultiplexing errors [see @Deineretal2017], we conservatively removed from the ESV table all occurrences that represented less than 0.4% of the total number of reads for any ESV, based the experience of [@Bowser2023MillerCreek], where an apparent rate of mis-assignment of up to 0.36% was found. We also removed all occurrences represented by only one or two reads.
+
 ## Results
 
 ### Data Availability
 
-Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>), and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw.
+Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>), and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw. Resulting occurrence data have been published as a GBIF occurrence dataset [@Bowseretal2023KenaipollinatorGBIF].
+
+### Results Summary
+
+The single legacy sample from 2011 yielded 71 species and 18 BINs.
 
 ### Non-native Species
 
@@ -170,6 +182,10 @@ appear to be new records for Alaska.
 
 *Pollenia vagabunda* had been found at the Kenai National Wildlife Refuge headquarters area previously [@Bowser2015].  *Uroleucon taraxaci* (Kaltenbach, 1843) is believed to be introduced in North America [@Foottitetal2006] and has been recorded from as close to Alaska as Yukon Territory [@Mawetal2000]. We detected this aphid in in bee bowls set in the back lawn of KNWR headquarters, where its host, *Taraxacum officinale* Weber ex Wiggins, is abundant. The epigeic earthworm *Dendrobaena octaedra* is almost ubiquitous near roads on KNWR [@Saltmarshetal2016] and this worm does climb [@Rombkeetal2017], so its presence in a bee bowl was not surprising. 
 *Deroceras agreste* had previously been found in the Ski Hill Road area by @Bowseretal2020; its occurrence at Picnic Lake in the Mystery Creek area was new. Our finding of *Arion fuscus* was the first record of an arionid slug on KNWR. *Arion fuscus* had previously been identified in Alaska from Sitka [@Schade2018]. 
+
+### Intersting Non-insect Records
+
+We detected two vertebrate species: a single record of Willow Ptarmigan (*Lagopus lagopus* (Linnaeus, 1758)) at an alpine meadow above Twin Lakes^[<https://www.gbif.org/occurrence/4093716617>] and three records of northern red-backed voles (*Myodes rutilus* (Pallas, 1779)) in the vicinity of the Kenai National Wildlife Refuge's headquarters in Soldotna^[<https://www.gbif.org/occurrence/4093718979>, <https://www.gbif.org/occurrence/4093718205>, <https://www.gbif.org/occurrence/4093716762>]. At Twin Lakes we had seen and heard a family of Willow Ptarmigan within about 100 m of the area where we had sampled pollinators using aerial nets. In the sample from which the Willow Ptarmigan DNA was detected, no biting flies were detected, so the ptarmagin record was not from a blood meal of a fly. There might have been ptarmigan DNA in or on muscid or phorid flies in the sample. There were also no biting flies detected in any of the three bee bowl samples where vole DNA was found. Voles may have tasted the propylene glycol or otherwise explored the bee bowls.
 
 ## Acknowledgments
 
