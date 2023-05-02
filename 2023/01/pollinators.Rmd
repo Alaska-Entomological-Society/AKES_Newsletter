@@ -66,7 +66,7 @@ knitr::include_graphics('img/pollinators_map.png')
 
 ### Field Methods
 
-We sampled pollinators using bee bowl traps (Figure \@ref(fig:pollinatorsbowl)), blue vane traps (Figure \@ref(fig:pollinatorsBVT)), and aerial nets (Figure \@ref(fig:pollinatorsTwin)), generally following the field methods of @Fulkersonetal2021 with the exception that we collected specimens into SK picglobal 99.9% pure propylene glycol.
+We sampled pollinators using bee bowl traps (Figure \@ref(fig:pollinatorsbowl)), blue vane traps (Figure \@ref(fig:pollinatorsBVT)), and aerial nets (Figure \@ref(fig:pollinatorsTwin)), generally following the field methods of @Fulkersonetal2021 with the exception that we collected specimens into SK picglobal 99.9% pure propylene glycol. Field notes are available from @Bowser2022journal2022 and @Bronowski2022.
 
 ```{r pollinatorsbowl, fig.alt="A yellow cup rests among low plants on a rocky slope.", fig.cap="A bee bowl trap, part of a set of nine bee bowls off of the Bear Mountain Trail, June 27, 2022 (credit: Matt Bowser/USFWS)."}
 knitr::include_graphics('img/pollinators_cup.jpg')
@@ -140,6 +140,7 @@ The bioinformatics pipeline was run on the Yeti supercomputer [@USGSARC2021]. We
  reshape2, version 1.4.4 [@Wickham2007];
  ritis, version 1.0.0 [@Chamberlain2021ritis]; and
  uuid, version 1.1-0 [@UrbanekTso2022]. 
+
 We compared our sequences to sequences from a local reference library [@Bowser2022COIlib] using the `vsearch --usearch_global` command of vsearch, version 2.21.1 [@Rognesetal2016].
 
 In order to exclude potential false positive detections as defined by @Mackenzieetal2006 due to demultiplexing errors [see @Deineretal2017], we conservatively removed from the Exact Sequence Variant (ESV) table all occurrences that represented less than 0.4% of the total number of reads for any ESV, based the experience of [@Bowser2023MillerCreek], where an apparent rate of mis-assignment of up to 0.36% was found. We also removed all occurrences represented by only one or two reads.
@@ -148,7 +149,7 @@ In order to exclude potential false positive detections as defined by @Mackenzie
 
 ### Data Availability
 
-Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>), and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw. Resulting occurrence data have been published as a occurrence dataset [@Bowseretal2023KenaipollinatorGBIF].
+Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>) and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw. Resulting occurrence data have been published as an occurrence dataset [@Bowseretal2023KenaipollinatorGBIF].
 
 ### Results Summary
 
@@ -190,7 +191,7 @@ knitr::kable(beedf,
 
 ### Non-native Species
 
-We documented occurrences of six non-native species. The European honey bee, *Apis mellifera* Linnaeus, 1758, was detected in bee bowls set out at Headquarters lake wetland near Soldotna^[<https://www.gbif.org/occurrence/4093719140>]. The thrips *Odontothrips loti* (Haliday, 1852) was detected in bee bowls deployed in a meadow off of Skilak Lake Road^[<https://www.gbif.org/occurrence/4093715897>]. *Pollenia vagabunda* (Meigen, 1826) was collected in bee bowls at Kenai National Wildlife Refuge headquarters in Soldotna^[<https://www.gbif.org/occurrence/4093716650>]. We detected the earthworm *Dendrobaena octaedra* (Savigny, 1826) in bee bowls set at Picnic Lake^[<https://www.gbif.org/occurrence/4093717859>]. Sequences we obtained of the slug *Deroceras agreste* (Linnaeus, 1758) from bee bowls set at multiple locations^[<https://www.gbif.org/occurrence/4093716677>, <https://www.gbif.org/occurrence/4093716136>, <https://www.gbif.org/occurrence/4093717282>] were 99.35&ndash;99.68% identical to sequences identified by @ZajacStec2020 as *Deroceras agreste*. We found the slug *Arion fuscus* (O.F.Müller, 1774) off of the Vista Trail^[<https://www.gbif.org/occurrence/4093715392>].
+We documented occurrences of six non-native species. The European honey bee, *Apis mellifera* Linnaeus, 1758, was detected in bee bowls set out at Headquarters lake wetland near Soldotna^[<https://www.gbif.org/occurrence/4093719140>]. The thrips *Odontothrips loti* (Haliday, 1852) (Thysanoptera: Thripidae) was detected in bee bowls deployed in a meadow off of Skilak Lake Road^[<https://www.gbif.org/occurrence/4093715897>]. *Pollenia vagabunda* (Meigen, 1826) (Diptera: Polleniidae) was collected in bee bowls at Kenai National Wildlife Refuge headquarters in Soldotna^[<https://www.gbif.org/occurrence/4093716650>]. We detected the earthworm *Dendrobaena octaedra* (Savigny, 1826) (Crassiclitellata: Lumbricidae) in bee bowls set at Picnic Lake^[<https://www.gbif.org/occurrence/4093717859>]. Sequences we obtained of the slug *Deroceras agreste* (Linnaeus, 1758) (Stylommatophora: Agriolimacidae) from bee bowls set at multiple locations^[<https://www.gbif.org/occurrence/4093716677>, <https://www.gbif.org/occurrence/4093716136>, <https://www.gbif.org/occurrence/4093717282>] were 99.35&ndash;99.68% identical to sequences identified by @ZajacStec2020 as *Deroceras agreste*. We found the slug *Arion fuscus* (O.F.Müller, 1774) (Stylommatophora: Arionidae) off of the Vista Trail^[<https://www.gbif.org/occurrence/4093715392>].
 
 ## Discussion
 
@@ -200,20 +201,20 @@ Some of our reads were 100% similar to sequences both identified as *Spilogona a
 
 ### New Distribution Records
 
-*Ero canionis* Chamberlin & Ivie, 1935; 
-*Atomaria testacea* Stephens, 1830; 
-*Liriomyza baptisiae* (Frost, 1931); 
-*Megaselia hirticrus* (Schmitz, 1918);
-*Aspistes spathis* (Cook, 1965);
-*Odontothrips loti* (Haliday, 1852);
-*Peristenus howardi* Shaw, 1999;
-*Cubocephalus anatorius* (Gravenhorst, 1829);
-*Coleophora quadruplex* McDunnough, 1940;
-*Olethreutes bipunctana* (Fabricius, 1794); and
-*Uroleucon taraxaci* (Kaltenbach, 1843)
-appear to be new records for Alaska.
+*Ero canionis* Chamberlin & Ivie, 1935 (Araneae: Mimetidae); 
+*Atomaria testacea* Stephens, 1830 (Coleoptera: Cryptophagidae); 
+*Liriomyza baptisiae* (Frost, 1931) (Diptera: Agromyzidae); 
+*Megaselia hirticrus* (Schmitz, 1918) (Diptera: Phoridae);
+*Aspistes spathis* (Cook, 1965) (Diptera: Scatopsidae);
+*Olethreutes bipunctana* (Fabricius, 1794) (Lepidoptera: Tortricidae);
+*Coleophora quadruplex* McDunnough, 1940 (Lepidoptera: Coleophoridae);
+*Peristenus howardi* Shaw, 1999 (Hymenoptera: Braconidae) and
+*Cubocephalus anatorius* (Gravenhorst, 1829) (Hymenoptera: Ichneumonidae)
+ appear to be new records for Alaska. The the non-native species
+*Odontothrips loti* (Haliday, 1852) and
+*Uroleucon taraxaci* (Kaltenbach, 1843) also appear to be new for the state.
 
-*Coleophora quadruplex* (Lepidoptera: Coleophoridae) was known from multiple Canadian provinces [@Pohletal2018; @GBIF2023Coleophoraquadruplex], but we found no previous records from Alaska. *Olethreutes bipunctana* (Lepidoptera: Tortricidae) had also been reported from Canada [@Pohletal2018; @GBIF2023Olethreutesbipunctana], but apparently not from Alaska. 
+*Coleophora quadruplex* was known from multiple Canadian provinces [@Pohletal2018; @GBIF2023Coleophoraquadruplex], but we found no previous records from Alaska. *Olethreutes bipunctana* had also been reported from Canada [@Pohletal2018; @GBIF2023Olethreutesbipunctana], but apparently not from Alaska. 
 
 *Fannia neopolychaeta* Chillcott, 1961 (Diptera: Fanniidae) had been known from as close to Alaska as British Columbia [@Chillcott1960] and Yukon Territory [@GBIF2023Fannianeopolychaeta], but our record appears to be new for Alaska. *Eudasyphora canadiana* Cuny, 1980 had been reported from Alaska by @Cuny1980, but there were no georeferenced Aslakan records in GBIF. *Phaonia protuberans* Malloch, 1923 (Diptera: Muscidae) was known from the Northwest Territories and Yukon Territory [@Huckett1965; @GBIF2023Phaoniaprotuberans], but it had not been reported from Alaska. *Phaonia serva* (Meigen, 1826) occurs in the Northwest Territories [@Huckett1965], but ours appears to be the first record from Alaska. *Tachypeza fenestrata* (Say, 1823) (Diptera: Hybotidae) appears to be a new record for Alaska, but this species is present nearby in Yukon Territory. *Aspistes spathis* (Cook, 1965) (Diptera: Scatopsidae) had been reported from Alaska by @Cook1965, but we found no georeferenced Alaskan occurrences [@GBIF2023Aspistesspathis]. We found no Alaska records of *Megaselia lucifrons* (Schmitz, 1918), but this species is known from Yukon Territory. *Agria housei* Shewell, 1971 and *Boettcheria litorosa* (Reinhard, 1947) (Diptera: Sarcophagidae) appear to be a new records for Alaska, but there are records of these species from Yukon Territory.
 
