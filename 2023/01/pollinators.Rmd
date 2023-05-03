@@ -64,7 +64,11 @@ We surveyed for insect pollinators at a variety of other sites on the Refuge, tr
 
 We accessed sites by road and floatplane.
 
-```{r pollinatorsmap, fig.alt="A map of the western Kenai Peninsula showing sampling locations near Point Possession in the north to Emerald Lake in the south.", fig.cap="Map of Alaska Bee Atlas sampling priority hexagons as of May 11, 2022 and sites we surveyed for pollinators in 2022. KNWR: Kenai National Wildlife Refuge boundary. The map was generated with R, version 4.2.2 [@RCoreTeam2022] using the R packages sf, version 1.0-9 [@Pebesma2018] and pdftools, version 3.3.3 [@Ooms2023]."}
+(ref:pollinatorsmapalt) A map of the western Kenai Peninsula showing sampling locations near Point Possession in the north to Emerald Lake in the south.
+
+(ref:pollinatorsmapcap) Map of Alaska Bee Atlas sampling priority hexagons as of May 11, 2022 and sites we surveyed for pollinators in 2022. KNWR: Kenai National Wildlife Refuge boundary. The map was generated with R, version 4.2.2 [@RCoreTeam2022] using the R packages sf, version 1.0-9 [@Pebesma2018] and pdftools, version 3.3.3 [@Ooms2023].
+
+```{r pollinatorsmap, fig.alt="(ref:pollinatorsmapalt)", fig.cap="(ref:pollinatorsmapcap)"}
 knitr::include_graphics('img/pollinators_map.png')
 ```
 
@@ -149,15 +153,19 @@ We compared our sequences to sequences from a local reference library [@Bowser20
 
 In order to exclude potential false positive detections as defined by @Mackenzieetal2006 due to demultiplexing errors [see @Deineretal2017], we conservatively removed from the Exact Sequence Variant (ESV) table all occurrences that represented less than 0.4% of the total number of reads for any ESV, based the experience of [@Bowser2023MillerCreek], where an apparent rate of mis-assignment of up to 0.36% was found. We also removed all occurrences represented by only one or two reads.
 
+Complete methods including all configurations, commands, and scripts used for processing data are available from @Bowser2023pollinatoranalysis.
+
 ## Results and Discussion
 
 ### Data Availability
 
-Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>) and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917&collection_id=46>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw. Resulting occurrence data have been published as an occurrence dataset [@Bowseretal2023KenaipollinatorGBIF]. Results from specimens sent to the Alaska Center for Conservation Science are available from the 2018 to 2022 Results Map at <https://arcg.is/1myveP>.
+Project data and project photos are available on Arctos via an Arctos project record (<https://arctos.database.museum/project/10003917>) and specimen records can be viewed via an Arctos search^[<https://arctos.database.museum/search.cfm?project_id=10003917>].  Project information is also available from a project record on ServCat (<https://ecos.fws.gov/ServCat/Reference/Profile/148742>). Raw sequence data from this project are available from @Bowser2022pollinatorraw. Resulting occurrence data have been published as an occurrence dataset [@Bowseretal2023KenaipollinatorGBIF]. Results from specimens sent to the Alaska Center for Conservation Science are available from the 2018 to 2022 Results Map at <https://arcg.is/1myveP>.
 
 ### Results Summary
 
-The single legacy sample from 2011 yielded 71 species and 18 BINs (Table \@ref(tab:sum2011)). 
+
+
+The single legacy sample from 2011 yielded 71 species and 18 BINs (Table \@ref(tab:sum2011)). The 17 samples collected in 2022 yielded 206 species and 85 BINs (Table \@ref(tab:sum2022)).
 
 ```{r sum2011}
 sumt <- sumc[sumc$Year == 2011, 3:7]
@@ -169,7 +177,7 @@ knitr::kable(sumt,
 )
 ```
 
-The 17 samples collected in 2022 yielded 206 species and 85 BINs (Table \@ref(tab:sum2022)).
+
 
 ```{r sum2022}
 sumt <- sumc[sumc$Year == 2022, 3:7]
@@ -181,7 +189,7 @@ knitr::kable(sumt,
 )
 ```
 
-In the single sample from 2011, the most abundant species in terms of read abundances was 16,848 reads of *Ctenicera angusticollis* (Figure \@ref(fig:ab2011)). Other abundant identifications were flies in the families Muscidae, Anthomyiidae, and Fanniidae.
+In the single sample from 2011, the most abundant species in terms of read abundances was 16,848 reads of *Ctenicera angusticollis* (Figure \@ref(fig:ab2011)). Other abundant identifications were flies in the families Muscidae, Anthomyiidae, and Fanniidae. In 2022, the highest read abundance was for *Speyeria mormonia* (Boisduval, 1869) (Lepidoptera: Nymphalidae), which we detected in three samples (Figure \@ref(fig:ab2022)). Reads of *Helina* species (Diptera: Muscidae), *Rhadiurgus variabilis* (Zetterstedt, 1838) (Diptera: Asilidae), and *Xylota subfasciata* Loew, 1866 were also abundant.
 
 (ref:ab2011alt) Bar plot showing read DNA abundances of the 16 most abundant identifications, ranging from 16,848 for Ctenicera angusticollis to 478 for BIN BOLD:ACI3668.
 
@@ -190,8 +198,6 @@ In the single sample from 2011, the most abundant species in terms of read abund
 ```{r ab2011, out.width='75%', fig.alt="(ref:ab2011alt)", fig.cap="(ref:ab2011cap)"}
 knitr::include_graphics('img/pollinators_top_read_abundances_2011.png')
 ```
-
-In 2022, the highest read abundance was for *Speyeria mormonia* (Boisduval, 1869) (Lepidoptera: Nymphalidae), which we detected in three samples (Figure \@ref(fig:ab2022)). Reads of *Helina* species (Diptera: Muscidae), *Rhadiurgus variabilis* (Zetterstedt, 1838) (Diptera: Asilidae), and *Xylota subfasciata* Loew, 1866 were also abundant.
 
 
 (ref:ab2022alt) Bar plot showing read DNA abundances of the 16 most abundant identifications, ranging from 169,420 for Speyeria mormonia to 26,962 for Apocephalus borealis.
@@ -203,7 +209,7 @@ In 2022, the highest read abundance was for *Speyeria mormonia* (Boisduval, 1869
 knitr::include_graphics('img/pollinators_top_read_abundances_2022.png')
 ```
 
-The most frequently observed identifications were four *Helina* species that were detected in 5&ndash;10 out of the 17 samples. The fungus *Cladosporium bruhnei* Linder (Capnodiales: Cladosporiaceae) was detected in counts 6 samples. The bee parasite *Apocephalus borealis* Brues, 1924 (Diptera: Phoridae) was detected in four samples. 
+The most frequently observed identifications were four *Helina* species that were detected in 5&ndash;10 out of the 17 samples (Figure \@ref(fig:freq2022)). The fungus *Cladosporium bruhnei* Linder (Capnodiales: Cladosporiaceae) was detected in counts 6 samples. The bee parasite *Apocephalus borealis* Brues, 1924 (Diptera: Phoridae) was detected in four samples. 
 
 (ref:freq2022alt) Bar plot showing numbers of collecting events in which the most frequently observed taxa were documented, ranging from 10 out of 17 for Helina evecta to 3 out 17 for BOLD:AAM8925.
 
@@ -214,7 +220,6 @@ The most frequently observed identifications were four *Helina* species that wer
 knitr::include_graphics('img/pollinators_top_frequencies_2022.png')
 ```
 
-The most frequently observed 
 
 ### Bees
 
