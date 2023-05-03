@@ -258,13 +258,13 @@ knitr::kable(sumt,
 
 ## Pollinator Associates
 
-
-
-*Apocephalus borealis* was both frequently observed and abundant in terms of read counts. Adult *A. borealis* might have been collected, but it is more likely that these internal parasites of bees and wasps were within their hosts at the time they were collected. 
+*Apocephalus borealis*, a parasitoid of bees and vespine wasps [@Tihelkaetal2021] was both frequently observed in our samples from 2022 and abundant in terms of read counts. Adult *A. borealis* might have been collected, but it is more likely that these internal parasites were within their hosts at the time they were collected. 
 
 The fungus *Cladosporium bruhnei* is common from environmental samples worldwide, collected from living and dead plants, air, water, and humans [@Schubertetal2007; @Benschetal2012]. We found no literature records of *Cladosporium bruhnei* taken from insects, but some *Cladosporium* species can function as symbionts or pathogens of insects [@Liuetal2022].
 
+We detected *Wolbachia* (Rickettsiales: Anaplasmataceae) sequences in the 2011 sample and in 15 out of the 17 samples from 2022. 
 
+We also detected *Steinernema* (Rhabditida: Steinernematidae) in one sample^[<https://www.gbif.org/dataset/86875091-d166-4986-802a-343b341424c6/event/12127687>], a sample where most reads were of *Bombus* species. The *Steinernema* sequence was 97.34% to a sequence identified as *Steinernema kraussei* (Steiner, 1923) Travassos, 1927, a species known to be pathogenic to *Bombus terrestris* (Linnaeus, 1758) [@Dutkaetal2015].
 
 ### New Distribution Records
 
