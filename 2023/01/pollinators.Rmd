@@ -181,6 +181,20 @@ knitr::kable(sumt,
 )
 ```
 
+In 2011, the most abundant species in terms of read abundances was 16,848 reads of *Ctenicera angusticollis* (Figure \@ref(fig:ab2011)).
+
+```{r ab2011, out.width='75%', fig.alt="Bar plot showing read DNA abundances of the 16 most abundant taxa, ranging from 16,848 for Ctenicera angusticollis to 478 for BIN BOLD:ACI3668.", fig.cap="Top 16 most abundant taxa in terms of DNA read abundances from the single 2011 pollinator sample."}
+knitr::include_graphics('img/pollinators_top_read_abundances_2011.png')
+```
+
+
+```{r ab2022, out.width='75%', fig.alt="Bar plot showing read DNA abundances of the 16 most abundant taxa, ranging from 169,420 for Speyeria mormonia to 26,962 for Apocephalus borealis.", fig.cap="Top 16 most abundant taxa in terms of DNA read abundances from the 2022 pollinator samples."}
+knitr::include_graphics('img/pollinators_top_read_abundances_2022.png')
+```
+
+
+
+
 ### Bees
 
 We detected no bees in the sample from 2011 and 12 species of bees in 2022 (Table \@ref(tab:sumbee)). All of these bee species are widespread in Alaska based on occurrence records available through the Global Biodiversity Information Facility (GBIF, <https://www.gbif.org/>), but we are not aware of other records of *Andrena milwaukeensis* or *Halictus rubicundus* from the Kenai Peninsula. All of the *Bombus* species we found are known to be abundant or common in our area [@Rykken2022].
@@ -220,6 +234,10 @@ knitr::kable(sumt,
   row.names = FALSE
 )
 ```
+
+## Pollinator Associates
+
+The bee parasite *Apocephalus borealis* Brues, 1924 was detected in four samples.
 
 ### New Distribution Records
 
