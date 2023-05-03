@@ -203,7 +203,7 @@ In 2022, the highest read abundance was for *Speyeria mormonia* (Boisduval, 1869
 knitr::include_graphics('img/pollinators_top_read_abundances_2022.png')
 ```
 
-The most frequently observed identifications were four *Helina* species that were detected in 5&ndash;10 out of the 17 samples. The fungus *Cladosporium bruhnei* Linder 
+The most frequently observed identifications were four *Helina* species that were detected in 5&ndash;10 out of the 17 samples. The fungus *Cladosporium bruhnei* Linder (Capnodiales: Cladosporiaceae) was detected in counts 6 samples. The bee parasite *Apocephalus borealis* Brues, 1924 (Diptera: Phoridae) was detected in four samples. 
 
 (ref:freq2022alt) Bar plot showing numbers of collecting events in which the most frequently observed taxa were documented, ranging from 10 out of 17 for Helina evecta to 3 out 17 for BOLD:AAM8925.
 
@@ -258,7 +258,13 @@ knitr::kable(sumt,
 
 ## Pollinator Associates
 
-The bee parasite *Apocephalus borealis* Brues, 1924 was detected in four samples.
+
+
+*Apocephalus borealis* was both frequently observed and abundant in terms of read counts. Adult *A. borealis* might have been collected, but it is more likely that these internal parasites of bees and wasps were within their hosts at the time they were collected. 
+
+The fungus *Cladosporium bruhnei* is common from environmental samples worldwide, collected from living and dead plants, air, water, and humans [@Schubertetal2007; @Benschetal2012]. We found no literature records of *Cladosporium bruhnei* taken from insects, but some *Cladosporium* species can function as symbionts or pathogens of insects [@Liuetal2022].
+
+
 
 ### New Distribution Records
 
