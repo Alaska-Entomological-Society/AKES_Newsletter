@@ -181,19 +181,40 @@ knitr::kable(sumt,
 )
 ```
 
-In 2011, the most abundant species in terms of read abundances was 16,848 reads of *Ctenicera angusticollis* (Figure \@ref(fig:ab2011)).
+In the single sample from 2011, the most abundant species in terms of read abundances was 16,848 reads of *Ctenicera angusticollis* (Figure \@ref(fig:ab2011)). Other abundant identifications were flies in the families Muscidae, Anthomyiidae, and Fanniidae.
 
-```{r ab2011, out.width='75%', fig.alt="Bar plot showing read DNA abundances of the 16 most abundant taxa, ranging from 16,848 for Ctenicera angusticollis to 478 for BIN BOLD:ACI3668.", fig.cap="Top 16 most abundant taxa in terms of DNA read abundances from the single 2011 pollinator sample."}
+(ref:ab2011alt) Bar plot showing read DNA abundances of the 16 most abundant identifications, ranging from 16,848 for Ctenicera angusticollis to 478 for BIN BOLD:ACI3668.
+
+(ref:ab2011cap) Top 16 most abundant identifications in terms of DNA read abundances from the single 2011 pollinator sample. BOLD:AAZ5940: *Hiatomyia* sp. [BOLD:AAZ5940](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAZ5940) (Diptera: Syrphidae). BOLD:AAB2863: *Dasysyrphus* sp. [BOLD:AAB2863](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAB2863) (Diptera: Syrphidae). BOLD:ACI3668: *Delia* sp. [BOLD:ACI3668](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACI3668) (Diptera: Anthomyiidae). 
+
+```{r ab2011, out.width='75%', fig.alt="(ref:ab2011alt)", fig.cap="(ref:ab2011cap)"}
 knitr::include_graphics('img/pollinators_top_read_abundances_2011.png')
 ```
 
+In 2022, the highest read abundance was for *Speyeria mormonia* (Boisduval, 1869) (Lepidoptera: Nymphalidae), which we detected in three samples (Figure \@ref(fig:ab2022)). Reads of *Helina* species (Diptera: Muscidae), *Rhadiurgus variabilis* (Zetterstedt, 1838) (Diptera: Asilidae), and *Xylota subfasciata* Loew, 1866 were also abundant.
 
-```{r ab2022, out.width='75%', fig.alt="Bar plot showing read DNA abundances of the 16 most abundant taxa, ranging from 169,420 for Speyeria mormonia to 26,962 for Apocephalus borealis.", fig.cap="Top 16 most abundant taxa in terms of DNA read abundances from the 2022 pollinator samples."}
+
+(ref:ab2022alt) Bar plot showing read DNA abundances of the 16 most abundant identifications, ranging from 169,420 for Speyeria mormonia to 26,962 for Apocephalus borealis.
+
+(ref:ab2022cap) Top 16 most abundant identifications in terms of DNA read abundances from the 2022 pollinator samples. BOLD:AAE0058: *Mydaea* sp. [BOLD:AAE0058](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAE0058) (Diptera: Muscidae). BOLD:AAG9634: *Dolichopus* sp. [BOLD:AAG9634](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAG9634) (Diptera: Dolichopodidae). BOLD:ACC7057: *Phaonia* sp. [BOLD:ACC7057](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACC7057) (Diptera: Muscidae). BOLD:AAG0459: *Suillia* sp. [BOLD:AAG0459](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAG0459) (Diptera: Heleomyzidae). BOLD:AAL8103: Anthomyiidae sp. [BOLD:AAL8103](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAL8103).
+
+
+```{r ab2022, out.width='75%', fig.alt="(ref:ab2022alt)", fig.cap="(ref:ab2022cap)"}
 knitr::include_graphics('img/pollinators_top_read_abundances_2022.png')
 ```
 
+The most frequently observed identifications were four *Helina* species that were detected in 5&ndash;10 out of the 17 samples. The fungus *Cladosporium bruhnei* Linder 
+
+(ref:freq2022alt) Bar plot showing numbers of collecting events in which the most frequently observed taxa were documented, ranging from 10 out of 17 for Helina evecta to 3 out 17 for BOLD:AAM8925.
+
+(ref:freq2022cap) Top 16 most frequently observed identifications. BOLD:AAF9792: Empididae sp. [BOLD:AAF9792](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAF9792). BOLD:AAG2875: *Ceratagallia* sp. [BOLD:AAG2875](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAG2875) (Hemiptera: Cicadellidae). BOLD:AAG9634: *Dolichopus* sp. [BOLD:AAG9634](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAG9634) (Diptera: Dolichopodidae). BOLD:AAM8925: *Lygus* sp. [BOLD:AAM8925](https://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAM8925) (Hemiptera: Miridae).
 
 
+```{r freq2022, out.width='75%', fig.alt="(ref:freq2022alt)", fig.cap="(ref:freq2022cap)"}
+knitr::include_graphics('img/pollinators_top_frequencies_2022.png')
+```
+
+The most frequently observed 
 
 ### Bees
 
