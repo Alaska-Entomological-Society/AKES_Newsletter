@@ -256,15 +256,15 @@ knitr::kable(sumt,
 )
 ```
 
-## Pollinator Associates
+### Pollinator Associates
 
 *Apocephalus borealis*, a parasitoid of bees and vespine wasps [@Tihelkaetal2021] was both frequently observed in our samples from 2022 and abundant in terms of read counts. Adult *A. borealis* might have been collected, but it is more likely that these internal parasites were within their hosts at the time they were collected. 
 
-The fungus *Cladosporium bruhnei* is common from environmental samples worldwide, collected from living and dead plants, air, water, and humans [@Schubertetal2007; @Benschetal2012]. We found no literature records of *Cladosporium bruhnei* taken from insects, but some *Cladosporium* species can function as symbionts or pathogens of insects [@Liuetal2022].
+The fungus *Cladosporium bruhnei* is common from environmental samples worldwide, collected from living and dead plants, air, water, and humans [@Schubertetal2007; @Benschetal2012]. We found no literature records of *Cladosporium bruhnei* taken from insects, but *Cladosporium* species can function as symbionts or pathogens of insects [@Liuetal2022].
 
-We detected *Wolbachia* (Rickettsiales: Anaplasmataceae) sequences in the 2011 sample and in 15 out of the 17 samples from 2022. 
+We detected *Wolbachia* (Rickettsiales: Anaplasmataceae) sequences in the 2011 sample and in 15 out of the 17 samples from 2022. *Wolbachia* bacteria infect many insect species and alter their hosts' reproductive systems [@Werren1997]. *Wolbachia* can be present in high proportions of pollinator populations [@Evisonetal2012]. 
 
-We also detected *Steinernema* (Rhabditida: Steinernematidae) in one sample^[<https://www.gbif.org/dataset/86875091-d166-4986-802a-343b341424c6/event/12127687>], a sample where most reads were of *Bombus* species. The *Steinernema* sequence was 97.34% to a sequence identified as *Steinernema kraussei* (Steiner, 1923) Travassos, 1927, a species known to be pathogenic to *Bombus terrestris* (Linnaeus, 1758) [@Dutkaetal2015].
+We also detected *Steinernema* (Rhabditida: Steinernematidae) in one sample^[<https://www.gbif.org/dataset/86875091-d166-4986-802a-343b341424c6/event/12127687>], a sample where most reads were of *Bombus* species. The *Steinernema* sequence was 97.34% identical to a sequence identified as *Steinernema kraussei* (Steiner, 1923) Travassos, 1927, a species known to be pathogenic to *Bombus terrestris* (Linnaeus, 1758) [@Dutkaetal2015].
 
 ### New Distribution Records
 
@@ -290,7 +290,7 @@ We also detected *Steinernema* (Rhabditida: Steinernematidae) in one sample^[<ht
 
 ### Non-native Species
 
-We documented occurrences of six non-native species. The European honey bee, *Apis mellifera* Linnaeus, 1758, was detected in bee bowls set out at Headquarters lake wetland near Soldotna^[<https://www.gbif.org/occurrence/4093719140>]. The thrips *Odontothrips loti* (Haliday, 1852) (Thysanoptera: Thripidae) was detected in bee bowls deployed in a meadow off of Skilak Lake Road^[<https://www.gbif.org/occurrence/4093715897>]. *Pollenia vagabunda* (Meigen, 1826) (Diptera: Polleniidae) was collected in bee bowls at Kenai National Wildlife Refuge headquarters in Soldotna^[<https://www.gbif.org/occurrence/4093716650>]. We detected the earthworm *Dendrobaena octaedra* (Savigny, 1826) (Crassiclitellata: Lumbricidae) in bee bowls set at Picnic Lake^[<https://www.gbif.org/occurrence/4093717859>]. Sequences we obtained of the slug *Deroceras agreste* (Linnaeus, 1758) (Stylommatophora: Agriolimacidae) from bee bowls set at multiple locations^[<https://www.gbif.org/occurrence/4093716677>, <https://www.gbif.org/occurrence/4093716136>, <https://www.gbif.org/occurrence/4093717282>] were 99.35&ndash;99.68% identical to sequences identified by @ZajacStec2020 as *Deroceras agreste*. We found the slug *Arion fuscus* (O.F.Müller, 1774) (Stylommatophora: Arionidae) off of the Vista Trail^[<https://www.gbif.org/occurrence/4093715392>].
+We documented occurrences of seven non-native species. The European honey bee, *Apis mellifera* Linnaeus, 1758, was detected in bee bowls set out at Headquarters lake wetland near Soldotna^[<https://www.gbif.org/occurrence/4093719140>]. The thrips *Odontothrips loti* (Haliday, 1852) (Thysanoptera: Thripidae) was detected in bee bowls deployed in a meadow off of Skilak Lake Road^[<https://www.gbif.org/occurrence/4093715897>]. We found *Uroleucon taraxaci* in a disturbed clearing off of Ski Hill Road^[<https://www.gbif.org/occurrence/4093719079>], where its host, *Taraxacum officinale* Weber ex Wiggins, was present.  *Pollenia vagabunda* (Meigen, 1826) (Diptera: Polleniidae) was collected in bee bowls at Kenai National Wildlife Refuge headquarters in Soldotna^[<https://www.gbif.org/occurrence/4093716650>], where this species had been found previously by @Bowser2015. We detected the earthworm *Dendrobaena octaedra* (Savigny, 1826) (Crassiclitellata: Lumbricidae) in bee bowls set at Picnic Lake^[<https://www.gbif.org/occurrence/4093717859>]. Sequences we obtained of the slug *Deroceras agreste* (Linnaeus, 1758) (Stylommatophora: Agriolimacidae) from bee bowls set at multiple locations^[<https://www.gbif.org/occurrence/4093716677>, <https://www.gbif.org/occurrence/4093716136>, <https://www.gbif.org/occurrence/4093717282>] were 99.35&ndash;99.68% identical to sequences identified by @ZajacStec2020 as *Deroceras agreste*. We found the slug *Arion fuscus* (O.F.Müller, 1774) (Stylommatophora: Arionidae) off of the Vista Trail^[<https://www.gbif.org/occurrence/4093715392>].
 
 *Pollenia vagabunda* had been found at the Kenai National Wildlife Refuge headquarters area previously [@Bowser2015].  *Uroleucon taraxaci* (Kaltenbach, 1843) is believed to be introduced in North America [@Foottitetal2006] and has been recorded from as close to Alaska as Yukon Territory [@Mawetal2000]. We detected this aphid in in bee bowls set in the back lawn of KNWR headquarters, where its host, *Taraxacum officinale* Weber ex Wiggins, is abundant. The epigeic earthworm *Dendrobaena octaedra* is almost ubiquitous near roads on KNWR [@Saltmarshetal2016] and this worm does climb [@Rombkeetal2017], so its presence in a bee bowl was not surprising. 
 *Deroceras agreste* had previously been found in the Ski Hill Road area by @Bowseretal2020; its occurrence at Picnic Lake in the Mystery Creek area was new. Our finding of *Arion fuscus* was the first record of an arionid slug on KNWR. *Arion fuscus* had previously been identified in Alaska from Sitka [@Schade2018]. 
@@ -302,6 +302,10 @@ We detected two vertebrate species: a single record of Willow Ptarmigan (*Lagopu
 ### Identification Notes
 
 Some of our reads were 100% similar to sequences both identified as *Spilogona alticola* (Malloch, 1920) (Diptera: Muscidae) and *Spilogona contractifrons* (Zetterstedt, 1837) in BOLD BIN BOLD:AAB5278^[<https://doi.org/10.5883/BOLD:AAB5278>]. @Huckett1965 expressed his doubt that these two species were distinct. We assigned these to *Spilogona contractifrons* as we have done in previous work [@Bowseretal2020]. Other reads were 100% similar to sequences of *Spilogona* sp. 12AKR *sensu* @Renaud2012, which had also been documented locally by @Bowseretal2020.
+
+## Conclusions
+
+Complementing morphological identifications by metabarcoding enabled us to efficiently identify many more non-bee species than we have been able to process and identify in a timely way and it also provided detections of some bee parasites. In 2023 we plan to participate in the Alaska Bee Atlas again using similar methods, submitting most bee specimens to the Alaska Center for Conservation Science and processing samples of mostly non-bees by metabarcoding. We believe that using multiple methods will be an expedient way to improve our understanding of insect pollinators in Alaska.
 
 ## Acknowledgments
 
