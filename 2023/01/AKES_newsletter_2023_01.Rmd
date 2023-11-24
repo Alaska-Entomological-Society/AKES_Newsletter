@@ -35,7 +35,11 @@ knitr::opts_chunk$set(fig.pos = "H")
 # Set options
 source("../../share/setup.R")
 
-articles <- c("biocontrols.Rmd", "spider_list.Rmd", "pollinators.Rmd")
+articles <- c("biocontrols.Rmd", 
+ "spider_list.Rmd", 
+ "pollinators.Rmd", 
+ "social_wasps_review.Rmd"
+ )
 ```
 
 
