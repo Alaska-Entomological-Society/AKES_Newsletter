@@ -33,7 +33,11 @@ source("../../share/setup.R")
 
 *The Social Wasps of North America*, written and illustrated by Chris Alice Kratzer, is a visual guide to all 208 species of social vespines, polistines, and crabronids known from North America, from Alaska east to Greenland and south to Panama. Alaska is home to 11 of these species belonging to the genera *Dolichovespula* (6 species) and *Vespula* (5 species), which we often call ‘yellowjackets’. Yellowjackets provide important ecosystem services in Alaska through their roles in predation, pollination, and decomposition. Despite their importance, public perception of yellowjackets is often negative due to their propensity to sting in defense of their nest. It is refreshing to see these important insects receive some positive media attention through this guide, and to see it written in a way that is accessible to a general audience.
 
-```{r waspbook, fig.alt="A book cover with illustrations of wasps on it", fig.cap="Cover of *The Social Wasps of North America*"}
+(ref:socialwaspscovercap) Cover of *The Social Wasps of North America*.
+
+(ref:socialwaspscoveralt) A book cover with illustrations of wasps on it.
+
+```{r waspbook, fig.alt="(ref:socialwaspscoveralt)", fig.cap="(ref:socialwaspscovercap)"}
 knitr::include_graphics('img/social_wasps.jpg')
 ```
 
