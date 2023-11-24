@@ -58,9 +58,9 @@ The Alaska Bee Atlas [@Fulkersonetal2021, <https://accs.uaa.alaska.edu/wildlife/
 
 ### Sampling Design
 
-We followed the guidance of the sampling plan of @Fulkersonetal2021. Most of KNWR lies within lowest priority hexagons of @Fulkersonetal2021, but the southernmost part of the Refuge lies within a medium priority hexagon. We prioritized sampling in this area, but access in this region is difficult. We surveyed only at Emerald Lake in this medium priority hexagon.
+We followed the sampling plan guidance of @Fulkersonetal2021. Most of KNWR lies within lowest priority areas mapped in @Fulkersonetal2021, but the southernmost part of the Refuge lies within a medium priority area. We prioritized sampling in this area, but access in this area is difficult. We surveyed only at Emerald Lake in this medium priority area.
 
-We surveyed for insect pollinators at a variety of other sites on the Refuge, trying to sample in diverse habitats (Figure \@ref(fig:pollinatorsmap)). We sampled dry, rocky slopes off of Skilak Lake Road following the advice of Justin Fulkerson.
+We surveyed for insect pollinators at a variety of other sites on the Refuge, trying to sample in diverse habitats (Figure \@ref(fig:pollinatorsmap)). We sampled dry, rocky slopes off of Skilak Lake Road following the advice of Justin Fulkerson (Alaska Center for Conservation Science, Anchorage, Alaska).
 
 We accessed sites by road and floatplane.
 
@@ -76,7 +76,7 @@ knitr::include_graphics('img/pollinators_map.png')
 
 We sampled pollinators using bee bowl traps (Figure \@ref(fig:pollinatorsbowl)), blue vane traps (Figure \@ref(fig:pollinatorsBVT)), and aerial nets (Figure \@ref(fig:pollinatorsTwin)), generally following the field methods of @Fulkersonetal2021 with the exception that we collected specimens into SK picglobal 99.9% pure propylene glycol. Field notes are available from @Bowser2022journal2022 and @Bronowski2022.
 
-```{r pollinatorsbowl, fig.alt="A yellow cup rests among low plants on a rocky slope.", fig.cap="A bee bowl trap, part of a set of nine bee bowls off of the Bear Mountain Trail, June 27, 2022 (credit: Matt Bowser/USFWS)."}
+```{r pollinatorsbowl, fig.alt="A yellow cup rests on gravel. A butterfly and a flower fly have been caught in liquid in the trap.", fig.cap="A bee bowl trap, part of a set bee bowls off of Skilak Lake Road, June 27, 2022 (credit: Matt Bowser/USFWS)."}
 knitr::include_graphics('img/pollinators_cup.jpg')
 ```
 
@@ -92,7 +92,7 @@ knitr::include_graphics('img/pollinators_Twin.jpg')
 
 Samples were stored in a -23&deg;C freezer except when samples were being processed. Invertebrates were separated from debris by hand under a dissecting microscope. Care was taken to reduce possible cross-contamination of DNA among samples. 
 
-We separated samples that were all or mostly bees from samples that were mostly flies and other invertebrates. We shipped 12 samples of bees to the Alaska Center for Conservation Science^[<https://accs.uaa.alaska.edu/>], University of Alaska Anchorage, Anchorage, Alaska to be processed. 
+We separated samples that were all or mostly bees from samples that were mostly flies and other invertebrates. We shipped 12 samples of bees to the Alaska Center for Conservation Science^[<https://accs.uaa.alaska.edu/>], University of Alaska Anchorage, Anchorage, Alaska to be processed by methods described by @Fulkersonetal2021. 
 
 We homogenized the remaining 19 samples plus one legacy bulk pollinator sample from a previous project [@Bowser2012] using a blender and cleaning between samples with DIY-DS cleaning solution as described by @Buchneretal2021. Our sample homogenization protocol is included below.
 
@@ -211,7 +211,7 @@ knitr::include_graphics('img/pollinators_top_read_abundances_2011.png')
 knitr::include_graphics('img/pollinators_top_read_abundances_2022.png')
 ```
 
-The most frequently observed identifications were four *Helina* species that were detected in 5&ndash;10 out of the 17 samples (Figure \@ref(fig:freq2022)). The fungus *Cladosporium allicinum* (Fr.) Bensch, U.Braun & Crous (Capnodiales: Cladosporiaceae) was detected in counts 6 samples. The bee parasite *Apocephalus borealis* Brues, 1924 (Diptera: Phoridae) was detected in four samples. 
+The most frequently observed identifications were four *Helina* species that were detected in 5&ndash;10 out of the 17 samples (Figure \@ref(fig:freq2022)). The fungus *Cladosporium allicinum* (Fr.) Bensch, U.Braun & Crous (Capnodiales: Cladosporiaceae) was detected in 6 samples. The bee parasite *Apocephalus borealis* Brues, 1924 (Diptera: Phoridae) was detected in four samples. 
 
 (ref:freq2022alt) Bar plot showing numbers of collecting events in which the most frequently observed taxa were documented, ranging from 10 out of 17 for Helina evecta to 3 out 17 for BOLD:AAM8925.
 
@@ -325,7 +325,7 @@ Some of our reads were 100% similar to sequences both identified as *Spilogona a
 
 ## Conclusions
 
-Complementing morphological identifications by metabarcoding enabled us to efficiently identify many more non-bee species than we have been able to process and identify in a timely way and it also provided detections of some bee parasites. In 2023 we plan to participate in the Alaska Bee Atlas again using similar methods, submitting most bee specimens to the Alaska Center for Conservation Science and processing samples of mostly non-bees by metabarcoding. We believe that using multiple methods will be an expedient way to improve our understanding of insect pollinators in Alaska.
+Complementing morphological identifications by metabarcoding enabled us to efficiently identify many more non-bee species than we would have been able to process and identify in a timely way and it also provided detections of some bee parasites. We believe that using multiple methods is an expedient way to improve our understanding of insect pollinators in Alaska.
 
 ## Acknowledgments
 
