@@ -1,0 +1,59 @@
+---
+lang: en-US
+bibliography: spider_list.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+colorlinks: true
+params:
+  volume: 15
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# Work on a spider list for Alaska
+
+*by Jozef Slowik*
+
+Last fall Yuri Marusik reached out to Derek Sikes and I about putting together a spider species list for the state of Alaska. As hard as it is for some people to believe, a really good species list of spiders has never been done. Sure, there have been reports with new species, like Chamberlin and Ivie’s 1947 Spiders of Alaska. Another one, Paquin et al.’s [-@Paquinetal2010] Canada species list included Alaska, but the Alaska part was more so of a courtesy and very incomplete just based on Canadian National Collection (CNC) collection records. But there has not been one that really looked over the species and all the records.
+
+I had put together species lists off of museum records similar to what Paquin’s list was, but not the nitty gritty leg work of asking if this was a valid record, a good ID, or if that species made sense to be found here. Derek’s former student Brandi Fleshman started the project back for her never completed Master’s. And Derek has done an amazing job of cataloging spider list publications in Arctos. So, I do have a really good foundation to get rolling on. 
+	
+I began with the odd balls. I pulled data off the World Spider Catalog^[<https://wsc.nmbe.ch/>], Arctos^[<https://arctos.database.museum>], GBIF^[<https://www.gbif.org/>] and iNaturalist^[<https://www.inaturalist.org/>] and started looking through species which shouldn’t be here and if I could verify those IDs. I quickly ran into issues with iNaturalist data. I love iNaturalist. I use it all the time. But with spiders where you need to see some fine feature of the genitalia for a good ID, a picture of the spider on a leaf often is not going to work. This quickly became a large issue for validating those iNaturalist IDs and I ended up having for the most part to toss that data. I want this list to be a conservative list of species which, if there is any question about one, could be verified with a specimen. But removing iNaturalist data actually dropped only a few species. 
+	
+Next was the GBIF data. UAM as well as many other museums all make their specimen records open source and GBIF is the clearing house for that. The problem is most institutions have not had the money to database their spider collections and get that data out. But even knowing this, there were a number of odd species to be found in the GBIF data. One set was collected and identified by Herb Levi from his trips to Alaska in the early 2000s. Many of his IDs are appropriate, but others are common Eastern US species which I wouldn’t think to find in Alaska. Thankfully, his specimens are deposited in the MCZ collection. So, should a researcher need to validate that record for that Eastern species this far west they could. And I did have them verify the ID labels. Herb was an amazing arachnologist and I have to assume those are good IDs. But we all make mistakes. Perhaps if I find time I will have them loaned and verify them, if I have time.
+	
+This GBIF search also turned up a few erroneous IDs. Working with other arachnologists I was able to validate they were bad IDs and remove those species from the list. Through networking over GBIF data I was also able to validate other odd species I would not have thought to be found here, or are the only records for the state. This included a number of species collected by Bea Vogel and Ake Holm from the North Slope on a trip they took in the 1970’s. These include a number of Holarctic species and their collections are the only North American records. I think we need more geographically diverse North Slope collecting in the future, if anyone else interested.
+
+As I’ve worked this chunky species list, I continually find issues with species. I had to take a step back and remember that for much of this last century Alaska was considered remote, and much of the state still is. Trips to the state were a true expedition. So, specimens collected were often happenstance and almost always considered new to science. This is also because the spider fauna at the time for most of the world was poorly known. Alaska has a bunch of species which are described from single specimens, from remote places, long, long ago. Chasing down the information on the collection event, finding the types, and then comparing them to described species all takes time. I remember a great comment by Jon Coddington, an arachnologist with the Smithsonian and an expert on diversity, to a young student presenting diversity data at a spider meeting, “there is no such thing as a singleton” he said. And he’s right. It takes two (usually) to make a population. So, these single spiders are an error. There has to be more if they are a natural population, or if an accidental occurrence, like a stowaway, then they should be removed. But what do you do when the singleton is a new species and the only known specimen is the type?
+
+One interesting set I’m working with were collected by George Marx and described by Eugen von Keyserling, both 19th century arachnologists. Keyserling published a collection about the spiders of the Americas in the 1890’s and Marx finished editing it after Keyserling died. The catch with these species is Marx had poor organization skills. Arachnologist working with these spiders have often lamented about the wrong labels being in the vials because the spider clearly could not be found where the label says. For example, Marx collected Xeropigo tridentiger (O. Pickard-Cambridge) from Sitka and the Aleutians. He IDd those specimens as Cybaeus algidus a species which he never formally described. Willis Gertsch came across the specimens in his Corrinidae work and noted that this is a tropical species, found from the Caribbean into South America. This is clearly a labeling problem of Marx’s, but thankfully the specimens are in the MCZ and that information can be verified. Another other problem Marx’s and Keyserling’s species descriptions is that what we thought we needed to know to differentiate species at the turn of the 20th century turned out not to be very useful. So, yes there are descriptions and illustrations, but they don’t help much. Several of these species have been declared nomen dubium because of this. 
+
+Thankfully, when Marx’s died much of his collection of spiders ended up going to the Smithsonian. So, I’ve obtained many of the types and so far they are species which are now described as other species. So not true one offs. But others are probably hopeless. One is Lepthyphantes arcticus (Keyserling). Keyserling’s (1886) description is pretty general for a large portion of Linyphiinae spiders. He does provide an illustration but it’s pretty vague and he neglects to even mention the epigynum in his description. Banks (1899) does refer to finding another specimen of Keyserling’s species which he moves into the genus Bathyphantes. I have seen Bank’s specimen and would guess it’s a Bathyphantes brevipes (Emerton) which makes much more sense. Unfortunately for this mystery, Keyserling’s type is lost. So, what can you do?
+
+But this is not the only set of singleton types from Alaska. A much more troublesome set are spiders included in Chamberlin and Ivie’s Spiders of Alaska. These include a number of Linyphiidae species, of the Erigoninae subfamily. These are tiny spiders, most about 2 mm in length. The other catch is that they are all females. Females in this group do not always have good characters for identification. Often the genus is defined using male palp characters. So, how do you place a female who lacks those characters? For Chamberlin and Ivie, they placed them into the Erigone genus with uncertainty. This was not an uncommon thing at the time. All of these small dwarf spiders were placed into the genus Erigone originally before arachnologist knew the diversity. Now we know better, but at the time without good characters and having no real idea of species which might occur in Alaska, Chamberlin and Ivie dumped them there. A few have been picked out and correctly placed into other genera but many reside where they were described questionably in Erigone. 
+
+Many of Chamberlin’s types have ended up in the AMNH, which is good. But doesn’t always help. Many of the new species described were actually collected by Chamberlin’s nephew J. C. Chamberlin while he worked for the USDA based where I’m at now, the Matanuska Experiment Farm. But in Chamberlin and Ivie’s haste or perhaps because they didn’t get good info from his nephew the collection data on the specimens is vague. For example, Erigone bodenburgi Chambelin and Ivie which he describes from a single female carries the location of Bodenburg Butte, which is near Palmer, but the geocode of 61N 149W, just degrees, is nowhere close.  And again, we’re talking about a single 2 mm Erigoninae female. Pretty cryptic if you knew where to look, but the Butte is pretty big. The area has changed since the 1940’s. So, where to even start looking? The female alone doesn’t have any defining characters which could define its generic placement so a male is needed. And unfortunately, there are a bunch more species just like this. 
+
+At this point I’m chasing dreams of finding J. C. Chamberlin’s field notes, or even R. V. Chamberlin’s identification notes, but have been unable to turn up anything. Oh well. It doesn’t remove the species from the list just adds a little more flavor to some of the species. 
+	
+For now, it’s the slow grind of literature searches for species records and chasing distributions for the 450 or so species I’ve left to research. I hope to finish in 2023, but summer is ramping up quickly and spider time is short. 
+
+## References

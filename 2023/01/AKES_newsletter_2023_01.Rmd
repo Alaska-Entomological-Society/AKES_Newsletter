@@ -4,6 +4,7 @@ date: "`r format(Sys.time(), '%B %e, %Y')`"
 citeproc: false
 section-refs-bibliography:
   - biocontrols.bib
+  - spider_list.bib
   - pollinators.bib
 csl: ../../share/pensoft-journals.csl
 colorlinks: true
@@ -34,7 +35,7 @@ knitr::opts_chunk$set(fig.pos = "H")
 # Set options
 source("../../share/setup.R")
 
-articles <- c("biocontrols.Rmd", "pollinators.Rmd")
+articles <- c("biocontrols.Rmd", "spider_list.Rmd", "pollinators.Rmd")
 ```
 
 
