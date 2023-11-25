@@ -52,6 +52,9 @@ This western variety reaches its northern range limit on forested islands in Sou
 
 In 2023, a late spring in our study area delayed flowering of *C. bulbosa*, allowing overlap with emergence of *Bombus melanopygus* Nylander workers.  They were determined to be workers based on their small size and late emergence.  *Calypso bulbosa* plants translocated to the Jensen Arboretum, Juneau, were visited by these bumblebees (Figure 2), one of which entered a *C. bulbosa* flower (Figure 3).  Though we did not observe pollinia transfer, this is the first report of *Bombus* workers visiting *C. bulbosa* var. *occidentalis*, and demonstrates that a weather-caused shift in flowering may result in asynchrony with foraging queen bumblebees.  This orchid could be vulnerable to climate warming that would disrupt this synchrony, thereby reducing pollination and seed production.
 
+### *Goodyera oblongifolia* Rafinesque (large rattlesnake plantain orchid)
+
+This western orchid reaches its northern range limit in near-coastal forests of Southeast Alaska.  Extensive populations of plants averaging > 100 rosettes of vegetative and flowering plants per 10 m^2^ area occur where disturbance has reduced shrub cover.  Flowering occurs in late summer and extends into early fall.  The inflorescence comprises a spike of small white flowers that contain nectar and are reportedly pollinated by *Bombus* species that cause low (< 50%) seed pod production [@Ackerman1975].  Our previous monitoring of this species revealed nocturnal visitation by Noctuidae moths, which are apparently nectar thieves that do not contribute to reproduction [@BowlesArmstrong2021].  However, we were unable to document pollination by *Bombus* species.
 
 
 ## References
