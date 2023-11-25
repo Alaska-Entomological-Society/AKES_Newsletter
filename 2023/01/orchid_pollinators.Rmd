@@ -1,6 +1,6 @@
 ---
 lang: en-US
-bibliography: spider_list.bib
+bibliography: orchid_pollinators.bib
 csl: ../../share/pensoft-journals.csl
 link-citations: true
 colorlinks: true
@@ -35,6 +35,11 @@ source("../../share/setup.R")
 ## Abstract
 
 We provide new records for insects pollinating or foraging on orchids in Southeast Alaska as well as the Aleutian Islands.  Bumble bees (*Bombus* spp.) were observed foraging on the ordinarily self-pollinating *Platanthera aquilonis* and on the food-deceptive *Calypso bulbosa* var. *occidentalis*.  The latter species is thought to be pollinated by queen *Bombus* species, however we observed *B. melanopygus* workers due to a late spring.  We also found *B. melanopygus* pollinating *Goodyera oblongifolia*, and significant variation in pod production between two populations.  A Noctuidae moth, apparently *Mniotype tenera* was observed pollinating *Platanthera convallariifolia* in the Aleutian Islands.  Other Lepidoptera records include the Nocutuidae *Plusia* spp. on *Platanthera dilatata* and the Geometridae *Antepirrhoe fasciata* and *Rheumaptera subhastata* on *P. stricta*.  New Diptera records include mosquito (*Aedes*) species foraging and bearing pollinia on *P. obtusata* as well as the phorid fly *Megaselia* sp. and the dryomyza fly *Dryomyza anilis* foraging on *Neottia banksiana*. We suggest that this orchid may omit a fetid odor that attracts these carrion-feeding insects.  These records bring the number of insects pollinating or foraging on Southeast Alaska orchids to at least 20 species among 13 families in the Diptera, Hymenoptera, and Lepidoptera.  They also increase the number of orchids with verified pollinators in Southeast Alaska to 17 species. Most of these insects pollinate only 1 or 2 orchid species, indicating the importance of the entire insect community to the orchid population.  In contrast, *Bombus* species pollinate at least 5 orchids across the entire flowering season.  The spring-flowering *Calypso bulbosa* could be vulnerable to climate warming that causes this species to flower before emergence of queen bumblebees.
+
+## Introduction
+
+Given the threat of climate warming to disrupt plant-pollinator synchrony, especially spring flowering plants with specialized pollinators [@KudoIda2013], it is critical to understand these relationships within pollinator networks (Schatz et al. 2020).  The Southeast Alaska archipelago and adjacent coastal area support at least 28 native orchid species and varieties (Bowles and Armstrong 2019); at least eight additional species occur in the remaining regions of Alaska.  The network of insects that pollinate these orchids is most well known for Southeast Alaska, where 15 pollinating insects have been identified for 14 orchid species; leaving half of the orchid flora with unknown pollinators  (Bowles & Armstrong 2021).  This paper reports new information on pollinators and other insect visitors to orchids in Southeast Alaska, and one species from the Aleutian Islands. We also examine the relationships between known pollinator families and orchid genera, including several that may be vulnerable to climate warming.  
+
 
 
 ## References
