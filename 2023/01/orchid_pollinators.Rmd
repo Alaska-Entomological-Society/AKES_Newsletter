@@ -1,0 +1,40 @@
+---
+lang: en-US
+bibliography: spider_list.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+colorlinks: true
+params:
+  volume: 15
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# New pollinators and insect visitors to orchids in Southeast Alaska and the Aleutian Islands, and components of the orchid pollinator network in Southeast Alaska
+
+*by Marlin Bowles^[Juneau, Alaska, mbowles@mortonarb.org] and Bob Armstrong^[Juneau, Alaska, bob@discoverysoutheast.org]*
+
+## Abstract
+
+We provide new records for insects pollinating or foraging on orchids in Southeast Alaska as well as the Aleutian Islands.  Bumble bees (*Bombus* spp.) were observed foraging on the ordinarily self-pollinating *Platanthera aquilonis* and on the food-deceptive *Calypso bulbosa* var. *occidentalis*.  The latter species is thought to be pollinated by queen *Bombus* species, however we observed *B. melanopygus* workers due to a late spring.  We also found *B. melanopygus* pollinating *Goodyera oblongifolia*, and significant variation in pod production between two populations.  A Noctuidae moth, apparently *Mniotype tenera* was observed pollinating *Platanthera convallariifolia* in the Aleutian Islands.  Other Lepidoptera records include the Nocutuidae *Plusia* spp. on *Platanthera dilatata* and the Geometridae *Antepirrhoe fasciata* and *Rheumaptera subhastata* on *P. stricta*.  New Diptera records include mosquito (*Aedes*) species foraging and bearing pollinia on *P. obtusata* as well as the phorid fly *Megaselia* sp. and the dryomyza fly *Dryomyza anilis* foraging on *Neottia banksiana*. We suggest that this orchid may omit a fetid odor that attracts these carrion-feeding insects.  These records bring the number of insects pollinating or foraging on Southeast Alaska orchids to at least 20 species among 13 families in the Diptera, Hymenoptera, and Lepidoptera.  They also increase the number of orchids with verified pollinators in Southeast Alaska to 17 species. Most of these insects pollinate only 1 or 2 orchid species, indicating the importance of the entire insect community to the orchid population.  In contrast, *Bombus* species pollinate at least 5 orchids across the entire flowering season.  The spring-flowering *Calypso bulbosa* could be vulnerable to climate warming that causes this species to flower before emergence of queen bumblebees.
+
+
+## References
