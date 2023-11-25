@@ -44,5 +44,12 @@ Given the threat of climate warming to disrupt plant-pollinator synchrony, espec
 
 With two exceptions, this work occurred within the City and Borough of Juneau, Alaska or on adjacent Tongass National Forest land. We used field observations and digital images for insect identification.  Confirmation was also accessed through online resources such as [BugGuide.net](https://bugguide.net), or specimen identification by an authority.  We recorded video and time-lapse images to determine presence of insect visitors to several species.  We also used bait to attract potential pollinators to one species, and an enclosed terrarium to observe potential pollinators of a second species.  Pollinators and visitors to eight orchid species are reported (Table 1).  All photos are by the authors except as indicated.
 
+## Results
+
+### *Calypso bulbosa* var. *occidentalis* (Linnaeus) Oakes (western fairy slipper)
+
+This western variety reaches its northern range limit on forested islands in Southeast Alaska.  It is the first native orchid to flower and uses food deception to attract naive queen bumblebees (*Bombus* spp.), which soon switch to spring flowers that provide food resources [@Ackerman1981].  The lip of the single flower is a long-lasting showy slipper, and unpollinated plants may remain in flower for a month.  Unlike lady’s slipper orchids (*Cypripedium*), which retain pollinia and release pollen grains, entire pollinia are removed from *Calypso* by attachment to the scutellum, a smooth segment on the dorsal surface of the bee [@Ackerman1981].  The width of the gap between the orchid column (which holds pollinia) and the lip opening may range from 5 to 10 mm.  This variability, in combination with variability in bee species sizes and switching to flowers with food rewards, results in low seed pod production [@Ackerman1981].  *Salix* and *Vaccinium* species provided an alternative food source in Finland, where 7% of queen *Bombus* species carried *Calypso* pollinia while foraging on *Salix* [@Tuomietal2015], which is visited by *Bombus* species in our study area (Figure 1)
+
+
 
 ## References
