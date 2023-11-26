@@ -70,5 +70,11 @@ This rein orchid was formerly treated with the tetraploid *P. hyperborea*, but w
 
 In 2019 we observed a *Bombus* species foraging on *Platanthera aquilonis* (Figure 9) in a mixed population of this species with *P. dilatata* and *P. huronensis* in an uplift meadow in the Haines area of Southeast Alaska.  This observation complements the finding of @Kropf2015.  Moreover, as bumble bees also appear to pollinate *P. dilatata* [@vanderVoortetal2022], our observation provides further evidence that *Bombus* species may be pollen vectors between *P. aquilonis* and *P. dilatata*, allowing spontaneous populations of their hybrid *P. huronensis*.  More work on potential for pollinia transfer in *P. aquilonis* is needed to verify this process.
 
+### *Platanthera convallariifolia* Fischer ex Lindley (lily-leaved rein orchid)
+
+This orchid is native to the Aleutian Islands, eastern Russia (Kamchatka) and northern Japan. Its range extends east through southwest Alaska to Kodiak and the Kenai peninsula, with outposts in coastal Alaska about 150 km west of the western border of Southeast Alaska.   It is a polyploid derived from crossing between *P. dilatata* x *P. stricta* [@Wettewaetal2020].
+
+The flower and inflorescence structure of Platanthera convallariifolia suggests a nocturnal settling moth syndrome (as opposed to a hovering moth), where primary pollinators would be members of the Noctuidae or Pyrilidae (Hapeman and Inoue 1997).  Noctuidae might serve as pollen vectors between P. dilatata and P. stricta.  However, no pollinators had been reported for P. convallariifolia.  In 2021, we received images from Abi Woodbridge showing a Noctuidae moth pollinating P. convallariifolia (Figure 10) at Unalaska, Aleutian Islands.  This moth appears to be in the genus Mniotype, and resembles M. tenera Smith (Figure 11). The type locality of M. tenera is Kukak Bay, in the Western Peninsula of Alaska (Smith 1900).  
+
 
 ## References
