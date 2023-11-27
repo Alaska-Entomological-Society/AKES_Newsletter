@@ -76,5 +76,9 @@ This orchid is native to the Aleutian Islands, eastern Russia (Kamchatka) and no
 
 The flower and inflorescence structure of *Platanthera convallariifolia* suggests a nocturnal settling moth syndrome (as opposed to a hovering moth), where primary pollinators would be members of the Noctuidae or Pyrilidae [@HapemanInoue1997].  Noctuidae might serve as pollen vectors between *P. dilatata* and *P. stricta*.  However, no pollinators had been reported for *P. convallariifolia*.  In 2021, we received images from Abi Woodbridge showing a Noctuidae moth pollinating *P. convallariifolia* (Figure 10) at Unalaska, Aleutian Islands.  This moth appears to be in the genus *Mniotype*, and resembles *M. tenera* Smith (Figure 11). The type locality of *M. tenera* is Kukak Bay, in the Western Peninsula of Alaska [@Dyar1900].  
 
+### *Platanthera dilatata* (Pursh) Lindley (white bog orchid)
+
+This wide-spread orchid ranges from the Aleutian Islands east to Southeast Alaska, north to central Alaska, and east across North America.  The flower and inflorescence structure of *Platanthera dilatata* suggests a settling-moth syndrome, and primary pollinators are members of the Noctuidae, including at least 11 such species across North America, as well as several butterflies, bumblebees and a hawkmoth [@WallaceBowles2023].  In 2022, we observed a day-flying *Plusia* (Noctuidae) species pollinating this orchid, which had not been reported in [@BowlesArmstrong2021].  Individuals appear to represent both *P. putnami* Grote (Figure 12) and *P. nichollae* Hampson (Figure 13).  In *P. putnami* the basal spot of the stigma extends above the cubital vein in most specimens, giving it a triangular appearance; in *P. nichaollae*, the more oval basal spot rarely extends above the cubital vien, and in the West the two species are frequently confused [@LafontainePoole1991].
+
 
 ## References
