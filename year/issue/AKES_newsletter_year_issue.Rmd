@@ -33,7 +33,7 @@ knitr::opts_chunk$set(fig.pos = "H")
 # Set options
 source("../../share/setup.R")
 
-articles <- c("article1.Rmd")
+articles <- c("example_article.Rmd")
 ```
 
 
