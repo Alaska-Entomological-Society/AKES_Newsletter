@@ -10,4 +10,5 @@
 *.Rhistory
 *.toc
 AKES_newsletter_*.bib
+releases/*
 share/preamble_Rmd.tex
