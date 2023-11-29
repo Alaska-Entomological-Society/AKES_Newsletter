@@ -1,0 +1,56 @@
+---
+lang: en-US
+bibliography: example_article.bib
+csl: ../../share/pensoft-journals.csl
+colorlinks: true
+params:
+  volume: 15
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# How to format an article for the *AKES Newsletter*
+
+*by Matt Bowser^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska, <matt_bowser@fws.gov>]*
+
+## Background
+
+The first issue of the *Newsletter of the Alaska Entomological Society* (2006) was written in Microsoft^®^ Word. To improve the appearance and uniformity of the *Newsletter*, from 2008 to 2021 it was written in LaTeX^[<https://www.latex-project.org/>], borrowing most of its styling from the journal *R News*^[<https://cran.r-project.org/doc/Rnews/>]. In order to make formatting articles easier and in order to increase accessibility by adding an HTML output option, a version of the *Newsletter* was created in RStudio using R Markdown. Source code from 2020 to 2023 issues of the *AKES Newsletter* are available from a GitHub repository^[<https://github.com/Alaska-Entomological-Society/AKES_Newsletter>].
+
+This article describes the way articles should be prepared and provides examples of typical figures, a table, etc.
+
+## Writing articles
+
+To get started, download the example repository from GitHub, which will include 
+
+- `example_year/example_issue/example_article.Rmd`, the R Markdown source of this example article;
+- `example_year/example_issue/example_article.bib`, the bibliographic data for this article in  BibTeX format; 
+- `example_year/example_issue/AKES_newsletter_year_issue.Rmd`, an example *AKES Newsletter* issue; and 
+- `share/*`, shared files used for document setup and styling.
+
+Articles are written in R Markdown, a simple format that can be edited in a text editor or in an integrated development environment like RStudio. See @Xieetal2023 for a guide to using R Markdown.
+
+An article that does not include any references only requires a single file; for an article with references, these must be provided as a text file in BibTeX format.
+
+
+
+## References
+
