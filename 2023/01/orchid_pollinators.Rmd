@@ -55,11 +55,20 @@ if(knitr::is_html_output()) {out_format <- "html"}
 format_table <- function(x, format = "html"){
  if(format == "html"){
   for (this_col in 1:ncol(x)){
-   x[,this_col] <- gsub("\\\\textit\\{", "*", x[,this_col])
-   x[,this_col] <- gsub("\\}", "*", x[,this_col])
+   x[,this_col] <- gsub("<em>", "*", x[,this_col])
+   x[,this_col] <- gsub("</em>", "*", x[,this_col])
+   x[,this_col] <- gsub("<strong>", "**", x[,this_col])
+   x[,this_col] <- gsub("</strong>", "**", x[,this_col])
    }
   }
- if(format == "latex"){}
+ if(format == "latex"){
+  for (this_col in 1:ncol(x)){
+   x[,this_col] <- gsub("<em>", "\\\\textit\\{", x[,this_col])
+   x[,this_col] <- gsub("</em>", "\\}", x[,this_col])
+   x[,this_col] <- gsub("<strong>", "\\\\textbf\\{", x[,this_col])
+   x[,this_col] <- gsub("</strong>", "\\}", x[,this_col])
+   }
+  }
  x    
 }
 
@@ -85,6 +94,7 @@ kable_styling(latex_options="scale_down") %>%
 
 
 ```
+
 
 ### *Calypso bulbosa* var. *occidentalis* (Linnaeus) Oakes (western fairy slipper)
 
