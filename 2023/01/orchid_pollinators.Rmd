@@ -49,31 +49,7 @@ With two exceptions, this work occurred within the City and Borough of Juneau, A
 Pollinators and visitors to eight orchid species are reported (Table \@ref(tab:orchidpollinatortable)).  
 
 ```{r orchidpollinatortable}
-if(knitr::is_latex_output()) {out_format <- "latex"} 
-if(knitr::is_html_output()) {out_format <- "html"}
-
-format_table <- function(x, format = "html"){
- if(format == "html"){
-  for (this_col in 1:ncol(x)){
-   x[,this_col] <- gsub("<em>", "*", x[,this_col])
-   x[,this_col] <- gsub("</em>", "*", x[,this_col])
-   x[,this_col] <- gsub("<strong>", "**", x[,this_col])
-   x[,this_col] <- gsub("</strong>", "**", x[,this_col])
-   }
-  }
- if(format == "latex"){
-  for (this_col in 1:ncol(x)){
-   x[,this_col] <- gsub("<em>", "\\\\textit\\{", x[,this_col])
-   x[,this_col] <- gsub("</em>", "\\}", x[,this_col])
-   x[,this_col] <- gsub("<strong>", "\\\\textbf\\{", x[,this_col])
-   x[,this_col] <- gsub("</strong>", "\\}", x[,this_col])
-   }
-  }
- x    
-}
-
 orchidtab <- read.csv("orchid_pollinator_table.csv")
-test <- format_table(x = orchidtab, format = out_format)
 
 knitr::kable(format_table(x = orchidtab, format = out_format), 
   format = out_format,           
@@ -90,9 +66,6 @@ kable_styling(latex_options="scale_down") %>%
       column_spec(4, width = ".9in") %>%
       column_spec(5, width = ".9in") %>%
       column_spec(6, width = ".9in")
-
-
-
 ```
 
 
