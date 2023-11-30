@@ -42,18 +42,18 @@ body, h2, h3, h4, p, table, caption, td {
 	font-weight: normal;
   font-style: normal;
 	}
-p em, h2 em, h3 em, h4 em, p em, caption em, figcaption em, td em, .csl-entry em, em {
+p em, caption em, figcaption em, td em, .csl-entry em, em {
 	font-family: 'tex_gyre_pagellaitalic';
 	font-size: 12pt;
 	font-weight: normal;
   font-style: normal;
 	}
-b, th {
+b, th, strong, td strong {
 	font-family: 'tex_gyre_pagellabold';
 	font-weight: normal;
   font-style: normal;
 }	
-b em, em b, th em, strong em, em strong {
+b em, em b, th em, strong em, em strong, td em strong, td strong em {
 	font-family: 'tex_gyre_pagellabold_italic';
 	font-weight: normal;
   font-style: normal;
