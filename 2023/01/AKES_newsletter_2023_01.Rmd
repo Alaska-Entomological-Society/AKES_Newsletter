@@ -5,6 +5,7 @@ citeproc: false
 section-refs-bibliography:
   - biocontrols.bib
   - spider_list.bib
+  - orchid_pollinators.bib
   - pollinators.bib
 csl: ../../share/pensoft-journals.csl
 colorlinks: true
@@ -36,9 +37,10 @@ knitr::opts_chunk$set(fig.pos = "H")
 source("../../share/setup.R")
 
 articles <- c("biocontrols.Rmd", 
- "spider_list.Rmd", 
- "pollinators.Rmd", 
- "social_wasps_review.Rmd"
+ "spider_list.Rmd",
+ "orchid_pollinators.Rmd",
+ "social_wasps_review.Rmd",
+ "pollinators.Rmd"
  )
 ```
 

@@ -49,13 +49,41 @@ With two exceptions, this work occurred within the City and Borough of Juneau, A
 Pollinators and visitors to eight orchid species are reported (Table \@ref(tab:orchidpollinatortable)).  
 
 ```{r orchidpollinatortable}
+if(knitr::is_latex_output()) {out_format <- "latex"} 
+if(knitr::is_html_output()) {out_format <- "html"}
+
+format_table <- function(x, format = "html"){
+ if(format == "html"){
+  for (this_col in 1:ncol(x)){
+   x[,this_col] <- gsub("\\\\textit\\{", "*", x[,this_col])
+   x[,this_col] <- gsub("\\}", "*", x[,this_col])
+   }
+  }
+ if(format == "latex"){}
+ x    
+}
+
 orchidtab <- read.csv("orchid_pollinator_table.csv")
-knitr::kable(orchidtab, 
+test <- format_table(x = orchidtab, format = out_format)
+
+knitr::kable(format_table(x = orchidtab, format = out_format), 
+  format = out_format,           
   longtable = TRUE, 
   booktabs = TRUE,
+  escape = FALSE,
   col.names = gsub("\\.", " ", names(orchidtab)),
-  caption = "New pollinators and insect visitors to orchid species in Southeast (SE) Alaska and the Aleutian Islands.  Insect species are listed by order"
-)
+  caption = "New pollinators and insect visitors to orchid species in Southeast (SE) Alaska and the Aleutian Islands.  Insect species are listed by order."
+) %>%
+kable_styling(latex_options="scale_down") %>%
+      column_spec(1, width = "1in") %>%
+      column_spec(2, width = "1in") %>%
+      column_spec(3, width = "1in") %>%
+      column_spec(4, width = "1in") %>%
+      column_spec(5, width = "1in") %>%
+      column_spec(6, width = "1in")
+
+
+
 ```
 
 ### *Calypso bulbosa* var. *occidentalis* (Linnaeus) Oakes (western fairy slipper)
