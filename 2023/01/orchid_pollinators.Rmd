@@ -42,9 +42,23 @@ Given the threat of climate warming to disrupt plant-pollinator synchrony, espec
 
 ## Methods
 
-With two exceptions, this work occurred within the City and Borough of Juneau, Alaska or on adjacent Tongass National Forest land. We used field observations and digital images for insect identification.  Confirmation was also accessed through online resources such as [BugGuide.net](https://bugguide.net), or specimen identification by an authority.  We recorded video and time-lapse images to determine presence of insect visitors to several species.  We also used bait to attract potential pollinators to one species, and an enclosed terrarium to observe potential pollinators of a second species.  Pollinators and visitors to eight orchid species are reported (Table 1).  All photos are by the authors except as indicated.
+With two exceptions, this work occurred within the City and Borough of Juneau, Alaska or on adjacent Tongass National Forest land. We used field observations and digital images for insect identification.  Confirmation was also accessed through online resources such as [BugGuide.net](https://bugguide.net), or specimen identification by an authority.  We recorded video and time-lapse images to determine presence of insect visitors to several species.  We also used bait to attract potential pollinators to one species, and an enclosed terrarium to observe potential pollinators of a second species.  
 
 ## Results
+
+Pollinators and visitors to eight orchid species are reported (Table 1).  All photos are by the authors except as indicated.
+
+Species | Location and flowering season | Pollination system | Lepidoptera |  Hymenoptera | Diptera
+|---|---|---|---|---|
+Calypso bulbosa | SE Alaska, early spring | Pollinator required, food deception |  | Bombus melanopygus (Apidae) | 
+Goodyera oblongifolia | SE Alaska, late summer | Pollinator required, nectariferous |  | Bombus melanopygus (Apidae) | 
+Neottia banksiana | SE Alaska, early summer | Pollinator required, nectariferous |  |   | Megaselia sp. (Phoridae), Dryomyza anilis (Dryomyzidae)
+Platanthera aquilonis | SE Alaska, mid-summer | Self-pollinating, nectariferous |  | Bombus sp (Apidae) | 
+Platanthera convallariifolia | Aleutian Islands, mid-summer | Pollinator required, nectariferous | Mniotype tenera (Noctuidae) |  | 
+Platanthera dilatata | SE Alaska, mid-summer | Pollinator required, nectariferous | Plusia putnam, Plusia nichollae (Noctuidae) |  | 
+Platanthera obtusata | SE Alaska, early summer | Pollinator required, nectariferous |   |  | Aedes communis, Aedes excrucians (Cucilidae)
+Platanthera stricta | SE Alaska, early summer | Pollinator required, nectariferous | Rheumaptera subhastata, Antepirrhoe fasciata (Geometridae) |  | 
+
 
 ### *Calypso bulbosa* var. *occidentalis* (Linnaeus) Oakes (western fairy slipper)
 
