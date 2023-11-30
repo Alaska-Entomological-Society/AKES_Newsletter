@@ -53,7 +53,7 @@ b, th {
 	font-weight: normal;
   font-style: normal;
 }	
-b em, em b, th em {
+b em, em b, th em, strong em, em strong {
 	font-family: 'tex_gyre_pagellabold_italic';
 	font-weight: normal;
   font-style: normal;
