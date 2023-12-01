@@ -48,6 +48,9 @@ With two exceptions, this work occurred within the City and Borough of Juneau, A
 
 Pollinators and visitors to eight orchid species are reported (Table \@ref(tab:orchidpollinatortable)).  
 
+\newpage
+\blandscape
+
 ```{r orchidpollinatortable}
 orchidtab <- read.csv("orchid_pollinator_table.csv")
 
@@ -67,6 +70,8 @@ kable_styling(latex_options="scale_down") %>%
       column_spec(5, width = ".9in") %>%
       column_spec(6, width = ".9in")
 ```
+
+\elandscape
 
 
 ### *Calypso bulbosa* var. *occidentalis* (Linnaeus) Oakes (western fairy slipper)
