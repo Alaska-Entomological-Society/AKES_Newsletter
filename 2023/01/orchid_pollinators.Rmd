@@ -148,16 +148,16 @@ knitr::kable(orchidvpoltab,
   caption = "Numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska."
 ) %>%
       row_spec(0, bold=TRUE) %>%
-      column_spec(1, width = ".9in") %>%
-      column_spec(2, width = ".9in") %>%
-      column_spec(3, width = ".9in") %>%
-      column_spec(4, width = ".9in") %>%
-      column_spec(5, width = ".9in") %>%
-      column_spec(6, width = ".9in") %>%
-      column_spec(7, width = ".9in") %>%
-      column_spec(8, width = ".9in") %>%
-      column_spec(9, width = ".9in") %>%
-      column_spec(10, width = ".9in")
+      column_spec(1, width = ".7in") %>%
+      column_spec(2, width = ".7in") %>%
+      column_spec(3, width = ".7in") %>%
+      column_spec(4, width = ".7in") %>%
+      column_spec(5, width = ".7in") %>%
+      column_spec(6, width = ".7in") %>%
+      column_spec(7, width = ".7in") %>%
+      column_spec(8, width = ".7in") %>%
+      column_spec(9, width = ".7in") %>%
+      column_spec(10, width = ".7in")
 ```
 
 \elandscape
