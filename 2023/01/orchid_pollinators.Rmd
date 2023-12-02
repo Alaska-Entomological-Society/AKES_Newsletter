@@ -147,6 +147,7 @@ knitr::kable(orchidvpoltab,
   col.names = gsub("\\.", " ", names(orchidvpoltab)),
   caption = "Numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska."
 ) %>%
+      row_spec(0, bold=TRUE) %>%
       column_spec(1, width = ".9in") %>%
       column_spec(2, width = ".9in") %>%
       column_spec(3, width = ".9in") %>%
