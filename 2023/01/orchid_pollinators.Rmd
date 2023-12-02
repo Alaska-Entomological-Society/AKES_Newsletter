@@ -138,6 +138,23 @@ knitr::kable(gentab,
 ) 
 ```
 
+\newpage
+\blandscape
+
+```{r orchidvpollinatorstable}
+orchidvpoltab <- read.csv("orchid_genera_v_pollinators_table.csv")
+
+knitr::kable(format_table(x = orchidvpoltab, format = out_format), 
+  format = out_format,           
+  longtable = TRUE, 
+  booktabs = TRUE,
+  escape = FALSE,
+  col.names = gsub("\\.", " ", names(orchidvpoltab)),
+  caption = "Another table"
+) 
+```
+
+\elandscape
 
 The Diptera order has the greatest number of families (6), with 7 species that appear to pollinate 6 orchid genera and 8 species.  These flies are morphologically diverse, matching flower sizes and nectar resources.  Minute Scariadae (fungus gnats) feed on nectar at the base of the lip in equally small *Neottia* and *Malaxis* flowers.  Larger Bibionidae (March flies) and Dryomyzidae flies feed on nectar in larger *Coeloglossum* and *Neottia* flowers.  Empididae (dance flies) and Culicidae (mosquitoes) use longer tongues to feed on nectar in recessed spurs of *Platanthera*.  A large Syrphidae (a bee-mimic hover fly) forages on bee-pollinated *Spiranthes*, though we have not seen it carrying pollinia.  These insects carry pollinia from different orchid species on their eyes, heads, tongues and backs. 
 
