@@ -48,9 +48,6 @@ With two exceptions, this work occurred within the City and Borough of Juneau, A
 
 Pollinators and visitors to eight orchid species are reported (Table \@ref(tab:orchidpollinatortable)).  
 
-\newpage
-\blandscape
-
 ```{r orchidpollinatortable}
 orchidtab <- read.csv("orchid_pollinator_table.csv")
 
@@ -62,7 +59,6 @@ knitr::kable(format_table(x = orchidtab, format = out_format),
   col.names = gsub("\\.", " ", names(orchidtab)),
   caption = "New pollinators and insect visitors to orchid species in Southeast (SE) Alaska and the Aleutian Islands.  Insect species are listed by order."
 ) %>%
-kable_styling(latex_options="scale_down") %>%
       column_spec(1, width = ".9in") %>%
       column_spec(2, width = ".9in") %>%
       column_spec(3, width = ".9in") %>%
@@ -70,8 +66,6 @@ kable_styling(latex_options="scale_down") %>%
       column_spec(5, width = ".9in") %>%
       column_spec(6, width = ".9in")
 ```
-
-\elandscape
 
 
 ### *Calypso bulbosa* var. *occidentalis* (Linnaeus) Oakes (western fairy slipper)
@@ -150,11 +144,23 @@ knitr::kable(format_table(x = orchidvpoltab, format = out_format),
   booktabs = TRUE,
   escape = FALSE,
   col.names = gsub("\\.", " ", names(orchidvpoltab)),
-  caption = "Another table"
-) 
+  caption = "Numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska."
+) %>%
+      column_spec(1, width = ".9in") %>%
+      column_spec(2, width = ".9in") %>%
+      column_spec(3, width = ".9in") %>%
+      column_spec(4, width = ".9in") %>%
+      column_spec(5, width = ".9in") %>%
+      column_spec(6, width = ".9in") %>%
+      column_spec(7, width = ".9in") %>%
+      column_spec(8, width = ".9in") %>%
+      column_spec(9, width = ".9in") %>%
+      column_spec(10, width = ".9in")
 ```
 
 \elandscape
+
+
 
 The Diptera order has the greatest number of families (6), with 7 species that appear to pollinate 6 orchid genera and 8 species.  These flies are morphologically diverse, matching flower sizes and nectar resources.  Minute Scariadae (fungus gnats) feed on nectar at the base of the lip in equally small *Neottia* and *Malaxis* flowers.  Larger Bibionidae (March flies) and Dryomyzidae flies feed on nectar in larger *Coeloglossum* and *Neottia* flowers.  Empididae (dance flies) and Culicidae (mosquitoes) use longer tongues to feed on nectar in recessed spurs of *Platanthera*.  A large Syrphidae (a bee-mimic hover fly) forages on bee-pollinated *Spiranthes*, though we have not seen it carrying pollinia.  These insects carry pollinia from different orchid species on their eyes, heads, tongues and backs. 
 
