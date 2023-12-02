@@ -25,6 +25,9 @@ format_table <- function(x, format = "html"){
       x[,this_col] <- gsub("</em>", "*", x[,this_col])
       x[,this_col] <- gsub("<strong>", "**", x[,this_col])
       x[,this_col] <- gsub("</strong>", "**", x[,this_col])
+      names(x) <- gsub("X\\.", ".", names(x))
+      names(x) <- gsub("\\.\\.em\\.", "*", names(x))
+      names(x) <- gsub("\\.em\\.", "*", names(x))
     }
   }
   if(format == "latex"){

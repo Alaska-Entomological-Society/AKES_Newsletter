@@ -137,8 +137,9 @@ knitr::kable(gentab,
 
 ```{r orchidvpollinatorstable}
 orchidvpoltab <- read.csv("orchid_genera_v_pollinators_table.csv")
+orchidvpoltab <- format_table(x = orchidvpoltab, format = out_format)
 
-knitr::kable(format_table(x = orchidvpoltab, format = out_format), 
+knitr::kable(orchidvpoltab, 
   format = out_format,           
   longtable = TRUE, 
   booktabs = TRUE,
