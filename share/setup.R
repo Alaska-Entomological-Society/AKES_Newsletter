@@ -11,7 +11,8 @@ knitr::opts_chunk$set(
   out.extra = ""
 )
 
-options(knitr.table.format = "pipe")
+options(knitr.table.format = "pipe",
+        knitr.kable.NA = "")
 
 # Set up table formatting.
 if(knitr::is_latex_output()) {out_format <- "latex"} 
