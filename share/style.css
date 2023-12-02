@@ -133,3 +133,8 @@ pre, code, .hljs-string, .hljs-keyword {
 table{
 	margin-bottom: 1em;
 }
+
+th, td{
+	padding-left: 4pt;
+	padding-right: 4pt;
+}
