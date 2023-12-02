@@ -130,3 +130,6 @@ pre, code, .hljs-string, .hljs-keyword {
 .headerright{
   float: right;
 }
+table{
+	margin-bottom: 1em;
+}
