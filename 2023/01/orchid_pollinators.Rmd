@@ -114,15 +114,12 @@ This northern rein orchid ranges from the Aleutians east across southern Alaska 
 
 ## Components of the pollinator network
 
-This work expands our knowledge of the insect community that forms a pollinator network among Southeast Alaska’s orchid species.  Our observations and other published literature indicate that at least 20 insect species among 3 orders and 13 families may comprise this network (Table 2).  
-
-Table 2. Numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein.
-
+This work expands our knowledge of the insect community that forms a pollinator network among Southeast Alaska’s orchid species.  Our observations and other published literature indicate that at least 20 insect species among 3 orders and 13 families may comprise this network (Table \@ref(tab:orchidvpollinatorstable)).  
 
 \newpage
 \blandscape
 
-(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. *n*~orchid&nbsp;spp~ : number of orchid species.
+(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein. *n*~orchid&nbsp;spp~ : number of orchid species. 
 
 ```{r orchidvpollinatorstable}
 orchidvpoltab <- read.csv("orchid_genera_v_pollinators_table.csv")
