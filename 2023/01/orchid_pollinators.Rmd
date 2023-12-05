@@ -118,19 +118,6 @@ This work expands our knowledge of the insect community that forms a pollinator 
 
 Table 2. Numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein.
 
-```{r orchidgeneratable}
-gentab <- read.csv("orchid_genera_table.csv", row.names = 1)
-gentab <- as.data.frame(t(gentab))
-
-knitr::kable(gentab, 
-  format = out_format,           
-  longtable = TRUE, 
-  booktabs = TRUE,
-  escape = FALSE,
-  col.names = names(gentab),
-  caption = "Numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska."
-) 
-```
 
 \newpage
 \blandscape
