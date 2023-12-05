@@ -1,7 +1,7 @@
 Pollinators,<em>Calypso</em>,<em>Coeloglossum</em>,<em>Corallorhiza</em>,<em>Cypripedium</em>,<em>Goodyera</em>,<em>Malaxis</em>,<em>Neottia</em>,<em>Piperia</em>,<em>Platanthera</em>
-<em>n</em><sub>spp</sub>,1,1,3,3,1,2,4,2,7
-<em>n</em><sub>spp. pol. known</sub>,1,1,2,2*,1,1*,2*,1*,5*
-<em>n</em><sub>spp. pol. unknown</sub>,,,1**,1**,,1,2,1,2**
+<strong><em>n</em><sub>spp</sub></strong>,1,1,3,3,1,2,4,2,7
+<strong><em>n</em><sub>spp. pol. known</sub></strong>,1,1,2,2*,1,1*,2*,1*,5*
+<strong><em>n</em><sub>spp. pol. unknown</sub></strong>,,,1**,1**,,1,2,1,2**
 <strong>Diptera:</strong>,,,,,,,,,
 Bibionidae,,1,,,,,,,
 Cucilidae,,,,,,,,,2***
