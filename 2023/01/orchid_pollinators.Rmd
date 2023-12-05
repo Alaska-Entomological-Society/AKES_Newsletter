@@ -119,7 +119,8 @@ This work expands our knowledge of the insect community that forms a pollinator 
 \newpage
 \blandscape
 
-(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein. *n*~orchid&nbsp;spp~ : number of orchid species. 
+(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein. *n*~orchid&nbsp;spp~ : Number of orchid species. *n*_known_: Number of orchid species where pollinators are known. *n*_unknown_: Number of orchid species where pollinators are unknown. \*: Based in part on literature. \*\*: Includes one or more self-pollinating species that may outcross as well. \*\*\*: Pollinia not observed on one or more species.  
+
 
 ```{r orchidvpollinatorstable}
 orchidvpoltab <- read.csv("orchid_genera_v_pollinators_table.csv")
