@@ -122,6 +122,8 @@ Table 2. Numbers of insect species known to pollinate orchid species in an orchi
 \newpage
 \blandscape
 
+(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. *n*~orchid&nbsp;spp~ : number of orchid species.
+
 ```{r orchidvpollinatorstable}
 orchidvpoltab <- read.csv("orchid_genera_v_pollinators_table.csv")
 orchidvpoltab <- format_table(x = orchidvpoltab, format = out_format)
@@ -132,10 +134,10 @@ knitr::kable(orchidvpoltab,
   booktabs = TRUE,
   escape = FALSE,
   col.names = gsub("\\.", " ", names(orchidvpoltab)),
-  caption = "Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. *n*<sub>spp</sub>: number of orchid species."
+  caption = "(ref:orchidvpollinatorstablecap)"
 ) %>%
       row_spec(0, bold=TRUE) %>%
-      column_spec(1, width = ".7in") %>%
+      column_spec(1, width = ".9in") %>%
       column_spec(2, width = ".7in") %>%
       column_spec(3, width = ".7in") %>%
       column_spec(4, width = ".7in") %>%
