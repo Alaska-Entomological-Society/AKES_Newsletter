@@ -38,6 +38,8 @@ format_table <- function(x, format = "html"){
       x[,this_col] <- gsub("</strong>", "\\}", x[,this_col])
       x[,this_col] <- gsub("<u>", "\\\\underline\\{", x[,this_col])
       x[,this_col] <- gsub("</u>", "\\}", x[,this_col])
+      x[,this_col] <- gsub("<sub>", "\\\\textsubscript\\{", x[,this_col])
+      x[,this_col] <- gsub("</sub>", "\\}", x[,this_col])
       names(x) <- gsub("X\\.", ".", names(x))
       names(x) <- gsub("\\.\\.em\\.", "\\}", names(x))
       names(x) <- gsub("\\.em\\.", "\\\\textit\\{", names(x))
