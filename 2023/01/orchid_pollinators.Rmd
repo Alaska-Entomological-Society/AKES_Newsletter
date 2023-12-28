@@ -102,7 +102,32 @@ knitr::include_graphics('img/orchids_Bombus_Calypso2.jpg')
 
 This western orchid reaches its northern range limit in near-coastal forests of Southeast Alaska.  Extensive populations of plants averaging > 100 rosettes of vegetative and flowering plants per 10 m^2^ area occur where disturbance has reduced shrub cover.  Flowering occurs in late summer and extends into early fall.  The inflorescence comprises a spike of small white flowers that contain nectar and are reportedly pollinated by *Bombus* species that cause low (< 50%) seed pod production [@Ackerman1975].  Our previous monitoring of this species revealed nocturnal visitation by Noctuidae moths, which are apparently nectar thieves that do not contribute to reproduction [@BowlesArmstrong2021].  However, we were unable to document pollination by *Bombus* species.
 
-In 2022, we documented flower visitation by bumblebees resembling *Bombus melanopygus* with time-lapse images and with direct observation.  Individuals bearing pollinia approached (Figure 4) and briefly visited (Figure 5) multiple flowers on an inflorescence before moving to neighboring plants.  They also appeared to forage especially on higher density patches, quickly moving through orchid populations.  We compared percent and total seed capsule production per inflorescence between two sites with different inflorescence densities and sizes, Rainforest and Tee Harbor (Figure 6).  Data are from *n* = 26 random 10 m^2^ plots, and from *n* = 109 random inflorescence samples.  Tee Harbor had 38% greater average percent seed capsule production, greater flowering plant density, and smaller inflorescences than did the Rainforest population.  Average total capsule production was also greater, by 33%, in the Tee Harbor population (*p* = 0.013, Mann-Whitney *t*-Test). This supports findings that greater flowering plant density enhances bee visitation and pollination at the local scale [@Hegland2014].  However, other factors, such as bee population size and nest proximity, as well as orchid population size, could affect visitation rates.  Nocturnal foraging by Noctuidae moths might also cause bumble bees to reject inflorescences that have been subject to high levels of nectar thievery [@BowlesArmstrong2021].  More work is needed to test this hypothesis.
+In 2022, we documented flower visitation by bumblebees resembling *Bombus melanopygus* with time-lapse images and with direct observation.  Individuals bearing pollinia approached (Figure \@ref(fig:bombusgoodyera1)) and briefly visited (Figure \@ref(fig:bombusgoodyera2)) multiple flowers on an inflorescence before moving to neighboring plants.  They also appeared to forage especially on higher density patches, quickly moving through orchid populations.  We compared percent and total seed capsule production per inflorescence between two sites with different inflorescence densities and sizes, Rainforest and Tee Harbor (Figure \@ref(fig:goodyeragraph)).  Data are from *n* = 26 random 10 m^2^ plots, and from *n* = 109 random inflorescence samples.  Tee Harbor had 38% greater average percent seed capsule production, greater flowering plant density, and smaller inflorescences than did the Rainforest population.  Average total capsule production was also greater, by 33%, in the Tee Harbor population (*p* = 0.013, Mann-Whitney *t*-Test). This supports findings that greater flowering plant density enhances bee visitation and pollination at the local scale [@Hegland2014].  However, other factors, such as bee population size and nest proximity, as well as orchid population size, could affect visitation rates.  Nocturnal foraging by Noctuidae moths might also cause bumble bees to reject inflorescences that have been subject to high levels of nectar thievery [@BowlesArmstrong2021].  More work is needed to test this hypothesis.
+
+(ref:bombusgoodyera1alt) A bumblebee approaches pale orchid blossoms. On the bee's face are bright yellow pollinia.
+
+(ref:bombusgoodyera1cap) *Bombus melanopygus* bearing pollinia on its tongue approaching a *Goodyera oblongifolia* inflorescence.
+
+```{r bombusgoodyera1, fig.alt="(ref:bombusgoodyera1alt)", fig.cap="(ref:bombusgoodyera1cap)"}
+knitr::include_graphics('img/orchids_Bombus_Goodyera1.jpg')
+```
+
+(ref:bombusgoodyera2alt) A bumblebee feeds from creamy white orchid blossoms. On the bee's face are bright yellow pollinia.
+
+(ref:bombusgoodyera2cap) *Bombus melanopygus* bearing pollinia on its tongue while foraging on *Goodyera oblongifolia* flowers.
+
+```{r bombusgoodyera2, fig.alt="(ref:bombusgoodyera1a2t)", fig.cap="(ref:bombusgoodyera2cap)"}
+knitr::include_graphics('img/orchids_Bombus_Goodyera2.jpg')
+```
+
+(ref:goodyeragraphalt) A bar plot comparing flowering plant density, inflorescence size, and percentage of seed capsules per infloresnce. 
+
+(ref:goodyeragraphcap) Relationship between flowering plant density per 10 m^2^ plot, seed capsule production, and inflorescence size in *Goodyera oblongifolia*. *p* values are Mann-Whitney *t*-Test probabilities.
+
+```{r goodyeragraph, fig.alt="(ref:goodyeragrapha2t)", fig.cap="(ref:goodyeragraphcap)"}
+knitr::include_graphics('img/orchids_Goodyera_graph.jpg')
+```
+
 
 ### *Neottia* (*Listera*) *banksiana* (Lindley) Reichenbach (Northwest twayblade)
 
