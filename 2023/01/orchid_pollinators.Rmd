@@ -173,7 +173,24 @@ knitr::include_graphics('img/orchids_Bombus_Platanthera_aquilonis.jpg')
 
 This orchid is native to the Aleutian Islands, eastern Russia (Kamchatka) and northern Japan. Its range extends east through southwest Alaska to Kodiak and the Kenai peninsula, with outposts in coastal Alaska about 150 km west of the western border of Southeast Alaska.   It is a polyploid derived from crossing between *P. dilatata* x *P. stricta* [@Wettewaetal2020].
 
-The flower and inflorescence structure of *Platanthera convallariifolia* suggests a nocturnal settling moth syndrome (as opposed to a hovering moth), where primary pollinators would be members of the Noctuidae or Pyrilidae [@HapemanInoue1997].  Noctuidae might serve as pollen vectors between *P. dilatata* and *P. stricta*.  However, no pollinators had been reported for *P. convallariifolia*.  In 2021, we received images from Abi Woodbridge showing a Noctuidae moth pollinating *P. convallariifolia* (Figure 10) at Unalaska, Aleutian Islands.  This moth appears to be in the genus *Mniotype*, and resembles *M. tenera* Smith (Figure 11). The type locality of *M. tenera* is Kukak Bay, in the Western Peninsula of Alaska [@Dyar1900].  
+The flower and inflorescence structure of *Platanthera convallariifolia* suggests a nocturnal settling moth syndrome (as opposed to a hovering moth), where primary pollinators would be members of the Noctuidae or Pyrilidae [@HapemanInoue1997].  Noctuidae might serve as pollen vectors between *P. dilatata* and *P. stricta*.  However, no pollinators had been reported for *P. convallariifolia*.  In 2021, we received images from Abi Woodbridge showing a Noctuidae moth pollinating *P. convallariifolia* (Figure \@ref(fig:mniotypeplatantheraconvallariafolia1)) at Unalaska, Aleutian Islands.  This moth appears to be in the genus *Mniotype*, and resembles *M. tenera* Smith (Figure \@ref(fig:mniotypeplatantheraconvallariafolia2)). The type locality of *M. tenera* is Kukak Bay, in the Western Peninsula of Alaska [@Dyar1900].  
+
+(ref:mniotypeplatantheraconvallariafolia1alt) A large moth on a pale green orchid. Yellow pollinia are visible on its proboscis.
+
+(ref:mniotypeplatantheraconvallariafolia1cap) Noctuidae resembling *Mniotype tenera* bearing pollinia on its tongue while foraging on the inflorescence of *Platanthera convallariifolia*. Photo by Abi Woodbridge.
+
+```{r mniotypeplatantheraconvallariafolia1, fig.alt="(ref:mniotypeplatantheraconvallariafolia1alt)", fig.cap="(ref:mniotypeplatantheraconvallariafolia1cap)"}
+knitr::include_graphics('img/orchids_Mniotype_Platanthera_convallariafolia1.jpg')
+```
+
+(ref:mniotypeplatantheraconvallariafolia2alt) A moth on a plant, showing mottled brown and gray wing pattern.
+
+(ref:mniotypeplatantheraconvallariafolia2cap) Wing pattern of Noctuidae resembling *Mniotype tenera*. Photo by Abi Woodbridge.
+
+```{r mniotypeplatantheraconvallariafolia2, fig.alt="(ref:mniotypeplatantheraconvallariafolia2alt)", fig.cap="(ref:mniotypeplatantheraconvallariafolia2cap)"}
+knitr::include_graphics('img/orchids_Mniotype_Platanthera_convallariafolia2.jpg')
+```
+
 
 ### *Platanthera dilatata* (Pursh) Lindley (white bog orchid)
 
