@@ -80,7 +80,23 @@ This western variety reaches its northern range limit on forested islands in Sou
 knitr::include_graphics('img/orchids_Bombus_on_Salix.jpg')
 ```
 
-In 2023, a late spring in our study area delayed flowering of *C. bulbosa*, allowing overlap with emergence of *Bombus melanopygus* Nylander workers.  They were determined to be workers based on their small size and late emergence.  *Calypso bulbosa* plants translocated to the Jensen Arboretum, Juneau, were visited by these bumblebees (Figure 2), one of which entered a *C. bulbosa* flower (Figure 3).  Though we did not observe pollinia transfer, this is the first report of *Bombus* workers visiting *C. bulbosa* var. *occidentalis*, and demonstrates that a weather-caused shift in flowering may result in asynchrony with foraging queen bumblebees.  This orchid could be vulnerable to climate warming that would disrupt this synchrony, thereby reducing pollination and seed production.
+In 2023, a late spring in our study area delayed flowering of *C. bulbosa*, allowing overlap with emergence of *Bombus melanopygus* Nylander workers.  They were determined to be workers based on their small size and late emergence.  *Calypso bulbosa* plants translocated to the Jensen Arboretum, Juneau, were visited by these bumblebees (Figure \@ref(fig:bombuscalypso1)), one of which entered a *C. bulbosa* flower (Figure \@ref(fig:bombuscalypso2)).  Though we did not observe pollinia transfer, this is the first report of *Bombus* workers visiting *C. bulbosa* var. *occidentalis*, and demonstrates that a weather-caused shift in flowering may result in asynchrony with foraging queen bumblebees.  This orchid could be vulnerable to climate warming that would disrupt this synchrony, thereby reducing pollination and seed production.
+
+(ref:bombuscalypso1alt) A bumblebee approaches a pink orchid flower.
+
+(ref:bombuscalypso1cap) A *Bombus melanopygus* worker approaching a *Calypso bulbosa* flower.
+
+```{r bombuscalypso1, fig.alt="(ref:bombuscalypso1alt)", fig.cap="(ref:bombuscalypso1cap)"}
+knitr::include_graphics('img/orchids_Bombus_Calypso1.jpg')
+```
+
+(ref:bombuscalypso2alt) A bumblebee mostly within a pink orchid flower.
+
+(ref:bombuscalypso2cap) A *Bombus melanopygus* worker foraging in the lip of a *Calypso bulbosa* flower.
+
+```{r bombuscalypso2, fig.alt="(ref:bombuscalypso2alt)", fig.cap="(ref:bombuscalypso2cap)"}
+knitr::include_graphics('img/orchids_Bombus_Calypso2.jpg')
+```
 
 ### *Goodyera oblongifolia* Rafinesque (large rattlesnake plantain orchid)
 
