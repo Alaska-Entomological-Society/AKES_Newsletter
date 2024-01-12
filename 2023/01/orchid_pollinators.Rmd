@@ -251,7 +251,19 @@ knitr::include_graphics('img/orchids_male_Aedes_Platanthera_obtusata.jpg')
 
 ### *Platanthera stricta* Lindley (slender bog orchid)
 
-This northern rein orchid ranges from the Aleutians east across southern Alaska to western North America, where it may be frequent in open wetlands.  Its inflorescence and flower structure suggest that it is pollinated by settling moths, and a wide range of pollinators have been recorded from Washington, including Geometridae moths, Empididae flies, and *Bombus* bumblebees [@Pattetal1989].  We previously reported an unkown Geometridae visiting flowers of *Platanthera stricta*, and an Epididae bearing pollinia on this orchid [@BowlesArmstrong2021].  We have now found the Geometridae *Antepirrhoe fasciata* Barnes & McDunnough bearing pollinia (Figure 17) and the Geometridae *Rheumaptera subhastata* Nolcken visiting flowers of *P. stricta* (Figure 18).  @Pattetal1989 also recorded *A. fasciata* as a primary pollinator.  *Rheumaptera subhastata* may be confused with *R. hastata* Linnaeus, but the former uses *Alnus* (alder) sp as a larval host, while the latter uses *Betula* (birch) [@McGuffin1973] and only *Alnus* occurs in the locality where *R. subhastata* was recorded.  Though this moth was not observed bearing pollinia, the proboscis length and foraging behavior of the individual observed suggest that it could serve as a pollinator of *P. stricta*.
+This northern rein orchid ranges from the Aleutians east across southern Alaska to western North America, where it may be frequent in open wetlands.  Its inflorescence and flower structure suggest that it is pollinated by settling moths, and a wide range of pollinators have been recorded from Washington, including Geometridae moths, Empididae flies, and *Bombus* bumblebees [@Pattetal1989].  We previously reported an unkown Geometridae visiting flowers of *Platanthera stricta*, and an Epididae bearing pollinia on this orchid [@BowlesArmstrong2021].  We have now found the Geometridae *Antepirrhoe fasciata* Barnes & McDunnough bearing pollinia (Figure \@ref(fig:anipirrhoefasciataplatantherastricta)) and the Geometridae *Rheumaptera subhastata* Nolcken visiting flowers of *P. stricta* (Figure 18).  @Pattetal1989 also recorded *A. fasciata* as a primary pollinator.  *Rheumaptera subhastata* may be confused with *R. hastata* Linnaeus, but the former uses *Alnus* (alder) sp as a larval host, while the latter uses *Betula* (birch) [@McGuffin1973] and only *Alnus* occurs in the locality where *R. subhastata* was recorded.  Though this moth was not observed bearing pollinia, the proboscis length and foraging behavior of the individual observed suggest that it could serve as a pollinator of *P. stricta*.
+
+(ref:anipirrhoefasciataplatantherastrictaalt) A delicate, stripey brown and white moth feeds from a small, pale orchid flower.
+
+(ref:anipirrhoefasciataplatantherastrictacap) *Antepirrhoe fasciata* bearing pollinia at the base of its tongue while foraging on *Platanthera stricta*.
+
+```{r anipirrhoefasciataplatantherastricta, fig.alt="(ref:anipirrhoefasciataplatantherastrictaalt)", fig.cap="(ref:anipirrhoefasciataplatantherastrictacap)"}
+knitr::include_graphics('img/orchids_Anipirrhoe_fasciata_Platanthera_stricta.jpg')
+```
+
+
+
+
 
 ## Components of the pollinator network
 
@@ -260,7 +272,7 @@ This work expands our knowledge of the insect community that forms a pollinator 
 \newpage
 \blandscape
 
-(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein. *n*~orchid&nbsp;spp~ : Number of orchid species. *n*_known_: Number of orchid species where pollinators are known. *n*_unknown_: Number of orchid species where pollinators are unknown. \*: Based in part on literature. \*\*: Includes one or more self-pollinating species that may outcross as well. \*\*\*: Pollinia not observed on one or more species.  
+(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein. *n*~orchid&nbsp;spp~ : Number of orchid species. *n*~known~: Number of orchid species where pollinators are known. *n*~unknown~: Number of orchid species where pollinators are unknown. \*: Based in part on literature. \*\*: Includes one or more self-pollinating species that may outcross as well. \*\*\*: Pollinia not observed on one or more species.  
 
 
 ```{r orchidvpollinatorstable}
