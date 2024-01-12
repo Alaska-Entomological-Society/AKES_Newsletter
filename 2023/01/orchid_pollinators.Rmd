@@ -218,7 +218,7 @@ knitr::include_graphics('img/orchids_Plusia_nichollae.jpg')
 
 The blunt-leaved orchid has a strongly boreal distribution, extending north of the Arctic Circle in Alaska and Canada, and east across North America.  This species is known to be pollinated primarily by mosquitoes in the Genus *Aedes*, which are attracted by a specific odor produced by the orchid [@Lahondèreetal2019]. @Gorham1976 reported 15 mosquito species and an additional unidentified mosquito as pollinators of *Platanthera obtusata*, including six from north-central Alaska.  It is unknown whether these or other *Aedes* species pollinate this species in Southeast Alaska.  
 
-We observed and photographed *Aedes* mosquitoes visiting *Platanthera obtusata* in spruce forest near the Mendenhall Glacier, and in an enclosed terrarium to which mosquitoes and flowering stems of *P. obtusata* had been introduced.  Mosquitoes were observed bearing pollinia only in the terrarium after a 12 hr overnight period (Figure \@ref(fig:aedescommunisplatantheraobtusata)).  These mosquitoes belong to the non-band-legged group and appear to be *A. communis* DeGeer but their identity has not been confirmed.  Mosquitoes in forest also foraged on flowers (Figure \@ref(fig:aedesexcruciansplatantheraobtusata)).  They belong to the band-legged group and appear to be *A. excrucians* Walker but their identity has not been confirmed.  A male mosquito was observed on *P. obtusata* in forest but its identity is unknown (Figure 16).  *Aedes excrucians* was not reported as a pollinator in Alaska [@Gorham1976].  If confirmed, this species may represent a new pollinator of *P. obtusata* in this state.
+We observed and photographed *Aedes* mosquitoes visiting *Platanthera obtusata* in spruce forest near the Mendenhall Glacier, and in an enclosed terrarium to which mosquitoes and flowering stems of *P. obtusata* had been introduced.  Mosquitoes were observed bearing pollinia only in the terrarium after a 12 hr overnight period (Figure \@ref(fig:aedescommunisplatantheraobtusata)).  These mosquitoes belong to the non-band-legged group and appear to be *A. communis* DeGeer but their identity has not been confirmed.  Mosquitoes in forest also foraged on flowers (Figure \@ref(fig:aedesexcruciansplatantheraobtusata)).  They belong to the band-legged group and appear to be *A. excrucians* Walker but their identity has not been confirmed.  A male mosquito was observed on *P. obtusata* in forest but its identity is unknown (Figure \@ref(fig:maleaedesplatantheraobtusata)).  *Aedes excrucians* was not reported as a pollinator in Alaska [@Gorham1976].  If confirmed, this species may represent a new pollinator of *P. obtusata* in this state.
 
 (ref:aedescommunisplatantheraobtusataalt) A mosquito at rest on a green orchid flower. The mosquito bears two pollinia stuck to its head.
 
@@ -229,13 +229,22 @@ knitr::include_graphics('img/orchids_Aedes_communis_Platanthera_obtusata.jpg')
 ```
 
 
-(ref:aedesexcruciansplatantheraobtusataalt) A mosquito at rest on a small, pale green orchid flower.
+(ref:aedesexcruciansplatantheraobtusataalt) A mosquito fedding from a small, pale green orchid flower.
 
 (ref:aedesexcruciansplatantheraobtusatacap) Mosquito resembling *Aedes excrucians* foraging on *Platanthera obtusata*.
 
 ```{r aedesexcruciansplatantheraobtusata, fig.alt="(ref:aedesexcruciansplatantheraobtusataalt)", fig.cap="(ref:aedesexcruciansplatantheraobtusatacap)"}
 knitr::include_graphics('img/orchids_Aedes_excrucians_Platanthera_obtusata.jpg')
 ```
+
+(ref:maleaedesplatantheraobtusataalt) A mosquito at rest on a small, pale green orchid flower.
+
+(ref:maleaedesplatantheraobtusatacap) Male *Aedes* sp. foraging on *Platanthera obtusata*.
+
+```{r maleaedesplatantheraobtusata, fig.alt="(ref:maleaedesplatantheraobtusataalt)", fig.cap="(ref:maleaedesplatantheraobtusatacap)"}
+knitr::include_graphics('img/orchids_male_Aedes_Platanthera_obtusata.jpg')
+```
+
 
 
 
