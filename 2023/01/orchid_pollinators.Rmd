@@ -194,7 +194,15 @@ knitr::include_graphics('img/orchids_Mniotype_Platanthera_convallariafolia2.jpg'
 
 ### *Platanthera dilatata* (Pursh) Lindley (white bog orchid)
 
-This wide-spread orchid ranges from the Aleutian Islands east to Southeast Alaska, north to central Alaska, and east across North America.  The flower and inflorescence structure of *Platanthera dilatata* suggests a settling-moth syndrome, and primary pollinators are members of the Noctuidae, including at least 11 such species across North America, as well as several butterflies, bumblebees and a hawkmoth [@WallaceBowles2023].  In 2022, we observed a day-flying *Plusia* (Noctuidae) species pollinating this orchid, which had not been reported in [@BowlesArmstrong2021].  Individuals appear to represent both *P. putnami* Grote (Figure 12) and *P. nichollae* Hampson (Figure 13).  In *P. putnami* the basal spot of the stigma extends above the cubital vein in most specimens, giving it a triangular appearance; in *P. nichaollae*, the more oval basal spot rarely extends above the cubital vien, and in the West the two species are frequently confused [@LafontainePoole1991].
+This wide-spread orchid ranges from the Aleutian Islands east to Southeast Alaska, north to central Alaska, and east across North America.  The flower and inflorescence structure of *Platanthera dilatata* suggests a settling-moth syndrome, and primary pollinators are members of the Noctuidae, including at least 11 such species across North America, as well as several butterflies, bumblebees and a hawkmoth [@WallaceBowles2023].  In 2022, we observed a day-flying *Plusia* (Noctuidae) species pollinating this orchid, which had not been reported in [@BowlesArmstrong2021].  Individuals appear to represent both *P. putnami* Grote (Figure \@ref(fig:plusiaputnamiplatantheradilatata)) and *P. nichollae* Hampson (Figure 13).  In *P. putnami* the basal spot of the stigma extends above the cubital vein in most specimens, giving it a triangular appearance; in *P. nichaollae*, the more oval basal spot rarely extends above the cubital vien, and in the West the two species are frequently confused [@LafontainePoole1991].
+
+(ref:plusiaputnamiplatantheradilatataalt) A robust, brown to tawny patterned moth feeds from a small, white flower of an orchid. Multiple pollinia are on its proboscis.
+
+(ref:plusiaputnamiplatantheradilatatacap) Noctuidae resembling *Plusia putnami* bearing pollinia on its tongue while foraging on *Platanthera dilatata*.
+
+```{r plusiaputnamiplatantheradilatata, fig.alt="(ref:plusiaputnamiplatantheradilatataalt)", fig.cap="(ref:plusiaputnamiplatantheradilatatacap)"}
+knitr::include_graphics('img/orchids_Plusia_putnami_Platanthera_dilatata.jpg')
+```
 
 ### *Platanthera obtusata* (Banks ex Pursh) Lindley (blunt-leaved orchid)
 
