@@ -214,60 +214,6 @@ knitr::include_graphics('img/orchids_Plusia_nichollae.jpg')
 ```
 
 
-### *Platanthera obtusata* (Banks ex Pursh) Lindley (blunt-leaved orchid)
-
-The blunt-leaved orchid has a strongly boreal distribution, extending north of the Arctic Circle in Alaska and Canada, and east across North America.  This species is known to be pollinated primarily by mosquitoes in the Genus *Aedes*, which are attracted by a specific odor produced by the orchid [@Lahondèreetal2019]. @Gorham1976 reported 15 mosquito species and an additional unidentified mosquito as pollinators of *Platanthera obtusata*, including six from north-central Alaska.  It is unknown whether these or other *Aedes* species pollinate this species in Southeast Alaska.  
-
-We observed and photographed *Aedes* mosquitoes visiting *Platanthera obtusata* in spruce forest near the Mendenhall Glacier, and in an enclosed terrarium to which mosquitoes and flowering stems of *P. obtusata* had been introduced.  Mosquitoes were observed bearing pollinia only in the terrarium after a 12 hr overnight period (Figure \@ref(fig:aedescommunisplatantheraobtusata)).  These mosquitoes belong to the non-band-legged group and appear to be *A. communis* DeGeer but their identity has not been confirmed.  Mosquitoes in forest also foraged on flowers (Figure \@ref(fig:aedesexcruciansplatantheraobtusata)).  They belong to the band-legged group and appear to be *A. excrucians* Walker but their identity has not been confirmed.  A male mosquito was observed on *P. obtusata* in forest but its identity is unknown (Figure \@ref(fig:maleaedesplatantheraobtusata)).  *Aedes excrucians* was not reported as a pollinator in Alaska [@Gorham1976].  If confirmed, this species may represent a new pollinator of *P. obtusata* in this state.
-
-(ref:aedescommunisplatantheraobtusataalt) A mosquito at rest on a green orchid flower. The mosquito bears two pollinia stuck to its head.
-
-(ref:aedescommunisplatantheraobtusatacap) Mosquito resembling *Aedes communis* bearing pollinia on *Platanthera obtusata*.
-
-```{r aedescommunisplatantheraobtusata, fig.alt="(ref:aedescommunisplatantheraobtusataalt)", fig.cap="(ref:aedescommunisplatantheraobtusatacap)"}
-knitr::include_graphics('img/orchids_Aedes_communis_Platanthera_obtusata.jpg')
-```
-
-
-(ref:aedesexcruciansplatantheraobtusataalt) A mosquito fedding from a small, pale green orchid flower.
-
-(ref:aedesexcruciansplatantheraobtusatacap) Mosquito resembling *Aedes excrucians* foraging on *Platanthera obtusata*.
-
-```{r aedesexcruciansplatantheraobtusata, fig.alt="(ref:aedesexcruciansplatantheraobtusataalt)", fig.cap="(ref:aedesexcruciansplatantheraobtusatacap)"}
-knitr::include_graphics('img/orchids_Aedes_excrucians_Platanthera_obtusata.jpg')
-```
-
-(ref:maleaedesplatantheraobtusataalt) A mosquito at rest on a small, pale green orchid flower.
-
-(ref:maleaedesplatantheraobtusatacap) Male *Aedes* sp. foraging on *Platanthera obtusata*.
-
-```{r maleaedesplatantheraobtusata, fig.alt="(ref:maleaedesplatantheraobtusataalt)", fig.cap="(ref:maleaedesplatantheraobtusatacap)"}
-knitr::include_graphics('img/orchids_male_Aedes_Platanthera_obtusata.jpg')
-```
-
-### *Platanthera stricta* Lindley (slender bog orchid)
-
-This northern rein orchid ranges from the Aleutians east across southern Alaska to western North America, where it may be frequent in open wetlands.  Its inflorescence and flower structure suggest that it is pollinated by settling moths, and a wide range of pollinators have been recorded from Washington, including Geometridae moths, Empididae flies, and *Bombus* bumblebees [@Pattetal1989].  We previously reported an unkown Geometridae visiting flowers of *Platanthera stricta*, and an Epididae bearing pollinia on this orchid [@BowlesArmstrong2021].  We have now found the Geometridae *Antepirrhoe fasciata* Barnes & McDunnough bearing pollinia (Figure \@ref(fig:anipirrhoefasciataplatantherastricta)) and the Geometridae *Rheumaptera subhastata* Nolcken visiting flowers of *P. stricta* (Figure \@ref(fig:reumapterasubhastataplatantherastricta)).  @Pattetal1989 also recorded *A. fasciata* as a primary pollinator.  *Rheumaptera subhastata* may be confused with *R. hastata* Linnaeus, but the former uses *Alnus* (alder) sp as a larval host, while the latter uses *Betula* (birch) [@McGuffin1973] and only *Alnus* occurs in the locality where *R. subhastata* was recorded.  Though this moth was not observed bearing pollinia, the proboscis length and foraging behavior of the individual observed suggest that it could serve as a pollinator of *P. stricta*.
-
-(ref:anipirrhoefasciataplatantherastrictaalt) A delicate, stripey brown and white moth feeds from a small, pale orchid flower.
-
-(ref:anipirrhoefasciataplatantherastrictacap) *Antepirrhoe fasciata* bearing pollinia at the base of its tongue while foraging on *Platanthera stricta*.
-
-```{r anipirrhoefasciataplatantherastricta, fig.alt="(ref:anipirrhoefasciataplatantherastrictaalt)", fig.cap="(ref:anipirrhoefasciataplatantherastrictacap)"}
-knitr::include_graphics('img/orchids_Anipirrhoe_fasciata_Platanthera_stricta.jpg')
-```
-
-(ref:reumapterasubhastataplatantherastrictaalt) A delicate, contrasty white and dark brown moth feeds from a small, pale orchid flower.
-
-(ref:reumapterasubhastataplatantherastrictacap) *Rheumaptera subhastata* foraging on *Platanthera stricta*.
-
-```{r reumapterasubhastataplatantherastricta, fig.alt="(ref:reumapterasubhastataplatantherastrictaalt)", fig.cap="(ref:reumapterasubhastataplatantherastrictacap)"}
-knitr::include_graphics('img/orchids_Reumaptera_subhastata_Platanthera_stricta.jpg')
-```
-
-## Components of the pollinator network
-
-This work expands our knowledge of the insect community that forms a pollinator network among Southeast Alaska’s orchid species.  Our observations and other published literature indicate that at least 20 insect species among 3 orders and 13 families may comprise this network (Tables \@ref(tab:orchidvpollinatorstable), \@ref(tab:orchidvpollinatorssumtable)).  
 
 \newpage
 \blandscape
@@ -325,6 +271,63 @@ knitr::kable(orchidvpoltabsum,
 
 ```
 
+
+
+
+### *Platanthera obtusata* (Banks ex Pursh) Lindley (blunt-leaved orchid)
+
+The blunt-leaved orchid has a strongly boreal distribution, extending north of the Arctic Circle in Alaska and Canada, and east across North America.  This species is known to be pollinated primarily by mosquitoes in the Genus *Aedes*, which are attracted by a specific odor produced by the orchid [@Lahondèreetal2019]. @Gorham1976 reported 15 mosquito species and an additional unidentified mosquito as pollinators of *Platanthera obtusata*, including six from north-central Alaska.  It is unknown whether these or other *Aedes* species pollinate this species in Southeast Alaska.  
+
+We observed and photographed *Aedes* mosquitoes visiting *Platanthera obtusata* in spruce forest near the Mendenhall Glacier, and in an enclosed terrarium to which mosquitoes and flowering stems of *P. obtusata* had been introduced.  Mosquitoes were observed bearing pollinia only in the terrarium after a 12 hr overnight period (Figure \@ref(fig:aedescommunisplatantheraobtusata)).  These mosquitoes belong to the non-band-legged group and appear to be *A. communis* DeGeer but their identity has not been confirmed.  Mosquitoes in forest also foraged on flowers (Figure \@ref(fig:aedesexcruciansplatantheraobtusata)).  They belong to the band-legged group and appear to be *A. excrucians* Walker but their identity has not been confirmed.  A male mosquito was observed on *P. obtusata* in forest but its identity is unknown (Figure \@ref(fig:maleaedesplatantheraobtusata)).  *Aedes excrucians* was not reported as a pollinator in Alaska [@Gorham1976].  If confirmed, this species may represent a new pollinator of *P. obtusata* in this state.
+
+(ref:aedescommunisplatantheraobtusataalt) A mosquito at rest on a green orchid flower. The mosquito bears two pollinia stuck to its head.
+
+(ref:aedescommunisplatantheraobtusatacap) Mosquito resembling *Aedes communis* bearing pollinia on *Platanthera obtusata*.
+
+```{r aedescommunisplatantheraobtusata, fig.alt="(ref:aedescommunisplatantheraobtusataalt)", fig.cap="(ref:aedescommunisplatantheraobtusatacap)"}
+knitr::include_graphics('img/orchids_Aedes_communis_Platanthera_obtusata.jpg')
+```
+
+
+(ref:aedesexcruciansplatantheraobtusataalt) A mosquito fedding from a small, pale green orchid flower.
+
+(ref:aedesexcruciansplatantheraobtusatacap) Mosquito resembling *Aedes excrucians* foraging on *Platanthera obtusata*.
+
+```{r aedesexcruciansplatantheraobtusata, fig.alt="(ref:aedesexcruciansplatantheraobtusataalt)", fig.cap="(ref:aedesexcruciansplatantheraobtusatacap)"}
+knitr::include_graphics('img/orchids_Aedes_excrucians_Platanthera_obtusata.jpg')
+```
+
+(ref:maleaedesplatantheraobtusataalt) A mosquito at rest on a small, pale green orchid flower.
+
+(ref:maleaedesplatantheraobtusatacap) Male *Aedes* sp. foraging on *Platanthera obtusata*.
+
+```{r maleaedesplatantheraobtusata, fig.alt="(ref:maleaedesplatantheraobtusataalt)", fig.cap="(ref:maleaedesplatantheraobtusatacap)"}
+knitr::include_graphics('img/orchids_male_Aedes_Platanthera_obtusata.jpg')
+```
+
+### *Platanthera stricta* Lindley (slender bog orchid)
+
+This northern rein orchid ranges from the Aleutians east across southern Alaska to western North America, where it may be frequent in open wetlands.  Its inflorescence and flower structure suggest that it is pollinated by settling moths, and a wide range of pollinators have been recorded from Washington, including Geometridae moths, Empididae flies, and *Bombus* bumblebees [@Pattetal1989].  We previously reported an unkown Geometridae visiting flowers of *Platanthera stricta*, and an Epididae bearing pollinia on this orchid [@BowlesArmstrong2021].  We have now found the Geometridae *Antepirrhoe fasciata* Barnes & McDunnough bearing pollinia (Figure \@ref(fig:anipirrhoefasciataplatantherastricta)) and the Geometridae *Rheumaptera subhastata* Nolcken visiting flowers of *P. stricta* (Figure \@ref(fig:reumapterasubhastataplatantherastricta)).  @Pattetal1989 also recorded *A. fasciata* as a primary pollinator.  *Rheumaptera subhastata* may be confused with *R. hastata* Linnaeus, but the former uses *Alnus* (alder) sp as a larval host, while the latter uses *Betula* (birch) [@McGuffin1973] and only *Alnus* occurs in the locality where *R. subhastata* was recorded.  Though this moth was not observed bearing pollinia, the proboscis length and foraging behavior of the individual observed suggest that it could serve as a pollinator of *P. stricta*.
+
+(ref:anipirrhoefasciataplatantherastrictaalt) A delicate, stripey brown and white moth feeds from a small, pale orchid flower.
+
+(ref:anipirrhoefasciataplatantherastrictacap) *Antepirrhoe fasciata* bearing pollinia at the base of its tongue while foraging on *Platanthera stricta*.
+
+```{r anipirrhoefasciataplatantherastricta, fig.alt="(ref:anipirrhoefasciataplatantherastrictaalt)", fig.cap="(ref:anipirrhoefasciataplatantherastrictacap)"}
+knitr::include_graphics('img/orchids_Anipirrhoe_fasciata_Platanthera_stricta.jpg')
+```
+
+(ref:reumapterasubhastataplatantherastrictaalt) A delicate, contrasty white and dark brown moth feeds from a small, pale orchid flower.
+
+(ref:reumapterasubhastataplatantherastrictacap) *Rheumaptera subhastata* foraging on *Platanthera stricta*.
+
+```{r reumapterasubhastataplatantherastricta, fig.alt="(ref:reumapterasubhastataplatantherastrictaalt)", fig.cap="(ref:reumapterasubhastataplatantherastrictacap)"}
+knitr::include_graphics('img/orchids_Reumaptera_subhastata_Platanthera_stricta.jpg')
+```
+
+## Components of the pollinator network
+
+This work expands our knowledge of the insect community that forms a pollinator network among Southeast Alaska’s orchid species.  Our observations and other published literature indicate that at least 20 insect species among 3 orders and 13 families may comprise this network (Tables \@ref(tab:orchidvpollinatorstable), \@ref(tab:orchidvpollinatorssumtable)).  
 
 
 
