@@ -5,7 +5,7 @@ csl: ../../share/pensoft-journals.csl
 link-citations: true
 colorlinks: true
 params:
-  volume: 15
+  volume: 16
   issue: 1
 output:
   bookdown::html_document2:
