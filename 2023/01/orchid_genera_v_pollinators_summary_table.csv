@@ -1,0 +1,21 @@
+Pollinators,totals,totals
+<strong><em>n</em><sub>orchid spp.</sub></strong>,25,
+<strong><em>n</em><sub>known</sub></strong>,17,
+<strong><em>n</em><sub>unknown</sub></strong>,18,
+<strong>Diptera:</strong>,<strong><em>n</em><sub>insect species</sub></strong>,<strong><em>n</em><sub>orchid genera pollinated</sub></strong>
+Bibionidae,1,1
+Cucilidae,2,1
+Dryomyzidae,1,1
+Empididae,1+,2
+Scariadae ,1+,2
+Syrphidae,1,1
+<strong>Hymenoptera:</strong>,,
+Apidae,1+,6*
+Halictidae,1+,1*
+Andrenidae,1+,1*
+<strong>Lepidoptera:</strong>,,
+Geometridae,3,2
+Pieridae,1,1
+Noctuidae,5,1
+Sphingidae,1,1
+<strong>Totals</strong>,20,21

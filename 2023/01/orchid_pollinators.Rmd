@@ -267,12 +267,12 @@ knitr::include_graphics('img/orchids_Reumaptera_subhastata_Platanthera_stricta.j
 
 ## Components of the pollinator network
 
-This work expands our knowledge of the insect community that forms a pollinator network among Southeast Alaska’s orchid species.  Our observations and other published literature indicate that at least 20 insect species among 3 orders and 13 families may comprise this network (Table \@ref(tab:orchidvpollinatorstable)).  
+This work expands our knowledge of the insect community that forms a pollinator network among Southeast Alaska’s orchid species.  Our observations and other published literature indicate that at least 20 insect species among 3 orders and 13 families may comprise this network (Tables \@ref(tab:orchidvpollinatorstable), \@ref(tab:orchidvpollinatorssumtable)).  
 
 \newpage
 \blandscape
 
-(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein. *n*~orchid&nbsp;spp~ : Number of orchid species. *n*~known~: Number of orchid species where pollinators are known. *n*~unknown~: Number of orchid species where pollinators are unknown. \*: Based in part on literature. \*\*: Includes one or more self-pollinating species that may outcross as well. \*\*\*: Pollinia not observed on one or more species.  
+(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein. *n*~orchid&nbsp;spp~ : Number of orchid species. *n*~known~: Number of orchid species where pollinators are known. *n*~unknown~: Number of orchid species where pollinators are unknown. \*: Based in part on literature. \*\*: Includes one or more self-pollinating species that may outcross as well. \*\*\*: Pollinia not observed on one or more species. This table is continued horizontally in Table \@ref(tab:orchidvpollinatorssumtable). 
 
 
 ```{r orchidvpollinatorstable}
@@ -298,10 +298,34 @@ knitr::kable(orchidvpoltab,
       column_spec(8, width = ".4in") %>%
       column_spec(9, width = ".4in") %>%
       column_spec(10, width = ".7in") %>%
-      column_spec(11, width = ".5in") 
+      column_spec(11, width = ".6in") 
 ```
 
 \elandscape
+
+(ref:orchidvpollinatorssumtablecap) Continuation of Table \@ref(tab:orchidvpollinatorstable). *n*~insect&nbsp;species~ : Number of insect species.	*n*~orchid&nbsp;genera&nbsp;pollinated~ : Number of orchid genera pollinated.
+  
+
+```{r orchidvpollinatorssumtable}
+orchidvpoltabsum <- read.csv("orchid_genera_v_pollinators_summary_table.csv")
+orchidvpoltabsum <- format_table(x = orchidvpoltabsum, format = out_format)
+
+knitr::kable(orchidvpoltabsum, 
+  format = out_format,           
+  longtable = TRUE, 
+  booktabs = TRUE,
+  escape = FALSE,
+  col.names = c("Pollinators", "Totals", "Totals"),
+  caption = "(ref:orchidvpollinatorssumtablecap)"
+) %>%
+      row_spec(0, bold=TRUE) %>%
+      column_spec(1, width = ".8in") %>%
+      column_spec(2, width = "1in") %>%
+      column_spec(3, width = "1.3in")
+
+```
+
+
 
 
 
