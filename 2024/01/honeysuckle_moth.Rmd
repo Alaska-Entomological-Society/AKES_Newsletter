@@ -84,5 +84,17 @@ In 2022, caterpillars of the honeysuckle moth were reported late May through mid
 knitr::include_graphics('img/honeysuckle_map.png')
 ```
 
+## Rearing Methods
+
+I use the general methods outlined by @Eiseman2016 for rearing caterpillars. For this species I used 5 dram plastic vials with 1 sheet of toilet paper crumpled and pressed into the bottom of the vial and moistened with a couple drops of water (Figure \@ref(fig:honeysucklevials)).  Each larva is placed singly in a prepared vial with a sprig of host material. Once the host material is exhausted, or once frass begins to accumulate, I move the larva to fresh host material in a clean, newly prepared vial to prevent mold. Once the larva pupates I move the pupa to clean vial with moistened toilet paper only, no host material. (To prevent data loss through the vial changing process I find it easiest to put the collection data on the lid, keeping the same lid with the specimen through each vial change.) Vials are kept at ambient room temperature, about 70 °F. I wild-collected several late-instar caterpillars on 8 June 2022 and reared them in this manner, the adults of which emerged 20&ndash;28 June 2022.
+
+(ref:honeysucklevialsalt) Three plastic vials. Foliage is in the two vials on the right; the one on the left contains a pupa.
+
+(ref:honeysucklevialscap) Container setup used for rearing the honeysuckle moth. The vial on the left contains a pupa, the middle and right vials each contain a single larva with a sprig of host material (*Lonicera tatarica*). Photographed 9 June 2022 by A. Wenninger. 
+
+```{r honeysucklevials, fig.alt="(ref:honeysucklevialsalt)", fig.cap="(ref:honeysucklevialscap)"}
+knitr::include_graphics('img/honeysuckle_vials.jpg')
+```
+
 
 ## References
