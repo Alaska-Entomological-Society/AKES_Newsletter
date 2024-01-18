@@ -96,7 +96,7 @@ We separated samples that were all or mostly bees from samples that were mostly 
 
 We homogenized the remaining 19 samples plus one legacy bulk pollinator sample from a previous project [@Bowser2012] using a blender and cleaning between samples with DIY-DS cleaning solution as described by @Buchneretal2021. Our sample homogenization protocol is included below.
 
-> We homogenized samples using a Nutri Ninja QB3000SS blender [@EuroProOperating2015].
+> We homogenized samples using a Nutri Ninja QB3000SS blender.
 > 
 > DIY-DS recipe
 >
