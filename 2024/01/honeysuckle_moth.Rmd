@@ -100,6 +100,9 @@ knitr::include_graphics('img/honeysuckle_vials.jpg')
 
 Based on the timing we have seen in 2022, host plants should be monitored from late May through mid-June for feeding activity by caterpillars of the honeysuckle moth. Observations of the honeysuckle moth can be submitted via the UAF CES monitoring portal at <https://alaskapestreporter.org>.  
 
+## Acknowledgements
+
+Thank you to Joey Slowik, UAF CES Integrated Pest Management Technician at the Matanuska Experiment Farm and Extension Center, for investigating and verifying honeysuckle moth reports in the Matanuska-Susitna Valley. Thank you to the citizen scientists who provided photos, specimens, and location reports of the honeysuckle moth. Reference specimens were deposited into the University of Alaska Museum of the North Insect Collection.  This work was supported by funds from the Western Region of the National Plant Diagnostic Network, United States Department of Agriculture (USDA) Animal & Plant Health Inspection Service, USDA Forest Service Forest Health Protection, and the USDA Crop Protection and Pest Management program. 
 
 
 ## References
