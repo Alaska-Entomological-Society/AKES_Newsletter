@@ -40,4 +40,9 @@ source("../../share/setup.R")
 knitr::include_graphics('img/beehive_comb.jpg')
 ```
 
+## Background
+
+The beehive honey moth, *Vitula serratilineella* Ragonot, 1887, has been found to be a pest of stored comb of managed honey bees (*Apis mellifera* Linnaeus, 1758) in Alaska. In spring of 2021, an Anchorage beekeeper reached out regarding suspected wax moth activity in stored frames of drawn honeycomb. Lepidopteran larvae were found tunneling through masses of silk webbing and frass built on top of the comb (Figure \@ref(fig:beehivecomb)). There are two well-known species of wax moths that infest domestic bee hives in North America: the greater wax moth *Galleria mellonella* (Linnaeus, 1758) and the lesser wax moth *Achroia grisella* (Fabricius, 1794), neither of which are known from Alaska. Wax moths are destructive pests of stored comb, however, they are not known for being particularly cold-hardy which makes most regions of Alaska unsuitable for their establishment; temperatures below 20 °F kill all life stages within a few hours [@GulatiKaushik2004]. Interestingly, several beekeepers have found similar damage on stored comb in both Anchorage and Fairbanks, Alaska, both areas that regularly see winter temperatures well below 20 °F for extended periods of time, leading to suspicion that the apiculture pest seen by Alaska beekeepers was neither of the well-known wax moth species. Upon rearing and examination, the specimens collected by the Anchorage beekeeper in 2021 were identified as a common but lesser-known native pest of bee nests, the beehive honey moth, *Vitula serratilineella*^[Rearing and morphological identification were done by A. Wenninger. Molecular identification was conducted by Jozef Slowik, IPM Technician, University of Alaska Fairbanks Cooperative Extension Service, following the methods of @Hebertetal2003]. 
+
+
 ## References
