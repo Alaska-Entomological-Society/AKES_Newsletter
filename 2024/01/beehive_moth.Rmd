@@ -62,5 +62,17 @@ The larvae of the beehive honey moth (subfamily Phycitinae) (Figure \@ref(fig:be
 knitr::include_graphics('img/beehive_larva.jpg')
 ```
 
+The adult beehive honey moth forewings are greyish brown in color with distinct dentate transverse lines (Figure \@ref(fig:beehiveadult)) (Ferguson 1991). The adult is ~1.3 cm in length. Vitula edmandsii is similar in appearance but is native to Eastern North America and has brown hindwings as opposed to the white hindwings of V. serratilineella. See Neunzig (1990) for distinguishing among genera of Phycitinae; see Ferguson (1991) for distinguishing among adult moths found as stored product pests.
+
+The Mediterranean flour moth (Ephestia kuehniella Zeller, 1879) also looks similar to the beehive honey moth and there is one record of this species collected from beehive components in Alaska (December 2009, Arctos record UAMObs: Ento: 113244). The Mediterranean flour moth is a cosmopolitan pest of cereal products that is known to occasionally infest stored comb containing pollen however it is unable to develop on brood comb or dead insects and is not considered to be a serious pest of beehives (Williams 1978). The keys provided by Weisman (1991) and Ferguson (1991) can be used to distinguish between larvae and adults (respectively) of the Mediterranean flour moth and the beehive honey moth, as well as several other lepidopteran pests of various stored products. (Note that the aforementioned keys reference the Mediterranean meal moth using the synonym Anagasta kuehniella and the beehive honey moth using the synonym Vitula edmandsii serratilineella.) Okumura (1966) also provides an abbreviated key specifically to distinguish between larvae of these two species. 
+
+(ref:beehiveadultalt) A small, slender, mottled gray moth preserved on an insect pin.
+
+(ref:beehiveadultcap) An adult beehive honey moth, reared from a larva infesting stored comb (larva collected 22 April 2022, adult emerged 12 May 2021).
+
+```{r beehiveadult, fig.alt="(ref:beehiveadultalt)", fig.cap="(ref:beehiveadultcap)"}
+knitr::include_graphics('img/beehive_adult.jpg')
+```
+
 
 ## References
