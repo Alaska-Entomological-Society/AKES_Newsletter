@@ -83,5 +83,8 @@ Strong honey bee hives typically will not tolerate the beehive honey moth but be
 
 Lightly damaged comb can be gently brushed free of debris and will be cleaned, repaired, and reused by the bees. Heavily damaged comb on foundation can be scraped off and returned to the bees to be rebuilt, though it should be noted that the beehive honey moth typically does not cause substantial damage to the structure of the comb. 
 
+## Acknowledgments
+
+Thank you to Jozef Slowik, IPM Technician with the University of Alaska Fairbanks Cooperative Extension Service’s Integrated Pest Management Program, for his work processing one of the reared moth specimens for DNA barcoding and then interpreting the molecular results. Reference specimens were deposited into the University of Alaska Museum of the North Insect Collection. Thank you to local beekeeper Tim Huffman for donating a sample of infested comb, and to Mia Kirk and Chris Secary at the Alaska Department of Natural Resources Division of Agriculture for organizing the specimen collection and communication among agencies. This work was supported by funds from the Western Region of the National Plant Diagnostic Network and the United States Department of Agriculture.
 
 ## References
