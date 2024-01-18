@@ -96,5 +96,10 @@ I use the general methods outlined by @Eiseman2016 for rearing caterpillars. For
 knitr::include_graphics('img/honeysuckle_vials.jpg')
 ```
 
+## Reporting
+
+Based on the timing we have seen in 2022, host plants should be monitored from late May through mid-June for feeding activity by caterpillars of the honeysuckle moth. Observations of the honeysuckle moth can be submitted via the UAF CES monitoring portal at <https://alaskapestreporter.org>.  
+
+
 
 ## References
