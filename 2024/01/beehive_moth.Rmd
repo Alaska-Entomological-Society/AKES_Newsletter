@@ -75,4 +75,13 @@ knitr::include_graphics('img/beehive_adult.jpg')
 ```
 
 
+## Integrated Pest Management
+
+In apiculture, the beehive honey moth is primarily a pest of unoccupied combs, often in boxes of stored comb or in hives where the bees have perished [@Okumura1966]. Comb that was only used for honey storage, not brood rearing, may be less attractive to lepidopteran pests of beehives due to the absence of stored pollen and larval debris in the cells [@Hood2010]. This idea is supported by a study by @Richards1984 which found that *V. serratilineella* larvae raised on diets containing pollen from leafcutter bee nests had significantly higher survival rates than larvae raised on diets of only honey. Beekeepers may consider placing a queen-excluder in between the upper brood box and lower honey super of the hive to prevent bees from using the honey supers to rear brood.
+
+Strong honey bee hives typically will not tolerate the beehive honey moth but be sure to only give a colony as much space as it can defend; adding too many supers too quickly can make it difficult for the bees to adequately defend the hive [@Hood2010]. In weak colonies, the beehive honey moth larvae feed upon hive resources and can damage developing bee brood through their feeding activities [@Winstonetal1981]. Weak colonies should be reduced down to an appropriate, defensible space for their size to prevent infestation by the beehive honey moth. 
+
+Lightly damaged comb can be gently brushed free of debris and will be cleaned, repaired, and reused by the bees. Heavily damaged comb on foundation can be scraped off and returned to the bees to be rebuilt, though it should be noted that the beehive honey moth typically does not cause substantial damage to the structure of the comb. 
+
+
 ## References
