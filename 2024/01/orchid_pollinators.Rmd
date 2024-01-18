@@ -195,7 +195,7 @@ knitr::include_graphics('img/orchids_Mniotype_Platanthera_convallariafolia2.jpg'
 
 ### *Platanthera dilatata* (Pursh) Lindley (white bog orchid)
 
-This wide-spread orchid ranges from the Aleutian Islands east to Southeast Alaska, north to central Alaska, and east across North America.  The flower and inflorescence structure of *Platanthera dilatata* suggests a settling-moth syndrome, and primary pollinators are members of the Noctuidae, including at least 11 such species across North America, as well as several butterflies, bumblebees and a hawkmoth [@WallaceBowles2023].  In 2022, we observed a day-flying *Plusia* (Noctuidae) species pollinating this orchid, which had not been reported in [@BowlesArmstrong2021].  Individuals appear to represent both *P. putnami* Grote (Figure \@ref(fig:plusiaputnamiplatantheradilatata)) and *P. nichollae* Hampson (Figure \@ref(fig:plusianichollae)).  In *P. putnami* the basal spot of the stigma extends above the cubital vein in most specimens, giving it a triangular appearance; in *P. nichaollae*, the more oval basal spot rarely extends above the cubital vien, and in the West the two species are frequently confused [@LafontainePoole1991].
+This wide-spread orchid ranges from the Aleutian Islands east to Southeast Alaska, north to central Alaska, and east across North America.  The flower and inflorescence structure of *Platanthera dilatata* suggests a settling-moth syndrome, and primary pollinators are members of the Noctuidae, including at least 11 such species across North America, as well as several butterflies, bumblebees and a hawkmoth [@WallaceBowles2023].  In 2022, we observed a day-flying *Plusia* (Noctuidae) species pollinating this orchid, which had not been reported in @BowlesArmstrong2021.  Individuals appear to represent both *P. putnami* Grote (Figure \@ref(fig:plusiaputnamiplatantheradilatata)) and *P. nichollae* Hampson (Figure \@ref(fig:plusianichollae)).  In *P. putnami* the basal spot of the stigma extends above the cubital vein in most specimens, giving it a triangular appearance; in *P. nichaollae*, the more oval basal spot rarely extends above the cubital vien, and in the West the two species are frequently confused [@LafontainePoole1991].
 
 (ref:plusiaputnamiplatantheradilatataalt) A robust, brown to tawny patterned moth feeds from a small, white flower of an orchid. Multiple pollinia are on its proboscis.
 
@@ -218,7 +218,7 @@ knitr::include_graphics('img/orchids_Plusia_nichollae.jpg')
 \newpage
 \blandscape
 
-(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein. *n*~orchid&nbsp;spp~ : Number of orchid species. *n*~known~: Number of orchid species where pollinators are known. *n*~unknown~: Number of orchid species where pollinators are unknown. \*: Based in part on literature. \*\*: Includes one or more self-pollinating species that may outcross as well. \*\*\*: Pollinia not observed on one or more species. This table is continued horizontally in Table \@ref(tab:orchidvpollinatorssumtable). 
+(ref:orchidvpollinatorstablecap) Summaries for orchid genera and and numbers of insect species known to pollinate orchid species in an orchid pollinator network in Southeast Alaska. Insects are categorized by order and family, orchids are categorized by genus.  Orchid species with known pollinators are based on @BowlesArmstrong2021, @Argue2012v1, @Argue2012v2, this paper and references therein. *n*~orchid&nbsp;spp~ : Number of orchid species. *n*~known~: Number of orchid species where pollinators are known. *n*~unknown~: Number of orchid species where pollinators are unknown. \*: Based in part on literature. \*\*: Includes one or more self-pollinating species that may outcross as well. \*\*\*: Pollinia not observed on one or more species. See Table \@ref(tab:orchidvpollinatorssumtable) for column totals. 
 
 
 ```{r orchidvpollinatorstable}
@@ -249,7 +249,7 @@ knitr::kable(orchidvpoltab,
 
 \elandscape
 
-(ref:orchidvpollinatorssumtablecap) Continuation of Table \@ref(tab:orchidvpollinatorstable). *n*~insect&nbsp;species~ : Number of insect species.	*n*~orchid&nbsp;genera&nbsp;pollinated~ : Number of orchid genera pollinated.
+(ref:orchidvpollinatorssumtablecap) Table \@ref(tab:orchidvpollinatorstable) continued. *n*~insect&nbsp;species~ : Number of insect species.	*n*~orchid&nbsp;genera&nbsp;pollinated~ : Number of orchid genera pollinated.
   
 
 ```{r orchidvpollinatorssumtable}
@@ -327,7 +327,7 @@ knitr::include_graphics('img/orchids_Reumaptera_subhastata_Platanthera_stricta.j
 
 ## Components of the pollinator network
 
-This work expands our knowledge of the insect community that forms a pollinator network among Southeast Alaska’s orchid species.  Our observations and other published literature indicate that at least 20 insect species among 3 orders and 13 families may comprise this network (Tables \@ref(tab:orchidvpollinatorstable), \@ref(tab:orchidvpollinatorssumtable)).  
+This work expands our knowledge of the insect community that forms a pollinator network among Southeast Alaska’s orchid species.  Our observations and other published literature indicate that at least 20 insect species among 3 orders and 13 families may comprise this network (Table \@ref(tab:orchidvpollinatorstable)).  
 
 
 
@@ -346,7 +346,7 @@ Climate change effects on late summer or fall flowering plant-pollinator phenolo
 
 ## Acknowledgments
 
-We thank Abbi Woodward, Dutch Harbor, Unalaska AK for calling to our attention pollination of Platanthera convallariifolia and providing digital images of its pollinator.  We also thank Brian Brown, Natural History Museum of Los Angeles County, for identification of Megaselia (Phoridae), and Jessica Rykken, NPS and U. of Alaska Museum of the North, for Bombus identification, and the Tongass National Forest for permission to work on their land.  Finally, we thank Don Kurz and Mary Willson for extremely helpful reviews.
+We thank Abi Woodward, Unalaska AK for calling to our attention pollination of *Platanthera convallariifolia* and providing digital images of its pollinator.  We also thank Brian Brown, Natural History Museum of Los Angeles County, for identification of *Megaselia* (Phoridae), and Jessica Rykken, NPS and U. of Alaska Museum of the North, for *Bombus* identification, and the Tongass National Forest for permission to work on their land.  Finally, we thank Don Kurz and Mary Willson for extremely helpful reviews.
  
 
 ## References
