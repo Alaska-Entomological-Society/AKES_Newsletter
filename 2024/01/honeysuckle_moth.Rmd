@@ -74,4 +74,15 @@ The early records of the honeysuckle moth indicate this species was introduced t
 
 There are two records of the honeysuckle moth in the University of Alaska Museum of the North Arctos database prior to 2022: an adult observed 10 July 1989 ([UAMObs:Ento:97862](<https://arctos.database.museum/guid/UAMObs:Ento:97862>)) and an observation of unspecified life stage from 20 July 1992 ([UAMObs:Ento:35257](<https://arctos.database.museum/guid/UAMObs:Ento:35257>)), both from Anchorage and both listing “*Lonicera* sp.” as the habitat. 
 
+In 2022, caterpillars of the honeysuckle moth were reported late May through mid-June in Southcentral Alaska. The majority of reports indicated haskap (*L. caerulea*) as host; less commonly host was indicated to be ornamental Tatarian honeysuckle (*L. tatarica*). Joey Slowik (University of Alaska Fairbanks, Cooperative Extension Service, Integrated Pest Management Technician) and I verified six reports of the honeysuckle moth in Anchorage and three reports in the Matanuska-Susitna Valley (all near Palmer, AK) (Figure \@ref(fig:honeysucklemap)).
+
+(ref:honeysucklemapalt) A map of Anchorage showing six red dots scatterd over the city and a map of the Matanuska-Susitna Valley showing three red dots.
+
+(ref:honeysucklemapcap) Locations of verified honeysuckle moth reports received in 2022 from Anchorage, AK (left) and Matanuska-Susitna Valley, AK (right). Maps generated using ArcGIS Online, basemap ‘Imagery’ by Earthstar Geographics. 
+
+```{r honeysucklemap, out.width='100%', fig.alt="(ref:honeysucklemapalt)", fig.cap="(ref:honeysucklemapcap)"}
+knitr::include_graphics('img/honeysuckle_map.png')
+```
+
+
 ## References
