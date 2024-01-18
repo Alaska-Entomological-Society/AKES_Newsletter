@@ -7,6 +7,7 @@ section-refs-bibliography:
   - spider_list.bib
   - orchid_pollinators.bib
   - pollinators.bib
+  - honeysuckle_moth.bib
 csl: ../../share/pensoft-journals.csl
 colorlinks: true
 link-citations: true
@@ -41,7 +42,8 @@ articles <- c("biocontrols.Rmd",
  "orchid_pollinators.Rmd",
  "social_wasps_review.Rmd",
  "meeting.Rmd",
- "pollinators.Rmd"
+ "pollinators.Rmd",
+ "honeysuckle_moth.Rmd"
  )
 ```
 

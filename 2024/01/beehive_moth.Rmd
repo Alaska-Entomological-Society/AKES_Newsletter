@@ -1,0 +1,43 @@
+---
+lang: en-US
+bibliography: beehive_moth.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+colorlinks: true
+params:
+  volume: 16
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# The beehive honey moth as a pest of stored honey bee comb in Alaska
+
+*by Alexandria Wenninger*^[University of Alaska Fairbanks Cooperative Extension Service Integrated Pest Management Program, akwenninger@alaska.edu]
+
+(ref:beehivecombalt) A honeycomb with caterpillars, webbing, and frass on it.
+
+(ref:beehivecombcap) Larvae, webbing, and frass on stored honey bee comb photographed by beekeeper Tim Huffman. Anchorage, AK, April 2021.
+
+```{r beehivecomb, fig.alt="(ref:beehivecombalt)", fig.cap="(ref:beehivecombcap)"}
+knitr::include_graphics('img/beehive_comb.jpg')
+```
+
+## References
