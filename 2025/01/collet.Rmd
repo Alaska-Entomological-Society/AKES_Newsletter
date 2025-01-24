@@ -30,7 +30,7 @@ source("../../share/setup.R")
 
 # Dominique Collet, a giant of Alaskan Entomology
 
-*by Derek Sikes and Matt Bowser
+*by Derek Sikes and Matt Bowser^[USFWS Kenai National Wildlife Refuge, Soldotna, Alaska, <matt_bowser@fws.gov>]*
 
 
 
