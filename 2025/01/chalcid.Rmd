@@ -30,7 +30,7 @@ source("../../share/setup.R")
 
 # Seed-feeding and fruit deformity of crabapple caused by the apple seed chalcid in Southcentral Alaska
 
-*by Alexandria Wenninger*^[University of Alaska Fairbanks - Institute of Agriculture, Natural Resources, and Extension - Integrated Pest Management Program, akwenninger@alaska.edu]
+*by Alexandria Wenninger*^[University of Alaska Fairbanks - Institute of Agriculture, Natural Resources, and Extension - Integrated Pest Management Program, Anchorage, Alaska, <akwenninger@alaska.edu>]
 
 (ref:chalcid1alt) A brown apple seed opened lengthwise with a white grub-like larva inside.
 
