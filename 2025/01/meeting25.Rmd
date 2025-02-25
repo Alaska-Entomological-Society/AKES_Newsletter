@@ -1,0 +1,78 @@
+---
+lang: en-US
+bibliography: meeting25.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+colorlinks: true
+params:
+  volume: 17
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# Review of the seventeenth annual meeting
+
+*by Jozef Slowik^[University of Alaska Fairbanks, Institute of Agriculture, Natural Resources, and Extension, Integrated Pest Management Program, Palmer, Alaska, <jaslowik@alaska.edu>]*
+
+(ref:meeting25alt) A row of people standing behind a table.
+
+(ref:meeting25cap) Members present after the business meeting. From left to right: Ramsey Sullivan, Julie Riley, Taylor Kane, Robin Andrews, Joey Slowik, Alex Wenninger, and Derek Sikes. 
+
+```{r meeting25, fig.alt="(ref:meeting25alt)", fig.cap="(ref:meeting25cap)"}
+knitr::include_graphics('img/meeting25.jpeg')
+```
+
+## Presentations
+
+On February 21st the annual meeting for the Alaska Entomological Society was held at the lovely Fairbanks DNR building. There were 31 attendees this year with about a dozen in the room and the rest via zoom. The morning began with a great presentation by **Jason Grant** (University of Neuchâtel) about 51 new species of moth that he has documented in Alaska. He was pinging in from Switzerland thanks to the wonders of Zoom. Jason has been collecting moths in the short dark summer nights in Fairbanks when he travels up in the summers. He shared his method of cooling them down in the fridge and photographing them on a uniform-colored background. He posts his data on iNaturalist and then takes a subsample to be DNA barcoded so those records get molecular identifications to go with the photos. He presented some of the similar species which look like some more common species, but thanks to the DNA and pictures we can validate those species. 
+
+Next **Jackson Audley** (USDA Forest Service) provided an update on their ongoing work with SPLAT MCH. They have been working sister studies in both the Kenai and in Colorado. Playing around with various adjuvants they have some promising data showing that the SPLAT treated trees were not being killed compared to control trees. They may get attacked but the trees are surviving. They also did some trials looking at the zone of protection that a treated tree may provide to others nearby and it looks like somewhere around 8 m out there is in uptick in beetles, implying the effect of the MCH is wearing out about then. But these are promising data for the product, and they are moving to get the product registered. 
+
+**Alex Wenninger** (University of Alaska Fairbanks) gave an informative talk about her research on the bee and wasp species found on some native flowers compared to two invasive weeds: bird vetch and white sweetclover. She found much more diversity on the native flowers than on the invasives, providing some nice real data to use when arguing for removing invasive flowers. Yes, some bees do visit them, but not too many compared to a native option. She also provided some seed mix options for encouraging pollinators. A mix of Dwarf Fireweed, Prairie Cinquefoil and Northern Goldenrod could produce 14 bee and 9 wasp species. That’s some real diversity for just a few species of flower. 
+
+Next, I (**Joey Slowik**, University of Alaska Fairbanks) gave a quick talk on a small side study I did on whether the essential oil pesticides I’ve been experimenting with for slug control may be killing other arthropods common in the fields. The study exposed the grasshopper, *Camnula pellucida*, and the harvestman, *Phalangium opilio* to two essential oil pesticides in the lab. Results found spearmint oil had a much more lethal effect, killing 3/5 grasshoppers and 4/5 harvestmen than thyme which only killed one grasshopper. But essential oils are complex pesticides and sometimes cause delayed responses, like reduced egg laying activity or restricting the ability for an insect to molt. So, the take home was that yes, these can kill arthropods, and that you would need to test the specific essential oil pesticide on the specific arthropods you have.
+
+The last talk before lunch was **Derek Sikes** (University of Alaska Museum) who discussed progress on a heavy philosophical question, how many mosquitos are there in Alaska? Derek talked about how a quick estimate he made in 2014 using some back of a napkin numbers in an email, has now been cited in an actual paper. This prompted this work into trying to find a better estimate. Derek provided an equation which uses the kill rate by spiders in pounds of insects per square mile times the area of mosquito habitat in Alaska, divided by the percent of insects killed annually by spiders. This was then multiplied by the percent of insects which are thought to be mosquitos, all divided by the wet weight of a mosquito. He mentioned the difficulty in estimating any of these values and the error but did come up a value of 662,000 to 283,000,000 mosquitos per square mile, or 440 billion to 188 trillion for the state. He said more work is needed, but regardless, that’s a lot of mosquitos!
+
+After lunch **Debbie Hinchey** gave a wonderful talk about her happenstance discovery of parasitoid wasps. It began with bringing in some peppers which were outside. As we all know peppers seem to have aphids from the start. But then she noticed aphid mummies, and watched how they reduced the number of pest aphids. She then took her newly found wasps and shared them with an elementary school who was growing basil indoors and had an aphid problem. She transferred some leaves with infected aphids to the school and when they hatched, they did some real damage to their pest aphids. In researching biocontrol options, she did find two species which are available for commercial sale, *Aphidius colemani* and *Aphidius ervi*, but she’s not sure if her wasp is one of those or just a native which is working similarly. She also discussed the question of Banker plants to keep the wasp population going in between aphid outbreaks. But her assistance has introduced the concept of effective biocontrol to many elementary students who got to watch it in action. Pretty awesome. 
+
+## Student Presentations
+
+We then moved onto our student’s presentations. First up was our beloved vice president **Robin Andrews** (University of Alaska Fairbanks) who has been trying to figure out what those tiny little soil arthropods like mites and collembola, are eating. It’s a really tough question to answer because they are so small and for the most part unobservable. She began with using stable isotopes to try to define the trophic level they fill. She found many of them to be root channel feeders or a mixture of root channel and detritivores. But these finding were confused by the problem that fungi give isotope signals across various levels. So, to clear up what things they are really eating she has been trying to do gut content analyses using DNA metabarcoding. She shared some neat preliminary results, and discussed the difficulty of washing all the potential DNA contamination off an animal which is less than a millimeter. Her project is really fascinating in which the isotope information will provide the quantity and the DNA will provide the identity of what these little bugs are eating. 
+
+Our last presentation of the day was another student talk given by **Taylor Kane** (University of Alaska Fairbanks). For the last few years Taylor has kept us attendees up to date on her work with the snow scorpionfly genus *Boreus*. She talked about the scant number of specimens of Alaska *Boreus* until her work began. And how these new specimens have really opened the door into exploring the species hypotheses questions in the genus. She talked about the currently recognized species occurring in the state and her work to put together a key for the species found in the state, including information on female morphology as well as the male’s for the first time! This will make identification of all those rare specimens possible. She then discussed a couple species hypotheses she is digging deeper into using DNA and morphology. And she’s getting some mixed messages depending on the analyses. We’re all looking forward to her publishing her results, and there were many questions about how to find these curious little insects. 
+
+Because there were only two student talks it was decided to award both a student award of $100, as we usually give a poster and presentation award but there were no posters this year. Congratulations Robin and Taylor! 
+
+## Business items - highlights
+
+- Apart from the interesting talks Julie Riley brought a cute insect motif jumper as the door prize which was won by Susan Wise-Eagle. Way to go Susan! 
+- New elections were held. We have to say goodbye to our current president, Dana Brennan who has taken a new job in Washington. Congratulations Dana, we all hope you have some wonderful new bug adventures in your new position. With Dana’s departure Derek Sikes was elected as new President with all in attendance voting yea. Robin was retained as Vice President, Joey Slowik as Secretary, and Roger Burnside as Treasurer. Ramsey Sullivan will work with Roger in an apprentice role for treasury duties.
+- Alex Wenninger is working with Roger Burnside (treasurer) to reconnect the website to PayPal for paying dues with a credit card online.
+- Our Facebook page has over 2400 followers but we’ve not been posting anything.
+- Robin mentioned ongoing work to have past issues of the AKES newsletter archived at the UAF library and that work is continuing as to what we need to submit to make that happen. 
+- Last year we discussed the possibility of a new logo, but no progress was made on that. Those in attendance feel the current logo would be nice in conjunction with something else. Sayde Riding mentioned a young artist in Southeast who makes some really neat native insects art and she offered to look into that. 
+- We had no submissions for the Ken Phillips award this year. So, if you know someone working on Alaska arthropods and need a few hundred dollars, please spread the word or apply yourself. Information on the award can be found on the AKES webpage. Several Science Fair students were awarded collection materials and a small cash prize in the projects in the Fairbanks area. But no bug projects were found in the Southcentral or Southeast areas, so no awards were given. 
+
+After the meeting a number of us popped over to the museum for a little scramble scope photography work before we headed over to East Ramp Pizza for some Kombucha, Pizza and beer. A great way to wrap up the meeting. Hope to see you all next year when the 2026 AKES annual meeting heads back south to Anchorage.
+
+Minutes from our business meeting are available on the website.
+
