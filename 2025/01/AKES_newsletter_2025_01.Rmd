@@ -1,0 +1,54 @@
+---
+title: "Newsletter of the Alaska Entomological Society"
+date: "`r format(Sys.time(), '%B %e, %Y')`"
+citeproc: false
+section-refs-bibliography:
+  - collet.bib
+  - pseudoscorpions.bib
+  - sprucebeetle.bib
+  - chalcid.bib
+  - fireweedgall.bib
+  - meeting24.bib
+  - meeting25.bib
+csl: ../../share/pensoft-journals.csl
+colorlinks: true
+link-citations: true
+params:
+  volume: 17
+  issue: 1
+output:
+  bookdown::pdf_book:
+    documentclass: book
+    latex_engine: pdflatex
+    pandoc_args: 
+      - --listings
+      - --lua-filter=../../share/section-refs.lua
+    toc: false
+    toc_depth: 1
+    number_sections: false
+    includes:
+      in_header: 
+        - ../../share/preamble_Rmd.tex
+      before_body:
+        - ../../share/doc-prefix.tex
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(fig.pos = "H")
+
+# Set options
+source("../../share/setup.R")
+
+articles <- c("collet.Rmd",
+ "pseudoscorpions.Rmd",
+ "sprucebeetle.Rmd",
+ "chalcid.Rmd",
+ "fireweedgall.Rmd",
+ "meeting24.Rmd",
+ "meeting25.Rmd"
+ )
+```
+
+
+```{r, child=articles}
+```  
