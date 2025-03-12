@@ -36,7 +36,7 @@ source("../../share/setup.R")
 
 (ref:meeting24cap) Figure 1: Members present at the business meeting. Virtual attendees from top left: Derek Sikes, Chris Fettig, Taylor Kane, Dennis Fielding, Susan Wise-Eagle, Adam Haberski, Robin Andrews, Matt Bowser, Garret Dubois, Jessie Moan. In-person attendees from left: Dan Bogan, Joey Slowik, Dana Brennan, Alex Wenninger, Mike Baldwin, Roger Burnside, Ramsey Sullivan.
 
-```{r meeting24, fig.alt="(ref:meeting24alt)", fig.cap="(ref:meeting24cap)"}
+```{r meeting24, out.width='75%', fig.alt="(ref:meeting24alt)", fig.cap="(ref:meeting24cap)"}
 knitr::include_graphics('img/meeting24.jpg')
 ```
 

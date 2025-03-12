@@ -28,7 +28,7 @@ source("../../share/setup.R")
 ```{r, child="../../share/header_html.Rmd"}
 ```
 
-# Review of the seventeenth annual meeting
+# Review of the eighteenth annual meeting
 
 *by Jozef Slowik^[University of Alaska Fairbanks, Institute of Agriculture, Natural Resources, and Extension, Integrated Pest Management Program, Palmer, Alaska, <jaslowik@alaska.edu>]*
 
@@ -36,7 +36,7 @@ source("../../share/setup.R")
 
 (ref:meeting25cap) Members present after the business meeting. From left to right: Ramsey Sullivan, Julie Riley, Taylor Kane, Robin Andrews, Joey Slowik, Alex Wenninger, and Derek Sikes. 
 
-```{r meeting25, fig.alt="(ref:meeting25alt)", fig.cap="(ref:meeting25cap)"}
+```{r meeting25, out.width='100%', fig.alt="(ref:meeting25alt)", fig.cap="(ref:meeting25cap)"}
 knitr::include_graphics('img/meeting25.jpeg')
 ```
 
