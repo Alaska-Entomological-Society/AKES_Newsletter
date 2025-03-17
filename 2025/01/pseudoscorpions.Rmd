@@ -36,7 +36,7 @@ source("../../share/setup.R")
 
 (ref:pseudoscorpions01cap) Marine intertidal pseudoscorpions in Juneau, Alaska
 
-```{r pseudoscorpions01, fig.alt="(ref:pseudoscorpions01alt)", fig.cap="(ref:pseudoscorpions01cap)"}
+```{r pseudoscorpions01, out.width='75%', fig.alt="(ref:pseudoscorpions01alt)", fig.cap="(ref:pseudoscorpions01cap)"}
 knitr::include_graphics('img/pseudoscorpions01.jpg')
 ```
 
@@ -50,14 +50,14 @@ According to the literature a single pseudoscorpion species lives in the marine 
 
 It is a fascinating creature and we have been trying to document its behavior and life cycle with photographs. Here is what we have learned so far.
 
-
 ## Where they live
 
 (ref:pseudoscorpions02alt) A folding chair and table in an area where the tide has receded, leaving scattered seaweed and rocks exposed.
 
 (ref:pseudoscorpions02cap) Intertidal habitat where pseudoscorpions have been found under rocks in Tee Harbor, Juneau.
 
-```{r pseudoscorpions02, fig.alt="(ref:pseudoscorpions02alt)", fig.cap="(ref:pseudoscorpions02cap)"}
+
+```{r pseudoscorpions02, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions02alt)", fig.cap="(ref:pseudoscorpions02cap)"}
 knitr::include_graphics('img/pseudoscorpions02.jpg')
 ```
 
@@ -66,7 +66,7 @@ knitr::include_graphics('img/pseudoscorpions02.jpg')
 
 (ref:pseudoscorpions03cap) Some of the intertidal habitat in the Fish Creek Park has numerous pseudoscorpions under the rocks.
 
-```{r pseudoscorpions03, fig.alt="(ref:pseudoscorpions03alt)", fig.cap="(ref:pseudoscorpions03cap)"}
+```{r pseudoscorpions03, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions03alt)", fig.cap="(ref:pseudoscorpions03cap)"}
 knitr::include_graphics('img/pseudoscorpions03.jpg')
 ```
 
@@ -75,7 +75,7 @@ knitr::include_graphics('img/pseudoscorpions03.jpg')
 
 (ref:pseudoscorpions04cap) We usually find them under rocks. The lower portion of the rocks can be buried up to about 6 inches in the sediment.
 
-```{r pseudoscorpions04, fig.alt="(ref:pseudoscorpions04alt)", fig.cap="(ref:pseudoscorpions04cap)"}
+```{r pseudoscorpions04, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions04alt)", fig.cap="(ref:pseudoscorpions04cap)"}
 knitr::include_graphics('img/pseudoscorpions04.jpg')
 ```
 
@@ -84,7 +84,7 @@ knitr::include_graphics('img/pseudoscorpions04.jpg')
 
 (ref:pseudoscorpions05cap) On the underside of these fairly small rocks we usually see the Pseudoscorpions moving about.
 
-```{r pseudoscorpions05, fig.alt="(ref:pseudoscorpions05alt)", fig.cap="(ref:pseudoscorpions05cap)"}
+```{r pseudoscorpions05, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions05alt)", fig.cap="(ref:pseudoscorpions05cap)"}
 knitr::include_graphics('img/pseudoscorpions05.jpg')
 ```
 
@@ -93,7 +93,7 @@ knitr::include_graphics('img/pseudoscorpions05.jpg')
 
 (ref:pseudoscorpions06cap) We occasionally see them partially in a small hole on the underside of the rock.
 
-```{r pseudoscorpions06, fig.alt="(ref:pseudoscorpions06alt)", fig.cap="(ref:pseudoscorpions06cap)"}
+```{r pseudoscorpions06, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions06alt)", fig.cap="(ref:pseudoscorpions06cap)"}
 knitr::include_graphics('img/pseudoscorpions06.jpg')
 ```
 
@@ -102,7 +102,7 @@ knitr::include_graphics('img/pseudoscorpions06.jpg')
 
 (ref:pseudoscorpions07cap) We occasionally see them partially in a small hole on the underside of the rock (continued).
 
-```{r pseudoscorpions07, fig.alt="(ref:pseudoscorpions07alt)", fig.cap="(ref:pseudoscorpions07cap)"}
+```{r pseudoscorpions07, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions07alt)", fig.cap="(ref:pseudoscorpions07cap)"}
 knitr::include_graphics('img/pseudoscorpions07.jpg')
 ```
 
@@ -111,7 +111,7 @@ knitr::include_graphics('img/pseudoscorpions07.jpg')
 
 (ref:pseudoscorpions08cap) Under the larger rocks we often find them associated with their cocoons. 
 
-```{r pseudoscorpions08, fig.alt="(ref:pseudoscorpions08alt)", fig.cap="(ref:pseudoscorpions08cap)"}
+```{r pseudoscorpions08, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions08alt)", fig.cap="(ref:pseudoscorpions08cap)"}
 knitr::include_graphics('img/pseudoscorpions08.jpg')
 ```
 
@@ -120,7 +120,7 @@ knitr::include_graphics('img/pseudoscorpions08.jpg')
 
 (ref:pseudoscorpions09cap) They typically build these cocoons to overwinter in and mating and molting (shedding of the exoskeleton) also take place in these retreats.
 
-```{r pseudoscorpions09, fig.alt="(ref:pseudoscorpions09alt)", fig.cap="(ref:pseudoscorpions09cap)"}
+```{r pseudoscorpions09, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions09alt)", fig.cap="(ref:pseudoscorpions09cap)"}
 knitr::include_graphics('img/pseudoscorpions09.jpg')
 ```
 
@@ -129,7 +129,7 @@ knitr::include_graphics('img/pseudoscorpions09.jpg')
 
 (ref:pseudoscorpions10cap) Two cocoons attached to the sand under the rock.
 
-```{r pseudoscorpions10, fig.alt="(ref:pseudoscorpions10alt)", fig.cap="(ref:pseudoscorpions10cap)"}
+```{r pseudoscorpions10, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions10alt)", fig.cap="(ref:pseudoscorpions10cap)"}
 knitr::include_graphics('img/pseudoscorpions10.jpg')
 ```
 
@@ -138,7 +138,7 @@ knitr::include_graphics('img/pseudoscorpions10.jpg')
 
 (ref:pseudoscorpions11cap) A pseudoscorpion inside one of these cocoons.
 
-```{r pseudoscorpions11, fig.alt="(ref:pseudoscorpions11alt)", fig.cap="(ref:pseudoscorpions11cap)"}
+```{r pseudoscorpions11, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions11alt)", fig.cap="(ref:pseudoscorpions11cap)"}
 knitr::include_graphics('img/pseudoscorpions11.jpg')
 ```
 
@@ -147,7 +147,7 @@ knitr::include_graphics('img/pseudoscorpions11.jpg')
 
 (ref:pseudoscorpions12cap) We also see their cocoons attached to the large rocks we have turned over. Probably turning over these rocks causes some to remain attached to the rock and some to the sand. 
 
-```{r pseudoscorpions12, fig.alt="(ref:pseudoscorpions12alt)", fig.cap="(ref:pseudoscorpions12cap)"}
+```{r pseudoscorpions12, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions12alt)", fig.cap="(ref:pseudoscorpions12cap)"}
 knitr::include_graphics('img/pseudoscorpions12.jpg')
 ```
 
@@ -156,7 +156,7 @@ knitr::include_graphics('img/pseudoscorpions12.jpg')
 
 (ref:pseudoscorpions13cap) Also we usually see a pseudoscorpion inside the cocoon attached to the rock.
 
-```{r pseudoscorpions13, fig.alt="(ref:pseudoscorpions13alt)", fig.cap="(ref:pseudoscorpions13cap)"}
+```{r pseudoscorpions13, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions13alt)", fig.cap="(ref:pseudoscorpions13cap)"}
 knitr::include_graphics('img/pseudoscorpions13.jpg')
 ```
 
@@ -165,7 +165,7 @@ knitr::include_graphics('img/pseudoscorpions13.jpg')
 
 (ref:pseudoscorpions14cap) At the Fish Creek Park we often find numerous cocoons on the underside of these larger rocks.
 
-```{r pseudoscorpions14, fig.alt="(ref:pseudoscorpions14alt)", fig.cap="(ref:pseudoscorpions14cap)"}
+```{r pseudoscorpions14, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions14alt)", fig.cap="(ref:pseudoscorpions14cap)"}
 knitr::include_graphics('img/pseudoscorpions14.jpg')
 ```
 
@@ -174,7 +174,7 @@ knitr::include_graphics('img/pseudoscorpions14.jpg')
 
 (ref:pseudoscorpions15cap) This shows some of the cocoons attached to this rock with pseudoscorpions in them. At the top of the cocoons is a whitish beach springtail, one of their favorite foods.
 
-```{r pseudoscorpions15, fig.alt="(ref:pseudoscorpions15alt)", fig.cap="(ref:pseudoscorpions15cap)"}
+```{r pseudoscorpions15, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions15alt)", fig.cap="(ref:pseudoscorpions15cap)"}
 knitr::include_graphics('img/pseudoscorpions15.jpg')
 ```
 
@@ -183,7 +183,7 @@ knitr::include_graphics('img/pseudoscorpions15.jpg')
 
 (ref:pseudoscorpions16cap) This shows numerous cocoons attached to the substrate when we turned over one of the larger rocks at the Fish Creek Park.
 
-```{r pseudoscorpions16, fig.alt="(ref:pseudoscorpions16alt)", fig.cap="(ref:pseudoscorpions16cap)"}
+```{r pseudoscorpions16, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions16alt)", fig.cap="(ref:pseudoscorpions16cap)"}
 knitr::include_graphics('img/pseudoscorpions16.jpg')
 ```
 
@@ -192,9 +192,10 @@ knitr::include_graphics('img/pseudoscorpions16.jpg')
 
 (ref:pseudoscorpions17cap) A closer view of a few of the cocoons attached to the substrate.
 
-```{r pseudoscorpions17, fig.alt="(ref:pseudoscorpions17alt)", fig.cap="(ref:pseudoscorpions17cap)"}
+```{r pseudoscorpions17, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions17alt)", fig.cap="(ref:pseudoscorpions17cap)"}
 knitr::include_graphics('img/pseudoscorpions17.jpg')
 ```
+
 
 ## What they eat
 
@@ -205,17 +206,19 @@ According to the literature they feed on these Beach Springtails which we often 
 
 (ref:pseudoscorpions18cap) Beach Springtail.
 
-```{r pseudoscorpions18, fig.alt="(ref:pseudoscorpions18alt)", fig.cap="(ref:pseudoscorpions18cap)"}
+```{r pseudoscorpions18, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions18alt)", fig.cap="(ref:pseudoscorpions18cap)"}
 knitr::include_graphics('img/pseudoscorpions18.jpg')
 ```
 
+
 For good information about springtails look at <http://www.collembola.org/> These springtails belong to the subfamily Onychiurinae. Some are called Beach Springtails. According to the literature some in this family have no eyes and do not possess a furcula for jumping. The ones without eyes and a furcula were the ones we see on the same rocks. They typically can live under the water for at least four hours. When the tide goes out they emerge under rocks for feeding.
+
 
 (ref:pseudoscorpions19alt) A pseudoscorpion with a beach springtail near its chelicerae.
 
 (ref:pseudoscorpions19cap) Pseudoscorpion and beach springtail.
 
-```{r pseudoscorpions19, fig.alt="(ref:pseudoscorpions19alt)", fig.cap="(ref:pseudoscorpions19cap)"}
+```{r pseudoscorpions19, out.width='65%', fig.pos="H", fig.alt="(ref:pseudoscorpions19alt)", fig.cap="(ref:pseudoscorpions19cap)"}
 knitr::include_graphics('img/pseudoscorpions19.jpg')
 ```
 
@@ -224,7 +227,7 @@ knitr::include_graphics('img/pseudoscorpions19.jpg')
 
 (ref:pseudoscorpions20cap) Pseudoscorpion and beach springtail.
 
-```{r pseudoscorpions20, fig.alt="(ref:pseudoscorpions20alt)", fig.cap="(ref:pseudoscorpions20cap)"}
+```{r pseudoscorpions20, fig.pos="H", fig.alt="(ref:pseudoscorpions20alt)", fig.cap="(ref:pseudoscorpions20cap)"}
 knitr::include_graphics('img/pseudoscorpions20.jpg')
 ```
 
@@ -233,18 +236,19 @@ knitr::include_graphics('img/pseudoscorpions20.jpg')
 
 (ref:pseudoscorpions21cap) Beach springtails.
 
-```{r pseudoscorpions21, fig.alt="(ref:pseudoscorpions21alt)", fig.cap="(ref:pseudoscorpions21cap)"}
+```{r pseudoscorpions21, fig.pos="H", fig.alt="(ref:pseudoscorpions21alt)", fig.cap="(ref:pseudoscorpions21cap)"}
 knitr::include_graphics('img/pseudoscorpions21.jpg')
 ```
 
 
 Also according to the literature they eat these red velvet mites. We often see them on the same rocks. 
 
+
 (ref:pseudoscorpions22alt) A close-up of a bright red velvet mite.
 
 (ref:pseudoscorpions22cap) A red velvet mite.
 
-```{r pseudoscorpions22, fig.alt="(ref:pseudoscorpions22alt)", fig.cap="(ref:pseudoscorpions22cap)"}
+```{r pseudoscorpions22, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions22alt)", fig.cap="(ref:pseudoscorpions22cap)"}
 knitr::include_graphics('img/pseudoscorpions22.jpg')
 ```
 
@@ -253,7 +257,7 @@ knitr::include_graphics('img/pseudoscorpions22.jpg')
 
 (ref:pseudoscorpions23cap) A pseudoscorpion about to grab a mite.
 
-```{r pseudoscorpions23, fig.alt="(ref:pseudoscorpions23alt)", fig.cap="(ref:pseudoscorpions23cap)"}
+```{r pseudoscorpions23, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions23alt)", fig.cap="(ref:pseudoscorpions23cap)"}
 knitr::include_graphics('img/pseudoscorpions23.jpg')
 ```
 
@@ -262,7 +266,7 @@ knitr::include_graphics('img/pseudoscorpions23.jpg')
 
 (ref:pseudoscorpions24cap) A pseudoscorpion eating an unknown prey item.
 
-```{r pseudoscorpions24, fig.alt="(ref:pseudoscorpions24alt)", fig.cap="(ref:pseudoscorpions24cap)"}
+```{r pseudoscorpions24, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions24alt)", fig.cap="(ref:pseudoscorpions24cap)"}
 knitr::include_graphics('img/pseudoscorpions24.jpg')
 ```
 
@@ -271,7 +275,7 @@ knitr::include_graphics('img/pseudoscorpions24.jpg')
 
 (ref:pseudoscorpions25cap) A pseudoscorpion eating an unknown prey item.
 
-```{r pseudoscorpions25, fig.alt="(ref:pseudoscorpions25alt)", fig.cap="(ref:pseudoscorpions25cap)"}
+```{r pseudoscorpions25, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions25alt)", fig.cap="(ref:pseudoscorpions25cap)"}
 knitr::include_graphics('img/pseudoscorpions25.jpg')
 ```
 
@@ -282,7 +286,7 @@ knitr::include_graphics('img/pseudoscorpions25.jpg')
 
 (ref:pseudoscorpions26cap) Two intertidal pseudoscorpions next to each other. We wonder if they are a male and female.
 
-```{r pseudoscorpions26, fig.alt="(ref:pseudoscorpions26alt)", fig.cap="(ref:pseudoscorpions26cap)"}
+```{r pseudoscorpions26, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions26alt)", fig.cap="(ref:pseudoscorpions26cap)"}
 knitr::include_graphics('img/pseudoscorpions26.jpg')
 ```
 
@@ -291,7 +295,7 @@ knitr::include_graphics('img/pseudoscorpions26.jpg')
 
 (ref:pseudoscorpions27cap) Both of these pseudoscorpions in this cocoon appeared to have eggs.
 
-```{r pseudoscorpions27, fig.alt="(ref:pseudoscorpions27alt)", fig.cap="(ref:pseudoscorpions27cap)"}
+```{r pseudoscorpions27, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions27alt)", fig.cap="(ref:pseudoscorpions27cap)"}
 knitr::include_graphics('img/pseudoscorpions27.jpg')
 ```
 
@@ -301,7 +305,7 @@ The female carries a silken egg pouch of 12 to 24 eggs on her belly for about 3 
 
 (ref:pseudoscorpions28cap) This shows a female pseudoscorpion in Auke Bay carrying its eggs (photo by Aaron Baldwin).
 
-```{r pseudoscorpions28, fig.alt="(ref:pseudoscorpions28alt)", fig.cap="(ref:pseudoscorpions28cap)"}
+```{r pseudoscorpions28, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions28alt)", fig.cap="(ref:pseudoscorpions28cap)"}
 knitr::include_graphics('img/pseudoscorpions28.jpg')
 ```
 
@@ -310,7 +314,7 @@ knitr::include_graphics('img/pseudoscorpions28.jpg')
 
 (ref:pseudoscorpions29cap) We found this female with her egg pouch under a rock in Auke Nu Cove on June 2, 2024.
 
-```{r pseudoscorpions29, fig.alt="(ref:pseudoscorpions29alt)", fig.cap="(ref:pseudoscorpions29cap)"}
+```{r pseudoscorpions29, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions29alt)", fig.cap="(ref:pseudoscorpions29cap)"}
 knitr::include_graphics('img/pseudoscorpions29.jpg')
 ```
 
@@ -319,7 +323,7 @@ knitr::include_graphics('img/pseudoscorpions29.jpg')
 
 (ref:pseudoscorpions30cap) The rock in Auke Nu Cove that had a cocoon with a psudoscorpion with eggs and one with her young. (Figure 29 shows the rock turned over and Figure 31 shows before being turned over).
 
-```{r pseudoscorpions30, fig.alt="(ref:pseudoscorpions30alt)", fig.cap="(ref:pseudoscorpions30cap)"}
+```{r pseudoscorpions30, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions30alt)", fig.cap="(ref:pseudoscorpions30cap)"}
 knitr::include_graphics('img/pseudoscorpions30.jpg')
 ```
 
@@ -328,7 +332,7 @@ knitr::include_graphics('img/pseudoscorpions30.jpg')
 
 (ref:pseudoscorpions31cap) The rock in Auke Nu Cove that had a cocoon with a psudoscorpion with eggs and one with her young before being turned over.
 
-```{r pseudoscorpions31, fig.alt="(ref:pseudoscorpions31alt)", fig.cap="(ref:pseudoscorpions31cap)"}
+```{r pseudoscorpions31, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions31alt)", fig.cap="(ref:pseudoscorpions31cap)"}
 knitr::include_graphics('img/pseudoscorpions31.jpg')
 ```
 
@@ -337,7 +341,7 @@ knitr::include_graphics('img/pseudoscorpions31.jpg')
 
 (ref:pseudoscorpions32cap) Under the rock in Auke Nu Cove we found a cocoon with a pseudoscorpion and her kids on June 2, 2024.
 
-```{r pseudoscorpions32, fig.alt="(ref:pseudoscorpions32alt)", fig.cap="(ref:pseudoscorpions32cap)"}
+```{r pseudoscorpions32, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions32alt)", fig.cap="(ref:pseudoscorpions32cap)"}
 knitr::include_graphics('img/pseudoscorpions32.jpg')
 ```
 
@@ -353,7 +357,7 @@ See @Baldwin2015: this is a good report on our intertidal sea life.
 
 (ref:pseudoscorpions33cap) *Hemipodus borealis* – Northern iridescent worm. The pink body and long pointed head are distinct. When disturbed large proboscis extends with four black teeth at end.
 
-```{r pseudoscorpions33, fig.alt="(ref:pseudoscorpions33alt)", fig.cap="(ref:pseudoscorpions33cap)"}
+```{r pseudoscorpions33, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions33alt)", fig.cap="(ref:pseudoscorpions33cap)"}
 knitr::include_graphics('img/pseudoscorpions33.jpg')
 ```
 
@@ -363,7 +367,7 @@ knitr::include_graphics('img/pseudoscorpions33.jpg')
 (ref:pseudoscorpions34cap) On the right - *Amphiporus angulatus* – Many-eyed ribbon worm. Pink to purple on top, white to orange underneath. Head with distinct markings (see inset). Up to 10 cm (4”) long, 1-2 cm (.4”-.8”) wide.
 
 
-```{r pseudoscorpions34, fig.alt="(ref:pseudoscorpions34alt)", fig.cap="(ref:pseudoscorpions34cap)"}
+```{r pseudoscorpions34, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions34alt)", fig.cap="(ref:pseudoscorpions34cap)"}
 knitr::include_graphics('img/pseudoscorpions34.jpg')
 ```
 
@@ -372,7 +376,7 @@ knitr::include_graphics('img/pseudoscorpions34.jpg')
 
 (ref:pseudoscorpions35cap) This Dwarf Spider, subfamily Erigoninae, was under a rock we turned over close to a Pseudoscorpion.
 
-```{r pseudoscorpions35, fig.alt="(ref:pseudoscorpions35alt)", fig.cap="(ref:pseudoscorpions35cap)"}
+```{r pseudoscorpions35, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions35alt)", fig.cap="(ref:pseudoscorpions35cap)"}
 knitr::include_graphics('img/pseudoscorpions35.jpg')
 ```
 
@@ -381,7 +385,7 @@ knitr::include_graphics('img/pseudoscorpions35.jpg')
 
 (ref:pseudoscorpions36cap) Rockweed isopod *Pentidotea wosnessenskii*
 
-```{r pseudoscorpions36, fig.alt="(ref:pseudoscorpions36alt)", fig.cap="(ref:pseudoscorpions36cap)"}
+```{r pseudoscorpions36, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions36alt)", fig.cap="(ref:pseudoscorpions36cap)"}
 knitr::include_graphics('img/pseudoscorpions36.jpg')
 ```
 
@@ -390,7 +394,7 @@ knitr::include_graphics('img/pseudoscorpions36.jpg')
 
 (ref:pseudoscorpions37cap) Order Geophilomorpha – Beach Centipede. This may be an undescribed species. Very narrow body, reaching about 4 cm long. 30 or more pairs of legs. Upper intertidal, under rocks.
 
-```{r pseudoscorpions37, fig.alt="(ref:pseudoscorpions37alt)", fig.cap="(ref:pseudoscorpions37cap)"}
+```{r pseudoscorpions37, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions37alt)", fig.cap="(ref:pseudoscorpions37cap)"}
 knitr::include_graphics('img/pseudoscorpions37.jpg')
 ```
 
@@ -399,7 +403,7 @@ knitr::include_graphics('img/pseudoscorpions37.jpg')
 
 (ref:pseudoscorpions38cap) We see a wide variety of mites on the same rocks with the pseudoscorpions. Even some that look like eggs (with tiny legs).
 
-```{r pseudoscorpions38, fig.alt="(ref:pseudoscorpions38alt)", fig.cap="(ref:pseudoscorpions38cap)"}
+```{r pseudoscorpions38, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions38alt)", fig.cap="(ref:pseudoscorpions38cap)"}
 knitr::include_graphics('img/pseudoscorpions38.jpg')
 ```
 
@@ -408,7 +412,7 @@ knitr::include_graphics('img/pseudoscorpions38.jpg')
 
 (ref:pseudoscorpions39cap) This is one of the oniscoid isopods.  
 
-```{r pseudoscorpions39, fig.alt="(ref:pseudoscorpions39alt)", fig.cap="(ref:pseudoscorpions39cap)"}
+```{r pseudoscorpions39, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions39alt)", fig.cap="(ref:pseudoscorpions39cap)"}
 knitr::include_graphics('img/pseudoscorpions39.jpg')
 ```
 
@@ -417,7 +421,7 @@ knitr::include_graphics('img/pseudoscorpions39.jpg')
 
 (ref:pseudoscorpions40cap) The oniscoid isopod from Figure 39 walking by a small cotton-like ball which we sometimes see attached to the beach rocks. These cotton-like balls may be made by one of the spiders.
 
-```{r pseudoscorpions40, fig.alt="(ref:pseudoscorpions40alt)", fig.cap="(ref:pseudoscorpions40cap)"}
+```{r pseudoscorpions40, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions40alt)", fig.cap="(ref:pseudoscorpions40cap)"}
 knitr::include_graphics('img/pseudoscorpions40.jpg')
 ```
 
@@ -426,7 +430,7 @@ knitr::include_graphics('img/pseudoscorpions40.jpg')
 
 (ref:pseudoscorpions41cap) This shows two Rove Beetle adults in or near one of the cocoons. According to Derek Sikes they are in the subfamily Aleocharinae and the Tribe Liparocephalini.
 
-```{r pseudoscorpions41, fig.alt="(ref:pseudoscorpions41alt)", fig.cap="(ref:pseudoscorpions41cap)"}
+```{r pseudoscorpions41, fig.pos="H", out.width='65%', fig.alt="(ref:pseudoscorpions41alt)", fig.cap="(ref:pseudoscorpions41cap)"}
 knitr::include_graphics('img/pseudoscorpions41.jpg')
 ```
 
