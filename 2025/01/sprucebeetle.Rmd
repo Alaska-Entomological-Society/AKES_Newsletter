@@ -40,7 +40,7 @@ Bark beetles (Coleoptera: Curculionidae: Scolytinae) are a globally distributed 
 
 (ref:sprucebeetle1cap) Left, adult spruce beetle as seen under a stereo microscope. Right, adult spruce beetle (in yellow circle) crawling on bark. Photo credits: J.P. Audley, Pacific Southwest Research Station.
 
-```{r sprucebeetle1, fig.alt="(ref:sprucebeetle1alt)", fig.cap="(ref:sprucebeetle1cap)"}
+```{r sprucebeetle1, out.width='100%', fig.alt="(ref:sprucebeetle1alt)", fig.cap="(ref:sprucebeetle1cap)"}
 knitr::include_graphics('img/sprucebeetle1.jpg')
 ```
 
@@ -54,7 +54,7 @@ Spruce beetle poses the most significant threat to mature spruce in North Americ
 
 (ref:sprucebeetle2cap) Left, spruce beetle attacks (pitch tube and frass, in yellow circle) on Lutz spruce, a host, near Soldotna, 2021. Photo credit J.P. Audley, Pacific Southwest Research Station. Right, spruce beetle attack on mountain hemlock, considered a non-host, near Cooper Landing, 2023. Photo credit: C.J. Fettig, Pacific Southwest Research Station.
 
-```{r sprucebeetle2, fig.alt="(ref:sprucebeetle2alt)", fig.cap="(ref:sprucebeetle2cap)"}
+```{r sprucebeetle2, out.width='100%', fig.alt="(ref:sprucebeetle2alt)", fig.cap="(ref:sprucebeetle2cap)"}
 knitr::include_graphics('img/sprucebeetle2.jpg')
 ```
 
@@ -68,13 +68,15 @@ Discussions with resource managers, policy makers, and others prompted our team 
 
 (ref:sprucebeetle3cap) General steps for developing bark beetle semiochemical repellents.
 
-```{r sprucebeetle3, fig.alt="(ref:sprucebeetle3alt)", fig.cap="(ref:sprucebeetle3cap)"}
+```{r sprucebeetle3, out.width='90%', fig.alt="(ref:sprucebeetle3alt)", fig.cap="(ref:sprucebeetle3cap)"}
 knitr::include_graphics('img/sprucebeetle3.jpg')
 ```
 
 ## Related Studies
 
 We began work on an effective semiochemical repellent for spruce beetle following availability of SPLAT® MCH (Figure \@ref(fig:sprucebeetle4)), a biodegradable formulation containing 10.0% MCH by weight (ISCA Inc.), and its demonstration as an effective semiochemical repellent for Douglas-fir beetle [@Foote2020]. We began in 2021 by evaluating potential repellents (Table \@ref(tab:sprucebeetle)) in trapping assays (Figure \@ref(fig:sprucebeetle3), Step 2) near Soldotna. Twenty-one, 12-unit funnel traps were suspended from metal conduit poles with a spruce beetle lure attached to each trap (Figure \@ref(fig:sprucebeetle5)). Traps were then assigned to one of seven treatments, each replicated three times. Traps were left in place for 24 hr after which samples were collected and traps were re-randomized. 
+
+Spruce beetle trap captures were reduced by 87% across all semiochemical repellent treatments compared to the control and no significant differences were observed among semiochemical repellent treatments (Figure \@ref(fig:sprucebeetle6)) [@Audley2024]. While we were encouraged by the results from our June trapping assay, we amended the treatments (Table \@ref(tab:sprucebeetle)) and conducted a second assay in July 2021 using the same location and methods. Once again, all semiochemical repellent treatments significantly reduced spruce beetle trap catches compared to the control and no significant differences were observed among semiochemical repellent treatments (Figure \@ref(fig:sprucebeetle6)). We observed a slightly greater reduction in trap catch (94% versus 87%) during the July assay [@Audley2024].
 
 ```{r sprucebeetle}
 sprucebeetle <- read.csv("sprucebeetle.csv")
@@ -90,7 +92,7 @@ knitr::kable(sprucebeetle,
 
 (ref:sprucebeetle4cap) A dollop of SPLAT® MCH (in yellow circle) on Lutz spruce with the SPLAT® MCH tube and deployment device shown. Photo credit: C.J. Fettig, Pacific Southwest Research Station. 
 
-```{r sprucebeetle4, fig.alt="(ref:sprucebeetle4alt)", fig.cap="(ref:sprucebeetle4cap)"}
+```{r sprucebeetle4, out.width='60%', fig.alt="(ref:sprucebeetle4alt)", fig.cap="(ref:sprucebeetle4cap)"}
 knitr::include_graphics('img/sprucebeetle4.jpg')
 ```
 
@@ -98,17 +100,15 @@ knitr::include_graphics('img/sprucebeetle4.jpg')
 
 (ref:sprucebeetle5cap) Left, 12-unit funnel trap used in two trapping assays for screening semiochemical repellents near Soldotna, 2021. All semiochemicals (in yellow circle), including SPLAT® MCH, were attached to the center of the trap. Photo credit: J.P. Audley, Pacific Southwest Research Station. Right, J.P. Audley re-randomizing funnel traps near Soldotna, 2021. Photo credit: C.J. Fettig, Pacific Southwest Research Station. Dead spruce in the background were colonized and killed by spruce beetle during a recent outbreak.
 
-```{r sprucebeetle5, fig.alt="(ref:sprucebeetle5alt)", fig.cap="(ref:sprucebeetle5cap)"}
+```{r sprucebeetle5, out.width='80%', fig.alt="(ref:sprucebeetle5alt)", fig.cap="(ref:sprucebeetle5cap)"}
 knitr::include_graphics('img/sprucebeetle5.jpg')
 ```
-
-Spruce beetle trap captures were reduced by 87% across all semiochemical repellent treatments compared to the control and no significant differences were observed among semiochemical repellent treatments (Figure \@ref(fig:sprucebeetle6)) [@Audley2024]. While we were encouraged by the results from our June trapping assay, we amended the treatments (Table \@ref(tab:sprucebeetle)) and conducted a second assay in July 2021 using the same location and methods. Once again, all semiochemical repellent treatments significantly reduced spruce beetle trap catches compared to the control and no significant differences were observed among semiochemical repellent treatments (Figure \@ref(fig:sprucebeetle6)). We observed a slightly greater reduction in trap catch (94% versus 87%) during the July assay [@Audley2024].
 
 (ref:sprucebeetle6alt) Two bar graphs.
 
 (ref:sprucebeetle6cap) Left, June 2021 trapping assay. Right, July 2021 trapping assay. Both assays were conducted along Funny River outside of Soldotna. Different letters indicate statistically significant differences.
 
-```{r sprucebeetle6, fig.alt="(ref:sprucebeetle6alt)", fig.cap="(ref:sprucebeetle6cap)"}
+```{r sprucebeetle6, out.width='100%', fig.alt="(ref:sprucebeetle6alt)", fig.cap="(ref:sprucebeetle6cap)"}
 knitr::include_graphics('img/sprucebeetle6.jpg')
 ```
 
@@ -118,7 +118,7 @@ Informed by data from our trapping assays, we established a tree protection stud
 
 (ref:sprucebeetle7cap) Results from the 2022–2023 tree protection study near Tern Lake. Left, number of treated Lutz spruce colonized by spruce beetles. Right, number of treated Lutz spruce killed by spruce beetles. Different letters indicate statistically significant differences.
 
-```{r sprucebeetle7, fig.alt="(ref:sprucebeetle7alt)", fig.cap="(ref:sprucebeetle7cap)"}
+```{r sprucebeetle7, out.width='100%', fig.alt="(ref:sprucebeetle7alt)", fig.cap="(ref:sprucebeetle7cap)"}
 knitr::include_graphics('img/sprucebeetle7.jpg')
 ```
 
@@ -128,7 +128,7 @@ In 2023, we established two new tree protection studies near Cooper Landing. Tre
 
 (ref:sprucebeetle8cap) Results from the first 2023–2024 tree protection study near Cooper Landing. Left, number of treated Lutz spruce colonized by spruce beetles. Right, number of treated Lutz spruce killed by spruce beetles. Different letters indicate statistically significant differences.
 
-```{r sprucebeetle8, fig.alt="(ref:sprucebeetle8alt)", fig.cap="(ref:sprucebeetle8cap)"}
+```{r sprucebeetle8, out.width='100%', fig.alt="(ref:sprucebeetle8alt)", fig.cap="(ref:sprucebeetle8cap)"}
 knitr::include_graphics('img/sprucebeetle8.jpg')
 ```
 
@@ -136,7 +136,7 @@ knitr::include_graphics('img/sprucebeetle8.jpg')
 
 (ref:sprucebeetle9cap) Results from the 2023–2024 SPLAT® MCH versus MCH bubble cap (BC) tree protection study. Left, number of treated Lutz spruce colonized by spruce beetles. Right, number of treated Lutz spruce killed by spruce beetles. Different letters indicate statistically significant differences.
 
-```{r sprucebeetle9, fig.alt="(ref:sprucebeetle9alt)", fig.cap="(ref:sprucebeetle9cap)"}
+```{r sprucebeetle9, out.width='100%', fig.alt="(ref:sprucebeetle9alt)", fig.cap="(ref:sprucebeetle9cap)"}
 knitr::include_graphics('img/sprucebeetle9.jpg')
 ```
 

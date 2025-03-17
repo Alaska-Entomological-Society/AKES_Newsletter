@@ -52,7 +52,7 @@ The apple seed chalcid oviposits into a host fruit in spring; work in Eastern No
 
 (ref:chalcid2cap) Pupal development. Left – the first day pupae were observed (28 November 2022). Right – the same pupae photographed 10 days later (8 December 2022). (These two pupae both eclosed by 13 December 2022.)
 
-```{r chalcid2, fig.alt="(ref:chalcid2alt)", fig.cap="(ref:chalcid2cap)"}
+```{r chalcid2, out.width='100%', fig.alt="(ref:chalcid2alt)", fig.cap="(ref:chalcid2cap)"}
 knitr::include_graphics('img/chalcid2.jpg')
 ```
 
@@ -61,7 +61,7 @@ knitr::include_graphics('img/chalcid2.jpg')
 
 (ref:chalcid3cap) Adult apple seed chalcid wasps, male (left) and female (right).
 
-```{r chalcid3, fig.alt="(ref:chalcid3alt)", fig.cap="(ref:chalcid3cap)"}
+```{r chalcid3, out.width='100%', fig.alt="(ref:chalcid3alt)", fig.cap="(ref:chalcid3cap)"}
 knitr::include_graphics('img/chalcid3.jpg')
 ```
 
@@ -90,7 +90,7 @@ For the first subset of samples which were removed from refrigeration on 16 Nove
 
 (ref:chalcid5cap) A cross-section of an apple that contains several chalcid larvae within the seeds. Repeated oviposition by this species can cause scars on the developing fruit and can lead to dimpling of the fruit once developed. Photographed 16 November 2022.
 
-```{r chalcid5, fig.alt="(ref:chalcid5alt)", fig.cap="(ref:chalcid5cap)"}
+```{r chalcid5, out.width='60%', fig.alt="(ref:chalcid5alt)", fig.cap="(ref:chalcid5cap)"}
 knitr::include_graphics('img/chalcid5.jpg')
 ```
 
