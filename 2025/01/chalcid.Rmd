@@ -36,7 +36,7 @@ source("../../share/setup.R")
 
 (ref:chalcid1cap) An apple seed that has been partially opened to reveal the chalcid larva inside. Photographed 13 December 2022.
 
-```{r chalcid1, fig.alt="(ref:chalcid1alt)", fig.cap="(ref:chalcid1cap)"}
+```{r chalcid1, out.width='53%', fig.alt="(ref:chalcid1alt)", fig.cap="(ref:chalcid1cap)"}
 knitr::include_graphics('img/chalcid1.jpg')
 ```
 
@@ -96,7 +96,7 @@ knitr::include_graphics('img/chalcid5.jpg')
 
 ## Integrated Pest Management
 
-The apple seed chalcid is generally not considered to be a pest of economic importance as infested apples typically are still marketable and often don’t show signs of infestation [@Cushman1916]. Crabapples and other small-size apple varieties may be more prone to heavy infestation than others, possibly because the wasp’s ovipositor is better able to reach the seed through the fruit in these smaller varieties [@Crosby1909; @Cushman1916]. Heavy infestation can cause scarring or dimpling of the fruit (Figure \@ref(fig:chalcid5)). @Crosby1909 describes the damage caused by oviposition punctures as “distinct depressions [that] give the apple a decidedly knotty form”. The damage from apple seed chalcid can be mistaken for other conditions such as poor pollination or damage from other insects. Distorted fruit from the chalcid can be distinguished from poor pollination by opening the apple and checking the seeds: if the core lacks developed seeds then poor pollination is likely [@Turnipseed1955].  
+The apple seed chalcid is generally not considered to be a pest of economic importance as infested apples typically are still marketable and often don’t show signs of infestation [@Cushman1916]. Crabapples and other small-size apple varieties may be more prone to heavy infestation than others, possibly because the wasp’s ovipositor is better able to reach the seed through the fruit in these smaller varieties [@Crosby1909; @Cushman1916]. Heavy infestation can cause scarring or dimpling of the fruit (Figure \@ref(fig:chalcid5)). @Crosby1909 describes the damage caused by oviposition punctures as “distinct depressions [that] give the apple a decidedly knotty form”. The damage from the apple seed chalcid can be mistaken for other conditions such as poor pollination or damage from other insects. Distorted fruit from the chalcid can be distinguished from poor pollination by opening the apple and checking the seeds: if the core lacks developed seeds then poor pollination is likely [@Turnipseed1955].  
 
 Because crabapples are a popular choice in Alaska due to their cold-hardiness, Alaska has the potential to be disproportionately affected by this insect relative to other areas of the United States. One way to help manage damage in orchards is to rake up any dropped apples off the ground and dispose of or destroy them in the fall, thereby reducing the number of wasps able to emerge in spring to infest new apples on the tree [@Pettit1922]. 
 
@@ -109,6 +109,6 @@ Observations of the apple seed chalcid can be submitted directly to Integrated P
 
 ## Acknowledgments
 
-Thank you to Dr. Petr Janšta, Hymenoptera Curator at State Museum of Natural History Stuttgart, Germany, for identifying the species of Torymus. Thank you to Robert Mennis for providing the affected apple samples. Reference specimens will be deposited into the University of Alaska Museum of the North Insect Collection. This work was supported by funds from the Western Region of the National Plant Diagnostic Network and the Crop Protection and Pest Management Program (grant no. 2024-70006-43668) of the USDA National Institute of Food and Agriculture.
+Thank you to Dr. Petr Janšta, Hymenoptera Curator at State Museum of Natural History Stuttgart, Germany, for identifying the species of Torymus. Thank you to Robert Mennis for providing the affected apple samples. Reference specimens will be deposited into the University of Alaska Museum of the North Insect Collection. This work was supported by funds from the Western Region of the National Plant Diagnostic Network and from the Crop Protection and Pest Management Program of the USDA National Institute of Food and Agriculture (grant numbers 2021-70006-35561 & 2024-70006-43668).
 
 ## References
