@@ -3,7 +3,7 @@ title: "Newsletter of the Alaska Entomological Society"
 date: "`r format(Sys.time(), '%B %e, %Y')`"
 citeproc: false
 section-refs-bibliography:
-  - collet.bib
+  - editorsnote.bib
   - pseudoscorpions.bib
   - sprucebeetle.bib
   - chalcid.bib
@@ -39,7 +39,7 @@ knitr::opts_chunk$set(fig.pos = "H")
 # Set options
 source("../../share/setup.R")
 
-articles <- c("collet.Rmd",
+articles <- c("editorsnote.Rmd",
  "pseudoscorpions.Rmd",
  "sprucebeetle.Rmd",
  "chalcid.Rmd",
@@ -52,3 +52,4 @@ articles <- c("collet.Rmd",
 
 ```{r, child=articles}
 ```  
+

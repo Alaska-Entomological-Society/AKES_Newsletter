@@ -1,0 +1,42 @@
+---
+lang: en-US
+bibliography: editorsnote.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+colorlinks: true
+params:
+  volume: 17
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# Editor's Note
+
+First and foremost, I wish to take a moment to express sincere gratitude to Matt Bowser for his many years as editor of the *Newsletter of the Alaska Entomological Society*. Matt took on editorial duties in 2008 and since has contributed his time and expertise in publishing an impressive fifteen volumes of our society’s newsletter. Throughout his editorship Matt worked diligently to improve the accessibility and professionalism of the newsletter. Many of us Alaska entomologists and entomology-enthusiasts look forward to reading the newsletter each year and we thank Matt for his immeasurable contributions toward its sustained production for the past 16 years. 
+
+I have so enjoyed working with all of you who have contributed to this seventeenth volume of the newsletter. Many heartfelt thanks to Adam Haberski and Matt Bowser for your guidance during this transition, and to the authors for sharing your entomological pursuits with us all.
+
+
+Your new editor,
+
+Alex Wenninger 
+
+
