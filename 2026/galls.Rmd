@@ -1,0 +1,94 @@
+---
+lang: en-US
+bibliography: galls.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+colorlinks: true
+params:
+  volume: 18
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# Three new records of gall inducers in Alaska
+*by Ramsey Sullivan*^[Gallformers.org Administrator, Chugiak, Alaska, <ramzsullivan@protonmail.com>]
+
+## Introduction
+Galls are growths made of plant tissue and induced by another organism. The inducer lives some or most of its lifecycle within the gall. Galls provide shelter and food for the inducer, often at the expense of the host.
+
+Most galls are induced by arthropods, although bacteria, fungi, plants, and other organisms are known to induce them as well. Gall midges and gall wasps, Cecidomyiidae and Cynipidae, encompass the two largest groups of arthropod gall inducers with over 800 and 700 gall inducing species known to occur in North America, respectively [@Russo2021; @Gagne2025].
+
+Preliminary descriptions and distributions for two gall midges and one gall wasp previously unrecorded in Alaska are provided in the following section organized by associated plant hosts.
+
+## Gall Descriptions by Host
+
+### *Arctostaphylos uva-ursi* (L.) Spreng.
+
+(ref:galls1alt) A panel of four photos, each showing various aspects of the gall and/or larvae. 
+
+(ref:galls1cap) From left to right: Galls observed near Lake Louise State Recreation Area (Aug. 2023); Dissection of the previous gall showing a Cecidomyiid larva of unknown species; Terminal and lateral galls observed on Horseshoe Lake Trail, Denali National Park and Preserve (Aug. 2023); Dissected gall after snowmelt showing a cecidomyiid larva, Lake Louise State Recreation Area (May 2025).
+
+```{r galls1, out.width='100%', fig.alt="(ref:galls1alt)", fig.cap="(ref:galls1cap)"}
+knitr::include_graphics('img/galls1.jpg')
+```
+
+#### Description
+An unknown gall midge (Cecidomyiidae) induces single chambered rosette galls on the lateral and terminal buds of kinnikinnick or bearberry, *Arctostaphylos uva-ursi* (Figure \@ref(fig:galls1)). Galls rarely contain multiple larvae. Orange larvae overwinter in the galls and emerge the following spring. Galls halt development of terminal and lateral shoots. A single partially emerged adult was reared from galls collected on May 17th, 2025, and found deceased June 8th, 2025. Additional rearing attempts will be made in Spring 2026. 
+
+A Gallformers.org code, "a-uva-ursi-bud-gall"^[https://www.gallformers.org/gall/5104], has been made to track observations of this midge on the community science platform, iNaturalist.org. No record of a midge-induced bud gall on Arctostaphylos uva-ursi could be found in reviewed literature [@Felt1928; @Gagne1989; @Skuhrava2021; @Redfern2023; @Gagne2025; @Ellis2026; @UAM2026]. 
+
+#### Distribution
+Uncommon occurrences have been noted by the author in Interior and Southcentral Alaska to British Columbia. 
+
+### *Picea glauca* (Moench) Voss & *Picea mariana* (Mill.) Britton, Sterns & Poggenb.
+ 
+(ref:galls2alt) A panel of four photos, the first showing a shoot gall, the second showing an exuvia outside a gall, the third showing a puupa, and the fourth showing an adult female cecidomyiid.
+
+(ref:galls2cap) From left to right: Gall at the base of the previous year’s shoot with shoot basal scales removed, host: *Picea mariana* (May 2024); Gall midge exuvia outside a gall on a shoot with basal scales removed, host: *Picea mariana* (June 2024); Pupa dissected from a gall with strongly sclerotized serrated fused antennal horns, host: *Picea mariana* (reared indoors for one month, January 2024); Adult female post emergence, host: *Picea mariana* (June 2024).
+
+```{r galls2, out.width='100%', fig.alt="(ref:galls2alt)", fig.cap="(ref:galls2cap)"}
+knitr::include_graphics('img/galls2.jpg')
+```
+
+#### Description
+An undetermined gall midge (Cecidomyiidae) induces enlarged bud galls at the base of new shoots on black spruce, *Picea mariana*, and white spruce, *Picea glauca* (Figure \@ref(fig:galls2)). It is not known if it utilizes other *Picea* species. Orange larvae overwinter in galls and pupate and emerge the following spring. Larvae were observed in the dissected galls of *P. mariana* from Port Alsworth, AK on May 23, 2024, pupae on June 9th, 2024, with adults emerging from collected galls on June 11th, 2024. Pupae exhibit strongly sclerotized serrated fused antennal horns that likely assist in exiting the gall. Host damage is not superficially apparent; galled buds are often covered by the remnant scales of the bud from which the affected shoot developed.
+
+A Gallformers.org code, "p-mariana-bud-scale-gall"^[https://www.gallformers.org/gall/5487], has been made to track observations of this midge on the community science platform, iNaturalist.org. No record of a midge-induced bud gall at the base of shoots of *Picea* spp. could be found in reviewed literature. [@Gagne1989; @Fedotova2016; @Skuhrava2021; @Redfern2023; @Gagne2025; @Ellis2026; @UAM2026]. 
+
+#### Distribution
+Common in Matanuska-Susitna and Lake and Peninsula Boroughs, though presence throughout host ranges is unknown. 
+
+### *Potentilla norvegica* L.
+
+(ref:galls3alt) A panel of four photos showing various aspects of the gall morphology.
+
+(ref:galls3cap) From left to right: *Diastrophus tumefactus* stem gall on *Potentilla norvegica*, Fairbanks (July 2025); Same plant as previous after nearly 6 weeks, Fairbanks (August 2025); Dissected *D. tumefactus* gall, Fairbanks (July 2025); Wasp larva in early season gall, Palmer (July 2025).
+
+```{r galls3, out.width='100%', fig.alt="(ref:galls3alt)", fig.cap="(ref:galls3cap)"}
+knitr::include_graphics('img/galls3.jpg')
+```
+
+#### Description
+The rough cinquefoil gall wasp, *Diastrophus tumefactus* Kinsey 1920, was observed in Matanuska-Susitna and Fairbanks North Star Boroughs in July 2025 (Figure \@ref(fig:galls3)). *D. tumefactus* induces polythalamous or agglomerate stem swellings on Norwegian or rough cinquefoil, *Potentilla norvegica*. Galls were collected from Palmer and Fairbanks in August 2025 and sent to Charles Davis, a Ph.D. candidate at Penn State University studying the biodiversity and natural history of gall wasps utilizing hosts within Rosaceae, for rearing and incorporating into his ongoing research.
+
+#### Distribution
+These occurrences represent the northernmost detection of *D. tumefactus*. "Research grade" identifications on iNaturalist ranging south to Pennsylvania and east to Nova Scotia suggest that it could occur more broadly throughout the host range. The only previously published records of *D. tumefactus* were from Ontario and Quebec from samples collected in the late 1800s [@Kinsey1920; @Nastasi2021; @Nastasi2022; @Bennett2024].
+
+## References

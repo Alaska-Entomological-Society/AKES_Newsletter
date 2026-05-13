@@ -1,0 +1,81 @@
+---
+lang: en-US
+bibliography: meeting.bib
+csl: ../../share/pensoft-journals.csl
+link-citations: true
+colorlinks: true
+params:
+  volume: 18
+  issue: 1
+output:
+  bookdown::html_document2:
+    number_sections: false
+    toc: false
+    css: 
+      - ../../share/style.css
+  bookdown::epub_book:
+    number_sections: false
+    toc: false
+    chapter_level: 1
+    stylesheet: 
+      - ../../share/style_epub.css
+---
+
+```{r, include=FALSE}
+source("../../share/setup.R")
+```
+
+```{r, child="../../share/header_html.Rmd"}
+```
+
+# Review of the nineteenth annual meeting
+
+*by Sayde Ridling^[AKES Vice President, <sayde.ridling@gmail.com>]* and *Derek S. Sikes^[AKES President, University of Alaska Museum, University of Alaska Fairbanks, Fairbanks, Alaska <dssikes@alaska.edu>]*
+
+(ref:meetingalt) A small group of people standing around a narrow table, smiling. 
+
+(ref:meetingcap) Members present at post-meeting social event. From left to right: Roger Burnside, Joey Slowik, Alex Wenninger, and Derek Sikes.
+
+```{r meeting, out.width='75%', fig.alt="(ref:meetingalt)", fig.cap="(ref:meetingcap)"}
+knitr::include_graphics('img/meeting.jpg')
+```
+
+The nineteenth annual meeting of the Alaska Entomological Society was held in the Rasmuson Hall at the University of Alaska Anchorage campus on the traditional lands of the Upper Inlet Dena'ina peoples and virtually via Zoom on February 13, 2026. We are grateful to the University of Alaska Anchorage for offering us the use of this space.
+
+## Presentations
+
+**Taylor Kane** started off the meeting with her talk "Outcomes and takeaways from a week-long entomology summer camp." Taylor designed and co-taught this camp as part of her Scientific Teaching and Outreach Certificate Program. The camp was intended to garner and maintain the interest of older students and was inspired by UAF's Bug Camp for younger children. Taylor discussed some activities, such as nature journaling, and showcased the results of her surveys which assessed how students felt, acted toward, and understood insects both before and after the camp was held. Her surveys show she helped many students increase their curiosity and knowledge of insects while decreasing their fear and opposition towards them. 
+
+The Alaska Division of Forestry & Fire Protection’s **Grace Graham** discussed detection of a non-native species of phyllophagous moth in her talk "First detection of larch casebearer (*Coleophora laricella*) in Alaska." Grace followed up on photo evidence showing there could be an established population of larch casebearer in Anchorage. Grace had worked with these 8 mm microlepidoptera and searched for their minute cases on larch needles in the past. Through her familiarity she was able to return to the location of the photo at the right time to locate larvae and confirm larch casebearer as the likely cause of the larch damage. Following initial confirmation, a survey discovered populations across the Anchorage Municipality and in limited other locations in Southcentral Alaska, all on ornamental larch trees. Though not tree mortality agents, this species can negatively impact a tree’s growth and resilience. The discovery of overwintering populations in Alaska has expanded the known northern limit of larch casebearers and has implications in their control elsewhere. Because larch has discontinuous populations in Alaska and there are no native larch in Southcentral, it is believed they established here via human dispersal. Continued monitoring will seek to determine the infested areas throughout Alaska, phenology of the insect in the state, and identify possible control measures. 
+
+**Jackson Audley** discussed deliverables from his work on spruce beetle chemical ecology and other recent projects in his talk entitled "Spruce beetle: A new synthesis of its chemical ecology, updated Forest Insect & Disease Leaflet, and a 3-methylcyclohex-2-en-1-one (MCH) inhibition assay near Denali National Park." Jackson was especially happy to have conducted field work in a part of Alaska new to him, the Denali area, even given the challenges presented by animals and the environment. Work there helped elucidate spruce beetle chemical synthesis and inhibition. Further details are included in published papers reviewing spruce beetle chemical ecology and pheromone-based tree protection trials. Additionally, Jackson highlighted the Spruce Beetle – Forest Insect & Disease Leaflet (FIDL-127), which he and several colleagues recently updated, an endeavor which will surely have lasting implications to Alaskan entomology. Several AKES members were involved in these projects. 
+
+After lunch, **Jozef Slowik** presented two back-to-back talks, the first of which was titled "Rapid maggot update." This brief talk discussed preliminary results garnered from the first year of a five-year study on the influence of root maggots (Diptera: Anthomyiidae: *Delia*) on cover crop mixes in Alaska. 
+
+**Jozef Slowik**'s second talk, "Opiliones in Alaska," discussed these charismatic arthropods and his collaborative efforts to develop a key which can be used for Alaskan taxa. This key covers six families and approximately 16 species found or likely to be found within our state. Because he prioritized readily accessible characteristics and those that don’t require extensive dissection or knowledge of arachnid traits this key will be useful for a broad audience. The hope is that it will ease some of the neglect currently experienced by Opiliones in Alaska and combat erroneous misidentifications found in online photos by allowing for accurate identifications, collections, and documentation of their diversity.
+
+
+The final talk of the day was given by **Derek Sikes** who presented on his nearly complete work with "The Ants of Alaska (Hymenoptera: Formicidae)." Work on this project began in 2017 with Renee Nowicki, an undergraduate at UAF, and was initially slated for quick completion based on the small number of ant species in Alaska. Initial efforts to identify what those species were and thus include them in the key quickly became complicated as new species were added and misidentifications or identification disagreements among experts happened. The eventual species count is now settled at 24 species for Alaska, 72% of which overlap with species found in Yukon, Canada. Renee has gone on to complete a MS degree working with ants and the key she started as an undergraduate is currently under review by the Canadian Journal of Arthropod Identification.
+
+**Taylor Kane** was our sole student presenter this year, as such she was awarded the student award. There were no posters. Congratulations, Taylor!
+
+Two whimsically designed insect napkins were donated by Julie Riley and randomly awarded to Susan Wise-Eagle as this year’s door prize. Thank you, Julie, and congratulations, Susan!
+ 
+
+Thanks to Luke for his student presentation this year which earned him the 2024 Student Presentation Award. Congratulations, Luke!
+
+
+## Business items - highlights
+
+- The Kenelm W. Philip Entomology Research Award had no applicants again this year. Further efforts will be made on the part of the society to better inform students of this potential research funding via social media, listserv emails, and the University of Alaska system. The creation of youth awards or Bug Camp scholarships were discussed and will be looked into.
+- Robin Andrews (Vice President) reported on how the society could meet the UAF library's requirements to archive the AKES newsletters physically, what steps can be taken to meet these, and their associated costs. Julie Riley will contact the UAA library about their requirements so a physical copy can be archived there as well.  
+- Members discussed options for archiving the newsletters electronically via Fig Share. Options for creating individual newsletters or a single DOI were discussed and consensus was for a single DOI of the whole newsletter to be created. 
+-	Logo discussion continued. Funds are still set aside and efforts will be made by Sayde Ridling and Taylor Kane to have some options for our twentieth meeting.
+-	Some website updates were reported and discussed including an updated version of the butterflies of Alaska Field Guide and a now working online dues payment link. If you've been putting off your dues payment now is the time! https://akentsoc.org/membership/
+-	Derek Sikes (President) requested a committee be formed to update our bylaws. Motions were made and accepted to add several exciting new membership categories including lifetime and honorary memberships to our bylaws during the update. A committee consisting of Derek Sikes, Jessie Moan, and Julie Riley was formed. 
+-	Election results: Derek Sikes remains president, Robin Andrews stepped down from her role as vice president to focus on research. She remains active in the society and is leading the efforts to archive our newsletter. The Society appreciates Robin’s ongoing commitment to Alaskan entomology! Sayde Ridling was elected the new vice president, Joey Slowik remains secretary, and Roger Burnside remains treasurer with Ramsey Sullivan continuing as apprentice treasurer. All votes were unanimously in favor. 
+
+After the meeting, in person attendees enjoyed a social outing at the Onsite Brewing Company in Anchorage. We look forward to discussing another year of Alaskan Entomology at our 2027 meeting to be held in Fairbanks. 
+
+Minutes from our business meeting are available on the website.
+
