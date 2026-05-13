@@ -41,7 +41,7 @@ Preliminary descriptions and distributions for two gall midges and one gall wasp
 
 ### *Arctostaphylos uva-ursi* (L.) Spreng.
 
-(ref:galls1alt) A panel of four photos, each showing various aspects of the gall and/or larvae. 
+(ref:galls1alt) Four image panel from left to right: A red and green gall on the stem of bearberry; A dissected gall from the previous image shows a single orange larva in a small open space surrounded by green host tissue; A rosette gall grows at the terminal end of bearberry with a smaller gall below. Both are green; A dissected rosette gall showing a small orange larva in a cavity surrounded by green tissue.  
 
 (ref:galls1cap) From left to right: Galls observed near Lake Louise State Recreation Area (Aug. 2023); Dissection of the previous gall showing a Cecidomyiid larva of unknown species; Terminal and lateral galls observed on Horseshoe Lake Trail, Denali National Park and Preserve (Aug. 2023); Dissected gall after snowmelt showing a cecidomyiid larva, Lake Louise State Recreation Area (May 2025).
 
@@ -59,7 +59,7 @@ Uncommon occurrences have been noted by the author in Interior and Southcentral 
 
 ### *Picea glauca* (Moench) Voss & *Picea mariana* (Mill.) Britton, Sterns & Poggenb.
  
-(ref:galls2alt) A panel of four photos, the first showing a shoot gall, the second showing an exuvia outside a gall, the third showing a puupa, and the fourth showing an adult female cecidomyiid.
+(ref:galls2alt) Four image panel from left to right: An enlarged galled bud attached at the end of a hairy black spruce twig; Exuvia outside of an empty bug gall on a black spruce twig; An orange pupae with a serrated crown; A recently emerged orange adult gall midge rests on a black spruce needle with her ovipositor extended.
 
 (ref:galls2cap) From left to right: Gall at the base of the previous year’s shoot with shoot basal scales removed, host: *Picea mariana* (May 2024); Gall midge exuvia outside a gall on a shoot with basal scales removed, host: *Picea mariana* (June 2024); Pupa dissected from a gall with strongly sclerotized serrated fused antennal horns, host: *Picea mariana* (reared indoors for one month, January 2024); Adult female post emergence, host: *Picea mariana* (June 2024).
 
@@ -77,7 +77,7 @@ Common in Matanuska-Susitna and Lake and Peninsula Boroughs, though presence thr
 
 ### *Potentilla norvegica* L.
 
-(ref:galls3alt) A panel of four photos showing various aspects of the gall morphology.
+(ref:galls3alt) Four image panel from left to right: Potentilla norvegica with an enlarged stem gall, normal stems and leaves have developed after the gall; The same plant a month later now mostly brown with the gall remaining the same size and the flowers above gone to seed; A dissected stem gall shows a white pithy center with small pits can been seen were larvae have been feeding; A wasp larva under magnification presents with a large head and developed mandibles.
 
 (ref:galls3cap) From left to right: *Diastrophus tumefactus* stem gall on *Potentilla norvegica*, Fairbanks (July 2025); Same plant as previous after nearly 6 weeks, Fairbanks (August 2025); Dissected *D. tumefactus* gall, Fairbanks (July 2025); Wasp larva in early season gall, Palmer (July 2025).
 
