@@ -172,7 +172,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true">
+  <bibliography entry-spacing = "0" hanging-indent="true">
     <sort>
       <key macro="author" names-min="1" names-use-first="1"/>
       <key macro="authorcount"/>
