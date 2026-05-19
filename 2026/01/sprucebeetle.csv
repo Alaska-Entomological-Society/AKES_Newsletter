@@ -1,0 +1,16 @@
+State,Host,Compounds,Effect(s)
+AK,Lutz,MCH,Reduction in number of attacked spruce.
+UT,Engelmann,MCH,NS.
+UT,Engelmann,MCH + isophorone + sulcatone,Reduction in the probability of mass attacked spruce.
+"NM, UT",Engelmann,MCH,Reductions in the probability of severe attacks.
+"NM, UT",Engelmann,"MCH, AKB, and MCH + AKB",Reductions in the probability of mass attack. Spruce treated with MCH or AKB were more likely to be mass-attacked than MCH + AKB.
+"CO, UT",Engelmann,MCH + AKB,"Reductions in the probability of severe attacks on treated spruce, and on spruce within 10 m of treated spruce."
+AK,White,"MCH, MCH + AKB, MCH + AKB + sulcatone",NS on treated trees but reductions in the probability of severe attacks on spruce within 10 m of treated spruce.
+"CO, NM, UT, WY",Engelmann,"MCH + AKB, MCH + AKB + sulcatone",Reductions in the probability of severe attacks on treated spruce and on spruce within 10 m of treated spruce.
+"CO, UT",Engelmann,MCH + AKB,Reductions in the probability of severe attack.
+WY,Engelmann,"MCH, MCH + AKB, MCH + PLUS ",Reductions in mortality of treated spruce and of spruce within 11.3 m of treated spruce.
+AK,Lutz,"MCH + AKB, MCH + PLUS, MCH + octenol, MCH + AKB + PLUS + octenol",Reductions in mortality of treated spruce and of spruce within 11.3 m of treated spruce.
+UT,Engelmann,"MCH + AKB, MCH + PLUS, MCH + octenol, MCH + GLV",Only MCH + AKB and MCH + octenol reduced mortality of treated spruce. 
+AK,Lutz,MCH,Reductions in mortality of treated spruce. 
+AK,Lutz,"MCH, MCH + AKB, MCH + PLUS",Reductions in mortality of treated spruce and of spruce within 11.3 m of treated spruce.
+CO,Engelmann,"MCH, MCH + AKB, MCH + PLUS",Reductions in mortality of treated spruce and of spruce within 11.3 m of treated spruce.
